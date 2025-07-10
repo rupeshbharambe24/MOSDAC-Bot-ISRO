@@ -1,0 +1,577 @@
+{
+  "source": "R:\\Projects\\MOSDAC Help Bot\\Codes\\data_processing\\processed_output\\html\\www.mosdac.gov.in_node_qt-services_quicktab_0.json",
+  "text_entities": [
+    {
+      "text": "Meteorological & Oceanographic Satellite Data Archival Centre\nSkip",
+      "label": "DATA_PRODUCT",
+      "start": 0,
+      "end": 66
+    },
+    {
+      "text": "English",
+      "label": "DATA_PRODUCT",
+      "start": 104,
+      "end": 111
+    },
+    {
+      "text": "Satellite Data Archival Centre\nSpace Applications Centre",
+      "label": "DATA_PRODUCT",
+      "start": 143,
+      "end": 199
+    },
+    {
+      "text": "ISRO",
+      "label": "ORG",
+      "start": 201,
+      "end": 205
+    },
+    {
+      "text": "INSAT-3DR",
+      "label": "SATELLITE",
+      "start": 220,
+      "end": 229
+    },
+    {
+      "text": "INSAT-3D",
+      "label": "SATELLITE",
+      "start": 230,
+      "end": 238
+    },
+    {
+      "text": "SARAL",
+      "label": "SATELLITE",
+      "start": 273,
+      "end": 278
+    },
+    {
+      "text": "SCATSAT-1",
+      "label": "SATELLITE",
+      "start": 318,
+      "end": 327
+    },
+    {
+      "text": "AWS",
+      "label": "DATA_PRODUCT",
+      "start": 354,
+      "end": 357
+    },
+    {
+      "text": "RADAR",
+      "label": "ORG",
+      "start": 426,
+      "end": 431
+    },
+    {
+      "text": "DWR",
+      "label": "ORG",
+      "start": 433,
+      "end": 436
+    },
+    {
+      "text": "Global Ocean Current",
+      "label": "DATA_PRODUCT",
+      "start": 438,
+      "end": 458
+    },
+    {
+      "text": "Data Access",
+      "label": "DATA_PRODUCT",
+      "start": 459,
+      "end": 470
+    },
+    {
+      "text": "MT-SAPHIR",
+      "label": "DATA_PRODUCT",
+      "start": 518,
+      "end": 527
+    },
+    {
+      "text": "ISRO",
+      "label": "STATION",
+      "start": 579,
+      "end": 583
+    },
+    {
+      "text": "Indian Mainland Coastal Product",
+      "label": "DATA_PRODUCT",
+      "start": 774,
+      "end": 805
+    },
+    {
+      "text": "Renewable Energy\nCal-Val",
+      "label": "ORG",
+      "start": 890,
+      "end": 914
+    },
+    {
+      "text": "RSS Feeds",
+      "label": "ORG",
+      "start": 924,
+      "end": 933
+    },
+    {
+      "text": "Data Quality",
+      "label": "DATA_PRODUCT",
+      "start": 981,
+      "end": 993
+    },
+    {
+      "text": "Fullscreen\nServices",
+      "label": "ORG",
+      "start": 1156,
+      "end": 1175
+    },
+    {
+      "text": "Alerts\nMet Applications\nOcean Applications",
+      "label": "REGION",
+      "start": 1208,
+      "end": 1250
+    },
+    {
+      "text": "3-hourly Weather",
+      "label": "TIME",
+      "start": 1264,
+      "end": 1280
+    },
+    {
+      "text": "Cold Waves",
+      "label": "EVENT",
+      "start": 1291,
+      "end": 1301
+    },
+    {
+      "text": "India",
+      "label": "REGION",
+      "start": 1328,
+      "end": 1333
+    },
+    {
+      "text": "WRF Model",
+      "label": "ORG",
+      "start": 1335,
+      "end": 1344
+    },
+    {
+      "text": "Cyclone Obser",
+      "label": "PERSON",
+      "start": 1365,
+      "end": 1378
+    },
+    {
+      "text": "Realtime Pred",
+      "label": "WORK_OF_ART",
+      "start": 1384,
+      "end": 1397
+    },
+    {
+      "text": "IO",
+      "label": "REGION",
+      "start": 1404,
+      "end": 1406
+    },
+    {
+      "text": "India",
+      "label": "REGION",
+      "start": 1445,
+      "end": 1450
+    },
+    {
+      "text": "WRF Model",
+      "label": "ORG",
+      "start": 1452,
+      "end": 1461
+    },
+    {
+      "text": "NWP",
+      "label": "ORG",
+      "start": 1510,
+      "end": 1513
+    },
+    {
+      "text": "Monsoon\nMonsoon Prediction 2024",
+      "label": "EVENT",
+      "start": 1550,
+      "end": 1581
+    },
+    {
+      "text": "Sea State",
+      "label": "REGION",
+      "start": 1582,
+      "end": 1591
+    },
+    {
+      "text": "Wave Height, Wave",
+      "label": "ORG",
+      "start": 1623,
+      "end": 1640
+    },
+    {
+      "text": "Solar & Wind",
+      "label": "ORG",
+      "start": 1653,
+      "end": 1665
+    },
+    {
+      "text": "3 Days",
+      "label": "DATE",
+      "start": 1666,
+      "end": 1672
+    },
+    {
+      "text": "every 15 minutes",
+      "label": "TIME",
+      "start": 1701,
+      "end": 1717
+    },
+    {
+      "text": "Cloud Burst\nCloud",
+      "label": "WORK_OF_ART",
+      "start": 1718,
+      "end": 1735
+    },
+    {
+      "text": "6 hours",
+      "label": "TIME",
+      "start": 1754,
+      "end": 1761
+    },
+    {
+      "text": "Western Himalayan",
+      "label": "REGION",
+      "start": 1767,
+      "end": 1784
+    },
+    {
+      "text": "6 hours",
+      "label": "TIME",
+      "start": 1854,
+      "end": 1861
+    },
+    {
+      "text": "AWS Time Series",
+      "label": "DATA_PRODUCT",
+      "start": 1863,
+      "end": 1878
+    },
+    {
+      "text": "Earth",
+      "label": "REGION",
+      "start": 1970,
+      "end": 1975
+    },
+    {
+      "text": "Indian State Portal",
+      "label": "ORG",
+      "start": 1983,
+      "end": 2002
+    },
+    {
+      "text": "Alerts",
+      "label": "PRODUCT",
+      "start": 2003,
+      "end": 2009
+    },
+    {
+      "text": "Indian States",
+      "label": "REGION",
+      "start": 2014,
+      "end": 2027
+    },
+    {
+      "text": "Asian",
+      "label": "NORP",
+      "start": 2039,
+      "end": 2044
+    },
+    {
+      "text": "South East",
+      "label": "REGION",
+      "start": 2066,
+      "end": 2076
+    },
+    {
+      "text": "Asian",
+      "label": "NORP",
+      "start": 2077,
+      "end": 2082
+    },
+    {
+      "text": "Solar Energy",
+      "label": "ORG",
+      "start": 2098,
+      "end": 2110
+    },
+    {
+      "text": "Rainfall",
+      "label": "DATA_PRODUCT",
+      "start": 2118,
+      "end": 2126
+    },
+    {
+      "text": "Air Quality",
+      "label": "ORG",
+      "start": 2132,
+      "end": 2143
+    },
+    {
+      "text": "SCORPIO\nSat",
+      "label": "PRODUCT",
+      "start": 2177,
+      "end": 2188
+    },
+    {
+      "text": "Cyclone Obser",
+      "label": "PERSON",
+      "start": 2196,
+      "end": 2209
+    },
+    {
+      "text": "Realtime Pred",
+      "label": "WORK_OF_ART",
+      "start": 2215,
+      "end": 2228
+    },
+    {
+      "text": "IO",
+      "label": "REGION",
+      "start": 2235,
+      "end": 2237
+    },
+    {
+      "text": "India",
+      "label": "REGION",
+      "start": 2383,
+      "end": 2388
+    },
+    {
+      "text": "Ocean-Eye",
+      "label": "REGION",
+      "start": 2398,
+      "end": 2407
+    },
+    {
+      "text": "Eddy Currents",
+      "label": "PERSON",
+      "start": 2429,
+      "end": 2442
+    },
+    {
+      "text": "Eddy Currents",
+      "label": "PERSON",
+      "start": 2443,
+      "end": 2456
+    },
+    {
+      "text": "Kerala",
+      "label": "REGION",
+      "start": 2501,
+      "end": 2507
+    },
+    {
+      "text": "2024",
+      "label": "CARDINAL",
+      "start": 2509,
+      "end": 2513
+    },
+    {
+      "text": "763.84",
+      "label": "CARDINAL",
+      "start": 2545,
+      "end": 2551
+    },
+    {
+      "text": "KB",
+      "label": "NORP",
+      "start": 2552,
+      "end": 2554
+    },
+    {
+      "text": "20-May-24",
+      "label": "CARDINAL",
+      "start": 2557,
+      "end": 2566
+    },
+    {
+      "text": "Kerala",
+      "label": "REGION",
+      "start": 2578,
+      "end": 2584
+    },
+    {
+      "text": "463.15",
+      "label": "DATA_PRODUCT",
+      "start": 2630,
+      "end": 2636
+    },
+    {
+      "text": "KB",
+      "label": "NORP",
+      "start": 2637,
+      "end": 2639
+    },
+    {
+      "text": "15",
+      "label": "CARDINAL",
+      "start": 2642,
+      "end": 2644
+    },
+    {
+      "text": "INSAT",
+      "label": "ORG",
+      "start": 2652,
+      "end": 2657
+    },
+    {
+      "text": "1.61",
+      "label": "CARDINAL",
+      "start": 2716,
+      "end": 2720
+    },
+    {
+      "text": "Data Download",
+      "label": "DATA_PRODUCT",
+      "start": 2754,
+      "end": 2767
+    },
+    {
+      "text": "347.33",
+      "label": "DATA_PRODUCT",
+      "start": 2798,
+      "end": 2804
+    },
+    {
+      "text": "KB",
+      "label": "NORP",
+      "start": 2805,
+      "end": 2807
+    },
+    {
+      "text": "08-Nov-21",
+      "label": "CARDINAL",
+      "start": 2810,
+      "end": 2819
+    },
+    {
+      "text": "MOSDAC",
+      "label": "ORG",
+      "start": 2884,
+      "end": 2890
+    },
+    {
+      "text": "Space Applications Centre",
+      "label": "ORG",
+      "start": 2892,
+      "end": 2917
+    },
+    {
+      "text": "Indian Space Research Organisation",
+      "label": "REGION",
+      "start": 2919,
+      "end": 2953
+    },
+    {
+      "text": "Govt",
+      "label": "ORG",
+      "start": 2955,
+      "end": 2959
+    },
+    {
+      "text": "INDIA",
+      "label": "REGION",
+      "start": 2964,
+      "end": 2969
+    }
+  ],
+  "metadata_entities": [
+    {
+      "text": "Oceanographic Satellite Data Archival Centre",
+      "label": "DATA_PRODUCT",
+      "start": 19,
+      "end": 63
+    },
+    {
+      "text": "MOSDAC",
+      "label": "DATA_PRODUCT",
+      "start": 65,
+      "end": 71
+    },
+    {
+      "text": "Oceanographic Satellite Data Archival Centre",
+      "label": "DATA_PRODUCT",
+      "start": 19,
+      "end": 63
+    },
+    {
+      "text": "MOSDAC",
+      "label": "DATA_PRODUCT",
+      "start": 65,
+      "end": 71
+    },
+    {
+      "text": "a Data Centre of Space Applications Centre",
+      "label": "DATA_PRODUCT",
+      "start": 76,
+      "end": 118
+    },
+    {
+      "text": "Oceanographic Satellite Data Archival Centre",
+      "label": "DATA_PRODUCT",
+      "start": 19,
+      "end": 63
+    },
+    {
+      "text": "MOSDAC",
+      "label": "DATA_PRODUCT",
+      "start": 65,
+      "end": 71
+    },
+    {
+      "text": "a Data Centre of Space Applications Centre",
+      "label": "DATA_PRODUCT",
+      "start": 76,
+      "end": 118
+    },
+    {
+      "text": "MOSDAC",
+      "label": "DATA_PRODUCT",
+      "start": 212,
+      "end": 218
+    },
+    {
+      "text": "Indian",
+      "label": "DATA_PRODUCT",
+      "start": 274,
+      "end": 280
+    },
+    {
+      "text": "Oceanographic",
+      "label": "DATA_PRODUCT",
+      "start": 16,
+      "end": 29
+    },
+    {
+      "text": "Satellite",
+      "label": "DATA_PRODUCT",
+      "start": 31,
+      "end": 40
+    },
+    {
+      "text": "Data, Archival",
+      "label": "DATA_PRODUCT",
+      "start": 42,
+      "end": 56
+    },
+    {
+      "text": "Data Centre",
+      "label": "DATA_PRODUCT",
+      "start": 58,
+      "end": 69
+    },
+    {
+      "text": "MOSDAC",
+      "label": "ORG",
+      "start": 0,
+      "end": 6
+    }
+  ]
+}

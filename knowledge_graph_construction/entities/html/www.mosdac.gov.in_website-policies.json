@@ -1,0 +1,427 @@
+{
+  "source": "R:\\Projects\\MOSDAC Help Bot\\Codes\\data_processing\\processed_output\\html\\www.mosdac.gov.in_website-policies.json",
+  "text_entities": [
+    {
+      "text": "Satellite Data Archival Centre\nSkip",
+      "label": "DATA_PRODUCT",
+      "start": 50,
+      "end": 85
+    },
+    {
+      "text": "English",
+      "label": "DATA_PRODUCT",
+      "start": 123,
+      "end": 130
+    },
+    {
+      "text": "Satellite Data Archival Centre\nSpace Applications Centre",
+      "label": "DATA_PRODUCT",
+      "start": 162,
+      "end": 218
+    },
+    {
+      "text": "ISRO",
+      "label": "ORG",
+      "start": 220,
+      "end": 224
+    },
+    {
+      "text": "INSAT-3DR",
+      "label": "SATELLITE",
+      "start": 239,
+      "end": 248
+    },
+    {
+      "text": "INSAT-3D",
+      "label": "SATELLITE",
+      "start": 249,
+      "end": 257
+    },
+    {
+      "text": "SARAL",
+      "label": "SATELLITE",
+      "start": 292,
+      "end": 297
+    },
+    {
+      "text": "SCATSAT-1",
+      "label": "SATELLITE",
+      "start": 337,
+      "end": 346
+    },
+    {
+      "text": "AWS",
+      "label": "DATA_PRODUCT",
+      "start": 373,
+      "end": 376
+    },
+    {
+      "text": "RADAR",
+      "label": "ORG",
+      "start": 445,
+      "end": 450
+    },
+    {
+      "text": "DWR",
+      "label": "ORG",
+      "start": 452,
+      "end": 455
+    },
+    {
+      "text": "Global Ocean Current",
+      "label": "DATA_PRODUCT",
+      "start": 457,
+      "end": 477
+    },
+    {
+      "text": "Data Access",
+      "label": "DATA_PRODUCT",
+      "start": 478,
+      "end": 489
+    },
+    {
+      "text": "MT-SAPHIR",
+      "label": "DATA_PRODUCT",
+      "start": 537,
+      "end": 546
+    },
+    {
+      "text": "ISRO",
+      "label": "STATION",
+      "start": 598,
+      "end": 602
+    },
+    {
+      "text": "Indian Mainland Coastal Product",
+      "label": "DATA_PRODUCT",
+      "start": 793,
+      "end": 824
+    },
+    {
+      "text": "Renewable Energy\nCal-Val",
+      "label": "ORG",
+      "start": 909,
+      "end": 933
+    },
+    {
+      "text": "RSS Feeds",
+      "label": "ORG",
+      "start": 943,
+      "end": 952
+    },
+    {
+      "text": "Data Quality",
+      "label": "DATA_PRODUCT",
+      "start": 1000,
+      "end": 1012
+    },
+    {
+      "text": "every ten years",
+      "label": "DATE",
+      "start": 1332,
+      "end": 1347
+    },
+    {
+      "text": "the Content Review Policy",
+      "label": "ORG",
+      "start": 1551,
+      "end": 1576
+    },
+    {
+      "text": "at least two weeks",
+      "label": "DATE",
+      "start": 1602,
+      "end": 1620
+    },
+    {
+      "text": "a Content Management System",
+      "label": "ORG",
+      "start": 2361,
+      "end": 2388
+    },
+    {
+      "text": "Creation, Modification, Approval",
+      "label": "ORG",
+      "start": 2521,
+      "end": 2553
+    },
+    {
+      "text": "MOSDAC",
+      "label": "ORG",
+      "start": 2805,
+      "end": 2811
+    },
+    {
+      "text": "Content Review",
+      "label": "ORG",
+      "start": 2898,
+      "end": 2912
+    },
+    {
+      "text": "This Content Review Policy",
+      "label": "ORG",
+      "start": 3017,
+      "end": 3043
+    },
+    {
+      "text": "The Review Policy",
+      "label": "WORK_OF_ART",
+      "start": 3227,
+      "end": 3244
+    },
+    {
+      "text": "MOSDAC",
+      "label": "WORK_OF_ART",
+      "start": 3436,
+      "end": 3442
+    },
+    {
+      "text": "24X7",
+      "label": "DATE",
+      "start": 3680,
+      "end": 3684
+    },
+    {
+      "text": "1",
+      "label": "CARDINAL",
+      "start": 3974,
+      "end": 3975
+    },
+    {
+      "text": "2",
+      "label": "CARDINAL",
+      "start": 4874,
+      "end": 4875
+    },
+    {
+      "text": "3",
+      "label": "CARDINAL",
+      "start": 5220,
+      "end": 5221
+    },
+    {
+      "text": "Hardware/Software",
+      "label": "DATA_PRODUCT",
+      "start": 5223,
+      "end": 5240
+    },
+    {
+      "text": "4",
+      "label": "CARDINAL",
+      "start": 5513,
+      "end": 5514
+    },
+    {
+      "text": "the Hosting Service Provider",
+      "label": "ORG",
+      "start": 5808,
+      "end": 5836
+    },
+    {
+      "text": "a ‘Disaster Recover Centre",
+      "label": "WORK_OF_ART",
+      "start": 5841,
+      "end": 5867
+    },
+    {
+      "text": "DRC",
+      "label": "ORG",
+      "start": 5958,
+      "end": 5961
+    },
+    {
+      "text": "5",
+      "label": "CARDINAL",
+      "start": 6006,
+      "end": 6007
+    },
+    {
+      "text": "National Crisis",
+      "label": "ORG",
+      "start": 6052,
+      "end": 6067
+    },
+    {
+      "text": "MOSDAC",
+      "label": "ORG",
+      "start": 6408,
+      "end": 6414
+    },
+    {
+      "text": "MOSDAC",
+      "label": "ORG",
+      "start": 6582,
+      "end": 6588
+    },
+    {
+      "text": "Traffic Analysis",
+      "label": "ORG",
+      "start": 7190,
+      "end": 7206
+    },
+    {
+      "text": "MOSDAC",
+      "label": "ORG",
+      "start": 7585,
+      "end": 7591
+    },
+    {
+      "text": "The Website Privacy Policy",
+      "label": "DATA_PRODUCT",
+      "start": 7960,
+      "end": 7986
+    },
+    {
+      "text": "the Information Technology Act",
+      "label": "LAW",
+      "start": 8201,
+      "end": 8231
+    },
+    {
+      "text": "2000",
+      "label": "DATE",
+      "start": 8233,
+      "end": 8237
+    },
+    {
+      "text": "MOSDAC",
+      "label": "ORG",
+      "start": 8327,
+      "end": 8333
+    },
+    {
+      "text": "third",
+      "label": "ORDINAL",
+      "start": 8719,
+      "end": 8724
+    },
+    {
+      "text": "MOSDAC",
+      "label": "WORK_OF_ART",
+      "start": 8961,
+      "end": 8967
+    },
+    {
+      "text": "the Web Information",
+      "label": "ORG",
+      "start": 9009,
+      "end": 9028
+    },
+    {
+      "text": "MOSDAC",
+      "label": "ORG",
+      "start": 9094,
+      "end": 9100
+    },
+    {
+      "text": "Space Applications Centre",
+      "label": "ORG",
+      "start": 9102,
+      "end": 9127
+    },
+    {
+      "text": "Indian Space Research Organisation",
+      "label": "REGION",
+      "start": 9129,
+      "end": 9163
+    },
+    {
+      "text": "Govt",
+      "label": "ORG",
+      "start": 9165,
+      "end": 9169
+    },
+    {
+      "text": "INDIA",
+      "label": "REGION",
+      "start": 9174,
+      "end": 9179
+    }
+  ],
+  "metadata_entities": [
+    {
+      "text": "Oceanographic Satellite Data Archival Centre",
+      "label": "DATA_PRODUCT",
+      "start": 19,
+      "end": 63
+    },
+    {
+      "text": "MOSDAC",
+      "label": "DATA_PRODUCT",
+      "start": 65,
+      "end": 71
+    },
+    {
+      "text": "Content Archival",
+      "label": "ORG",
+      "start": 0,
+      "end": 16
+    },
+    {
+      "text": "every ten years",
+      "label": "DATE",
+      "start": 230,
+      "end": 245
+    },
+    {
+      "text": "Oceanographic Satellite Data Archival Centre",
+      "label": "DATA_PRODUCT",
+      "start": 19,
+      "end": 63
+    },
+    {
+      "text": "MOSDAC",
+      "label": "DATA_PRODUCT",
+      "start": 65,
+      "end": 71
+    },
+    {
+      "text": "a Data Centre of Space Applications Centre",
+      "label": "DATA_PRODUCT",
+      "start": 76,
+      "end": 118
+    },
+    {
+      "text": "MOSDAC",
+      "label": "DATA_PRODUCT",
+      "start": 212,
+      "end": 218
+    },
+    {
+      "text": "Indian",
+      "label": "DATA_PRODUCT",
+      "start": 274,
+      "end": 280
+    },
+    {
+      "text": "Oceanographic",
+      "label": "DATA_PRODUCT",
+      "start": 16,
+      "end": 29
+    },
+    {
+      "text": "Satellite",
+      "label": "DATA_PRODUCT",
+      "start": 31,
+      "end": 40
+    },
+    {
+      "text": "Data, Archival",
+      "label": "DATA_PRODUCT",
+      "start": 42,
+      "end": 56
+    },
+    {
+      "text": "Data Centre",
+      "label": "DATA_PRODUCT",
+      "start": 58,
+      "end": 69
+    },
+    {
+      "text": "MOSDAC",
+      "label": "ORG",
+      "start": 0,
+      "end": 6
+    }
+  ]
+}

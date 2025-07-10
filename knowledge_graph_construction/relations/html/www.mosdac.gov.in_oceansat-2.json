@@ -1,0 +1,3862 @@
+{
+  "source": "R:\\Projects\\MOSDAC Help Bot\\Codes\\data_processing\\processed_output\\html\\www.mosdac.gov.in_oceansat-2.json",
+  "entities": [
+    {
+      "text": "Oceansat-2",
+      "label": "DATA_PRODUCT",
+      "start": 0,
+      "end": 10,
+      "mosdac_type": "SATELLITE"
+    },
+    {
+      "text": "| Meteorological & Oceanographic Satellite Data Archival Centre\nSkip",
+      "label": "DATA_PRODUCT",
+      "start": 11,
+      "end": 79,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "English",
+      "label": "DATA_PRODUCT",
+      "start": 117,
+      "end": 124,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "Satellite Data Archival Centre\nSpace Applications Centre",
+      "label": "DATA_PRODUCT",
+      "start": 156,
+      "end": 212,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "ISRO",
+      "label": "ORG",
+      "start": 214,
+      "end": 218,
+      "mosdac_type": "STATION"
+    },
+    {
+      "text": "INSAT-3DR",
+      "label": "SATELLITE",
+      "start": 233,
+      "end": 242,
+      "mosdac_type": "SATELLITE"
+    },
+    {
+      "text": "INSAT-3D",
+      "label": "SATELLITE",
+      "start": 243,
+      "end": 251,
+      "mosdac_type": "SATELLITE"
+    },
+    {
+      "text": "SARAL",
+      "label": "SATELLITE",
+      "start": 286,
+      "end": 291,
+      "mosdac_type": "SATELLITE"
+    },
+    {
+      "text": "SCATSAT-1",
+      "label": "SATELLITE",
+      "start": 331,
+      "end": 340,
+      "mosdac_type": "SATELLITE"
+    },
+    {
+      "text": "AWS",
+      "label": "DATA_PRODUCT",
+      "start": 367,
+      "end": 370,
+      "mosdac_type": "PARAMETER"
+    },
+    {
+      "text": "RADAR",
+      "label": "ORG",
+      "start": 439,
+      "end": 444,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "DWR",
+      "label": "ORG",
+      "start": 446,
+      "end": 449,
+      "mosdac_type": "INSTRUMENT"
+    },
+    {
+      "text": "Global Ocean Current",
+      "label": "DATA_PRODUCT",
+      "start": 451,
+      "end": 471,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "Data Access",
+      "label": "DATA_PRODUCT",
+      "start": 472,
+      "end": 483,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "MT-SAPHIR",
+      "label": "DATA_PRODUCT",
+      "start": 531,
+      "end": 540,
+      "mosdac_type": "INSTRUMENT"
+    },
+    {
+      "text": "ISRO",
+      "label": "STATION",
+      "start": 592,
+      "end": 596,
+      "mosdac_type": "STATION"
+    },
+    {
+      "text": "Indian Mainland Coastal Product",
+      "label": "DATA_PRODUCT",
+      "start": 787,
+      "end": 818,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "Renewable Energy\nCal-Val",
+      "label": "ORG",
+      "start": 903,
+      "end": 927,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "RSS Feeds",
+      "label": "ORG",
+      "start": 937,
+      "end": 946,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "Data Quality",
+      "label": "DATA_PRODUCT",
+      "start": 994,
+      "end": 1006,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "Oceansat-2",
+      "label": "REGION",
+      "start": 1084,
+      "end": 1094,
+      "mosdac_type": "SATELLITE"
+    },
+    {
+      "text": "Oceansat-2",
+      "label": "REGION",
+      "start": 1095,
+      "end": 1105,
+      "mosdac_type": "SATELLITE"
+    },
+    {
+      "text": "IRS",
+      "label": "ORG",
+      "start": 1170,
+      "end": 1173,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "Oceansat-2",
+      "label": "REGION",
+      "start": 1184,
+      "end": 1194,
+      "mosdac_type": "SATELLITE"
+    },
+    {
+      "text": "PSLV-C14",
+      "label": "ORG",
+      "start": 1211,
+      "end": 1219,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "Satish Dhawan Space Centre",
+      "label": "ORG",
+      "start": 1225,
+      "end": 1251,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "Sriharikota",
+      "label": "PERSON",
+      "start": 1253,
+      "end": 1264,
+      "mosdac_type": "PERSON"
+    },
+    {
+      "text": "Sept. 23, 2009",
+      "label": "DATE",
+      "start": 1268,
+      "end": 1282,
+      "mosdac_type": "DATE"
+    },
+    {
+      "text": "three",
+      "label": "CARDINAL",
+      "start": 1295,
+      "end": 1300,
+      "mosdac_type": "CARDINAL"
+    },
+    {
+      "text": "Ocean Colour Monitor",
+      "label": "REGION",
+      "start": 1311,
+      "end": 1331,
+      "mosdac_type": "REGION"
+    },
+    {
+      "text": "Pencil Beam",
+      "label": "ORG",
+      "start": 1346,
+      "end": 1357,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "SCAT",
+      "label": "INSTRUMENT",
+      "start": 1373,
+      "end": 1377,
+      "mosdac_type": "INSTRUMENT"
+    },
+    {
+      "text": "ISRO Radio Occultation Sounder",
+      "label": "ORG",
+      "start": 1392,
+      "end": 1422,
+      "mosdac_type": "STATION"
+    },
+    {
+      "text": "ROSA",
+      "label": "ORG",
+      "start": 1439,
+      "end": 1443,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "the Italian Space Agency",
+      "label": "ORG",
+      "start": 1458,
+      "end": 1482,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "Oceansat-2",
+      "label": "REGION",
+      "start": 1484,
+      "end": 1494,
+      "mosdac_type": "SATELLITE"
+    },
+    {
+      "text": "Oceansat-1(IRS-P4",
+      "label": "REGION",
+      "start": 1557,
+      "end": 1574,
+      "mosdac_type": "SATELLITE"
+    },
+    {
+      "text": "MOSDAC",
+      "label": "ORG",
+      "start": 1676,
+      "end": 1682,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "Space Applications Centre",
+      "label": "ORG",
+      "start": 1684,
+      "end": 1709,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "Indian Space Research Organisation",
+      "label": "REGION",
+      "start": 1711,
+      "end": 1745,
+      "mosdac_type": "REGION"
+    },
+    {
+      "text": "Govt",
+      "label": "ORG",
+      "start": 1747,
+      "end": 1751,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "INDIA",
+      "label": "REGION",
+      "start": 1756,
+      "end": 1761,
+      "mosdac_type": "REGION"
+    },
+    {
+      "text": "Oceanographic Satellite Data Archival Centre",
+      "label": "DATA_PRODUCT",
+      "start": 19,
+      "end": 63,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "MOSDAC",
+      "label": "DATA_PRODUCT",
+      "start": 65,
+      "end": 71,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "Oceansat-2",
+      "label": "REGION",
+      "start": 0,
+      "end": 10,
+      "mosdac_type": "SATELLITE"
+    },
+    {
+      "text": "IRS",
+      "label": "ORG",
+      "start": 75,
+      "end": 78,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "Oceansat-2",
+      "label": "REGION",
+      "start": 89,
+      "end": 99,
+      "mosdac_type": "SATELLITE"
+    },
+    {
+      "text": "PSLV-C14",
+      "label": "ORG",
+      "start": 116,
+      "end": 124,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "Satish Dhawan Space Centre",
+      "label": "ORG",
+      "start": 130,
+      "end": 156,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "Sriharikota",
+      "label": "PERSON",
+      "start": 158,
+      "end": 169,
+      "mosdac_type": "PERSON"
+    },
+    {
+      "text": "Sept. 23, 2009",
+      "label": "DATE",
+      "start": 173,
+      "end": 187,
+      "mosdac_type": "DATE"
+    },
+    {
+      "text": "three",
+      "label": "CARDINAL",
+      "start": 200,
+      "end": 205,
+      "mosdac_type": "CARDINAL"
+    },
+    {
+      "text": "Ocean Colour Monitor",
+      "label": "REGION",
+      "start": 216,
+      "end": 236,
+      "mosdac_type": "REGION"
+    },
+    {
+      "text": "Pencil Beam",
+      "label": "ORG",
+      "start": 251,
+      "end": 262,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "SCAT",
+      "label": "INSTRUMENT",
+      "start": 278,
+      "end": 282,
+      "mosdac_type": "INSTRUMENT"
+    },
+    {
+      "text": "ISRO Radio Occultation Sounder",
+      "label": "ORG",
+      "start": 297,
+      "end": 327,
+      "mosdac_type": "STATION"
+    },
+    {
+      "text": "ROSA",
+      "label": "ORG",
+      "start": 344,
+      "end": 348,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "Italian",
+      "label": "NORP",
+      "start": 367,
+      "end": 374,
+      "mosdac_type": "NORP"
+    },
+    {
+      "text": "Oceanographic Satellite Data Archival Centre",
+      "label": "DATA_PRODUCT",
+      "start": 19,
+      "end": 63,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "MOSDAC",
+      "label": "DATA_PRODUCT",
+      "start": 65,
+      "end": 71,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "a Data Centre of Space Applications Centre",
+      "label": "DATA_PRODUCT",
+      "start": 76,
+      "end": 118,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "MOSDAC",
+      "label": "DATA_PRODUCT",
+      "start": 212,
+      "end": 218,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "Indian",
+      "label": "DATA_PRODUCT",
+      "start": 274,
+      "end": 280,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "Oceanographic",
+      "label": "DATA_PRODUCT",
+      "start": 16,
+      "end": 29,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "Satellite",
+      "label": "DATA_PRODUCT",
+      "start": 31,
+      "end": 40,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "Data, Archival",
+      "label": "DATA_PRODUCT",
+      "start": 42,
+      "end": 56,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "Data Centre",
+      "label": "DATA_PRODUCT",
+      "start": 58,
+      "end": 69,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "MOSDAC",
+      "label": "ORG",
+      "start": 0,
+      "end": 6,
+      "mosdac_type": "ORG"
+    }
+  ],
+  "relations": [
+    {
+      "head": "DWR",
+      "head_type": "INSTRUMENT",
+      "type": "MEASURES",
+      "tail": "AWS",
+      "tail_type": "PARAMETER",
+      "evidence": "Oceansat-2 | Meteorological & Oceanographic Satellite Data Archival Centre\nSkip to main Content\n-\nA\nA\n+\nA\nA\nA\nहिन्दी\nEnglish\nMeteorological & Oceanographic Satellite Data Archival Centre\nSpace Applications Centre, ISRO\nHome\nMissions\nINSAT-3DR\nINSAT-3D\nKALPANA-1\nINSAT-3A\nMeghaTropiques\nSARAL-AltiKa\nOCEANSAT-2\nOCEANSAT-3\nINSAT-3DS\nSCATSAT-1\nCatalog\nSatellite\nInsitu (AWS)\nRADAR\nGalleries\nSatellite Products\nWeather Forecast\nOcean Forecast\nRADAR (DWR)\nGlobal Ocean Current\nData Access\nOrder Data\nOpen Data\nAtmosphere\nBayesian based MT-SAPHIR rainfall\nGPS derived Integrated water vapour\nGSMap ISRO Rain\nMETEOSAT8 Cloud Properties\nLand\n3D Volumetric TERLS DWRproduct\n",
+      "source": "model"
+    },
+    {
+      "head": "MT-SAPHIR",
+      "head_type": "INSTRUMENT",
+      "type": "MEASURES",
+      "tail": "AWS",
+      "tail_type": "PARAMETER",
+      "evidence": "Oceansat-2 | Meteorological & Oceanographic Satellite Data Archival Centre\nSkip to main Content\n-\nA\nA\n+\nA\nA\nA\nहिन्दी\nEnglish\nMeteorological & Oceanographic Satellite Data Archival Centre\nSpace Applications Centre, ISRO\nHome\nMissions\nINSAT-3DR\nINSAT-3D\nKALPANA-1\nINSAT-3A\nMeghaTropiques\nSARAL-AltiKa\nOCEANSAT-2\nOCEANSAT-3\nINSAT-3DS\nSCATSAT-1\nCatalog\nSatellite\nInsitu (AWS)\nRADAR\nGalleries\nSatellite Products\nWeather Forecast\nOcean Forecast\nRADAR (DWR)\nGlobal Ocean Current\nData Access\nOrder Data\nOpen Data\nAtmosphere\nBayesian based MT-SAPHIR rainfall\nGPS derived Integrated water vapour\nGSMap ISRO Rain\nMETEOSAT8 Cloud Properties\nLand\n3D Volumetric TERLS DWRproduct\n",
+      "source": "model"
+    },
+    {
+      "head": "SCAT",
+      "head_type": "INSTRUMENT",
+      "type": "MEASURES",
+      "tail": "AWS",
+      "tail_type": "PARAMETER",
+      "evidence": "Oceansat-2 | Meteorological & Oceanographic Satellite Data Archival Centre\nSkip to main Content\n-\nA\nA\n+\nA\nA\nA\nहिन्दी\nEnglish\nMeteorological & Oceanographic Satellite Data Archival Centre\nSpace Applications Centre, ISRO\nHome\nMissions\nINSAT-3DR\nINSAT-3D\nKALPANA-1\nINSAT-3A\nMeghaTropiques\nSARAL-AltiKa\nOCEANSAT-2\nOCEANSAT-3\nINSAT-3DS\nSCATSAT-1\nCatalog\nSatellite\nInsitu (AWS)\nRADAR\nGalleries\nSatellite Products\nWeather Forecast\nOcean Forecast\nRADAR (DWR)\nGlobal Ocean Current\nData Access\nOrder Data\nOpen Data\nAtmosphere\nBayesian based MT-SAPHIR rainfall\nGPS derived Integrated water vapour\nGSMap ISRO Rain\nMETEOSAT8 Cloud Properties\nLand\n3D Volumetric TERLS DWRproduct\n",
+      "source": "model"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "| Meteorological & Oceanographic Satellite Data Archival Centre\nSkip",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "हिन्दी\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisat",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "English",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "हिन्दी\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Satellite Data Archival Centre\nSpace Applications Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "हिन्दी\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Global Ocean Current",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "हिन्दी\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Access",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "हिन्दी\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Indian Mainland Coastal Product",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "हिन्दी\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Quality",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "हिन्दी\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "Ocean Colour Monitor",
+      "tail_type": "REGION",
+      "evidence": "हिन्दी\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "हिन्दी\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "हिन्दी\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic Satellite Data Archival Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "हिन्दी\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Re",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "हिन्दी\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research O",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "Ocean Colour Monitor",
+      "tail_type": "REGION",
+      "evidence": "हिन्दी\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic Satellite Data Archival Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "हिन्दी\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Re",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "हिन्दी\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research O",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "a Data Centre of Space Applications Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "हिन्दी\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "हिन्दी\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Indian",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "हिन्दी\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "हिन्दी\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Ap",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Satellite",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "हिन्दी\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications ",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data, Archival",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "हिन्दी\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian S",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "हिन्दी\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "| Meteorological & Oceanographic Satellite Data Archival Centre\nSkip",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "हिन्दी\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "| Meteorological & Oceanographic Satellite Data Archival Centre\nSkip",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "हिन्दी\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "| Meteorological & Oceanographic Satellite Data Archival Centre\nSkip",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "हिन्दी\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "| Meteorological & Oceanographic Satellite Data Archival Centre\nSkip",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "हिन्दी\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "| Meteorological & Oceanographic Satellite Data Archival Centre\nSkip",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "हिन्दी\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "| Meteorological & Oceanographic Satellite Data Archival Centre\nSkip",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "हिन्दी\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "| Meteorological & Oceanographic Satellite Data Archival Centre\nSkip",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "हिन्दी\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "| Meteorological & Oceanographic Satellite Data Archival Centre\nSkip",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Ocean Colour Monitor",
+      "tail_type": "REGION",
+      "evidence": "हिन्दी\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "| Meteorological & Oceanographic Satellite Data Archival Centre\nSkip",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "हिन्दी\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-1(IRS-P4",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "| Meteorological & Oceanographic Satellite Data Archival Centre\nSkip",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "हिन्दी\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "| Meteorological & Oceanographic Satellite Data Archival Centre\nSkip",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "हिन्दी\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "| Meteorological & Oceanographic Satellite Data Archival Centre\nSkip",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "हिन्दी\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "| Meteorological & Oceanographic Satellite Data Archival Centre\nSkip",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "हिन्दी\nSearch\nSearch\nFollow Us\nWebsite owned and maintained ",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "| Meteorological & Oceanographic Satellite Data Archival Centre\nSkip",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "हिन्दी\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "| Meteorological & Oceanographic Satellite Data Archival Centre\nSkip",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Ocean Colour Monitor",
+      "tail_type": "REGION",
+      "evidence": "हिन्दी\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "English",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "AC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "English",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "AC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "English",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "AC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "English",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "AC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "English",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "AC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "English",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "AC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "English",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "AC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "English",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Ocean Colour Monitor",
+      "tail_type": "REGION",
+      "evidence": "AC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "English",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "AC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-1(IRS-P4",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "English",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "AC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "English",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "AC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "English",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "AC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "English",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "English",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "AC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "English",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Ocean Colour Monitor",
+      "tail_type": "REGION",
+      "evidence": "AC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Satellite Data Archival Centre\nSpace Applications Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "pace Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Satellite Data Archival Centre\nSpace Applications Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "pace Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Satellite Data Archival Centre\nSpace Applications Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "pace Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Satellite Data Archival Centre\nSpace Applications Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "pace Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Satellite Data Archival Centre\nSpace Applications Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "pace Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Satellite Data Archival Centre\nSpace Applications Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "pace Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Satellite Data Archival Centre\nSpace Applications Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "pace Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Satellite Data Archival Centre\nSpace Applications Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Ocean Colour Monitor",
+      "tail_type": "REGION",
+      "evidence": "pace Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Satellite Data Archival Centre\nSpace Applications Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "pace Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-1(IRS-P4",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Satellite Data Archival Centre\nSpace Applications Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "pace Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Satellite Data Archival Centre\nSpace Applications Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "pace Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Satellite Data Archival Centre\nSpace Applications Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "pace Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Satellite Data Archival Centre\nSpace Applications Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Satellite Data Archival Centre\nSpace Applications Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "pace Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Satellite Data Archival Centre\nSpace Applications Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Ocean Colour Monitor",
+      "tail_type": "REGION",
+      "evidence": "pace Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "ISRO",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Ocean Colour Monitor",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "ISRO",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "ISRO",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "ISRO",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Ocean Colour Monitor",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Global Ocean Current",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Access",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Indian Mainland Coastal Product",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Quality",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "Ocean Colour Monitor",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic Satellite Data Archival Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "Ocean Colour Monitor",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic Satellite Data Archival Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "a Data Centre of Space Applications Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Indian",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Satellite",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data, Archival",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Global Ocean Current",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Access",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Indian Mainland Coastal Product",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Quality",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "Ocean Colour Monitor",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic Satellite Data Archival Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "Ocean Colour Monitor",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic Satellite Data Archival Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "a Data Centre of Space Applications Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Indian",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Satellite",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data, Archival",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Global Ocean Current",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Access",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Indian Mainland Coastal Product",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Quality",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "Ocean Colour Monitor",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic Satellite Data Archival Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "Ocean Colour Monitor",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic Satellite Data Archival Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "a Data Centre of Space Applications Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Indian",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Satellite",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data, Archival",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Global Ocean Current",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Access",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Indian Mainland Coastal Product",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Quality",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "Ocean Colour Monitor",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic Satellite Data Archival Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "Ocean Colour Monitor",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic Satellite Data Archival Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "a Data Centre of Space Applications Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Indian",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Satellite",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data, Archival",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "DWR",
+      "head_type": "INSTRUMENT",
+      "type": "MEASURES",
+      "tail": "AWS",
+      "tail_type": "PARAMETER",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MT-SAPHIR",
+      "head_type": "INSTRUMENT",
+      "type": "MEASURES",
+      "tail": "AWS",
+      "tail_type": "PARAMETER",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCAT",
+      "head_type": "INSTRUMENT",
+      "type": "MEASURES",
+      "tail": "AWS",
+      "tail_type": "PARAMETER",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCAT",
+      "head_type": "INSTRUMENT",
+      "type": "MEASURES",
+      "tail": "AWS",
+      "tail_type": "PARAMETER",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "DWR",
+      "head_type": "INSTRUMENT",
+      "type": "COVERS",
+      "tail": "Ocean Colour Monitor",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "DWR",
+      "head_type": "INSTRUMENT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "DWR",
+      "head_type": "INSTRUMENT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "DWR",
+      "head_type": "INSTRUMENT",
+      "type": "COVERS",
+      "tail": "Ocean Colour Monitor",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Global Ocean Current",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Global Ocean Current",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Global Ocean Current",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Global Ocean Current",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Ocean Colour Monitor",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Global Ocean Current",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-1(IRS-P4",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Global Ocean Current",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Global Ocean Current",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Global Ocean Current",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Global Ocean Current",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Global Ocean Current",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Global Ocean Current",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Ocean Colour Monitor",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Access",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Access",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Access",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Data Access",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Ocean Colour Monitor",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Access",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-1(IRS-P4",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Access",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Data Access",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Data Access",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Access",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Access",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Data Access",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Ocean Colour Monitor",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MT-SAPHIR",
+      "head_type": "INSTRUMENT",
+      "type": "COVERS",
+      "tail": "Ocean Colour Monitor",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MT-SAPHIR",
+      "head_type": "INSTRUMENT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MT-SAPHIR",
+      "head_type": "INSTRUMENT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MT-SAPHIR",
+      "head_type": "INSTRUMENT",
+      "type": "COVERS",
+      "tail": "Ocean Colour Monitor",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "ISRO",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Ocean Colour Monitor",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "ISRO",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "ISRO",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "ISRO",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Ocean Colour Monitor",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Indian Mainland Coastal Product",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Indian Mainland Coastal Product",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Indian Mainland Coastal Product",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Indian Mainland Coastal Product",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Ocean Colour Monitor",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Indian Mainland Coastal Product",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-1(IRS-P4",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Indian Mainland Coastal Product",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Indian Mainland Coastal Product",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Indian Mainland Coastal Product",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Indian Mainland Coastal Product",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Indian Mainland Coastal Product",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Indian Mainland Coastal Product",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Ocean Colour Monitor",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Quality",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Quality",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Quality",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Data Quality",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Ocean Colour Monitor",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Quality",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-1(IRS-P4",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Quality",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Data Quality",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Data Quality",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Quality",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Quality",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Data Quality",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Ocean Colour Monitor",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "Ocean Colour Monitor",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic Satellite Data Archival Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "Ocean Colour Monitor",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic Satellite Data Archival Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "a Data Centre of Space Applications Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Indian",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Satellite",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data, Archival",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "Ocean Colour Monitor",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic Satellite Data Archival Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "Ocean Colour Monitor",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic Satellite Data Archival Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "a Data Centre of Space Applications Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Indian",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Satellite",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data, Archival",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "Ocean Colour Monitor",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic Satellite Data Archival Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "Ocean Colour Monitor",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic Satellite Data Archival Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "a Data Centre of Space Applications Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Indian",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Satellite",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data, Archival",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCAT",
+      "head_type": "INSTRUMENT",
+      "type": "COVERS",
+      "tail": "Ocean Colour Monitor",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "ISRO Radio Occultation Sounder",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Ocean Colour Monitor",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "Ocean Colour Monitor",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-1(IRS-P4",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "Ocean Colour Monitor",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic Satellite Data Archival Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Ocean Colour Monitor",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Ocean Colour Monitor",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "Ocean Colour Monitor",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "Ocean Colour Monitor",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCAT",
+      "head_type": "INSTRUMENT",
+      "type": "COVERS",
+      "tail": "Ocean Colour Monitor",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "ISRO Radio Occultation Sounder",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Ocean Colour Monitor",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic Satellite Data Archival Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Ocean Colour Monitor",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Ocean Colour Monitor",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "a Data Centre of Space Applications Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Ocean Colour Monitor",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Ocean Colour Monitor",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Indian",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Ocean Colour Monitor",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Ocean Colour Monitor",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Satellite",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Ocean Colour Monitor",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Data, Archival",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Ocean Colour Monitor",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Data Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Ocean Colour Monitor",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCAT",
+      "head_type": "INSTRUMENT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCAT",
+      "head_type": "INSTRUMENT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCAT",
+      "head_type": "INSTRUMENT",
+      "type": "COVERS",
+      "tail": "Ocean Colour Monitor",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "ISRO Radio Occultation Sounder",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "ISRO Radio Occultation Sounder",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "ISRO Radio Occultation Sounder",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Ocean Colour Monitor",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic Satellite Data Archival Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "Ocean Colour Monitor",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic Satellite Data Archival Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "a Data Centre of Space Applications Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Indian",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Satellite",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data, Archival",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-1(IRS-P4",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-1(IRS-P4",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-1(IRS-P4",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic Satellite Data Archival Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-1(IRS-P4",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-1(IRS-P4",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "Ocean Colour Monitor",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-1(IRS-P4",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic Satellite Data Archival Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-1(IRS-P4",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-1(IRS-P4",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "a Data Centre of Space Applications Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-1(IRS-P4",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-1(IRS-P4",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Indian",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-1(IRS-P4",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-1(IRS-P4",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Satellite",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-1(IRS-P4",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data, Archival",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-1(IRS-P4",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic Satellite Data Archival Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCAT",
+      "head_type": "INSTRUMENT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "ISRO Radio Occultation Sounder",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic Satellite Data Archival Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "a Data Centre of Space Applications Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Indian",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Satellite",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Data, Archival",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Data Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic Satellite Data Archival Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCAT",
+      "head_type": "INSTRUMENT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "ISRO Radio Occultation Sounder",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic Satellite Data Archival Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "a Data Centre of Space Applications Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Indian",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Satellite",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Data, Archival",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Data Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic Satellite Data Archival Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "हिन्दी\nSearch\nSearch\nFollow Us\nWebsite owned and maintained ",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic Satellite Data Archival Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "हिन्दी\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic Satellite Data Archival Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Ocean Colour Monitor",
+      "tail_type": "REGION",
+      "evidence": "हिन्दी\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "earch\nFollow Us\nWebsite owned and maintained ",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "earch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Ocean Colour Monitor",
+      "tail_type": "REGION",
+      "evidence": "earch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "Ocean Colour Monitor",
+      "tail_type": "REGION",
+      "evidence": "हिन्दी\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic Satellite Data Archival Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "हिन्दी\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Re",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "हिन्दी\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research O",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "a Data Centre of Space Applications Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "हिन्दी\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "हिन्दी\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Indian",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "हिन्दी\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "हिन्दी\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Ap",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Satellite",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "हिन्दी\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications ",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data, Archival",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "हिन्दी\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian S",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "हिन्दी\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "Ocean Colour Monitor",
+      "tail_type": "REGION",
+      "evidence": "owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic Satellite Data Archival Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "owned and maintained by MOSDAC, Space Applications Centre, Indian Space Re",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research O",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "a Data Centre of Space Applications Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Indian",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "owned and maintained by MOSDAC, Space Ap",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Satellite",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "owned and maintained by MOSDAC, Space Applications ",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data, Archival",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "owned and maintained by MOSDAC, Space Applications Centre, Indian S",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceansat-2",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research",
+      "source": "pattern"
+    },
+    {
+      "head": "SCAT",
+      "head_type": "INSTRUMENT",
+      "type": "COVERS",
+      "tail": "Ocean Colour Monitor",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "ISRO Radio Occultation Sounder",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Ocean Colour Monitor",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic Satellite Data Archival Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Ocean Colour Monitor",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Ocean Colour Monitor",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "a Data Centre of Space Applications Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Ocean Colour Monitor",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Ocean Colour Monitor",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Indian",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Ocean Colour Monitor",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Ocean Colour Monitor",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Satellite",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Ocean Colour Monitor",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Data, Archival",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Ocean Colour Monitor",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Data Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Ocean Colour Monitor",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    }
+  ],
+  "stats": {
+    "entity_count": 68,
+    "relation_count": 375
+  }
+}

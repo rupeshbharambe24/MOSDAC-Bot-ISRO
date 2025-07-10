@@ -1,0 +1,178 @@
+{
+  "source": "R:\\Projects\\MOSDAC Help Bot\\Codes\\data_processing\\processed_output\\pdfs\\www.mosdac.gov.in_sites_default_files_docs_sftp-mosdac_0.pdf.json",
+  "entities": [
+    {
+      "text": "User Guide",
+      "label": "DATA_PRODUCT",
+      "start": 0,
+      "end": 10,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "MOSDAC",
+      "label": "DATA_PRODUCT",
+      "start": 37,
+      "end": 43,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "MOSDAC",
+      "label": "DATA_PRODUCT",
+      "start": 44,
+      "end": 50,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "SFTP",
+      "label": "PRODUCT",
+      "start": 186,
+      "end": 190,
+      "mosdac_type": "PRODUCT"
+    },
+    {
+      "text": "MOSDAC",
+      "label": "ORG",
+      "start": 280,
+      "end": 286,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "One",
+      "label": "CARDINAL",
+      "start": 370,
+      "end": 373,
+      "mosdac_type": "CARDINAL"
+    },
+    {
+      "text": "MOSDAC",
+      "label": "DATA_PRODUCT",
+      "start": 413,
+      "end": 419,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "HOST='sftp://download.mosdac.gov.in",
+      "label": "CARDINAL",
+      "start": 590,
+      "end": 625,
+      "mosdac_type": "CARDINAL"
+    },
+    {
+      "text": "PASSWORD='password",
+      "label": "ORG",
+      "start": 642,
+      "end": 660,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "USER\",\"$PASSWORD",
+      "label": "ORG",
+      "start": 725,
+      "end": 741,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "$REMOTE_DIR $",
+      "label": "MONEY",
+      "start": 831,
+      "end": 844,
+      "mosdac_type": "MONEY"
+    },
+    {
+      "text": "LOCAL_DIR",
+      "label": "MONEY",
+      "start": 844,
+      "end": 853,
+      "mosdac_type": "MONEY"
+    },
+    {
+      "text": "SFTP",
+      "label": "ORG",
+      "start": 986,
+      "end": 990,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "SFTP",
+      "label": "ORG",
+      "start": 1050,
+      "end": 1054,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "SFTP",
+      "label": "PRODUCT",
+      "start": 1075,
+      "end": 1079,
+      "mosdac_type": "PRODUCT"
+    },
+    {
+      "text": "WinSCP",
+      "label": "PRODUCT",
+      "start": 1095,
+      "end": 1101,
+      "mosdac_type": "PRODUCT"
+    },
+    {
+      "text": "FileZilla",
+      "label": "PRODUCT",
+      "start": 1103,
+      "end": 1112,
+      "mosdac_type": "PRODUCT"
+    },
+    {
+      "text": "download.mosdac.gov.in\no",
+      "label": "ORG",
+      "start": 1144,
+      "end": 1168,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "22",
+      "label": "CARDINAL",
+      "start": 1220,
+      "end": 1222,
+      "mosdac_type": "CARDINAL"
+    },
+    {
+      "text": "MOSDAC",
+      "label": "ORG",
+      "start": 1265,
+      "end": 1271,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "Order",
+      "label": "WORK_OF_ART",
+      "start": 1377,
+      "end": 1382,
+      "mosdac_type": "WORK_OF_ART"
+    },
+    {
+      "text": "FileZilla Client",
+      "label": "DATA_PRODUCT",
+      "start": 1397,
+      "end": 1413,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "SHIVANI123",
+      "label": "NORP",
+      "start": 0,
+      "end": 10,
+      "mosdac_type": "NORP"
+    },
+    {
+      "text": "1",
+      "label": "CARDINAL",
+      "start": 0,
+      "end": 1,
+      "mosdac_type": "CARDINAL"
+    }
+  ],
+  "relations": [],
+  "stats": {
+    "entity_count": 24,
+    "relation_count": 0
+  }
+}

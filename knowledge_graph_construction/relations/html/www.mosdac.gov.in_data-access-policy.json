@@ -1,0 +1,1823 @@
+{
+  "source": "R:\\Projects\\MOSDAC Help Bot\\Codes\\data_processing\\processed_output\\html\\www.mosdac.gov.in_data-access-policy.json",
+  "entities": [
+    {
+      "text": "Data Access Policy | Meteorological & Oceanographic Satellite Data Archival Centre\nSkip",
+      "label": "DATA_PRODUCT",
+      "start": 0,
+      "end": 87,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "English",
+      "label": "DATA_PRODUCT",
+      "start": 125,
+      "end": 132,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "Satellite Data Archival Centre\nSpace Applications Centre",
+      "label": "DATA_PRODUCT",
+      "start": 164,
+      "end": 220,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "ISRO",
+      "label": "ORG",
+      "start": 222,
+      "end": 226,
+      "mosdac_type": "STATION"
+    },
+    {
+      "text": "INSAT-3DR",
+      "label": "SATELLITE",
+      "start": 241,
+      "end": 250,
+      "mosdac_type": "SATELLITE"
+    },
+    {
+      "text": "INSAT-3D",
+      "label": "SATELLITE",
+      "start": 251,
+      "end": 259,
+      "mosdac_type": "SATELLITE"
+    },
+    {
+      "text": "SARAL",
+      "label": "SATELLITE",
+      "start": 294,
+      "end": 299,
+      "mosdac_type": "SATELLITE"
+    },
+    {
+      "text": "SCATSAT-1",
+      "label": "SATELLITE",
+      "start": 339,
+      "end": 348,
+      "mosdac_type": "SATELLITE"
+    },
+    {
+      "text": "AWS",
+      "label": "DATA_PRODUCT",
+      "start": 375,
+      "end": 378,
+      "mosdac_type": "PARAMETER"
+    },
+    {
+      "text": "RADAR",
+      "label": "ORG",
+      "start": 447,
+      "end": 452,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "DWR",
+      "label": "ORG",
+      "start": 454,
+      "end": 457,
+      "mosdac_type": "INSTRUMENT"
+    },
+    {
+      "text": "Global Ocean Current",
+      "label": "DATA_PRODUCT",
+      "start": 459,
+      "end": 479,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "Data Access",
+      "label": "DATA_PRODUCT",
+      "start": 480,
+      "end": 491,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "MT-SAPHIR",
+      "label": "DATA_PRODUCT",
+      "start": 539,
+      "end": 548,
+      "mosdac_type": "INSTRUMENT"
+    },
+    {
+      "text": "ISRO",
+      "label": "STATION",
+      "start": 600,
+      "end": 604,
+      "mosdac_type": "STATION"
+    },
+    {
+      "text": "Indian Mainland Coastal Product",
+      "label": "DATA_PRODUCT",
+      "start": 795,
+      "end": 826,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "Renewable Energy\nCal-Val",
+      "label": "ORG",
+      "start": 911,
+      "end": 935,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "RSS Feeds",
+      "label": "ORG",
+      "start": 945,
+      "end": 954,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "Data Quality",
+      "label": "DATA_PRODUCT",
+      "start": 1002,
+      "end": 1014,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "3 days",
+      "label": "DATA_PRODUCT",
+      "start": 1194,
+      "end": 1200,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "NRT Access\nAnonymous",
+      "label": "DATA_PRODUCT",
+      "start": 1248,
+      "end": 1268,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "Open Data\nNRT Access",
+      "label": "DATA_PRODUCT",
+      "start": 1304,
+      "end": 1324,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "KB",
+      "label": "PERSON",
+      "start": 1441,
+      "end": 1443,
+      "mosdac_type": "PERSON"
+    },
+    {
+      "text": "English",
+      "label": "LANGUAGE",
+      "start": 1474,
+      "end": 1481,
+      "mosdac_type": "LANGUAGE"
+    },
+    {
+      "text": "KB",
+      "label": "PERSON",
+      "start": 1492,
+      "end": 1494,
+      "mosdac_type": "PERSON"
+    },
+    {
+      "text": "MOSDAC",
+      "label": "ORG",
+      "start": 1585,
+      "end": 1591,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "Space Applications Centre",
+      "label": "ORG",
+      "start": 1593,
+      "end": 1618,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "Indian Space Research Organisation",
+      "label": "REGION",
+      "start": 1620,
+      "end": 1654,
+      "mosdac_type": "REGION"
+    },
+    {
+      "text": "Govt",
+      "label": "ORG",
+      "start": 1656,
+      "end": 1660,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "INDIA",
+      "label": "REGION",
+      "start": 1665,
+      "end": 1670,
+      "mosdac_type": "REGION"
+    },
+    {
+      "text": "Oceanographic Satellite Data Archival Centre",
+      "label": "DATA_PRODUCT",
+      "start": 19,
+      "end": 63,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "MOSDAC",
+      "label": "DATA_PRODUCT",
+      "start": 65,
+      "end": 71,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "Access ProfileDatasetsLatencyRegistered General",
+      "label": "DATA_PRODUCT",
+      "start": 0,
+      "end": 47,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "3",
+      "label": "CARDINAL",
+      "start": 81,
+      "end": 82,
+      "mosdac_type": "CARDINAL"
+    },
+    {
+      "text": "UsersAccess",
+      "label": "DATA_PRODUCT",
+      "start": 109,
+      "end": 120,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "AccessData",
+      "label": "DATA_PRODUCT",
+      "start": 199,
+      "end": 209,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "KB",
+      "label": "PERSON",
+      "start": 318,
+      "end": 320,
+      "mosdac_type": "PERSON"
+    },
+    {
+      "text": "KB",
+      "label": "PERSON",
+      "start": 367,
+      "end": 369,
+      "mosdac_type": "PERSON"
+    },
+    {
+      "text": "Oceanographic Satellite Data Archival Centre",
+      "label": "DATA_PRODUCT",
+      "start": 19,
+      "end": 63,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "MOSDAC",
+      "label": "DATA_PRODUCT",
+      "start": 65,
+      "end": 71,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "a Data Centre of Space Applications Centre",
+      "label": "DATA_PRODUCT",
+      "start": 76,
+      "end": 118,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "MOSDAC",
+      "label": "DATA_PRODUCT",
+      "start": 212,
+      "end": 218,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "Indian",
+      "label": "DATA_PRODUCT",
+      "start": 274,
+      "end": 280,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "Oceanographic",
+      "label": "DATA_PRODUCT",
+      "start": 16,
+      "end": 29,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "Satellite",
+      "label": "DATA_PRODUCT",
+      "start": 31,
+      "end": 40,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "Data, Archival",
+      "label": "DATA_PRODUCT",
+      "start": 42,
+      "end": 56,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "Data Centre",
+      "label": "DATA_PRODUCT",
+      "start": 58,
+      "end": 69,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "MOSDAC",
+      "label": "ORG",
+      "start": 0,
+      "end": 6,
+      "mosdac_type": "ORG"
+    }
+  ],
+  "relations": [
+    {
+      "head": "DWR",
+      "head_type": "INSTRUMENT",
+      "type": "MEASURES",
+      "tail": "AWS",
+      "tail_type": "PARAMETER",
+      "evidence": "Data Access Policy | Meteorological & Oceanographic Satellite Data Archival Centre\nSkip to main Content\n-\nA\nA\n+\nA\nA\nA\nहिन्दी\nEnglish\nMeteorological & Oceanographic Satellite Data Archival Centre\nSpace Applications Centre, ISRO\nHome\nMissions\nINSAT-3DR\nINSAT-3D\nKALPANA-1\nINSAT-3A\nMeghaTropiques\nSARAL-AltiKa\nOCEANSAT-2\nOCEANSAT-3\nINSAT-3DS\nSCATSAT-1\nCatalog\nSatellite\nInsitu (AWS)\nRADAR\nGalleries\nSatellite Products\nWeather Forecast\nOcean Forecast\nRADAR (DWR)\nGlobal Ocean Current\nData Access\nOrder Data\nOpen Data\nAtmosphere\nBayesian based MT-SAPHIR rainfall\nGPS derived Integrated water vapour\nGSMap ISRO Rain\nMETEOSAT8 Cloud Properties\nLand\n3D Volumetric TERLS DWRproduct\n",
+      "source": "model"
+    },
+    {
+      "head": "MT-SAPHIR",
+      "head_type": "INSTRUMENT",
+      "type": "MEASURES",
+      "tail": "AWS",
+      "tail_type": "PARAMETER",
+      "evidence": "Data Access Policy | Meteorological & Oceanographic Satellite Data Archival Centre\nSkip to main Content\n-\nA\nA\n+\nA\nA\nA\nहिन्दी\nEnglish\nMeteorological & Oceanographic Satellite Data Archival Centre\nSpace Applications Centre, ISRO\nHome\nMissions\nINSAT-3DR\nINSAT-3D\nKALPANA-1\nINSAT-3A\nMeghaTropiques\nSARAL-AltiKa\nOCEANSAT-2\nOCEANSAT-3\nINSAT-3DS\nSCATSAT-1\nCatalog\nSatellite\nInsitu (AWS)\nRADAR\nGalleries\nSatellite Products\nWeather Forecast\nOcean Forecast\nRADAR (DWR)\nGlobal Ocean Current\nData Access\nOrder Data\nOpen Data\nAtmosphere\nBayesian based MT-SAPHIR rainfall\nGPS derived Integrated water vapour\nGSMap ISRO Rain\nMETEOSAT8 Cloud Properties\nLand\n3D Volumetric TERLS DWRproduct\n",
+      "source": "model"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Access Policy | Meteorological & Oceanographic Satellite Data Archival Centre\nSkip",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "Data Access Guidelines (\nBilingual\n; Size:415KB Format:PDF Tool:PDFViewer) /(\nEnglish\n; Size:323KB Format:PDF Tool:PDFViewer)\nहिन्दी\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Access Policy | Meteorological & Oceanographic Satellite Data Archival Centre\nSkip",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "Data Access Guidelines (\nBilingual\n; Size:415KB Format:PDF Tool:PDFViewer) /(\nEnglish\n; Size:323KB Format:PDF Tool:PDFViewer)\nहिन्दी\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Access Policy | Meteorological & Oceanographic Satellite Data Archival Centre\nSkip",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "Data Access Guidelines (\nBilingual\n; Size:415KB Format:PDF Tool:PDFViewer) /(\nEnglish\n; Size:323KB Format:PDF Tool:PDFViewer)\nहिन्दी\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Access Policy | Meteorological & Oceanographic Satellite Data Archival Centre\nSkip",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "Data Access Guidelines (\nBilingual\n; Size:415KB Format:PDF Tool:PDFViewer) /(\nEnglish\n; Size:323KB Format:PDF Tool:PDFViewer)\nहिन्दी\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Data Access Policy | Meteorological & Oceanographic Satellite Data Archival Centre\nSkip",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "Data Access Guidelines (\nBilingual\n; Size:415KB Format:PDF Tool:PDFViewer) /(\nEnglish\n; Size:323KB Format:PDF Tool:PDFViewer)\nहिन्दी\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Data Access Policy | Meteorological & Oceanographic Satellite Data Archival Centre\nSkip",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "Data Access Guidelines (\nBilingual\n; Size:415KB Format:PDF Tool:PDFViewer) /(\nEnglish\n; Size:323KB Format:PDF Tool:PDFViewer)\nहिन्दी\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "English",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "/(\nEnglish\n; Size:323KB Format:PDF Tool:PDFViewer)\nहिन्दी\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "English",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "/(\nEnglish\n; Size:323KB Format:PDF Tool:PDFViewer)\nहिन्दी\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "English",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "/(\nEnglish\n; Size:323KB Format:PDF Tool:PDFViewer)\nहिन्दी\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "English",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "/(\nEnglish\n; Size:323KB Format:PDF Tool:PDFViewer)\nहिन्दी\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "English",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "/(\nEnglish\n; Size:323KB Format:PDF Tool:PDFViewer)\nहिन्दी\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "English",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "/(\nEnglish\n; Size:323KB Format:PDF Tool:PDFViewer)\nहिन्दी\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Satellite Data Archival Centre\nSpace Applications Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": ":PDFViewer)\nहिन्दी\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Satellite Data Archival Centre\nSpace Applications Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": ":PDFViewer)\nहिन्दी\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Satellite Data Archival Centre\nSpace Applications Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": ":PDFViewer)\nहिन्दी\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Satellite Data Archival Centre\nSpace Applications Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": ":PDFViewer)\nहिन्दी\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Satellite Data Archival Centre\nSpace Applications Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": ":PDFViewer)\nहिन्दी\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Satellite Data Archival Centre\nSpace Applications Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": ":PDFViewer)\nहिन्दी\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "ISRO",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "nd maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "ISRO",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "nd maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Global Ocean Current",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "SDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Access",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "SDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Indian Mainland Coastal Product",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "SDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Quality",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "SDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "3 days",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "SDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "NRT Access\nAnonymous",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "SDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Open Data\nNRT Access",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "SDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "SDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "SDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic Satellite Data Archival Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Access ProfileDatasetsLatencyRegistered General",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "UsersAccess",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "AccessData",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "SDAC, Space Applications Centre, Indian Space Research Organisation,",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic Satellite Data Archival Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "a Data Centre of Space Applications Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "SDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Indian",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "SDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Satellite",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data, Archival",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Global Ocean Current",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "e Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Access",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "e Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Indian Mainland Coastal Product",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "e Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Quality",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "e Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "3 days",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "e Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "NRT Access\nAnonymous",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "e Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Open Data\nNRT Access",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "e Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "e Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "e Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic Satellite Data Archival Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Access ProfileDatasetsLatencyRegistered General",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "UsersAccess",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "AccessData",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "e Applications Centre, Indian Space Research Organisation,",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic Satellite Data Archival Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "a Data Centre of Space Applications Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "e Applications Centre, Indian Space Research Organisation, Govt. of",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Indian",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "e Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Satellite",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data, Archival",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Global Ocean Current",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "h Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Access",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "h Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Indian Mainland Coastal Product",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "h Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Quality",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "h Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "3 days",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "h Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "NRT Access\nAnonymous",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "h Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Open Data\nNRT Access",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "h Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "h Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "h Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic Satellite Data Archival Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Access ProfileDatasetsLatencyRegistered General",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "UsersAccess",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "AccessData",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "h Organisation,",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic Satellite Data Archival Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "a Data Centre of Space Applications Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "h Organisation, Govt. of",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Indian",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "h Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Satellite",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data, Archival",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Global Ocean Current",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Access",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Indian Mainland Coastal Product",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Quality",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "3 days",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "NRT Access\nAnonymous",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Open Data\nNRT Access",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic Satellite Data Archival Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Access ProfileDatasetsLatencyRegistered General",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "UsersAccess",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "AccessData",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic Satellite Data Archival Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "a Data Centre of Space Applications Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Indian",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Satellite",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data, Archival",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "DWR",
+      "head_type": "INSTRUMENT",
+      "type": "MEASURES",
+      "tail": "AWS",
+      "tail_type": "PARAMETER",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MT-SAPHIR",
+      "head_type": "INSTRUMENT",
+      "type": "MEASURES",
+      "tail": "AWS",
+      "tail_type": "PARAMETER",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "DWR",
+      "head_type": "INSTRUMENT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "DWR",
+      "head_type": "INSTRUMENT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Global Ocean Current",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Global Ocean Current",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Data Access",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Data Access",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MT-SAPHIR",
+      "head_type": "INSTRUMENT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MT-SAPHIR",
+      "head_type": "INSTRUMENT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "ISRO",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "ISRO",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Indian Mainland Coastal Product",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Indian Mainland Coastal Product",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Data Quality",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Data Quality",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "3 days",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "3 days",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "NRT Access\nAnonymous",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "NRT Access\nAnonymous",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Open Data\nNRT Access",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Open Data\nNRT Access",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic Satellite Data Archival Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Access ProfileDatasetsLatencyRegistered General",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "UsersAccess",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "AccessData",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic Satellite Data Archival Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "a Data Centre of Space Applications Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Indian",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Satellite",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Data, Archival",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Data Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic Satellite Data Archival Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Access ProfileDatasetsLatencyRegistered General",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "UsersAccess",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "AccessData",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic Satellite Data Archival Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "a Data Centre of Space Applications Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Indian",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Satellite",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Data, Archival",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Data Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    }
+  ],
+  "stats": {
+    "entity_count": 48,
+    "relation_count": 164
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "source": "R:\\Projects\\MOSDAC Help Bot\\Codes\\data_processing\\processed_output\\html\\www.mosdac.gov.in_internal_event-heavyrain.json",
+  "entities": [
+    {
+      "text": "Rainfall",
+      "label": "DATA_PRODUCT",
+      "start": 20,
+      "end": 28,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "ISRO      Developed & Maintained",
+      "label": "ORG",
+      "start": 848,
+      "end": 880,
+      "mosdac_type": "STATION"
+    },
+    {
+      "text": "DWD",
+      "label": "ORG",
+      "start": 885,
+      "end": 888,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "LLC",
+      "label": "ORG",
+      "start": 1132,
+      "end": 1135,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "India",
+      "label": "REGION",
+      "start": 1138,
+      "end": 1143,
+      "mosdac_type": "REGION"
+    },
+    {
+      "text": "Basins/ State/ District Boundaries",
+      "label": "REGION",
+      "start": 1150,
+      "end": 1184,
+      "mosdac_type": "REGION"
+    },
+    {
+      "text": "Meteorological Department",
+      "label": "STATION",
+      "start": 1214,
+      "end": 1239,
+      "mosdac_type": "STATION"
+    },
+    {
+      "text": "Delhi",
+      "label": "REGION",
+      "start": 1241,
+      "end": 1246,
+      "mosdac_type": "REGION"
+    },
+    {
+      "text": "317EFB",
+      "label": "MONEY",
+      "start": 1,
+      "end": 7,
+      "mosdac_type": "MONEY"
+    }
+  ],
+  "relations": [
+    {
+      "head": "Rainfall",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "India",
+      "tail_type": "REGION",
+      "evidence": "Unearthed Outdoors, LLC\n* India River Basins/ State/ District Boundaries and World Coastlines : India Meteorological Department, Delhi (www.imd.gov.in)\n* INSAT 3D Algorithm : AOSG/SAC\nClose",
+      "source": "pattern"
+    },
+    {
+      "head": "Rainfall",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Basins/ State/ District Boundaries",
+      "tail_type": "REGION",
+      "evidence": "Unearthed Outdoors, LLC\n* India River Basins/ State/ District Boundaries and World Coastlines : India Meteorological Department, Delhi (www.imd.gov.in)\n* INSAT 3D Algorithm : AOSG/SAC\nClose",
+      "source": "pattern"
+    },
+    {
+      "head": "Rainfall",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Delhi",
+      "tail_type": "REGION",
+      "evidence": "Unearthed Outdoors, LLC\n* India River Basins/ State/ District Boundaries and World Coastlines : India Meteorological Department, Delhi (www.imd.gov.in)\n* INSAT 3D Algorithm : AOSG/SAC\nClose",
+      "source": "pattern"
+    },
+    {
+      "head": "ISRO      Developed & Maintained",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "India",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "ISRO      Developed & Maintained",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Basins/ State/ District Boundaries",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "ISRO      Developed & Maintained",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Delhi",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Meteorological Department",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "India",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Meteorological Department",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Basins/ State/ District Boundaries",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Meteorological Department",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Delhi",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    }
+  ],
+  "stats": {
+    "entity_count": 9,
+    "relation_count": 9
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "source": "R:\\Projects\\MOSDAC Help Bot\\Codes\\data_processing\\processed_output\\html\\www.mosdac.gov.in_internal_cyclone.json",
+  "text_entities": [
+    {
+      "text": "datetimeGmt",
+      "label": "DATE",
+      "start": 59,
+      "end": 70
+    },
+    {
+      "text": "Year",
+      "label": "DATE",
+      "start": 73,
+      "end": 77
+    },
+    {
+      "text": "SCAT",
+      "label": "INSTRUMENT",
+      "start": 419,
+      "end": 423
+    },
+    {
+      "text": "SCORPIO",
+      "label": "DATA_PRODUCT",
+      "start": 497,
+      "end": 504
+    },
+    {
+      "text": "Indian Ocean",
+      "label": "DATA_PRODUCT",
+      "start": 572,
+      "end": 584
+    },
+    {
+      "text": "Cyclone Information System",
+      "label": "PRODUCT",
+      "start": 604,
+      "end": 630
+    },
+    {
+      "text": "the North Indian Ocean",
+      "label": "REGION",
+      "start": 807,
+      "end": 829
+    },
+    {
+      "text": "Space Applications Centre",
+      "label": "FAC",
+      "start": 847,
+      "end": 872
+    },
+    {
+      "text": "ISRO",
+      "label": "STATION",
+      "start": 874,
+      "end": 878
+    },
+    {
+      "text": "SCORPIO",
+      "label": "PRODUCT",
+      "start": 1240,
+      "end": 1247
+    },
+    {
+      "text": "SAC/ISRO/MOSDAC",
+      "label": "DATA_PRODUCT",
+      "start": 1373,
+      "end": 1388
+    },
+    {
+      "text": "Developed & Maintained",
+      "label": "ORG",
+      "start": 2349,
+      "end": 2371
+    },
+    {
+      "text": "DWD/SAC/ISRO",
+      "label": "DATA_PRODUCT",
+      "start": 2376,
+      "end": 2388
+    },
+    {
+      "text": "NRSC",
+      "label": "STATION",
+      "start": 2496,
+      "end": 2500
+    },
+    {
+      "text": "www.nrsc.gov.in",
+      "label": "REGION",
+      "start": 2512,
+      "end": 2527
+    },
+    {
+      "text": "OpenStreetMap",
+      "label": "REGION",
+      "start": 2531,
+      "end": 2544
+    },
+    {
+      "text": "LLC",
+      "label": "ORG",
+      "start": 2643,
+      "end": 2646
+    },
+    {
+      "text": "India",
+      "label": "REGION",
+      "start": 2649,
+      "end": 2654
+    },
+    {
+      "text": "Basins/ State/ District Boundaries",
+      "label": "REGION",
+      "start": 2661,
+      "end": 2695
+    },
+    {
+      "text": "Meteorological Department",
+      "label": "DATA_PRODUCT",
+      "start": 2725,
+      "end": 2750
+    },
+    {
+      "text": "Delhi",
+      "label": "REGION",
+      "start": 2752,
+      "end": 2757
+    }
+  ],
+  "metadata_entities": [
+    {
+      "text": "317EFB",
+      "label": "MONEY",
+      "start": 1,
+      "end": 7
+    }
+  ]
+}

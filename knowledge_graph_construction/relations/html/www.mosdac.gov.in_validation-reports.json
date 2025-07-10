@@ -1,0 +1,1436 @@
+{
+  "source": "R:\\Projects\\MOSDAC Help Bot\\Codes\\data_processing\\processed_output\\html\\www.mosdac.gov.in_validation-reports.json",
+  "entities": [
+    {
+      "text": "Satellite Data Archival Centre\nSkip",
+      "label": "DATA_PRODUCT",
+      "start": 44,
+      "end": 79,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "English",
+      "label": "DATA_PRODUCT",
+      "start": 117,
+      "end": 124,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "Satellite Data Archival Centre\nSpace Applications Centre",
+      "label": "DATA_PRODUCT",
+      "start": 156,
+      "end": 212,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "ISRO",
+      "label": "ORG",
+      "start": 214,
+      "end": 218,
+      "mosdac_type": "STATION"
+    },
+    {
+      "text": "INSAT-3DR",
+      "label": "SATELLITE",
+      "start": 233,
+      "end": 242,
+      "mosdac_type": "SATELLITE"
+    },
+    {
+      "text": "INSAT-3D",
+      "label": "SATELLITE",
+      "start": 243,
+      "end": 251,
+      "mosdac_type": "SATELLITE"
+    },
+    {
+      "text": "SARAL",
+      "label": "SATELLITE",
+      "start": 286,
+      "end": 291,
+      "mosdac_type": "SATELLITE"
+    },
+    {
+      "text": "SCATSAT-1",
+      "label": "SATELLITE",
+      "start": 331,
+      "end": 340,
+      "mosdac_type": "SATELLITE"
+    },
+    {
+      "text": "AWS",
+      "label": "DATA_PRODUCT",
+      "start": 367,
+      "end": 370,
+      "mosdac_type": "PARAMETER"
+    },
+    {
+      "text": "RADAR",
+      "label": "ORG",
+      "start": 439,
+      "end": 444,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "DWR",
+      "label": "ORG",
+      "start": 446,
+      "end": 449,
+      "mosdac_type": "INSTRUMENT"
+    },
+    {
+      "text": "Global Ocean Current",
+      "label": "DATA_PRODUCT",
+      "start": 451,
+      "end": 471,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "Data Access",
+      "label": "DATA_PRODUCT",
+      "start": 472,
+      "end": 483,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "MT-SAPHIR",
+      "label": "DATA_PRODUCT",
+      "start": 531,
+      "end": 540,
+      "mosdac_type": "INSTRUMENT"
+    },
+    {
+      "text": "ISRO",
+      "label": "STATION",
+      "start": 592,
+      "end": 596,
+      "mosdac_type": "STATION"
+    },
+    {
+      "text": "Indian Mainland Coastal Product",
+      "label": "DATA_PRODUCT",
+      "start": 787,
+      "end": 818,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "Renewable Energy\nCal-Val",
+      "label": "ORG",
+      "start": 903,
+      "end": 927,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "RSS Feeds",
+      "label": "ORG",
+      "start": 937,
+      "end": 946,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "Data Quality",
+      "label": "DATA_PRODUCT",
+      "start": 994,
+      "end": 1006,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "2018-02-08 10:35",
+      "label": "DATE",
+      "start": 1121,
+      "end": 1137,
+      "mosdac_type": "DATE"
+    },
+    {
+      "text": "2017-01-04",
+      "label": "DATE",
+      "start": 1152,
+      "end": 1162,
+      "mosdac_type": "DATE"
+    },
+    {
+      "text": "2",
+      "label": "CARDINAL",
+      "start": 1169,
+      "end": 1170,
+      "mosdac_type": "CARDINAL"
+    },
+    {
+      "text": "MOSDAC",
+      "label": "ORG",
+      "start": 1235,
+      "end": 1241,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "Space Applications Centre",
+      "label": "ORG",
+      "start": 1243,
+      "end": 1268,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "Indian Space Research Organisation",
+      "label": "REGION",
+      "start": 1270,
+      "end": 1304,
+      "mosdac_type": "REGION"
+    },
+    {
+      "text": "Govt",
+      "label": "ORG",
+      "start": 1306,
+      "end": 1310,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "INDIA",
+      "label": "REGION",
+      "start": 1315,
+      "end": 1320,
+      "mosdac_type": "REGION"
+    },
+    {
+      "text": "Oceanographic Satellite Data Archival Centre",
+      "label": "DATA_PRODUCT",
+      "start": 19,
+      "end": 63,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "MOSDAC",
+      "label": "DATA_PRODUCT",
+      "start": 65,
+      "end": 71,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "Oceanographic Satellite Data Archival Centre",
+      "label": "DATA_PRODUCT",
+      "start": 19,
+      "end": 63,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "MOSDAC",
+      "label": "DATA_PRODUCT",
+      "start": 65,
+      "end": 71,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "a Data Centre of Space Applications Centre",
+      "label": "DATA_PRODUCT",
+      "start": 76,
+      "end": 118,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "MOSDAC",
+      "label": "DATA_PRODUCT",
+      "start": 212,
+      "end": 218,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "Indian",
+      "label": "DATA_PRODUCT",
+      "start": 274,
+      "end": 280,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "Oceanographic",
+      "label": "DATA_PRODUCT",
+      "start": 16,
+      "end": 29,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "Satellite",
+      "label": "DATA_PRODUCT",
+      "start": 31,
+      "end": 40,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "Data, Archival",
+      "label": "DATA_PRODUCT",
+      "start": 42,
+      "end": 56,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "Data Centre",
+      "label": "DATA_PRODUCT",
+      "start": 58,
+      "end": 69,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "MOSDAC",
+      "label": "ORG",
+      "start": 0,
+      "end": 6,
+      "mosdac_type": "ORG"
+    }
+  ],
+  "relations": [
+    {
+      "head": "DWR",
+      "head_type": "INSTRUMENT",
+      "type": "MEASURES",
+      "tail": "AWS",
+      "tail_type": "PARAMETER",
+      "evidence": "Validation | Meteorological & Oceanographic Satellite Data Archival Centre\nSkip to main Content\n-\nA\nA\n+\nA\nA\nA\nहिन्दी\nEnglish\nMeteorological & Oceanographic Satellite Data Archival Centre\nSpace Applications Centre, ISRO\nHome\nMissions\nINSAT-3DR\nINSAT-3D\nKALPANA-1\nINSAT-3A\nMeghaTropiques\nSARAL-AltiKa\nOCEANSAT-2\nOCEANSAT-3\nINSAT-3DS\nSCATSAT-1\nCatalog\nSatellite\nInsitu (AWS)\nRADAR\nGalleries\nSatellite Products\nWeather Forecast\nOcean Forecast\nRADAR (DWR)\nGlobal Ocean Current\nData Access\nOrder Data\nOpen Data\nAtmosphere\nBayesian based MT-SAPHIR rainfall\nGPS derived Integrated water vapour\nGSMap ISRO Rain\nMETEOSAT8 Cloud Properties\nLand\n3D Volumetric TERLS DWRproduct\n",
+      "source": "model"
+    },
+    {
+      "head": "MT-SAPHIR",
+      "head_type": "INSTRUMENT",
+      "type": "MEASURES",
+      "tail": "AWS",
+      "tail_type": "PARAMETER",
+      "evidence": "Validation | Meteorological & Oceanographic Satellite Data Archival Centre\nSkip to main Content\n-\nA\nA\n+\nA\nA\nA\nहिन्दी\nEnglish\nMeteorological & Oceanographic Satellite Data Archival Centre\nSpace Applications Centre, ISRO\nHome\nMissions\nINSAT-3DR\nINSAT-3D\nKALPANA-1\nINSAT-3A\nMeghaTropiques\nSARAL-AltiKa\nOCEANSAT-2\nOCEANSAT-3\nINSAT-3DS\nSCATSAT-1\nCatalog\nSatellite\nInsitu (AWS)\nRADAR\nGalleries\nSatellite Products\nWeather Forecast\nOcean Forecast\nRADAR (DWR)\nGlobal Ocean Current\nData Access\nOrder Data\nOpen Data\nAtmosphere\nBayesian based MT-SAPHIR rainfall\nGPS derived Integrated water vapour\nGSMap ISRO Rain\nMETEOSAT8 Cloud Properties\nLand\n3D Volumetric TERLS DWRproduct\n",
+      "source": "model"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Satellite Data Archival Centre\nSkip",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "Inland Water Height\nRiver Discharge\nSoil Moisture\nOcean\nGlobal Ocean Surface Current\nHigh Resolution Sea Surface Salinity\nIndian Mainland Coastal Product\nOcean Subsurface\nOceanic Eddies Detection\nSea Ice Occurrence Probability\nWave based Renewable Energy\nCal-Val\nForecast\nRSS Feeds\nReports\nCa",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Satellite Data Archival Centre\nSkip",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "Inland Water Height\nRiver Discharge\nSoil Moisture\nOcean\nGlobal Ocean Surface Current\nHigh Resolution Sea Surface Salinity\nIndian Mainland Coastal Product\nOcean Subsurface\nOceanic Eddies Detection\nSea Ice Occurrence Probability\nWave based Renewable Energy\nCal-Val\nForecast\nRSS Feeds\nReports\nCalibration",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Satellite Data Archival Centre\nSkip",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "Inland Water Height\nRiver Discharge\nSoil Moisture\nOcean\nGlobal Ocean Surface Current\nHigh Resolution Sea Surface Salinity\nIndian Mainland Coastal Product\nOcean Subsurface\nOceanic Eddies Detection\nSea Ice Occurrence Probability\nWave based Renewable Energy\nCal-Val\nForecast\nRSS Feeds\nReports\nCalibration\nInsitu\nRelative\nValidation\nData Quality",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Satellite Data Archival Centre\nSkip",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "Inland Water Height\nRiver Discharge\nSoil Moisture\nOcean\nGlobal Ocean Surface Current\nHigh Resolution Sea Surface Salinity\nIndian Mainland Coastal Product\nOcean Subsurface\nOceanic Eddies Detection\nSea Ice Occurrence Probability\nWave based Renewable Energy\nCal-Val\nForecast\nRSS Feeds\nReports\nCalibration\nInsitu\nRelative\nValidation\nData Quality\nWeather\nAtlases\nTools\nSitemap\nHelp\nYou are here\n",
+      "source": "pattern"
+    },
+    {
+      "head": "Satellite Data Archival Centre\nSkip",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "Inland Water Height\nRiver Discharge\nSoil Moisture\nOcean\nGlobal Ocean Surface Current\nHigh Resolution Sea Surface Salinity\nIndian Mainland Coastal Product\nOcean Subsurface\nOceanic Eddies Detection\nSea Ice Occurrence Probability\nWave based Renewable Energy\nCal-Val\nForecast\nRSS Feeds\nReports\nCalibration\nInsitu\nRelative\nValidation\nData Quality\nWeather\nAtlases\nTools\nSitemap\nHelp\nYou are here\nHome\n» Validation\nValidation\nDisplay name\nmodified\nSatellite\nThu, 2018-02-08 10:35\nForecast\nWed, 2017-01-04 09:46\n2 folders\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Satellite Data Archival Centre\nSkip",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "Inland Water Height\nRiver Discharge\nSoil Moisture\nOcean\nGlobal Ocean Surface Current\nHigh Resolution Sea Surface Salinity\nIndian Mainland Coastal Product\nOcean Subsurface\nOceanic Eddies Detection\nSea Ice Occurrence Probability\nWave based Renewable Energy\nCal-Val\nForecast\nRSS Feeds\nReports\nCalibration\nInsitu\nRelative\nValidation\nData Quality\nWeather\nAtlases\nTools\nSitemap\nHelp\nYou are here\nHome\n» Validation\nValidation\nDisplay name\nmodified\nSatellite\nThu, 2018-02-08 10:35\nForecast\nWed, 2017-01-04 09:46\n2 folders\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "English",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "n Surface Current\nHigh Resolution Sea Surface Salinity\nIndian Mainland Coastal Product\nOcean Subsurface\nOceanic Eddies Detection\nSea Ice Occurrence Probability\nWave based Renewable Energy\nCal-Val\nForecast\nRSS Feeds\nReports\nCa",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "English",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "n Surface Current\nHigh Resolution Sea Surface Salinity\nIndian Mainland Coastal Product\nOcean Subsurface\nOceanic Eddies Detection\nSea Ice Occurrence Probability\nWave based Renewable Energy\nCal-Val\nForecast\nRSS Feeds\nReports\nCalibration",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "English",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "n Surface Current\nHigh Resolution Sea Surface Salinity\nIndian Mainland Coastal Product\nOcean Subsurface\nOceanic Eddies Detection\nSea Ice Occurrence Probability\nWave based Renewable Energy\nCal-Val\nForecast\nRSS Feeds\nReports\nCalibration\nInsitu\nRelative\nValidation\nData Quality",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "English",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "n Surface Current\nHigh Resolution Sea Surface Salinity\nIndian Mainland Coastal Product\nOcean Subsurface\nOceanic Eddies Detection\nSea Ice Occurrence Probability\nWave based Renewable Energy\nCal-Val\nForecast\nRSS Feeds\nReports\nCalibration\nInsitu\nRelative\nValidation\nData Quality\nWeather\nAtlases\nTools\nSitemap\nHelp\nYou are here\n",
+      "source": "pattern"
+    },
+    {
+      "head": "English",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "n Surface Current\nHigh Resolution Sea Surface Salinity\nIndian Mainland Coastal Product\nOcean Subsurface\nOceanic Eddies Detection\nSea Ice Occurrence Probability\nWave based Renewable Energy\nCal-Val\nForecast\nRSS Feeds\nReports\nCalibration\nInsitu\nRelative\nValidation\nData Quality\nWeather\nAtlases\nTools\nSitemap\nHelp\nYou are here\nHome\n» Validation\nValidation\nDisplay name\nmodified\nSatellite\nThu, 2018-02-08 10:35\nForecast\nWed, 2017-01-04 09:46\n2 folders\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "English",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "n Surface Current\nHigh Resolution Sea Surface Salinity\nIndian Mainland Coastal Product\nOcean Subsurface\nOceanic Eddies Detection\nSea Ice Occurrence Probability\nWave based Renewable Energy\nCal-Val\nForecast\nRSS Feeds\nReports\nCalibration\nInsitu\nRelative\nValidation\nData Quality\nWeather\nAtlases\nTools\nSitemap\nHelp\nYou are here\nHome\n» Validation\nValidation\nDisplay name\nmodified\nSatellite\nThu, 2018-02-08 10:35\nForecast\nWed, 2017-01-04 09:46\n2 folders\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Satellite Data Archival Centre\nSpace Applications Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "urface Salinity\nIndian Mainland Coastal Product\nOcean Subsurface\nOceanic Eddies Detection\nSea Ice Occurrence Probability\nWave based Renewable Energy\nCal-Val\nForecast\nRSS Feeds\nReports\nCa",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Satellite Data Archival Centre\nSpace Applications Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "urface Salinity\nIndian Mainland Coastal Product\nOcean Subsurface\nOceanic Eddies Detection\nSea Ice Occurrence Probability\nWave based Renewable Energy\nCal-Val\nForecast\nRSS Feeds\nReports\nCalibration",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Satellite Data Archival Centre\nSpace Applications Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "urface Salinity\nIndian Mainland Coastal Product\nOcean Subsurface\nOceanic Eddies Detection\nSea Ice Occurrence Probability\nWave based Renewable Energy\nCal-Val\nForecast\nRSS Feeds\nReports\nCalibration\nInsitu\nRelative\nValidation\nData Quality",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Satellite Data Archival Centre\nSpace Applications Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "urface Salinity\nIndian Mainland Coastal Product\nOcean Subsurface\nOceanic Eddies Detection\nSea Ice Occurrence Probability\nWave based Renewable Energy\nCal-Val\nForecast\nRSS Feeds\nReports\nCalibration\nInsitu\nRelative\nValidation\nData Quality\nWeather\nAtlases\nTools\nSitemap\nHelp\nYou are here\n",
+      "source": "pattern"
+    },
+    {
+      "head": "Satellite Data Archival Centre\nSpace Applications Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "urface Salinity\nIndian Mainland Coastal Product\nOcean Subsurface\nOceanic Eddies Detection\nSea Ice Occurrence Probability\nWave based Renewable Energy\nCal-Val\nForecast\nRSS Feeds\nReports\nCalibration\nInsitu\nRelative\nValidation\nData Quality\nWeather\nAtlases\nTools\nSitemap\nHelp\nYou are here\nHome\n» Validation\nValidation\nDisplay name\nmodified\nSatellite\nThu, 2018-02-08 10:35\nForecast\nWed, 2017-01-04 09:46\n2 folders\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Satellite Data Archival Centre\nSpace Applications Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "urface Salinity\nIndian Mainland Coastal Product\nOcean Subsurface\nOceanic Eddies Detection\nSea Ice Occurrence Probability\nWave based Renewable Energy\nCal-Val\nForecast\nRSS Feeds\nReports\nCalibration\nInsitu\nRelative\nValidation\nData Quality\nWeather\nAtlases\nTools\nSitemap\nHelp\nYou are here\nHome\n» Validation\nValidation\nDisplay name\nmodified\nSatellite\nThu, 2018-02-08 10:35\nForecast\nWed, 2017-01-04 09:46\n2 folders\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "ISRO",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "urface\nOceanic Eddies Detection\nSea Ice Occurrence Probability\nWave based Renewable Energy\nCal-Val\nForecast\nRSS Feeds\nReports\nCalibration\nInsitu\nRelative\nValidation\nData Quality\nWeather\nAtlases\nTools\nSitemap\nHelp\nYou are here\nHome\n» Validation\nValidation\nDisplay name\nmodified\nSatellite\nThu, 2018-02-08 10:35\nForecast\nWed, 2017-01-04 09:46\n2 folders\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "ISRO",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "urface\nOceanic Eddies Detection\nSea Ice Occurrence Probability\nWave based Renewable Energy\nCal-Val\nForecast\nRSS Feeds\nReports\nCalibration\nInsitu\nRelative\nValidation\nData Quality\nWeather\nAtlases\nTools\nSitemap\nHelp\nYou are here\nHome\n» Validation\nValidation\nDisplay name\nmodified\nSatellite\nThu, 2018-02-08 10:35\nForecast\nWed, 2017-01-04 09:46\n2 folders\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Global Ocean Current",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "es Detection\nSea Ice Occurrence Probability\nWave based Renewable Energy\nCal-Val\nForecast\nRSS Feeds\nReports\nCalibration\nInsitu\nRelative\nValidation\nData Quality\nWeather\nAtlases\nTools\nSitemap\nHelp\nYou are here\nHome\n» Validation\nValidation\nDisplay name\nmodified\nSatellite\nThu, 2018-02-08 10:35\nForecast\nWed, 2017-01-04 09:46\n2 folders\nSearch\n",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Access",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "es Detection\nSea Ice Occurrence Probability\nWave based Renewable Energy\nCal-Val\nForecast\nRSS Feeds\nReports\nCalibration\nInsitu\nRelative\nValidation\nData Quality\nWeather\nAtlases\nTools\nSitemap\nHelp\nYou are here\nHome\n» Validation\nValidation\nDisplay name\nmodified\nSatellite\nThu, 2018-02-08 10:35\nForecast\nWed, 2017-01-04 09:46\n2 folders\nSearch\nSearch\nFollo",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Indian Mainland Coastal Product",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "es Detection\nSea Ice Occurrence Probability\nWave based Renewable Energy\nCal-Val\nForecast\nRSS Feeds\nReports\nCalibration\nInsitu\nRelative\nValidation\nData Quality\nWeather\nAtlases\nTools\nSitemap\nHelp\nYou are here\nHome\n» Validation\nValidation\nDisplay name\nmodified\nSatellite\nThu, 2018-02-08 10:35\nForecast\nWed, 2017-01-04 09:46\n2 folders\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Quality",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "es Detection\nSea Ice Occurrence Probability\nWave based Renewable Energy\nCal-Val\nForecast\nRSS Feeds\nReports\nCalibration\nInsitu\nRelative\nValidation\nData Quality\nWeather\nAtlases\nTools\nSitemap\nHelp\nYou are here\nHome\n» Validation\nValidation\nDisplay name\nmodified\nSatellite\nThu, 2018-02-08 10:35\nForecast\nWed, 2017-01-04 09:46\n2 folders\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "es Detection\nSea Ice Occurrence Probability\nWave based Renewable Energy\nCal-Val\nForecast\nRSS Feeds\nReports\nCalibration\nInsitu\nRelative\nValidation\nData Quality\nWeather\nAtlases\nTools\nSitemap\nHelp\nYou are here\nHome\n» Validation\nValidation\nDisplay name\nmodified\nSatellite\nThu, 2018-02-08 10:35\nForecast\nWed, 2017-01-04 09:46\n2 folders\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "es Detection\nSea Ice Occurrence Probability\nWave based Renewable Energy\nCal-Val\nForecast\nRSS Feeds\nReports\nCalibration\nInsitu\nRelative\nValidation\nData Quality\nWeather\nAtlases\nTools\nSitemap\nHelp\nYou are here\nHome\n» Validation\nValidation\nDisplay name\nmodified\nSatellite\nThu, 2018-02-08 10:35\nForecast\nWed, 2017-01-04 09:46\n2 folders\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic Satellite Data Archival Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic Satellite Data Archival Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "a Data Centre of Space Applications Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "es Detection\nSea Ice Occurrence Probability\nWave based Renewable Energy\nCal-Val\nForec",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Indian",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "es Detection\nSea Ice Occurrence Probability\nWave based Renewable Energy\nCal-Val\nForecast\nRSS Feeds\nReports\nCalibration\nInsitu\nRelative\nValidation\nD",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Satellite",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data, Archival",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Global Ocean Current",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "on\nSea Ice Occurrence Probability\nWave based Renewable Energy\nCal-Val\nForecast\nRSS Feeds\nReports\nCalibration\nInsitu\nRelative\nValidation\nData Quality\nWeather\nAtlases\nTools\nSitemap\nHelp\nYou are here\nHome\n» Validation\nValidation\nDisplay name\nmodified\nSatellite\nThu, 2018-02-08 10:35\nForecast\nWed, 2017-01-04 09:46\n2 folders\nSearch\n",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Access",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "on\nSea Ice Occurrence Probability\nWave based Renewable Energy\nCal-Val\nForecast\nRSS Feeds\nReports\nCalibration\nInsitu\nRelative\nValidation\nData Quality\nWeather\nAtlases\nTools\nSitemap\nHelp\nYou are here\nHome\n» Validation\nValidation\nDisplay name\nmodified\nSatellite\nThu, 2018-02-08 10:35\nForecast\nWed, 2017-01-04 09:46\n2 folders\nSearch\nSearch\nFollo",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Indian Mainland Coastal Product",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "on\nSea Ice Occurrence Probability\nWave based Renewable Energy\nCal-Val\nForecast\nRSS Feeds\nReports\nCalibration\nInsitu\nRelative\nValidation\nData Quality\nWeather\nAtlases\nTools\nSitemap\nHelp\nYou are here\nHome\n» Validation\nValidation\nDisplay name\nmodified\nSatellite\nThu, 2018-02-08 10:35\nForecast\nWed, 2017-01-04 09:46\n2 folders\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Quality",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "on\nSea Ice Occurrence Probability\nWave based Renewable Energy\nCal-Val\nForecast\nRSS Feeds\nReports\nCalibration\nInsitu\nRelative\nValidation\nData Quality\nWeather\nAtlases\nTools\nSitemap\nHelp\nYou are here\nHome\n» Validation\nValidation\nDisplay name\nmodified\nSatellite\nThu, 2018-02-08 10:35\nForecast\nWed, 2017-01-04 09:46\n2 folders\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "on\nSea Ice Occurrence Probability\nWave based Renewable Energy\nCal-Val\nForecast\nRSS Feeds\nReports\nCalibration\nInsitu\nRelative\nValidation\nData Quality\nWeather\nAtlases\nTools\nSitemap\nHelp\nYou are here\nHome\n» Validation\nValidation\nDisplay name\nmodified\nSatellite\nThu, 2018-02-08 10:35\nForecast\nWed, 2017-01-04 09:46\n2 folders\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "on\nSea Ice Occurrence Probability\nWave based Renewable Energy\nCal-Val\nForecast\nRSS Feeds\nReports\nCalibration\nInsitu\nRelative\nValidation\nData Quality\nWeather\nAtlases\nTools\nSitemap\nHelp\nYou are here\nHome\n» Validation\nValidation\nDisplay name\nmodified\nSatellite\nThu, 2018-02-08 10:35\nForecast\nWed, 2017-01-04 09:46\n2 folders\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic Satellite Data Archival Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic Satellite Data Archival Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "a Data Centre of Space Applications Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "on\nSea Ice Occurrence Probability\nWave based Renewable Energy\nCal-Val\nForec",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Indian",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "on\nSea Ice Occurrence Probability\nWave based Renewable Energy\nCal-Val\nForecast\nRSS Feeds\nReports\nCalibration\nInsitu\nRelative\nValidation\nD",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Satellite",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data, Archival",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Global Ocean Current",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "d Renewable Energy\nCal-Val\nForecast\nRSS Feeds\nReports\nCalibration\nInsitu\nRelative\nValidation\nData Quality\nWeather\nAtlases\nTools\nSitemap\nHelp\nYou are here\nHome\n» Validation\nValidation\nDisplay name\nmodified\nSatellite\nThu, 2018-02-08 10:35\nForecast\nWed, 2017-01-04 09:46\n2 folders\nSearch\n",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Access",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "d Renewable Energy\nCal-Val\nForecast\nRSS Feeds\nReports\nCalibration\nInsitu\nRelative\nValidation\nData Quality\nWeather\nAtlases\nTools\nSitemap\nHelp\nYou are here\nHome\n» Validation\nValidation\nDisplay name\nmodified\nSatellite\nThu, 2018-02-08 10:35\nForecast\nWed, 2017-01-04 09:46\n2 folders\nSearch\nSearch\nFollo",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Indian Mainland Coastal Product",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "d Renewable Energy\nCal-Val\nForecast\nRSS Feeds\nReports\nCalibration\nInsitu\nRelative\nValidation\nData Quality\nWeather\nAtlases\nTools\nSitemap\nHelp\nYou are here\nHome\n» Validation\nValidation\nDisplay name\nmodified\nSatellite\nThu, 2018-02-08 10:35\nForecast\nWed, 2017-01-04 09:46\n2 folders\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Quality",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "d Renewable Energy\nCal-Val\nForecast\nRSS Feeds\nReports\nCalibration\nInsitu\nRelative\nValidation\nData Quality\nWeather\nAtlases\nTools\nSitemap\nHelp\nYou are here\nHome\n» Validation\nValidation\nDisplay name\nmodified\nSatellite\nThu, 2018-02-08 10:35\nForecast\nWed, 2017-01-04 09:46\n2 folders\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "d Renewable Energy\nCal-Val\nForecast\nRSS Feeds\nReports\nCalibration\nInsitu\nRelative\nValidation\nData Quality\nWeather\nAtlases\nTools\nSitemap\nHelp\nYou are here\nHome\n» Validation\nValidation\nDisplay name\nmodified\nSatellite\nThu, 2018-02-08 10:35\nForecast\nWed, 2017-01-04 09:46\n2 folders\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "d Renewable Energy\nCal-Val\nForecast\nRSS Feeds\nReports\nCalibration\nInsitu\nRelative\nValidation\nData Quality\nWeather\nAtlases\nTools\nSitemap\nHelp\nYou are here\nHome\n» Validation\nValidation\nDisplay name\nmodified\nSatellite\nThu, 2018-02-08 10:35\nForecast\nWed, 2017-01-04 09:46\n2 folders\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic Satellite Data Archival Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic Satellite Data Archival Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "a Data Centre of Space Applications Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "d Renewable Energy\nCal-Val\nForec",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Indian",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "d Renewable Energy\nCal-Val\nForecast\nRSS Feeds\nReports\nCalibration\nInsitu\nRelative\nValidation\nD",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Satellite",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data, Archival",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Global Ocean Current",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "\nReports\nCalibration\nInsitu\nRelative\nValidation\nData Quality\nWeather\nAtlases\nTools\nSitemap\nHelp\nYou are here\nHome\n» Validation\nValidation\nDisplay name\nmodified\nSatellite\nThu, 2018-02-08 10:35\nForecast\nWed, 2017-01-04 09:46\n2 folders\nSearch\n",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Access",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "\nReports\nCalibration\nInsitu\nRelative\nValidation\nData Quality\nWeather\nAtlases\nTools\nSitemap\nHelp\nYou are here\nHome\n» Validation\nValidation\nDisplay name\nmodified\nSatellite\nThu, 2018-02-08 10:35\nForecast\nWed, 2017-01-04 09:46\n2 folders\nSearch\nSearch\nFollo",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Indian Mainland Coastal Product",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "\nReports\nCalibration\nInsitu\nRelative\nValidation\nData Quality\nWeather\nAtlases\nTools\nSitemap\nHelp\nYou are here\nHome\n» Validation\nValidation\nDisplay name\nmodified\nSatellite\nThu, 2018-02-08 10:35\nForecast\nWed, 2017-01-04 09:46\n2 folders\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Quality",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "\nReports\nCalibration\nInsitu\nRelative\nValidation\nData Quality\nWeather\nAtlases\nTools\nSitemap\nHelp\nYou are here\nHome\n» Validation\nValidation\nDisplay name\nmodified\nSatellite\nThu, 2018-02-08 10:35\nForecast\nWed, 2017-01-04 09:46\n2 folders\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "\nReports\nCalibration\nInsitu\nRelative\nValidation\nData Quality\nWeather\nAtlases\nTools\nSitemap\nHelp\nYou are here\nHome\n» Validation\nValidation\nDisplay name\nmodified\nSatellite\nThu, 2018-02-08 10:35\nForecast\nWed, 2017-01-04 09:46\n2 folders\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "\nReports\nCalibration\nInsitu\nRelative\nValidation\nData Quality\nWeather\nAtlases\nTools\nSitemap\nHelp\nYou are here\nHome\n» Validation\nValidation\nDisplay name\nmodified\nSatellite\nThu, 2018-02-08 10:35\nForecast\nWed, 2017-01-04 09:46\n2 folders\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic Satellite Data Archival Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic Satellite Data Archival Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "a Data Centre of Space Applications Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Indian",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "\nReports\nCalibration\nInsitu\nRelative\nValidation\nD",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Satellite",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data, Archival",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "DWR",
+      "head_type": "INSTRUMENT",
+      "type": "MEASURES",
+      "tail": "AWS",
+      "tail_type": "PARAMETER",
+      "evidence": "\nValidation\nData Quality\nWeather\nAtlases\nTools\nSitemap\nHelp\nYou are here\nHome\n» Validation\nValidation\nDisplay name\nmodified\nSatellite\nThu, 2018-02-08 10:35\nForecast\nWed, 2017-01-04 0",
+      "source": "pattern"
+    },
+    {
+      "head": "MT-SAPHIR",
+      "head_type": "INSTRUMENT",
+      "type": "MEASURES",
+      "tail": "AWS",
+      "tail_type": "PARAMETER",
+      "evidence": "\nValidation\nData Quality\nWeather\nAtlases\nTools\nSitemap\nHelp\nYou are here\nHome\n» Validation\nValidation\nDisplay name\nmodified\nSatellite\nThu, 2018-02-08 10:35\nForecast\nWed, 2017-01-04 09:46\n2 folders\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applic",
+      "source": "pattern"
+    },
+    {
+      "head": "DWR",
+      "head_type": "INSTRUMENT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": " Validation\nValidation\nDisplay name\nmodified\nSatellite\nThu, 2018-02-08 10:35\nForecast\nWed, 2017-01-04 09:46\n2 folders\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "DWR",
+      "head_type": "INSTRUMENT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": " Validation\nValidation\nDisplay name\nmodified\nSatellite\nThu, 2018-02-08 10:35\nForecast\nWed, 2017-01-04 09:46\n2 folders\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Global Ocean Current",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "dation\nValidation\nDisplay name\nmodified\nSatellite\nThu, 2018-02-08 10:35\nForecast\nWed, 2017-01-04 09:46\n2 folders\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Global Ocean Current",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "dation\nValidation\nDisplay name\nmodified\nSatellite\nThu, 2018-02-08 10:35\nForecast\nWed, 2017-01-04 09:46\n2 folders\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Data Access",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "play name\nmodified\nSatellite\nThu, 2018-02-08 10:35\nForecast\nWed, 2017-01-04 09:46\n2 folders\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Data Access",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "play name\nmodified\nSatellite\nThu, 2018-02-08 10:35\nForecast\nWed, 2017-01-04 09:46\n2 folders\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "MT-SAPHIR",
+      "head_type": "INSTRUMENT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "\nWed, 2017-01-04 09:46\n2 folders\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "MT-SAPHIR",
+      "head_type": "INSTRUMENT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "\nWed, 2017-01-04 09:46\n2 folders\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "ISRO",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "ite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "ISRO",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "ite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Indian Mainland Coastal Product",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Indian Mainland Coastal Product",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Data Quality",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Data Quality",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic Satellite Data Archival Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic Satellite Data Archival Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "a Data Centre of Space Applications Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Indian",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Satellite",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Data, Archival",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Data Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic Satellite Data Archival Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic Satellite Data Archival Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "a Data Centre of Space Applications Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Indian",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Satellite",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Data, Archival",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Data Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    }
+  ],
+  "stats": {
+    "entity_count": 39,
+    "relation_count": 128
+  }
+}

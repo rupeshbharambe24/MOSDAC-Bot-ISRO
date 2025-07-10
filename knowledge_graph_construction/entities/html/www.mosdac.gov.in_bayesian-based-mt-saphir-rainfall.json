@@ -1,0 +1,1549 @@
+{
+  "source": "R:\\Projects\\MOSDAC Help Bot\\Codes\\data_processing\\processed_output\\html\\www.mosdac.gov.in_bayesian-based-mt-saphir-rainfall.json",
+  "text_entities": [
+    {
+      "text": "Bayesian",
+      "label": "REGION",
+      "start": 0,
+      "end": 8
+    },
+    {
+      "text": "MT-SAPHIR",
+      "label": "ORG",
+      "start": 15,
+      "end": 24
+    },
+    {
+      "text": "Meteorological & Oceanographic Satellite Data Archival Centre\nSkip",
+      "label": "DATA_PRODUCT",
+      "start": 36,
+      "end": 102
+    },
+    {
+      "text": "English",
+      "label": "DATA_PRODUCT",
+      "start": 140,
+      "end": 147
+    },
+    {
+      "text": "Satellite Data Archival Centre\nSpace Applications Centre",
+      "label": "DATA_PRODUCT",
+      "start": 179,
+      "end": 235
+    },
+    {
+      "text": "ISRO",
+      "label": "ORG",
+      "start": 237,
+      "end": 241
+    },
+    {
+      "text": "INSAT-3DR",
+      "label": "SATELLITE",
+      "start": 256,
+      "end": 265
+    },
+    {
+      "text": "INSAT-3D",
+      "label": "SATELLITE",
+      "start": 266,
+      "end": 274
+    },
+    {
+      "text": "SARAL",
+      "label": "SATELLITE",
+      "start": 309,
+      "end": 314
+    },
+    {
+      "text": "SCATSAT-1",
+      "label": "SATELLITE",
+      "start": 354,
+      "end": 363
+    },
+    {
+      "text": "AWS",
+      "label": "DATA_PRODUCT",
+      "start": 390,
+      "end": 393
+    },
+    {
+      "text": "RADAR",
+      "label": "ORG",
+      "start": 462,
+      "end": 467
+    },
+    {
+      "text": "DWR",
+      "label": "ORG",
+      "start": 469,
+      "end": 472
+    },
+    {
+      "text": "Global Ocean Current",
+      "label": "DATA_PRODUCT",
+      "start": 474,
+      "end": 494
+    },
+    {
+      "text": "Data Access",
+      "label": "DATA_PRODUCT",
+      "start": 495,
+      "end": 506
+    },
+    {
+      "text": "MT-SAPHIR",
+      "label": "DATA_PRODUCT",
+      "start": 554,
+      "end": 563
+    },
+    {
+      "text": "ISRO",
+      "label": "STATION",
+      "start": 615,
+      "end": 619
+    },
+    {
+      "text": "Indian Mainland Coastal Product",
+      "label": "DATA_PRODUCT",
+      "start": 810,
+      "end": 841
+    },
+    {
+      "text": "Renewable Energy\nCal-Val",
+      "label": "ORG",
+      "start": 926,
+      "end": 950
+    },
+    {
+      "text": "RSS Feeds",
+      "label": "ORG",
+      "start": 960,
+      "end": 969
+    },
+    {
+      "text": "Data Quality",
+      "label": "DATA_PRODUCT",
+      "start": 1017,
+      "end": 1029
+    },
+    {
+      "text": "Data Access",
+      "label": "DATA_PRODUCT",
+      "start": 1085,
+      "end": 1096
+    },
+    {
+      "text": "Bayesian",
+      "label": "DATA_PRODUCT",
+      "start": 1124,
+      "end": 1132
+    },
+    {
+      "text": "MT-SAPHIR",
+      "label": "DATA_PRODUCT",
+      "start": 1139,
+      "end": 1148
+    },
+    {
+      "text": "Bayesian",
+      "label": "REGION",
+      "start": 1158,
+      "end": 1166
+    },
+    {
+      "text": "MT-SAPHIR",
+      "label": "ORG",
+      "start": 1173,
+      "end": 1182
+    },
+    {
+      "text": "MT",
+      "label": "REGION",
+      "start": 1210,
+      "end": 1212
+    },
+    {
+      "text": "Indo-French",
+      "label": "PRODUCT",
+      "start": 1225,
+      "end": 1236
+    },
+    {
+      "text": "12 October 2011",
+      "label": "DATE",
+      "start": 1291,
+      "end": 1306
+    },
+    {
+      "text": "MT",
+      "label": "REGION",
+      "start": 1330,
+      "end": 1332
+    },
+    {
+      "text": "Microwave Analysis and Detection of Rain and Atmospheric Structures",
+      "label": "ORG",
+      "start": 1460,
+      "end": 1527
+    },
+    {
+      "text": "MADRAS",
+      "label": "ORG",
+      "start": 1529,
+      "end": 1535
+    },
+    {
+      "text": "Scanner for Radiation Budget",
+      "label": "ORG",
+      "start": 1559,
+      "end": 1587
+    },
+    {
+      "text": "Sondeur Atmospherique du Profil",
+      "label": "PERSON",
+      "start": 1634,
+      "end": 1665
+    },
+    {
+      "text": "SAPHIR",
+      "label": "INSTRUMENT",
+      "start": 1708,
+      "end": 1714
+    },
+    {
+      "text": "SAPHIR",
+      "label": "INSTRUMENT",
+      "start": 1717,
+      "end": 1723
+    },
+    {
+      "text": "6",
+      "label": "CARDINAL",
+      "start": 1776,
+      "end": 1777
+    },
+    {
+      "text": "183.31GHz",
+      "label": "DATA_PRODUCT",
+      "start": 1792,
+      "end": 1801
+    },
+    {
+      "text": "SAPHIR",
+      "label": "DATA_PRODUCT",
+      "start": 1846,
+      "end": 1852
+    },
+    {
+      "text": "183.31GHz",
+      "label": "CARDINAL",
+      "start": 1905,
+      "end": 1914
+    },
+    {
+      "text": "Bayesian",
+      "label": "REGION",
+      "start": 1928,
+      "end": 1936
+    },
+    {
+      "text": "SAPHIR",
+      "label": "PRODUCT",
+      "start": 1991,
+      "end": 1997
+    },
+    {
+      "text": "IMERG",
+      "label": "ORG",
+      "start": 2103,
+      "end": 2108
+    },
+    {
+      "text": "DPR",
+      "label": "ORG",
+      "start": 2113,
+      "end": 2116
+    },
+    {
+      "text": "Jan-Dec 2017",
+      "label": "DATA_PRODUCT",
+      "start": 2133,
+      "end": 2145
+    },
+    {
+      "text": "Data Access",
+      "label": "DATA_PRODUCT",
+      "start": 2229,
+      "end": 2240
+    },
+    {
+      "text": "the Science Products",
+      "label": "DATA_PRODUCT",
+      "start": 2262,
+      "end": 2282
+    },
+    {
+      "text": "MOSDAC Single Sign",
+      "label": "DATA_PRODUCT",
+      "start": 2299,
+      "end": 2317
+    },
+    {
+      "text": "Data Version",
+      "label": "DATA_PRODUCT",
+      "start": 2360,
+      "end": 2372
+    },
+    {
+      "text": "Data Sources",
+      "label": "DATA_PRODUCT",
+      "start": 2392,
+      "end": 2404
+    },
+    {
+      "text": "SAPHIR",
+      "label": "DATA_PRODUCT",
+      "start": 2405,
+      "end": 2411
+    },
+    {
+      "text": "1A",
+      "label": "CARDINAL",
+      "start": 2418,
+      "end": 2420
+    },
+    {
+      "text": "TB",
+      "label": "ORG",
+      "start": 2421,
+      "end": 2423
+    },
+    {
+      "text": "Processing Steps\nSAPHIR",
+      "label": "DATA_PRODUCT",
+      "start": 2429,
+      "end": 2452
+    },
+    {
+      "text": "Bayesian",
+      "label": "REGION",
+      "start": 2613,
+      "end": 2621
+    },
+    {
+      "text": "hourly",
+      "label": "TIME",
+      "start": 2664,
+      "end": 2670
+    },
+    {
+      "text": "Bayesian",
+      "label": "REGION",
+      "start": 2680,
+      "end": 2688
+    },
+    {
+      "text": "SAPHIR",
+      "label": "DATA_PRODUCT",
+      "start": 2735,
+      "end": 2741
+    },
+    {
+      "text": "C.D.",
+      "label": "NORP",
+      "start": 2785,
+      "end": 2789
+    },
+    {
+      "text": "W. S. Olson",
+      "label": "DATA_PRODUCT",
+      "start": 2791,
+      "end": 2802
+    },
+    {
+      "text": "L. Giglio",
+      "label": "PERSON",
+      "start": 2808,
+      "end": 2817
+    },
+    {
+      "text": "IEEE Trans",
+      "label": "ORG",
+      "start": 2933,
+      "end": 2943
+    },
+    {
+      "text": "Geosci",
+      "label": "PERSON",
+      "start": 2945,
+      "end": 2951
+    },
+    {
+      "text": "vol",
+      "label": "REGION",
+      "start": 2967,
+      "end": 2970
+    },
+    {
+      "text": "34",
+      "label": "CARDINAL",
+      "start": 2972,
+      "end": 2974
+    },
+    {
+      "text": "1213–1232",
+      "label": "CARDINAL",
+      "start": 2987,
+      "end": 2996
+    },
+    {
+      "text": "Sep. 1996",
+      "label": "DATE",
+      "start": 2998,
+      "end": 3007
+    },
+    {
+      "text": "Pierdicca",
+      "label": "REGION",
+      "start": 3009,
+      "end": 3018
+    },
+    {
+      "text": "F. S. Marzano",
+      "label": "PERSON",
+      "start": 3024,
+      "end": 3037
+    },
+    {
+      "text": "G. D’Auria",
+      "label": "PERSON",
+      "start": 3039,
+      "end": 3049
+    },
+    {
+      "text": "P. Basili",
+      "label": "PERSON",
+      "start": 3051,
+      "end": 3060
+    },
+    {
+      "text": "P. Ciotti",
+      "label": "PERSON",
+      "start": 3062,
+      "end": 3071
+    },
+    {
+      "text": "A. Mugnai",
+      "label": "ORG",
+      "start": 3077,
+      "end": 3086
+    },
+    {
+      "text": "IEEE Trans",
+      "label": "ORG",
+      "start": 3201,
+      "end": 3211
+    },
+    {
+      "text": "Geosci",
+      "label": "PERSON",
+      "start": 3213,
+      "end": 3219
+    },
+    {
+      "text": "vol",
+      "label": "REGION",
+      "start": 3235,
+      "end": 3238
+    },
+    {
+      "text": "34",
+      "label": "CARDINAL",
+      "start": 3240,
+      "end": 3242
+    },
+    {
+      "text": "831–846",
+      "label": "CARDINAL",
+      "start": 3255,
+      "end": 3262
+    },
+    {
+      "text": "Jul. 1996",
+      "label": "DATE",
+      "start": 3264,
+      "end": 3273
+    },
+    {
+      "text": "Olson",
+      "label": "PERSON",
+      "start": 3275,
+      "end": 3280
+    },
+    {
+      "text": "W.S.",
+      "label": "PERSON",
+      "start": 3282,
+      "end": 3286
+    },
+    {
+      "text": "C. D. Kummerow",
+      "label": "PERSON",
+      "start": 3288,
+      "end": 3302
+    },
+    {
+      "text": "G. M. Heymsfield",
+      "label": "PERSON",
+      "start": 3304,
+      "end": 3320
+    },
+    {
+      "text": "L. Giglio",
+      "label": "PERSON",
+      "start": 3326,
+      "end": 3335
+    },
+    {
+      "text": "J. Appl",
+      "label": "DATA_PRODUCT",
+      "start": 3434,
+      "end": 3441
+    },
+    {
+      "text": "vol",
+      "label": "REGION",
+      "start": 3454,
+      "end": 3457
+    },
+    {
+      "text": "35",
+      "label": "DATE",
+      "start": 3459,
+      "end": 3461
+    },
+    {
+      "text": "1996",
+      "label": "DATE",
+      "start": 3478,
+      "end": 3482
+    },
+    {
+      "text": "Marzano",
+      "label": "REGION",
+      "start": 3484,
+      "end": 3491
+    },
+    {
+      "text": "F.S.",
+      "label": "REGION",
+      "start": 3493,
+      "end": 3497
+    },
+    {
+      "text": "A. Mugnai",
+      "label": "REGION",
+      "start": 3499,
+      "end": 3508
+    },
+    {
+      "text": "G. Panegrossi",
+      "label": "PERSON",
+      "start": 3510,
+      "end": 3523
+    },
+    {
+      "text": "N. Pierdicca",
+      "label": "PERSON",
+      "start": 3525,
+      "end": 3537
+    },
+    {
+      "text": "E. A. Smith",
+      "label": "PERSON",
+      "start": 3539,
+      "end": 3550
+    },
+    {
+      "text": "J. Turk",
+      "label": "PERSON",
+      "start": 3556,
+      "end": 3563
+    },
+    {
+      "text": "Bayesian",
+      "label": "DATA_PRODUCT",
+      "start": 3565,
+      "end": 3573
+    },
+    {
+      "text": "IEEE Trans",
+      "label": "ORG",
+      "start": 3692,
+      "end": 3702
+    },
+    {
+      "text": "Geosci",
+      "label": "PERSON",
+      "start": 3704,
+      "end": 3710
+    },
+    {
+      "text": "vol",
+      "label": "REGION",
+      "start": 3726,
+      "end": 3729
+    },
+    {
+      "text": "37",
+      "label": "DATE",
+      "start": 3731,
+      "end": 3733
+    },
+    {
+      "text": "596–613",
+      "label": "CARDINAL",
+      "start": 3746,
+      "end": 3753
+    },
+    {
+      "text": "Jan. 1999",
+      "label": "DATE",
+      "start": 3755,
+      "end": 3764
+    },
+    {
+      "text": "Viltard, N., C. Burlaud",
+      "label": "ORG",
+      "start": 3766,
+      "end": 3789
+    },
+    {
+      "text": "C. D. Kummerow",
+      "label": "PERSON",
+      "start": 3795,
+      "end": 3809
+    },
+    {
+      "text": "J. Appl",
+      "label": "DATA_PRODUCT",
+      "start": 3903,
+      "end": 3910
+    },
+    {
+      "text": "Meteor",
+      "label": "DATA_PRODUCT",
+      "start": 3912,
+      "end": 3918
+    },
+    {
+      "text": "Climatol",
+      "label": "DATA_PRODUCT",
+      "start": 3920,
+      "end": 3928
+    },
+    {
+      "text": "45",
+      "label": "DATE",
+      "start": 3930,
+      "end": 3932
+    },
+    {
+      "text": "455–466",
+      "label": "DATA_PRODUCT",
+      "start": 3934,
+      "end": 3941
+    },
+    {
+      "text": "2006",
+      "label": "DATE",
+      "start": 3966,
+      "end": 3970
+    },
+    {
+      "text": "Gopalan",
+      "label": "PERSON",
+      "start": 3972,
+      "end": 3979
+    },
+    {
+      "text": "K.",
+      "label": "PERSON",
+      "start": 3981,
+      "end": 3983
+    },
+    {
+      "text": "Wang",
+      "label": "PERSON",
+      "start": 3991,
+      "end": 3995
+    },
+    {
+      "text": "R. Ferraro",
+      "label": "PERSON",
+      "start": 3997,
+      "end": 4007
+    },
+    {
+      "text": "C. Liu",
+      "label": "PERSON",
+      "start": 4013,
+      "end": 4019
+    },
+    {
+      "text": "J. Atmos",
+      "label": "PERSON",
+      "start": 4076,
+      "end": 4084
+    },
+    {
+      "text": "Oceanic Technol",
+      "label": "REGION",
+      "start": 4086,
+      "end": 4101
+    },
+    {
+      "text": "27",
+      "label": "DATE",
+      "start": 4104,
+      "end": 4106
+    },
+    {
+      "text": "1343–1354",
+      "label": "CARDINAL",
+      "start": 4108,
+      "end": 4117
+    },
+    {
+      "text": "2010",
+      "label": "DATE",
+      "start": 4149,
+      "end": 4153
+    },
+    {
+      "text": "Rainfall Estimation",
+      "label": "DATA_PRODUCT",
+      "start": 4217,
+      "end": 4236
+    },
+    {
+      "text": "Megha-Tropiques Microwave Sounder-SAPHIR",
+      "label": "SATELLITE",
+      "start": 4242,
+      "end": 4282
+    },
+    {
+      "text": "Bayesian",
+      "label": "REGION",
+      "start": 4289,
+      "end": 4297
+    },
+    {
+      "text": "Rainfall",
+      "label": "DATA_PRODUCT",
+      "start": 4361,
+      "end": 4369
+    },
+    {
+      "text": "3",
+      "label": "CARDINAL",
+      "start": 4404,
+      "end": 4405
+    },
+    {
+      "text": "SAPHIR",
+      "label": "DATA_PRODUCT",
+      "start": 4438,
+      "end": 4444
+    },
+    {
+      "text": "HDF5",
+      "label": "ORG",
+      "start": 4529,
+      "end": 4533
+    },
+    {
+      "text": "VVV",
+      "label": "ORG",
+      "start": 4582,
+      "end": 4585
+    },
+    {
+      "text": "Level 1",
+      "label": "LAW",
+      "start": 4593,
+      "end": 4600
+    },
+    {
+      "text": "YYYY",
+      "label": "DATE",
+      "start": 4616,
+      "end": 4620
+    },
+    {
+      "text": "the year",
+      "label": "DATE",
+      "start": 4624,
+      "end": 4632
+    },
+    {
+      "text": "MM",
+      "label": "PERSON",
+      "start": 4634,
+      "end": 4636
+    },
+    {
+      "text": "the month",
+      "label": "DATA_PRODUCT",
+      "start": 4640,
+      "end": 4649
+    },
+    {
+      "text": "MetaData\nSr.",
+      "label": "DATA_PRODUCT",
+      "start": 4683,
+      "end": 4695
+    },
+    {
+      "text": "1",
+      "label": "CARDINAL",
+      "start": 4733,
+      "end": 4734
+    },
+    {
+      "text": "English",
+      "label": "DATA_PRODUCT",
+      "start": 4753,
+      "end": 4760
+    },
+    {
+      "text": "2",
+      "label": "CARDINAL",
+      "start": 4761,
+      "end": 4762
+    },
+    {
+      "text": "3",
+      "label": "CARDINAL",
+      "start": 4787,
+      "end": 4788
+    },
+    {
+      "text": "June 2018",
+      "label": "DATA_PRODUCT",
+      "start": 4803,
+      "end": 4812
+    },
+    {
+      "text": "4",
+      "label": "CARDINAL",
+      "start": 4813,
+      "end": 4814
+    },
+    {
+      "text": "5",
+      "label": "CARDINAL",
+      "start": 4849,
+      "end": 4850
+    },
+    {
+      "text": "Bayesian",
+      "label": "DATA_PRODUCT",
+      "start": 4857,
+      "end": 4865
+    },
+    {
+      "text": "MT-SAPHIR",
+      "label": "ORG",
+      "start": 4872,
+      "end": 4881
+    },
+    {
+      "text": "6",
+      "label": "CARDINAL",
+      "start": 4891,
+      "end": 4892
+    },
+    {
+      "text": "MT",
+      "label": "REGION",
+      "start": 4920,
+      "end": 4922
+    },
+    {
+      "text": "Indo-French",
+      "label": "PRODUCT",
+      "start": 4935,
+      "end": 4946
+    },
+    {
+      "text": "12 October 2011",
+      "label": "DATE",
+      "start": 5001,
+      "end": 5016
+    },
+    {
+      "text": "MT",
+      "label": "REGION",
+      "start": 5040,
+      "end": 5042
+    },
+    {
+      "text": "Microwave Analysis and Detection of Rain and Atmospheric Structures",
+      "label": "ORG",
+      "start": 5170,
+      "end": 5237
+    },
+    {
+      "text": "MADRAS",
+      "label": "ORG",
+      "start": 5239,
+      "end": 5245
+    },
+    {
+      "text": "Scanner for Radiation Budget and Radio Occultation Sensor",
+      "label": "ORG",
+      "start": 5269,
+      "end": 5326
+    },
+    {
+      "text": "Sondeur Atmospherique du Profil",
+      "label": "PERSON",
+      "start": 5347,
+      "end": 5378
+    },
+    {
+      "text": "SAPHIR",
+      "label": "INSTRUMENT",
+      "start": 5421,
+      "end": 5427
+    },
+    {
+      "text": "SAPHIR",
+      "label": "INSTRUMENT",
+      "start": 5430,
+      "end": 5436
+    },
+    {
+      "text": "6",
+      "label": "CARDINAL",
+      "start": 5489,
+      "end": 5490
+    },
+    {
+      "text": "183.31GHz",
+      "label": "DATA_PRODUCT",
+      "start": 5505,
+      "end": 5514
+    },
+    {
+      "text": "SAPHIR",
+      "label": "DATA_PRODUCT",
+      "start": 5559,
+      "end": 5565
+    },
+    {
+      "text": "183.31GHz",
+      "label": "CARDINAL",
+      "start": 5618,
+      "end": 5627
+    },
+    {
+      "text": "Bayesian",
+      "label": "REGION",
+      "start": 5641,
+      "end": 5649
+    },
+    {
+      "text": "SAPHIR",
+      "label": "PRODUCT",
+      "start": 5704,
+      "end": 5710
+    },
+    {
+      "text": "IMERG",
+      "label": "ORG",
+      "start": 5816,
+      "end": 5821
+    },
+    {
+      "text": "DPR",
+      "label": "ORG",
+      "start": 5826,
+      "end": 5829
+    },
+    {
+      "text": "Jan-Dec 2017",
+      "label": "DATA_PRODUCT",
+      "start": 5846,
+      "end": 5858
+    },
+    {
+      "text": "7",
+      "label": "CARDINAL",
+      "start": 5942,
+      "end": 5943
+    },
+    {
+      "text": "Neerja Sharma",
+      "label": "DATA_PRODUCT",
+      "start": 5960,
+      "end": 5973
+    },
+    {
+      "text": "Kaushik Gopalan",
+      "label": "DATA_PRODUCT",
+      "start": 5978,
+      "end": 5993
+    },
+    {
+      "text": "GRD",
+      "label": "ORG",
+      "start": 5995,
+      "end": 5998
+    },
+    {
+      "text": "Space Applications Centre",
+      "label": "ORG",
+      "start": 6010,
+      "end": 6035
+    },
+    {
+      "text": "ISRO",
+      "label": "STATION",
+      "start": 6037,
+      "end": 6041
+    },
+    {
+      "text": "Ahmedabad",
+      "label": "REGION",
+      "start": 6044,
+      "end": 6053
+    },
+    {
+      "text": "380015",
+      "label": "DATE",
+      "start": 6055,
+      "end": 6061
+    },
+    {
+      "text": "kaushikg@sac.isro.gov.in",
+      "label": "PRODUCT",
+      "start": 6063,
+      "end": 6087
+    },
+    {
+      "text": "8",
+      "label": "CARDINAL",
+      "start": 6088,
+      "end": 6089
+    },
+    {
+      "text": "January 2017 to May 2018",
+      "label": "DATA_PRODUCT",
+      "start": 6107,
+      "end": 6131
+    },
+    {
+      "text": "daily",
+      "label": "DATE",
+      "start": 6174,
+      "end": 6179
+    },
+    {
+      "text": "hours",
+      "label": "TIME",
+      "start": 6189,
+      "end": 6194
+    },
+    {
+      "text": "9",
+      "label": "CARDINAL",
+      "start": 6200,
+      "end": 6201
+    },
+    {
+      "text": "10",
+      "label": "CARDINAL",
+      "start": 6243,
+      "end": 6245
+    },
+    {
+      "text": "Spatial Resolution",
+      "label": "DATA_PRODUCT",
+      "start": 6246,
+      "end": 6264
+    },
+    {
+      "text": "SAPHIR",
+      "label": "INSTRUMENT",
+      "start": 6318,
+      "end": 6324
+    },
+    {
+      "text": "11",
+      "label": "CARDINAL",
+      "start": 6337,
+      "end": 6339
+    },
+    {
+      "text": "English",
+      "label": "LANGUAGE",
+      "start": 6349,
+      "end": 6356
+    },
+    {
+      "text": "12",
+      "label": "CARDINAL",
+      "start": 6357,
+      "end": 6359
+    },
+    {
+      "text": "Rainfall",
+      "label": "DATA_PRODUCT",
+      "start": 6375,
+      "end": 6383
+    },
+    {
+      "text": "13",
+      "label": "CARDINAL",
+      "start": 6384,
+      "end": 6386
+    },
+    {
+      "text": "Bayesian",
+      "label": "REGION",
+      "start": 6415,
+      "end": 6423
+    },
+    {
+      "text": "14\nDate",
+      "label": "DATE",
+      "start": 6444,
+      "end": 6451
+    },
+    {
+      "text": "January 2017",
+      "label": "DATE",
+      "start": 6467,
+      "end": 6479
+    },
+    {
+      "text": "15",
+      "label": "CARDINAL",
+      "start": 6489,
+      "end": 6491
+    },
+    {
+      "text": "Neerja Sharma",
+      "label": "PERSON",
+      "start": 6510,
+      "end": 6523
+    },
+    {
+      "text": "Kaushik Gopalan",
+      "label": "ORG",
+      "start": 6528,
+      "end": 6543
+    },
+    {
+      "text": "GRD",
+      "label": "ORG",
+      "start": 6544,
+      "end": 6547
+    },
+    {
+      "text": "Space Applications Centre",
+      "label": "ORG",
+      "start": 6560,
+      "end": 6585
+    },
+    {
+      "text": "ISRO",
+      "label": "STATION",
+      "start": 6587,
+      "end": 6591
+    },
+    {
+      "text": "India",
+      "label": "REGION",
+      "start": 6612,
+      "end": 6617
+    },
+    {
+      "text": "16",
+      "label": "CARDINAL",
+      "start": 6618,
+      "end": 6620
+    },
+    {
+      "text": "Organization\nSpace Applications Centre",
+      "label": "ORG",
+      "start": 6621,
+      "end": 6659
+    },
+    {
+      "text": "ISRO",
+      "label": "STATION",
+      "start": 6661,
+      "end": 6665
+    },
+    {
+      "text": "Ahmedabad",
+      "label": "REGION",
+      "start": 6668,
+      "end": 6677
+    },
+    {
+      "text": "India",
+      "label": "REGION",
+      "start": 6679,
+      "end": 6684
+    },
+    {
+      "text": "16a",
+      "label": "CARDINAL",
+      "start": 6685,
+      "end": 6688
+    },
+    {
+      "text": "Rainfall",
+      "label": "DATA_PRODUCT",
+      "start": 6699,
+      "end": 6707
+    },
+    {
+      "text": "MT",
+      "label": "REGION",
+      "start": 6723,
+      "end": 6725
+    },
+    {
+      "text": "SAPHIR",
+      "label": "DATA_PRODUCT",
+      "start": 6726,
+      "end": 6732
+    },
+    {
+      "text": "16b",
+      "label": "CARDINAL",
+      "start": 6746,
+      "end": 6749
+    },
+    {
+      "text": "Neerja Sharma",
+      "label": "DATA_PRODUCT",
+      "start": 6766,
+      "end": 6779
+    },
+    {
+      "text": "GRD",
+      "label": "ORG",
+      "start": 6781,
+      "end": 6784
+    },
+    {
+      "text": "India",
+      "label": "REGION",
+      "start": 6825,
+      "end": 6830
+    },
+    {
+      "text": "79 26916115",
+      "label": "CARDINAL",
+      "start": 6839,
+      "end": 6850
+    },
+    {
+      "text": "Kaushik Gopalan",
+      "label": "ORG",
+      "start": 6888,
+      "end": 6903
+    },
+    {
+      "text": "GRD",
+      "label": "ORG",
+      "start": 6905,
+      "end": 6908
+    },
+    {
+      "text": "ISRO",
+      "label": "STATION",
+      "start": 6925,
+      "end": 6929
+    },
+    {
+      "text": "India",
+      "label": "REGION",
+      "start": 6950,
+      "end": 6955
+    },
+    {
+      "text": "kaushikg@sac.isro.gov.in",
+      "label": "NORP",
+      "start": 6986,
+      "end": 7010
+    },
+    {
+      "text": "16c",
+      "label": "CARDINAL",
+      "start": 7011,
+      "end": 7014
+    },
+    {
+      "text": "GRD",
+      "label": "ORG",
+      "start": 7044,
+      "end": 7047
+    },
+    {
+      "text": "ISRO",
+      "label": "ORG",
+      "start": 7064,
+      "end": 7068
+    },
+    {
+      "text": "16d",
+      "label": "CARDINAL",
+      "start": 7088,
+      "end": 7091
+    },
+    {
+      "text": "NA",
+      "label": "ORG",
+      "start": 7168,
+      "end": 7170
+    },
+    {
+      "text": "17",
+      "label": "CARDINAL",
+      "start": 7171,
+      "end": 7173
+    },
+    {
+      "text": "28S to 28N",
+      "label": "DATE",
+      "start": 7209,
+      "end": 7219
+    },
+    {
+      "text": "18",
+      "label": "CARDINAL",
+      "start": 7221,
+      "end": 7223
+    },
+    {
+      "text": "28S",
+      "label": "CARDINAL",
+      "start": 7272,
+      "end": 7275
+    },
+    {
+      "text": "28N",
+      "label": "CARDINAL",
+      "start": 7287,
+      "end": 7290
+    },
+    {
+      "text": "0",
+      "label": "CARDINAL",
+      "start": 7301,
+      "end": 7302
+    },
+    {
+      "text": "19",
+      "label": "CARDINAL",
+      "start": 7317,
+      "end": 7319
+    },
+    {
+      "text": "28N",
+      "label": "CARDINAL",
+      "start": 7356,
+      "end": 7359
+    },
+    {
+      "text": "0",
+      "label": "CARDINAL",
+      "start": 7370,
+      "end": 7371
+    },
+    {
+      "text": "20",
+      "label": "CARDINAL",
+      "start": 7386,
+      "end": 7388
+    },
+    {
+      "text": "January 2017",
+      "label": "DATE",
+      "start": 7405,
+      "end": 7417
+    },
+    {
+      "text": "21",
+      "label": "CARDINAL",
+      "start": 7426,
+      "end": 7428
+    },
+    {
+      "text": "22",
+      "label": "CARDINAL",
+      "start": 7471,
+      "end": 7473
+    },
+    {
+      "text": "HDF5",
+      "label": "ORG",
+      "start": 7532,
+      "end": 7536
+    },
+    {
+      "text": "23",
+      "label": "CARDINAL",
+      "start": 7544,
+      "end": 7546
+    },
+    {
+      "text": "2",
+      "label": "CARDINAL",
+      "start": 7570,
+      "end": 7571
+    },
+    {
+      "text": "MT SAPHIR",
+      "label": "DATA_PRODUCT",
+      "start": 7599,
+      "end": 7608
+    },
+    {
+      "text": "24",
+      "label": "CARDINAL",
+      "start": 7610,
+      "end": 7612
+    },
+    {
+      "text": "MOSDAC",
+      "label": "ORG",
+      "start": 7725,
+      "end": 7731
+    },
+    {
+      "text": "Space Applications Centre",
+      "label": "ORG",
+      "start": 7733,
+      "end": 7758
+    },
+    {
+      "text": "Indian Space Research Organisation",
+      "label": "REGION",
+      "start": 7760,
+      "end": 7794
+    },
+    {
+      "text": "Govt",
+      "label": "ORG",
+      "start": 7796,
+      "end": 7800
+    },
+    {
+      "text": "INDIA",
+      "label": "REGION",
+      "start": 7805,
+      "end": 7810
+    }
+  ],
+  "metadata_entities": [
+    {
+      "text": "Oceanographic Satellite Data Archival Centre",
+      "label": "DATA_PRODUCT",
+      "start": 19,
+      "end": 63
+    },
+    {
+      "text": "MOSDAC",
+      "label": "DATA_PRODUCT",
+      "start": 65,
+      "end": 71
+    },
+    {
+      "text": "MT",
+      "label": "REGION",
+      "start": 18,
+      "end": 20
+    },
+    {
+      "text": "Indo-French",
+      "label": "PRODUCT",
+      "start": 33,
+      "end": 44
+    },
+    {
+      "text": "12 October 2011",
+      "label": "DATE",
+      "start": 99,
+      "end": 114
+    },
+    {
+      "text": "Oceanographic Satellite Data Archival Centre",
+      "label": "DATA_PRODUCT",
+      "start": 19,
+      "end": 63
+    },
+    {
+      "text": "MOSDAC",
+      "label": "DATA_PRODUCT",
+      "start": 65,
+      "end": 71
+    },
+    {
+      "text": "a Data Centre of Space Applications Centre",
+      "label": "DATA_PRODUCT",
+      "start": 76,
+      "end": 118
+    },
+    {
+      "text": "MOSDAC",
+      "label": "DATA_PRODUCT",
+      "start": 212,
+      "end": 218
+    },
+    {
+      "text": "Indian",
+      "label": "DATA_PRODUCT",
+      "start": 274,
+      "end": 280
+    },
+    {
+      "text": "Oceanographic",
+      "label": "DATA_PRODUCT",
+      "start": 16,
+      "end": 29
+    },
+    {
+      "text": "Satellite",
+      "label": "DATA_PRODUCT",
+      "start": 31,
+      "end": 40
+    },
+    {
+      "text": "Data, Archival",
+      "label": "DATA_PRODUCT",
+      "start": 42,
+      "end": 56
+    },
+    {
+      "text": "Data Centre",
+      "label": "DATA_PRODUCT",
+      "start": 58,
+      "end": 69
+    },
+    {
+      "text": "MOSDAC",
+      "label": "ORG",
+      "start": 0,
+      "end": 6
+    }
+  ]
+}

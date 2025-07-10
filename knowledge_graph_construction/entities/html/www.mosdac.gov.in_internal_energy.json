@@ -1,0 +1,12 @@
+{
+  "source": "R:\\Projects\\MOSDAC Help Bot\\Codes\\data_processing\\processed_output\\html\\www.mosdac.gov.in_internal_energy.json",
+  "text_entities": [
+    {
+      "text": "Solar & Wind Forecast Portal",
+      "label": "ORG",
+      "start": 0,
+      "end": 28
+    }
+  ],
+  "metadata_entities": []
+}

@@ -1,0 +1,277 @@
+{
+  "source": "R:\\Projects\\MOSDAC Help Bot\\Codes\\data_processing\\processed_output\\html\\www.mosdac.gov.in_hyperlink-policy.json",
+  "text_entities": [
+    {
+      "text": "Satellite Data Archival Centre\nSkip",
+      "label": "DATA_PRODUCT",
+      "start": 50,
+      "end": 85
+    },
+    {
+      "text": "English",
+      "label": "DATA_PRODUCT",
+      "start": 123,
+      "end": 130
+    },
+    {
+      "text": "Satellite Data Archival Centre\nSpace Applications Centre",
+      "label": "DATA_PRODUCT",
+      "start": 162,
+      "end": 218
+    },
+    {
+      "text": "ISRO",
+      "label": "ORG",
+      "start": 220,
+      "end": 224
+    },
+    {
+      "text": "INSAT-3DR",
+      "label": "SATELLITE",
+      "start": 239,
+      "end": 248
+    },
+    {
+      "text": "INSAT-3D",
+      "label": "SATELLITE",
+      "start": 249,
+      "end": 257
+    },
+    {
+      "text": "SARAL",
+      "label": "SATELLITE",
+      "start": 292,
+      "end": 297
+    },
+    {
+      "text": "SCATSAT-1",
+      "label": "SATELLITE",
+      "start": 337,
+      "end": 346
+    },
+    {
+      "text": "AWS",
+      "label": "DATA_PRODUCT",
+      "start": 373,
+      "end": 376
+    },
+    {
+      "text": "RADAR",
+      "label": "ORG",
+      "start": 445,
+      "end": 450
+    },
+    {
+      "text": "DWR",
+      "label": "ORG",
+      "start": 452,
+      "end": 455
+    },
+    {
+      "text": "Global Ocean Current",
+      "label": "DATA_PRODUCT",
+      "start": 457,
+      "end": 477
+    },
+    {
+      "text": "Data Access",
+      "label": "DATA_PRODUCT",
+      "start": 478,
+      "end": 489
+    },
+    {
+      "text": "MT-SAPHIR",
+      "label": "DATA_PRODUCT",
+      "start": 537,
+      "end": 546
+    },
+    {
+      "text": "ISRO",
+      "label": "STATION",
+      "start": 598,
+      "end": 602
+    },
+    {
+      "text": "Indian Mainland Coastal Product",
+      "label": "DATA_PRODUCT",
+      "start": 793,
+      "end": 824
+    },
+    {
+      "text": "Renewable Energy\nCal-Val",
+      "label": "ORG",
+      "start": 909,
+      "end": 933
+    },
+    {
+      "text": "RSS Feeds",
+      "label": "ORG",
+      "start": 943,
+      "end": 952
+    },
+    {
+      "text": "Data Quality",
+      "label": "DATA_PRODUCT",
+      "start": 1000,
+      "end": 1012
+    },
+    {
+      "text": "Portal",
+      "label": "ORG",
+      "start": 1160,
+      "end": 1166
+    },
+    {
+      "text": "MOSDAC",
+      "label": "ORG",
+      "start": 1266,
+      "end": 1272
+    },
+    {
+      "text": "Portal",
+      "label": "ORG",
+      "start": 1459,
+      "end": 1465
+    },
+    {
+      "text": "MOSDAC Portal",
+      "label": "ORG",
+      "start": 1644,
+      "end": 1657
+    },
+    {
+      "text": "Portal",
+      "label": "ORG",
+      "start": 1759,
+      "end": 1765
+    },
+    {
+      "text": "Portal",
+      "label": "ORG",
+      "start": 1889,
+      "end": 1895
+    },
+    {
+      "text": "MOSDAC",
+      "label": "ORG",
+      "start": 2189,
+      "end": 2195
+    },
+    {
+      "text": "Space Applications Centre",
+      "label": "ORG",
+      "start": 2197,
+      "end": 2222
+    },
+    {
+      "text": "Indian Space Research Organisation",
+      "label": "REGION",
+      "start": 2224,
+      "end": 2258
+    },
+    {
+      "text": "Govt",
+      "label": "ORG",
+      "start": 2260,
+      "end": 2264
+    },
+    {
+      "text": "INDIA",
+      "label": "REGION",
+      "start": 2269,
+      "end": 2274
+    }
+  ],
+  "metadata_entities": [
+    {
+      "text": "Oceanographic Satellite Data Archival Centre",
+      "label": "DATA_PRODUCT",
+      "start": 19,
+      "end": 63
+    },
+    {
+      "text": "MOSDAC",
+      "label": "DATA_PRODUCT",
+      "start": 65,
+      "end": 71
+    },
+    {
+      "text": "Portal",
+      "label": "ORG",
+      "start": 58,
+      "end": 64
+    },
+    {
+      "text": "MOSDAC",
+      "label": "ORG",
+      "start": 164,
+      "end": 170
+    },
+    {
+      "text": "Portal",
+      "label": "ORG",
+      "start": 357,
+      "end": 363
+    },
+    {
+      "text": "Oceanographic Satellite Data Archival Centre",
+      "label": "DATA_PRODUCT",
+      "start": 19,
+      "end": 63
+    },
+    {
+      "text": "MOSDAC",
+      "label": "DATA_PRODUCT",
+      "start": 65,
+      "end": 71
+    },
+    {
+      "text": "a Data Centre of Space Applications Centre",
+      "label": "DATA_PRODUCT",
+      "start": 76,
+      "end": 118
+    },
+    {
+      "text": "MOSDAC",
+      "label": "DATA_PRODUCT",
+      "start": 212,
+      "end": 218
+    },
+    {
+      "text": "Indian",
+      "label": "DATA_PRODUCT",
+      "start": 274,
+      "end": 280
+    },
+    {
+      "text": "Oceanographic",
+      "label": "DATA_PRODUCT",
+      "start": 16,
+      "end": 29
+    },
+    {
+      "text": "Satellite",
+      "label": "DATA_PRODUCT",
+      "start": 31,
+      "end": 40
+    },
+    {
+      "text": "Data, Archival",
+      "label": "DATA_PRODUCT",
+      "start": 42,
+      "end": 56
+    },
+    {
+      "text": "Data Centre",
+      "label": "DATA_PRODUCT",
+      "start": 58,
+      "end": 69
+    },
+    {
+      "text": "MOSDAC",
+      "label": "ORG",
+      "start": 0,
+      "end": 6
+    }
+  ]
+}

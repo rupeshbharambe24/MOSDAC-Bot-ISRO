@@ -1,0 +1,2582 @@
+{
+  "source": "R:\\Projects\\MOSDAC Help Bot\\Codes\\data_processing\\processed_output\\html\\www.mosdac.gov.in_atlases.json",
+  "entities": [
+    {
+      "text": "Satellite Data Archival Centre\nSkip",
+      "label": "DATA_PRODUCT",
+      "start": 41,
+      "end": 76,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "English",
+      "label": "DATA_PRODUCT",
+      "start": 114,
+      "end": 121,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "Satellite Data Archival Centre\nSpace Applications Centre",
+      "label": "DATA_PRODUCT",
+      "start": 153,
+      "end": 209,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "ISRO",
+      "label": "ORG",
+      "start": 211,
+      "end": 215,
+      "mosdac_type": "STATION"
+    },
+    {
+      "text": "INSAT-3DR",
+      "label": "SATELLITE",
+      "start": 230,
+      "end": 239,
+      "mosdac_type": "SATELLITE"
+    },
+    {
+      "text": "INSAT-3D",
+      "label": "SATELLITE",
+      "start": 240,
+      "end": 248,
+      "mosdac_type": "SATELLITE"
+    },
+    {
+      "text": "SARAL",
+      "label": "SATELLITE",
+      "start": 283,
+      "end": 288,
+      "mosdac_type": "SATELLITE"
+    },
+    {
+      "text": "SCATSAT-1",
+      "label": "SATELLITE",
+      "start": 328,
+      "end": 337,
+      "mosdac_type": "SATELLITE"
+    },
+    {
+      "text": "AWS",
+      "label": "DATA_PRODUCT",
+      "start": 364,
+      "end": 367,
+      "mosdac_type": "PARAMETER"
+    },
+    {
+      "text": "RADAR",
+      "label": "ORG",
+      "start": 436,
+      "end": 441,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "DWR",
+      "label": "ORG",
+      "start": 443,
+      "end": 446,
+      "mosdac_type": "INSTRUMENT"
+    },
+    {
+      "text": "Global Ocean Current",
+      "label": "DATA_PRODUCT",
+      "start": 448,
+      "end": 468,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "Data Access",
+      "label": "DATA_PRODUCT",
+      "start": 469,
+      "end": 480,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "MT-SAPHIR",
+      "label": "DATA_PRODUCT",
+      "start": 528,
+      "end": 537,
+      "mosdac_type": "INSTRUMENT"
+    },
+    {
+      "text": "ISRO",
+      "label": "STATION",
+      "start": 589,
+      "end": 593,
+      "mosdac_type": "STATION"
+    },
+    {
+      "text": "Indian Mainland Coastal Product",
+      "label": "DATA_PRODUCT",
+      "start": 784,
+      "end": 815,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "Renewable Energy\nCal-Val",
+      "label": "ORG",
+      "start": 900,
+      "end": 924,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "RSS Feeds",
+      "label": "ORG",
+      "start": 934,
+      "end": 943,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "Data Quality",
+      "label": "DATA_PRODUCT",
+      "start": 991,
+      "end": 1003,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "10.01",
+      "label": "CARDINAL",
+      "start": 1142,
+      "end": 1147,
+      "mosdac_type": "CARDINAL"
+    },
+    {
+      "text": "MB\nMon",
+      "label": "ORG",
+      "start": 1148,
+      "end": 1154,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "2020-01-27",
+      "label": "DATE",
+      "start": 1156,
+      "end": 1166,
+      "mosdac_type": "DATE"
+    },
+    {
+      "text": "27.64",
+      "label": "CARDINAL",
+      "start": 1205,
+      "end": 1210,
+      "mosdac_type": "CARDINAL"
+    },
+    {
+      "text": "MB\n",
+      "label": "ORG",
+      "start": 1211,
+      "end": 1214,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "88.53",
+      "label": "CARDINAL",
+      "start": 1269,
+      "end": 1274,
+      "mosdac_type": "CARDINAL"
+    },
+    {
+      "text": "MB\nMon",
+      "label": "ORG",
+      "start": 1275,
+      "end": 1281,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "2015-08-31",
+      "label": "DATE",
+      "start": 1283,
+      "end": 1293,
+      "mosdac_type": "DATE"
+    },
+    {
+      "text": "6.24",
+      "label": "CARDINAL",
+      "start": 1329,
+      "end": 1333,
+      "mosdac_type": "CARDINAL"
+    },
+    {
+      "text": "Thu, 2018-05-03",
+      "label": "DATE",
+      "start": 1337,
+      "end": 1352,
+      "mosdac_type": "DATE"
+    },
+    {
+      "text": "35.11",
+      "label": "CARDINAL",
+      "start": 1387,
+      "end": 1392,
+      "mosdac_type": "CARDINAL"
+    },
+    {
+      "text": "2020-02-19",
+      "label": "DATE",
+      "start": 1401,
+      "end": 1411,
+      "mosdac_type": "DATE"
+    },
+    {
+      "text": "Images_of_Moon_From_Chandrayan-1.pdf",
+      "label": "ORG",
+      "start": 1418,
+      "end": 1454,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "388.48",
+      "label": "CARDINAL",
+      "start": 1455,
+      "end": 1461,
+      "mosdac_type": "CARDINAL"
+    },
+    {
+      "text": "Thu, 2010-12-23",
+      "label": "DATE",
+      "start": 1465,
+      "end": 1480,
+      "mosdac_type": "DATE"
+    },
+    {
+      "text": "69.87",
+      "label": "CARDINAL",
+      "start": 1524,
+      "end": 1529,
+      "mosdac_type": "CARDINAL"
+    },
+    {
+      "text": "MB\n",
+      "label": "ORG",
+      "start": 1530,
+      "end": 1533,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "Thu, 2015-04-30",
+      "label": "DATE",
+      "start": 1533,
+      "end": 1548,
+      "mosdac_type": "DATE"
+    },
+    {
+      "text": "10:00",
+      "label": "TIME",
+      "start": 1549,
+      "end": 1554,
+      "mosdac_type": "TIME"
+    },
+    {
+      "text": "72.11",
+      "label": "CARDINAL",
+      "start": 1600,
+      "end": 1605,
+      "mosdac_type": "CARDINAL"
+    },
+    {
+      "text": "MB\n",
+      "label": "ORG",
+      "start": 1606,
+      "end": 1609,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "Thu, 2018-05-03",
+      "label": "DATE",
+      "start": 1609,
+      "end": 1624,
+      "mosdac_type": "DATE"
+    },
+    {
+      "text": "2.83",
+      "label": "CARDINAL",
+      "start": 1659,
+      "end": 1663,
+      "mosdac_type": "CARDINAL"
+    },
+    {
+      "text": "Thu, 2012-03-01",
+      "label": "DATE",
+      "start": 1667,
+      "end": 1682,
+      "mosdac_type": "DATE"
+    },
+    {
+      "text": "35.13",
+      "label": "CARDINAL",
+      "start": 1704,
+      "end": 1709,
+      "mosdac_type": "CARDINAL"
+    },
+    {
+      "text": "MB\nMon",
+      "label": "ORG",
+      "start": 1710,
+      "end": 1716,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "2015-08-31",
+      "label": "DATE",
+      "start": 1718,
+      "end": 1728,
+      "mosdac_type": "DATE"
+    },
+    {
+      "text": "10",
+      "label": "CARDINAL",
+      "start": 1735,
+      "end": 1737,
+      "mosdac_type": "CARDINAL"
+    },
+    {
+      "text": "735.95",
+      "label": "CARDINAL",
+      "start": 1746,
+      "end": 1752,
+      "mosdac_type": "CARDINAL"
+    },
+    {
+      "text": "Antarctic",
+      "label": "REGION",
+      "start": 1782,
+      "end": 1791,
+      "mosdac_type": "REGION"
+    },
+    {
+      "text": "India",
+      "label": "REGION",
+      "start": 1870,
+      "end": 1875,
+      "mosdac_type": "REGION"
+    },
+    {
+      "text": "Mars",
+      "label": "REGION",
+      "start": 1887,
+      "end": 1891,
+      "mosdac_type": "REGION"
+    },
+    {
+      "text": "Atlas\nLunar Science Atlas\nSea Ice Trends\nImages",
+      "label": "REGION",
+      "start": 1893,
+      "end": 1940,
+      "mosdac_type": "REGION"
+    },
+    {
+      "text": "MOSDAC",
+      "label": "ORG",
+      "start": 2005,
+      "end": 2011,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "Space Applications Centre",
+      "label": "ORG",
+      "start": 2013,
+      "end": 2038,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "Indian Space Research Organisation",
+      "label": "REGION",
+      "start": 2040,
+      "end": 2074,
+      "mosdac_type": "REGION"
+    },
+    {
+      "text": "Govt",
+      "label": "ORG",
+      "start": 2076,
+      "end": 2080,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "INDIA",
+      "label": "REGION",
+      "start": 2085,
+      "end": 2090,
+      "mosdac_type": "REGION"
+    },
+    {
+      "text": "Oceanographic Satellite Data Archival Centre",
+      "label": "DATA_PRODUCT",
+      "start": 19,
+      "end": 63,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "MOSDAC",
+      "label": "DATA_PRODUCT",
+      "start": 65,
+      "end": 71,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "Oceanographic Satellite Data Archival Centre",
+      "label": "DATA_PRODUCT",
+      "start": 19,
+      "end": 63,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "MOSDAC",
+      "label": "DATA_PRODUCT",
+      "start": 65,
+      "end": 71,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "a Data Centre of Space Applications Centre",
+      "label": "DATA_PRODUCT",
+      "start": 76,
+      "end": 118,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "MOSDAC",
+      "label": "DATA_PRODUCT",
+      "start": 212,
+      "end": 218,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "Indian",
+      "label": "DATA_PRODUCT",
+      "start": 274,
+      "end": 280,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "Oceanographic",
+      "label": "DATA_PRODUCT",
+      "start": 16,
+      "end": 29,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "Satellite",
+      "label": "DATA_PRODUCT",
+      "start": 31,
+      "end": 40,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "Data, Archival",
+      "label": "DATA_PRODUCT",
+      "start": 42,
+      "end": 56,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "Data Centre",
+      "label": "DATA_PRODUCT",
+      "start": 58,
+      "end": 69,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "MOSDAC",
+      "label": "ORG",
+      "start": 0,
+      "end": 6,
+      "mosdac_type": "ORG"
+    }
+  ],
+  "relations": [
+    {
+      "head": "DWR",
+      "head_type": "INSTRUMENT",
+      "type": "MEASURES",
+      "tail": "AWS",
+      "tail_type": "PARAMETER",
+      "evidence": "Atlases | Meteorological & Oceanographic Satellite Data Archival Centre\nSkip to main Content\n-\nA\nA\n+\nA\nA\nA\nहिन्दी\nEnglish\nMeteorological & Oceanographic Satellite Data Archival Centre\nSpace Applications Centre, ISRO\nHome\nMissions\nINSAT-3DR\nINSAT-3D\nKALPANA-1\nINSAT-3A\nMeghaTropiques\nSARAL-AltiKa\nOCEANSAT-2\nOCEANSAT-3\nINSAT-3DS\nSCATSAT-1\nCatalog\nSatellite\nInsitu (AWS)\nRADAR\nGalleries\nSatellite Products\nWeather Forecast\nOcean Forecast\nRADAR (DWR)\nGlobal Ocean Current\nData Access\nOrder Data\nOpen Data\nAtmosphere\nBayesian based MT-SAPHIR rainfall\nGPS derived Integrated water vapour\nGSMap ISRO Rain\nMETEOSAT8 Cloud Properties\nLand\n3D Volumetric TERLS DWRproduct\nInland Water Height\nRiver Discharge\nSoil Moisture\nOcean\nGlobal Ocean Surface Current\nHigh Resolution Sea Surface Salinity\nIndian Mainland Coastal Product\nOcean Subsurface\nOceanic Eddies Detection\nSea Ice Occurrence Probability\nWave based Renewable Energy\nCal-Val\nForecast\nRSS Feeds\nReports\nCalibration\nInsitu\nRelative\nValidation\nData Quality\nWeather\nAtlases\nTools\nSitemap\n",
+      "source": "model"
+    },
+    {
+      "head": "MT-SAPHIR",
+      "head_type": "INSTRUMENT",
+      "type": "MEASURES",
+      "tail": "AWS",
+      "tail_type": "PARAMETER",
+      "evidence": "Atlases | Meteorological & Oceanographic Satellite Data Archival Centre\nSkip to main Content\n-\nA\nA\n+\nA\nA\nA\nहिन्दी\nEnglish\nMeteorological & Oceanographic Satellite Data Archival Centre\nSpace Applications Centre, ISRO\nHome\nMissions\nINSAT-3DR\nINSAT-3D\nKALPANA-1\nINSAT-3A\nMeghaTropiques\nSARAL-AltiKa\nOCEANSAT-2\nOCEANSAT-3\nINSAT-3DS\nSCATSAT-1\nCatalog\nSatellite\nInsitu (AWS)\nRADAR\nGalleries\nSatellite Products\nWeather Forecast\nOcean Forecast\nRADAR (DWR)\nGlobal Ocean Current\nData Access\nOrder Data\nOpen Data\nAtmosphere\nBayesian based MT-SAPHIR rainfall\nGPS derived Integrated water vapour\nGSMap ISRO Rain\nMETEOSAT8 Cloud Properties\nLand\n3D Volumetric TERLS DWRproduct\nInland Water Height\nRiver Discharge\nSoil Moisture\nOcean\nGlobal Ocean Surface Current\nHigh Resolution Sea Surface Salinity\nIndian Mainland Coastal Product\nOcean Subsurface\nOceanic Eddies Detection\nSea Ice Occurrence Probability\nWave based Renewable Energy\nCal-Val\nForecast\nRSS Feeds\nReports\nCalibration\nInsitu\nRelative\nValidation\nData Quality\nWeather\nAtlases\nTools\nSitemap\n",
+      "source": "model"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Satellite Data Archival Centre\nSkip",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "Help\nYou are here\nHome\n» Atlas\nAtlases\nDownload PDF\nDisplay name\nsize\nmodified\nviewing_ocean_from_space.pdf\n10.01 MB\nMon, 2020-01-27 10:00\nSpectrum_of_India_AVIRIS-NG.pdf\n27.64 MB\nThu, 2016-12-22 10:00\nGlimspes_of_India_by_RISAT-1.pdf\n88.53 MB\nMon, 2015-08-31 10:00\nEyes_on_Waves_from_Spac",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Satellite Data Archival Centre\nSkip",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "Help\nYou are here\nHome\n» Atlas\nAtlases\nDownload PDF\nDisplay name\nsize\nmodified\nviewing_ocean_from_space.pdf\n10.01 MB\nMon, 2020-01-27 10:00\nSpectrum_of_India_AVIRIS-NG.pdf\n27.64 MB\nThu, 2016-12-22 10:00\nGlimspes_of_India_by_RISAT-1.pdf\n88.53 MB\nMon, 2015-08-31 10:00\nEyes_on_Waves_from_Space.pdf\n6.2",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Satellite Data Archival Centre\nSkip",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "Help\nYou are here\nHome\n» Atlas\nAtlases\nDownload PDF\nDisplay name\nsize\nmodified\nviewing_ocean_from_space.pdf\n10.01 MB\nMon, 2020-01-27 10:00\nSpectrum_of_India_AVIRIS-NG.pdf\n27.64 MB\nThu, 2016-12-22 10:00\nGlimspes_of_India_by_RISAT-1.pdf\n88.53 MB\nMon, 2015-08-31 10:00\nEyes_on_Waves_from_Space.pdf\n6.24 MB\nThu, 2018-05-03 10:00\nExploring_the",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Satellite Data Archival Centre\nSkip",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "Help\nYou are here\nHome\n» Atlas\nAtlases\nDownload PDF\nDisplay name\nsize\nmodified\nviewing_ocean_from_space.pdf\n10.01 MB\nMon, 2020-01-27 10:00\nSpectrum_of_India_AVIRIS-NG.pdf\n27.64 MB\nThu, 2016-12-22 10:00\nGlimspes_of_India_by_RISAT-1.pdf\n88.53 MB\nMon, 2015-08-31 10:00\nEyes_on_Waves_from_Space.pdf\n6.24 MB\nThu, 2018-05-03 10:00\nExploring_the_Antarctic.pdf\n35.11 MB\nWed, 2020-02-19 10:00\nIma",
+      "source": "pattern"
+    },
+    {
+      "head": "Satellite Data Archival Centre\nSkip",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Antarctic",
+      "tail_type": "REGION",
+      "evidence": "Help\nYou are here\nHome\n» Atlas\nAtlases\nDownload PDF\nDisplay name\nsize\nmodified\nviewing_ocean_from_space.pdf\n10.01 MB\nMon, 2020-01-27 10:00\nSpectrum_of_India_AVIRIS-NG.pdf\n27.64 MB\nThu, 2016-12-22 10:00\nGlimspes_of_India_by_RISAT-1.pdf\n88.53 MB\nMon, 2015-08-31 10:00\nEyes_on_Waves_from_Space.pdf\n6.24 MB\nThu, 2018-05-03 10:00\nExploring_the_Antarctic.pdf\n35.11 MB\nWed, 2020-02-19 10:00\nImages_of_Moon_From_Chandrayan-1.pdf\n388.48 MB\nThu, 2010-12-23 10:00\nChandrayan-1_Lunar_Science_Atlas.pdf\n69.87 MB\nThu, 2015-04-30 10:00\nCoral_Reef_Atlas_of_Red_Sea_Gulf_of_Aden.pdf\n72.11 MB\nThu, 2018-05-03 10:00\nAtlas_of_Sea_Ice_Trends.pdf\n2.83 MB\nThu, 2012-03-01 10:00\nMars-atlas.pdf\n35.13 MB\nMon, 2015-08-31 10:00\n10 files - 735.95 MB\nRead Online\nExploring the Antarctic\nOcean from Space\nWave Atlas\nCoral reef Atlas\nUtilization AVIRIS-NG\nGlimpse of India by RISAT-1\nMars  Atlas\nLunar Science Atlas\nSea Ice Trends\nImages of Moon\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Satellite Data Archival Centre\nSkip",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "India",
+      "tail_type": "REGION",
+      "evidence": "Help\nYou are here\nHome\n» Atlas\nAtlases\nDownload PDF\nDisplay name\nsize\nmodified\nviewing_ocean_from_space.pdf\n10.01 MB\nMon, 2020-01-27 10:00\nSpectrum_of_India_AVIRIS-NG.pdf\n27.64 MB\nThu, 2016-12-22 10:00\nGlimspes_of_India_by_RISAT-1.pdf\n88.53 MB\nMon, 2015-08-31 10:00\nEyes_on_Waves_from_Space.pdf\n6.24 MB\nThu, 2018-05-03 10:00\nExploring_the_Antarctic.pdf\n35.11 MB\nWed, 2020-02-19 10:00\nImages_of_Moon_From_Chandrayan-1.pdf\n388.48 MB\nThu, 2010-12-23 10:00\nChandrayan-1_Lunar_Science_Atlas.pdf\n69.87 MB\nThu, 2015-04-30 10:00\nCoral_Reef_Atlas_of_Red_Sea_Gulf_of_Aden.pdf\n72.11 MB\nThu, 2018-05-03 10:00\nAtlas_of_Sea_Ice_Trends.pdf\n2.83 MB\nThu, 2012-03-01 10:00\nMars-atlas.pdf\n35.13 MB\nMon, 2015-08-31 10:00\n10 files - 735.95 MB\nRead Online\nExploring the Antarctic\nOcean from Space\nWave Atlas\nCoral reef Atlas\nUtilization AVIRIS-NG\nGlimpse of India by RISAT-1\nMars  Atlas\nLunar Science Atlas\nSea Ice Trends\nImages of Moon\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Satellite Data Archival Centre\nSkip",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Mars",
+      "tail_type": "REGION",
+      "evidence": "Help\nYou are here\nHome\n» Atlas\nAtlases\nDownload PDF\nDisplay name\nsize\nmodified\nviewing_ocean_from_space.pdf\n10.01 MB\nMon, 2020-01-27 10:00\nSpectrum_of_India_AVIRIS-NG.pdf\n27.64 MB\nThu, 2016-12-22 10:00\nGlimspes_of_India_by_RISAT-1.pdf\n88.53 MB\nMon, 2015-08-31 10:00\nEyes_on_Waves_from_Space.pdf\n6.24 MB\nThu, 2018-05-03 10:00\nExploring_the_Antarctic.pdf\n35.11 MB\nWed, 2020-02-19 10:00\nImages_of_Moon_From_Chandrayan-1.pdf\n388.48 MB\nThu, 2010-12-23 10:00\nChandrayan-1_Lunar_Science_Atlas.pdf\n69.87 MB\nThu, 2015-04-30 10:00\nCoral_Reef_Atlas_of_Red_Sea_Gulf_of_Aden.pdf\n72.11 MB\nThu, 2018-05-03 10:00\nAtlas_of_Sea_Ice_Trends.pdf\n2.83 MB\nThu, 2012-03-01 10:00\nMars-atlas.pdf\n35.13 MB\nMon, 2015-08-31 10:00\n10 files - 735.95 MB\nRead Online\nExploring the Antarctic\nOcean from Space\nWave Atlas\nCoral reef Atlas\nUtilization AVIRIS-NG\nGlimpse of India by RISAT-1\nMars  Atlas\nLunar Science Atlas\nSea Ice Trends\nImages of Moon\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Satellite Data Archival Centre\nSkip",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Atlas\nLunar Science Atlas\nSea Ice Trends\nImages",
+      "tail_type": "REGION",
+      "evidence": "Help\nYou are here\nHome\n» Atlas\nAtlases\nDownload PDF\nDisplay name\nsize\nmodified\nviewing_ocean_from_space.pdf\n10.01 MB\nMon, 2020-01-27 10:00\nSpectrum_of_India_AVIRIS-NG.pdf\n27.64 MB\nThu, 2016-12-22 10:00\nGlimspes_of_India_by_RISAT-1.pdf\n88.53 MB\nMon, 2015-08-31 10:00\nEyes_on_Waves_from_Space.pdf\n6.24 MB\nThu, 2018-05-03 10:00\nExploring_the_Antarctic.pdf\n35.11 MB\nWed, 2020-02-19 10:00\nImages_of_Moon_From_Chandrayan-1.pdf\n388.48 MB\nThu, 2010-12-23 10:00\nChandrayan-1_Lunar_Science_Atlas.pdf\n69.87 MB\nThu, 2015-04-30 10:00\nCoral_Reef_Atlas_of_Red_Sea_Gulf_of_Aden.pdf\n72.11 MB\nThu, 2018-05-03 10:00\nAtlas_of_Sea_Ice_Trends.pdf\n2.83 MB\nThu, 2012-03-01 10:00\nMars-atlas.pdf\n35.13 MB\nMon, 2015-08-31 10:00\n10 files - 735.95 MB\nRead Online\nExploring the Antarctic\nOcean from Space\nWave Atlas\nCoral reef Atlas\nUtilization AVIRIS-NG\nGlimpse of India by RISAT-1\nMars  Atlas\nLunar Science Atlas\nSea Ice Trends\nImages of Moon\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Satellite Data Archival Centre\nSkip",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "Help\nYou are here\nHome\n» Atlas\nAtlases\nDownload PDF\nDisplay name\nsize\nmodified\nviewing_ocean_from_space.pdf\n10.01 MB\nMon, 2020-01-27 10:00\nSpectrum_of_India_AVIRIS-NG.pdf\n27.64 MB\nThu, 2016-12-22 10:00\nGlimspes_of_India_by_RISAT-1.pdf\n88.53 MB\nMon, 2015-08-31 10:00\nEyes_on_Waves_from_Space.pdf\n6.24 MB\nThu, 2018-05-03 10:00\nExploring_the_Antarctic.pdf\n35.11 MB\nWed, 2020-02-19 10:00\nImages_of_Moon_From_Chandrayan-1.pdf\n388.48 MB\nThu, 2010-12-23 10:00\nChandrayan-1_Lunar_Science_Atlas.pdf\n69.87 MB\nThu, 2015-04-30 10:00\nCoral_Reef_Atlas_of_Red_Sea_Gulf_of_Aden.pdf\n72.11 MB\nThu, 2018-05-03 10:00\nAtlas_of_Sea_Ice_Trends.pdf\n2.83 MB\nThu, 2012-03-01 10:00\nMars-atlas.pdf\n35.13 MB\nMon, 2015-08-31 10:00\n10 files - 735.95 MB\nRead Online\nExploring the Antarctic\nOcean from Space\nWave Atlas\nCoral reef Atlas\nUtilization AVIRIS-NG\nGlimpse of India by RISAT-1\nMars  Atlas\nLunar Science Atlas\nSea Ice Trends\nImages of Moon\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Satellite Data Archival Centre\nSkip",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "Help\nYou are here\nHome\n» Atlas\nAtlases\nDownload PDF\nDisplay name\nsize\nmodified\nviewing_ocean_from_space.pdf\n10.01 MB\nMon, 2020-01-27 10:00\nSpectrum_of_India_AVIRIS-NG.pdf\n27.64 MB\nThu, 2016-12-22 10:00\nGlimspes_of_India_by_RISAT-1.pdf\n88.53 MB\nMon, 2015-08-31 10:00\nEyes_on_Waves_from_Space.pdf\n6.24 MB\nThu, 2018-05-03 10:00\nExploring_the_Antarctic.pdf\n35.11 MB\nWed, 2020-02-19 10:00\nImages_of_Moon_From_Chandrayan-1.pdf\n388.48 MB\nThu, 2010-12-23 10:00\nChandrayan-1_Lunar_Science_Atlas.pdf\n69.87 MB\nThu, 2015-04-30 10:00\nCoral_Reef_Atlas_of_Red_Sea_Gulf_of_Aden.pdf\n72.11 MB\nThu, 2018-05-03 10:00\nAtlas_of_Sea_Ice_Trends.pdf\n2.83 MB\nThu, 2012-03-01 10:00\nMars-atlas.pdf\n35.13 MB\nMon, 2015-08-31 10:00\n10 files - 735.95 MB\nRead Online\nExploring the Antarctic\nOcean from Space\nWave Atlas\nCoral reef Atlas\nUtilization AVIRIS-NG\nGlimpse of India by RISAT-1\nMars  Atlas\nLunar Science Atlas\nSea Ice Trends\nImages of Moon\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "English",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "\nsize\nmodified\nviewing_ocean_from_space.pdf\n10.01 MB\nMon, 2020-01-27 10:00\nSpectrum_of_India_AVIRIS-NG.pdf\n27.64 MB\nThu, 2016-12-22 10:00\nGlimspes_of_India_by_RISAT-1.pdf\n88.53 MB\nMon, 2015-08-31 10:00\nEyes_on_Waves_from_Spac",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "English",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "\nsize\nmodified\nviewing_ocean_from_space.pdf\n10.01 MB\nMon, 2020-01-27 10:00\nSpectrum_of_India_AVIRIS-NG.pdf\n27.64 MB\nThu, 2016-12-22 10:00\nGlimspes_of_India_by_RISAT-1.pdf\n88.53 MB\nMon, 2015-08-31 10:00\nEyes_on_Waves_from_Space.pdf\n6.2",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "English",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "\nsize\nmodified\nviewing_ocean_from_space.pdf\n10.01 MB\nMon, 2020-01-27 10:00\nSpectrum_of_India_AVIRIS-NG.pdf\n27.64 MB\nThu, 2016-12-22 10:00\nGlimspes_of_India_by_RISAT-1.pdf\n88.53 MB\nMon, 2015-08-31 10:00\nEyes_on_Waves_from_Space.pdf\n6.24 MB\nThu, 2018-05-03 10:00\nExploring_the",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "English",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "\nsize\nmodified\nviewing_ocean_from_space.pdf\n10.01 MB\nMon, 2020-01-27 10:00\nSpectrum_of_India_AVIRIS-NG.pdf\n27.64 MB\nThu, 2016-12-22 10:00\nGlimspes_of_India_by_RISAT-1.pdf\n88.53 MB\nMon, 2015-08-31 10:00\nEyes_on_Waves_from_Space.pdf\n6.24 MB\nThu, 2018-05-03 10:00\nExploring_the_Antarctic.pdf\n35.11 MB\nWed, 2020-02-19 10:00\nIma",
+      "source": "pattern"
+    },
+    {
+      "head": "English",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Antarctic",
+      "tail_type": "REGION",
+      "evidence": "\nsize\nmodified\nviewing_ocean_from_space.pdf\n10.01 MB\nMon, 2020-01-27 10:00\nSpectrum_of_India_AVIRIS-NG.pdf\n27.64 MB\nThu, 2016-12-22 10:00\nGlimspes_of_India_by_RISAT-1.pdf\n88.53 MB\nMon, 2015-08-31 10:00\nEyes_on_Waves_from_Space.pdf\n6.24 MB\nThu, 2018-05-03 10:00\nExploring_the_Antarctic.pdf\n35.11 MB\nWed, 2020-02-19 10:00\nImages_of_Moon_From_Chandrayan-1.pdf\n388.48 MB\nThu, 2010-12-23 10:00\nChandrayan-1_Lunar_Science_Atlas.pdf\n69.87 MB\nThu, 2015-04-30 10:00\nCoral_Reef_Atlas_of_Red_Sea_Gulf_of_Aden.pdf\n72.11 MB\nThu, 2018-05-03 10:00\nAtlas_of_Sea_Ice_Trends.pdf\n2.83 MB\nThu, 2012-03-01 10:00\nMars-atlas.pdf\n35.13 MB\nMon, 2015-08-31 10:00\n10 files - 735.95 MB\nRead Online\nExploring the Antarctic\nOcean from Space\nWave Atlas\nCoral reef Atlas\nUtilization AVIRIS-NG\nGlimpse of India by RISAT-1\nMars  Atlas\nLunar Science Atlas\nSea Ice Trends\nImages of Moon\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "English",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "India",
+      "tail_type": "REGION",
+      "evidence": "\nsize\nmodified\nviewing_ocean_from_space.pdf\n10.01 MB\nMon, 2020-01-27 10:00\nSpectrum_of_India_AVIRIS-NG.pdf\n27.64 MB\nThu, 2016-12-22 10:00\nGlimspes_of_India_by_RISAT-1.pdf\n88.53 MB\nMon, 2015-08-31 10:00\nEyes_on_Waves_from_Space.pdf\n6.24 MB\nThu, 2018-05-03 10:00\nExploring_the_Antarctic.pdf\n35.11 MB\nWed, 2020-02-19 10:00\nImages_of_Moon_From_Chandrayan-1.pdf\n388.48 MB\nThu, 2010-12-23 10:00\nChandrayan-1_Lunar_Science_Atlas.pdf\n69.87 MB\nThu, 2015-04-30 10:00\nCoral_Reef_Atlas_of_Red_Sea_Gulf_of_Aden.pdf\n72.11 MB\nThu, 2018-05-03 10:00\nAtlas_of_Sea_Ice_Trends.pdf\n2.83 MB\nThu, 2012-03-01 10:00\nMars-atlas.pdf\n35.13 MB\nMon, 2015-08-31 10:00\n10 files - 735.95 MB\nRead Online\nExploring the Antarctic\nOcean from Space\nWave Atlas\nCoral reef Atlas\nUtilization AVIRIS-NG\nGlimpse of India by RISAT-1\nMars  Atlas\nLunar Science Atlas\nSea Ice Trends\nImages of Moon\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "English",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Mars",
+      "tail_type": "REGION",
+      "evidence": "\nsize\nmodified\nviewing_ocean_from_space.pdf\n10.01 MB\nMon, 2020-01-27 10:00\nSpectrum_of_India_AVIRIS-NG.pdf\n27.64 MB\nThu, 2016-12-22 10:00\nGlimspes_of_India_by_RISAT-1.pdf\n88.53 MB\nMon, 2015-08-31 10:00\nEyes_on_Waves_from_Space.pdf\n6.24 MB\nThu, 2018-05-03 10:00\nExploring_the_Antarctic.pdf\n35.11 MB\nWed, 2020-02-19 10:00\nImages_of_Moon_From_Chandrayan-1.pdf\n388.48 MB\nThu, 2010-12-23 10:00\nChandrayan-1_Lunar_Science_Atlas.pdf\n69.87 MB\nThu, 2015-04-30 10:00\nCoral_Reef_Atlas_of_Red_Sea_Gulf_of_Aden.pdf\n72.11 MB\nThu, 2018-05-03 10:00\nAtlas_of_Sea_Ice_Trends.pdf\n2.83 MB\nThu, 2012-03-01 10:00\nMars-atlas.pdf\n35.13 MB\nMon, 2015-08-31 10:00\n10 files - 735.95 MB\nRead Online\nExploring the Antarctic\nOcean from Space\nWave Atlas\nCoral reef Atlas\nUtilization AVIRIS-NG\nGlimpse of India by RISAT-1\nMars  Atlas\nLunar Science Atlas\nSea Ice Trends\nImages of Moon\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "English",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Atlas\nLunar Science Atlas\nSea Ice Trends\nImages",
+      "tail_type": "REGION",
+      "evidence": "\nsize\nmodified\nviewing_ocean_from_space.pdf\n10.01 MB\nMon, 2020-01-27 10:00\nSpectrum_of_India_AVIRIS-NG.pdf\n27.64 MB\nThu, 2016-12-22 10:00\nGlimspes_of_India_by_RISAT-1.pdf\n88.53 MB\nMon, 2015-08-31 10:00\nEyes_on_Waves_from_Space.pdf\n6.24 MB\nThu, 2018-05-03 10:00\nExploring_the_Antarctic.pdf\n35.11 MB\nWed, 2020-02-19 10:00\nImages_of_Moon_From_Chandrayan-1.pdf\n388.48 MB\nThu, 2010-12-23 10:00\nChandrayan-1_Lunar_Science_Atlas.pdf\n69.87 MB\nThu, 2015-04-30 10:00\nCoral_Reef_Atlas_of_Red_Sea_Gulf_of_Aden.pdf\n72.11 MB\nThu, 2018-05-03 10:00\nAtlas_of_Sea_Ice_Trends.pdf\n2.83 MB\nThu, 2012-03-01 10:00\nMars-atlas.pdf\n35.13 MB\nMon, 2015-08-31 10:00\n10 files - 735.95 MB\nRead Online\nExploring the Antarctic\nOcean from Space\nWave Atlas\nCoral reef Atlas\nUtilization AVIRIS-NG\nGlimpse of India by RISAT-1\nMars  Atlas\nLunar Science Atlas\nSea Ice Trends\nImages of Moon\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "English",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "\nsize\nmodified\nviewing_ocean_from_space.pdf\n10.01 MB\nMon, 2020-01-27 10:00\nSpectrum_of_India_AVIRIS-NG.pdf\n27.64 MB\nThu, 2016-12-22 10:00\nGlimspes_of_India_by_RISAT-1.pdf\n88.53 MB\nMon, 2015-08-31 10:00\nEyes_on_Waves_from_Space.pdf\n6.24 MB\nThu, 2018-05-03 10:00\nExploring_the_Antarctic.pdf\n35.11 MB\nWed, 2020-02-19 10:00\nImages_of_Moon_From_Chandrayan-1.pdf\n388.48 MB\nThu, 2010-12-23 10:00\nChandrayan-1_Lunar_Science_Atlas.pdf\n69.87 MB\nThu, 2015-04-30 10:00\nCoral_Reef_Atlas_of_Red_Sea_Gulf_of_Aden.pdf\n72.11 MB\nThu, 2018-05-03 10:00\nAtlas_of_Sea_Ice_Trends.pdf\n2.83 MB\nThu, 2012-03-01 10:00\nMars-atlas.pdf\n35.13 MB\nMon, 2015-08-31 10:00\n10 files - 735.95 MB\nRead Online\nExploring the Antarctic\nOcean from Space\nWave Atlas\nCoral reef Atlas\nUtilization AVIRIS-NG\nGlimpse of India by RISAT-1\nMars  Atlas\nLunar Science Atlas\nSea Ice Trends\nImages of Moon\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "English",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "\nsize\nmodified\nviewing_ocean_from_space.pdf\n10.01 MB\nMon, 2020-01-27 10:00\nSpectrum_of_India_AVIRIS-NG.pdf\n27.64 MB\nThu, 2016-12-22 10:00\nGlimspes_of_India_by_RISAT-1.pdf\n88.53 MB\nMon, 2015-08-31 10:00\nEyes_on_Waves_from_Space.pdf\n6.24 MB\nThu, 2018-05-03 10:00\nExploring_the_Antarctic.pdf\n35.11 MB\nWed, 2020-02-19 10:00\nImages_of_Moon_From_Chandrayan-1.pdf\n388.48 MB\nThu, 2010-12-23 10:00\nChandrayan-1_Lunar_Science_Atlas.pdf\n69.87 MB\nThu, 2015-04-30 10:00\nCoral_Reef_Atlas_of_Red_Sea_Gulf_of_Aden.pdf\n72.11 MB\nThu, 2018-05-03 10:00\nAtlas_of_Sea_Ice_Trends.pdf\n2.83 MB\nThu, 2012-03-01 10:00\nMars-atlas.pdf\n35.13 MB\nMon, 2015-08-31 10:00\n10 files - 735.95 MB\nRead Online\nExploring the Antarctic\nOcean from Space\nWave Atlas\nCoral reef Atlas\nUtilization AVIRIS-NG\nGlimpse of India by RISAT-1\nMars  Atlas\nLunar Science Atlas\nSea Ice Trends\nImages of Moon\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Satellite Data Archival Centre\nSpace Applications Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": ".pdf\n10.01 MB\nMon, 2020-01-27 10:00\nSpectrum_of_India_AVIRIS-NG.pdf\n27.64 MB\nThu, 2016-12-22 10:00\nGlimspes_of_India_by_RISAT-1.pdf\n88.53 MB\nMon, 2015-08-31 10:00\nEyes_on_Waves_from_Spac",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Satellite Data Archival Centre\nSpace Applications Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": ".pdf\n10.01 MB\nMon, 2020-01-27 10:00\nSpectrum_of_India_AVIRIS-NG.pdf\n27.64 MB\nThu, 2016-12-22 10:00\nGlimspes_of_India_by_RISAT-1.pdf\n88.53 MB\nMon, 2015-08-31 10:00\nEyes_on_Waves_from_Space.pdf\n6.2",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Satellite Data Archival Centre\nSpace Applications Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": ".pdf\n10.01 MB\nMon, 2020-01-27 10:00\nSpectrum_of_India_AVIRIS-NG.pdf\n27.64 MB\nThu, 2016-12-22 10:00\nGlimspes_of_India_by_RISAT-1.pdf\n88.53 MB\nMon, 2015-08-31 10:00\nEyes_on_Waves_from_Space.pdf\n6.24 MB\nThu, 2018-05-03 10:00\nExploring_the",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Satellite Data Archival Centre\nSpace Applications Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": ".pdf\n10.01 MB\nMon, 2020-01-27 10:00\nSpectrum_of_India_AVIRIS-NG.pdf\n27.64 MB\nThu, 2016-12-22 10:00\nGlimspes_of_India_by_RISAT-1.pdf\n88.53 MB\nMon, 2015-08-31 10:00\nEyes_on_Waves_from_Space.pdf\n6.24 MB\nThu, 2018-05-03 10:00\nExploring_the_Antarctic.pdf\n35.11 MB\nWed, 2020-02-19 10:00\nIma",
+      "source": "pattern"
+    },
+    {
+      "head": "Satellite Data Archival Centre\nSpace Applications Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Antarctic",
+      "tail_type": "REGION",
+      "evidence": ".pdf\n10.01 MB\nMon, 2020-01-27 10:00\nSpectrum_of_India_AVIRIS-NG.pdf\n27.64 MB\nThu, 2016-12-22 10:00\nGlimspes_of_India_by_RISAT-1.pdf\n88.53 MB\nMon, 2015-08-31 10:00\nEyes_on_Waves_from_Space.pdf\n6.24 MB\nThu, 2018-05-03 10:00\nExploring_the_Antarctic.pdf\n35.11 MB\nWed, 2020-02-19 10:00\nImages_of_Moon_From_Chandrayan-1.pdf\n388.48 MB\nThu, 2010-12-23 10:00\nChandrayan-1_Lunar_Science_Atlas.pdf\n69.87 MB\nThu, 2015-04-30 10:00\nCoral_Reef_Atlas_of_Red_Sea_Gulf_of_Aden.pdf\n72.11 MB\nThu, 2018-05-03 10:00\nAtlas_of_Sea_Ice_Trends.pdf\n2.83 MB\nThu, 2012-03-01 10:00\nMars-atlas.pdf\n35.13 MB\nMon, 2015-08-31 10:00\n10 files - 735.95 MB\nRead Online\nExploring the Antarctic\nOcean from Space\nWave Atlas\nCoral reef Atlas\nUtilization AVIRIS-NG\nGlimpse of India by RISAT-1\nMars  Atlas\nLunar Science Atlas\nSea Ice Trends\nImages of Moon\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Satellite Data Archival Centre\nSpace Applications Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "India",
+      "tail_type": "REGION",
+      "evidence": ".pdf\n10.01 MB\nMon, 2020-01-27 10:00\nSpectrum_of_India_AVIRIS-NG.pdf\n27.64 MB\nThu, 2016-12-22 10:00\nGlimspes_of_India_by_RISAT-1.pdf\n88.53 MB\nMon, 2015-08-31 10:00\nEyes_on_Waves_from_Space.pdf\n6.24 MB\nThu, 2018-05-03 10:00\nExploring_the_Antarctic.pdf\n35.11 MB\nWed, 2020-02-19 10:00\nImages_of_Moon_From_Chandrayan-1.pdf\n388.48 MB\nThu, 2010-12-23 10:00\nChandrayan-1_Lunar_Science_Atlas.pdf\n69.87 MB\nThu, 2015-04-30 10:00\nCoral_Reef_Atlas_of_Red_Sea_Gulf_of_Aden.pdf\n72.11 MB\nThu, 2018-05-03 10:00\nAtlas_of_Sea_Ice_Trends.pdf\n2.83 MB\nThu, 2012-03-01 10:00\nMars-atlas.pdf\n35.13 MB\nMon, 2015-08-31 10:00\n10 files - 735.95 MB\nRead Online\nExploring the Antarctic\nOcean from Space\nWave Atlas\nCoral reef Atlas\nUtilization AVIRIS-NG\nGlimpse of India by RISAT-1\nMars  Atlas\nLunar Science Atlas\nSea Ice Trends\nImages of Moon\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Satellite Data Archival Centre\nSpace Applications Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Mars",
+      "tail_type": "REGION",
+      "evidence": ".pdf\n10.01 MB\nMon, 2020-01-27 10:00\nSpectrum_of_India_AVIRIS-NG.pdf\n27.64 MB\nThu, 2016-12-22 10:00\nGlimspes_of_India_by_RISAT-1.pdf\n88.53 MB\nMon, 2015-08-31 10:00\nEyes_on_Waves_from_Space.pdf\n6.24 MB\nThu, 2018-05-03 10:00\nExploring_the_Antarctic.pdf\n35.11 MB\nWed, 2020-02-19 10:00\nImages_of_Moon_From_Chandrayan-1.pdf\n388.48 MB\nThu, 2010-12-23 10:00\nChandrayan-1_Lunar_Science_Atlas.pdf\n69.87 MB\nThu, 2015-04-30 10:00\nCoral_Reef_Atlas_of_Red_Sea_Gulf_of_Aden.pdf\n72.11 MB\nThu, 2018-05-03 10:00\nAtlas_of_Sea_Ice_Trends.pdf\n2.83 MB\nThu, 2012-03-01 10:00\nMars-atlas.pdf\n35.13 MB\nMon, 2015-08-31 10:00\n10 files - 735.95 MB\nRead Online\nExploring the Antarctic\nOcean from Space\nWave Atlas\nCoral reef Atlas\nUtilization AVIRIS-NG\nGlimpse of India by RISAT-1\nMars  Atlas\nLunar Science Atlas\nSea Ice Trends\nImages of Moon\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Satellite Data Archival Centre\nSpace Applications Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Atlas\nLunar Science Atlas\nSea Ice Trends\nImages",
+      "tail_type": "REGION",
+      "evidence": ".pdf\n10.01 MB\nMon, 2020-01-27 10:00\nSpectrum_of_India_AVIRIS-NG.pdf\n27.64 MB\nThu, 2016-12-22 10:00\nGlimspes_of_India_by_RISAT-1.pdf\n88.53 MB\nMon, 2015-08-31 10:00\nEyes_on_Waves_from_Space.pdf\n6.24 MB\nThu, 2018-05-03 10:00\nExploring_the_Antarctic.pdf\n35.11 MB\nWed, 2020-02-19 10:00\nImages_of_Moon_From_Chandrayan-1.pdf\n388.48 MB\nThu, 2010-12-23 10:00\nChandrayan-1_Lunar_Science_Atlas.pdf\n69.87 MB\nThu, 2015-04-30 10:00\nCoral_Reef_Atlas_of_Red_Sea_Gulf_of_Aden.pdf\n72.11 MB\nThu, 2018-05-03 10:00\nAtlas_of_Sea_Ice_Trends.pdf\n2.83 MB\nThu, 2012-03-01 10:00\nMars-atlas.pdf\n35.13 MB\nMon, 2015-08-31 10:00\n10 files - 735.95 MB\nRead Online\nExploring the Antarctic\nOcean from Space\nWave Atlas\nCoral reef Atlas\nUtilization AVIRIS-NG\nGlimpse of India by RISAT-1\nMars  Atlas\nLunar Science Atlas\nSea Ice Trends\nImages of Moon\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Satellite Data Archival Centre\nSpace Applications Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": ".pdf\n10.01 MB\nMon, 2020-01-27 10:00\nSpectrum_of_India_AVIRIS-NG.pdf\n27.64 MB\nThu, 2016-12-22 10:00\nGlimspes_of_India_by_RISAT-1.pdf\n88.53 MB\nMon, 2015-08-31 10:00\nEyes_on_Waves_from_Space.pdf\n6.24 MB\nThu, 2018-05-03 10:00\nExploring_the_Antarctic.pdf\n35.11 MB\nWed, 2020-02-19 10:00\nImages_of_Moon_From_Chandrayan-1.pdf\n388.48 MB\nThu, 2010-12-23 10:00\nChandrayan-1_Lunar_Science_Atlas.pdf\n69.87 MB\nThu, 2015-04-30 10:00\nCoral_Reef_Atlas_of_Red_Sea_Gulf_of_Aden.pdf\n72.11 MB\nThu, 2018-05-03 10:00\nAtlas_of_Sea_Ice_Trends.pdf\n2.83 MB\nThu, 2012-03-01 10:00\nMars-atlas.pdf\n35.13 MB\nMon, 2015-08-31 10:00\n10 files - 735.95 MB\nRead Online\nExploring the Antarctic\nOcean from Space\nWave Atlas\nCoral reef Atlas\nUtilization AVIRIS-NG\nGlimpse of India by RISAT-1\nMars  Atlas\nLunar Science Atlas\nSea Ice Trends\nImages of Moon\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Satellite Data Archival Centre\nSpace Applications Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": ".pdf\n10.01 MB\nMon, 2020-01-27 10:00\nSpectrum_of_India_AVIRIS-NG.pdf\n27.64 MB\nThu, 2016-12-22 10:00\nGlimspes_of_India_by_RISAT-1.pdf\n88.53 MB\nMon, 2015-08-31 10:00\nEyes_on_Waves_from_Space.pdf\n6.24 MB\nThu, 2018-05-03 10:00\nExploring_the_Antarctic.pdf\n35.11 MB\nWed, 2020-02-19 10:00\nImages_of_Moon_From_Chandrayan-1.pdf\n388.48 MB\nThu, 2010-12-23 10:00\nChandrayan-1_Lunar_Science_Atlas.pdf\n69.87 MB\nThu, 2015-04-30 10:00\nCoral_Reef_Atlas_of_Red_Sea_Gulf_of_Aden.pdf\n72.11 MB\nThu, 2018-05-03 10:00\nAtlas_of_Sea_Ice_Trends.pdf\n2.83 MB\nThu, 2012-03-01 10:00\nMars-atlas.pdf\n35.13 MB\nMon, 2015-08-31 10:00\n10 files - 735.95 MB\nRead Online\nExploring the Antarctic\nOcean from Space\nWave Atlas\nCoral reef Atlas\nUtilization AVIRIS-NG\nGlimpse of India by RISAT-1\nMars  Atlas\nLunar Science Atlas\nSea Ice Trends\nImages of Moon\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "ISRO",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Antarctic",
+      "tail_type": "REGION",
+      "evidence": "IS-NG.pdf\n27.64 MB\nThu, 2016-12-22 10:00\nGlimspes_of_India_by_RISAT-1.pdf\n88.53 MB\nMon, 2015-08-31 10:00\nEyes_on_Waves_from_Space.pdf\n6.24 MB\nThu, 2018-05-03 10:00\nExploring_the_Antarctic.pdf\n35.11 MB\nWed, 2020-02-19 10:00\nImages_of_Moon_From_Chandrayan-1.pdf\n388.48 MB\nThu, 2010-12-23 10:00\nChandrayan-1_Lunar_Science_Atlas.pdf\n69.87 MB\nThu, 2015-04-30 10:00\nCoral_Reef_Atlas_of_Red_Sea_Gulf_of_Aden.pdf\n72.11 MB\nThu, 2018-05-03 10:00\nAtlas_of_Sea_Ice_Trends.pdf\n2.83 MB\nThu, 2012-03-01 10:00\nMars-atlas.pdf\n35.13 MB\nMon, 2015-08-31 10:00\n10 files - 735.95 MB\nRead Online\nExploring the Antarctic\nOcean from Space\nWave Atlas\nCoral reef Atlas\nUtilization AVIRIS-NG\nGlimpse of India by RISAT-1\nMars  Atlas\nLunar Science Atlas\nSea Ice Trends\nImages of Moon\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "ISRO",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "India",
+      "tail_type": "REGION",
+      "evidence": "IS-NG.pdf\n27.64 MB\nThu, 2016-12-22 10:00\nGlimspes_of_India_by_RISAT-1.pdf\n88.53 MB\nMon, 2015-08-31 10:00\nEyes_on_Waves_from_Space.pdf\n6.24 MB\nThu, 2018-05-03 10:00\nExploring_the_Antarctic.pdf\n35.11 MB\nWed, 2020-02-19 10:00\nImages_of_Moon_From_Chandrayan-1.pdf\n388.48 MB\nThu, 2010-12-23 10:00\nChandrayan-1_Lunar_Science_Atlas.pdf\n69.87 MB\nThu, 2015-04-30 10:00\nCoral_Reef_Atlas_of_Red_Sea_Gulf_of_Aden.pdf\n72.11 MB\nThu, 2018-05-03 10:00\nAtlas_of_Sea_Ice_Trends.pdf\n2.83 MB\nThu, 2012-03-01 10:00\nMars-atlas.pdf\n35.13 MB\nMon, 2015-08-31 10:00\n10 files - 735.95 MB\nRead Online\nExploring the Antarctic\nOcean from Space\nWave Atlas\nCoral reef Atlas\nUtilization AVIRIS-NG\nGlimpse of India by RISAT-1\nMars  Atlas\nLunar Science Atlas\nSea Ice Trends\nImages of Moon\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "ISRO",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Mars",
+      "tail_type": "REGION",
+      "evidence": "IS-NG.pdf\n27.64 MB\nThu, 2016-12-22 10:00\nGlimspes_of_India_by_RISAT-1.pdf\n88.53 MB\nMon, 2015-08-31 10:00\nEyes_on_Waves_from_Space.pdf\n6.24 MB\nThu, 2018-05-03 10:00\nExploring_the_Antarctic.pdf\n35.11 MB\nWed, 2020-02-19 10:00\nImages_of_Moon_From_Chandrayan-1.pdf\n388.48 MB\nThu, 2010-12-23 10:00\nChandrayan-1_Lunar_Science_Atlas.pdf\n69.87 MB\nThu, 2015-04-30 10:00\nCoral_Reef_Atlas_of_Red_Sea_Gulf_of_Aden.pdf\n72.11 MB\nThu, 2018-05-03 10:00\nAtlas_of_Sea_Ice_Trends.pdf\n2.83 MB\nThu, 2012-03-01 10:00\nMars-atlas.pdf\n35.13 MB\nMon, 2015-08-31 10:00\n10 files - 735.95 MB\nRead Online\nExploring the Antarctic\nOcean from Space\nWave Atlas\nCoral reef Atlas\nUtilization AVIRIS-NG\nGlimpse of India by RISAT-1\nMars  Atlas\nLunar Science Atlas\nSea Ice Trends\nImages of Moon\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "ISRO",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Atlas\nLunar Science Atlas\nSea Ice Trends\nImages",
+      "tail_type": "REGION",
+      "evidence": "IS-NG.pdf\n27.64 MB\nThu, 2016-12-22 10:00\nGlimspes_of_India_by_RISAT-1.pdf\n88.53 MB\nMon, 2015-08-31 10:00\nEyes_on_Waves_from_Space.pdf\n6.24 MB\nThu, 2018-05-03 10:00\nExploring_the_Antarctic.pdf\n35.11 MB\nWed, 2020-02-19 10:00\nImages_of_Moon_From_Chandrayan-1.pdf\n388.48 MB\nThu, 2010-12-23 10:00\nChandrayan-1_Lunar_Science_Atlas.pdf\n69.87 MB\nThu, 2015-04-30 10:00\nCoral_Reef_Atlas_of_Red_Sea_Gulf_of_Aden.pdf\n72.11 MB\nThu, 2018-05-03 10:00\nAtlas_of_Sea_Ice_Trends.pdf\n2.83 MB\nThu, 2012-03-01 10:00\nMars-atlas.pdf\n35.13 MB\nMon, 2015-08-31 10:00\n10 files - 735.95 MB\nRead Online\nExploring the Antarctic\nOcean from Space\nWave Atlas\nCoral reef Atlas\nUtilization AVIRIS-NG\nGlimpse of India by RISAT-1\nMars  Atlas\nLunar Science Atlas\nSea Ice Trends\nImages of Moon\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "ISRO",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "IS-NG.pdf\n27.64 MB\nThu, 2016-12-22 10:00\nGlimspes_of_India_by_RISAT-1.pdf\n88.53 MB\nMon, 2015-08-31 10:00\nEyes_on_Waves_from_Space.pdf\n6.24 MB\nThu, 2018-05-03 10:00\nExploring_the_Antarctic.pdf\n35.11 MB\nWed, 2020-02-19 10:00\nImages_of_Moon_From_Chandrayan-1.pdf\n388.48 MB\nThu, 2010-12-23 10:00\nChandrayan-1_Lunar_Science_Atlas.pdf\n69.87 MB\nThu, 2015-04-30 10:00\nCoral_Reef_Atlas_of_Red_Sea_Gulf_of_Aden.pdf\n72.11 MB\nThu, 2018-05-03 10:00\nAtlas_of_Sea_Ice_Trends.pdf\n2.83 MB\nThu, 2012-03-01 10:00\nMars-atlas.pdf\n35.13 MB\nMon, 2015-08-31 10:00\n10 files - 735.95 MB\nRead Online\nExploring the Antarctic\nOcean from Space\nWave Atlas\nCoral reef Atlas\nUtilization AVIRIS-NG\nGlimpse of India by RISAT-1\nMars  Atlas\nLunar Science Atlas\nSea Ice Trends\nImages of Moon\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "ISRO",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "IS-NG.pdf\n27.64 MB\nThu, 2016-12-22 10:00\nGlimspes_of_India_by_RISAT-1.pdf\n88.53 MB\nMon, 2015-08-31 10:00\nEyes_on_Waves_from_Space.pdf\n6.24 MB\nThu, 2018-05-03 10:00\nExploring_the_Antarctic.pdf\n35.11 MB\nWed, 2020-02-19 10:00\nImages_of_Moon_From_Chandrayan-1.pdf\n388.48 MB\nThu, 2010-12-23 10:00\nChandrayan-1_Lunar_Science_Atlas.pdf\n69.87 MB\nThu, 2015-04-30 10:00\nCoral_Reef_Atlas_of_Red_Sea_Gulf_of_Aden.pdf\n72.11 MB\nThu, 2018-05-03 10:00\nAtlas_of_Sea_Ice_Trends.pdf\n2.83 MB\nThu, 2012-03-01 10:00\nMars-atlas.pdf\n35.13 MB\nMon, 2015-08-31 10:00\n10 files - 735.95 MB\nRead Online\nExploring the Antarctic\nOcean from Space\nWave Atlas\nCoral reef Atlas\nUtilization AVIRIS-NG\nGlimpse of India by RISAT-1\nMars  Atlas\nLunar Science Atlas\nSea Ice Trends\nImages of Moon\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Global Ocean Current",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "Thu, 2016-12-22 10:00\nGlimspes_of_India_by_RISAT-1.pdf\n88.53 MB\nMon, 2015-08-31 10:00\nEyes_on_Waves_from_Space.pdf\n6.24 MB\nThu, 2018-05-03 10:00\nExploring_the_Antarctic.pdf\n35.11 MB\nWed, 2020-02-19 10:00\nImages_of_Moon_From_Chandrayan-1.pdf\n388.48 MB\nThu, 2010-12-23 10:00\nChandrayan-1_Lunar_Science_Atlas.pdf\n69.87 MB\nThu, 2015-04-30 10:",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Access",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "Thu, 2016-12-22 10:00\nGlimspes_of_India_by_RISAT-1.pdf\n88.53 MB\nMon, 2015-08-31 10:00\nEyes_on_Waves_from_Space.pdf\n6.24 MB\nThu, 2018-05-03 10:00\nExploring_the_Antarctic.pdf\n35.11 MB\nWed, 2020-02-19 10:00\nImages_of_Moon_From_Chandrayan-1.pdf\n388.48 MB\nThu, 2010-12-23 10:00\nChandrayan-1_Lunar_Science_Atlas.pdf\n69.87 MB\nThu, 2015-04-30 10:00\nCoral_Ree",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Indian Mainland Coastal Product",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "Thu, 2016-12-22 10:00\nGlimspes_of_India_by_RISAT-1.pdf\n88.53 MB\nMon, 2015-08-31 10:00\nEyes_on_Waves_from_Space.pdf\n6.24 MB\nThu, 2018-05-03 10:00\nExploring_the_Antarctic.pdf\n35.11 MB\nWed, 2020-02-19 10:00\nImages_of_Moon_From_Chandrayan-1.pdf\n388.48 MB\nThu, 2010-12-23 10:00\nChandrayan-1_Lunar_Science_Atlas.pdf\n69.87 MB\nThu, 2015-04-30 10:00\nCoral_Reef_Atlas_of_Red_Sea_Gulf_of_Aden.pdf\n72.11 MB\nThu, 2018-05-03 10:00\nAtlas_of_Sea_Ice_Trends.pdf\n2.83 MB\nThu, 2012-03-01 10:00\nMars-atlas.pdf\n35.13 MB\nMon, 2015-08-31 10:00\n10 files - 735.95 MB\nRead Online\nExploring the Antarctic\nOcean from Space\nWave Atlas\nCoral reef Atlas\nUtilization AVIRIS-NG\nGlimpse of India by RISAT-1\nMars  Atlas\n",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Quality",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "Thu, 2016-12-22 10:00\nGlimspes_of_India_by_RISAT-1.pdf\n88.53 MB\nMon, 2015-08-31 10:00\nEyes_on_Waves_from_Space.pdf\n6.24 MB\nThu, 2018-05-03 10:00\nExploring_the_Antarctic.pdf\n35.11 MB\nWed, 2020-02-19 10:00\nImages_of_Moon_From_Chandrayan-1.pdf\n388.48 MB\nThu, 2010-12-23 10:00\nChandrayan-1_Lunar_Science_Atlas.pdf\n69.87 MB\nThu, 2015-04-30 10:00\nCoral_Reef_Atlas_of_Red_Sea_Gulf_of_Aden.pdf\n72.11 MB\nThu, 2018-05-03 10:00\nAtlas_of_Sea_Ice_Trends.pdf\n2.83 MB\nThu, 2012-03-01 10:00\nMars-atlas.pdf\n35.13 MB\nMon, 2015-08-31 10:00\n10 files - 735.95 MB\nRead Online\nExploring the Antarctic\nOcean from Space\nWave Atlas\nCoral reef Atlas\nUtilization AVIRIS-NG\nGlimpse of India by RISAT-1\nMars  Atlas\nLunar Science Atlas\nSea Ice Trends\nImages of Moon\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of IN",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "Antarctic",
+      "tail_type": "REGION",
+      "evidence": "Thu, 2016-12-22 10:00\nGlimspes_of_India_by_RISAT-1.pdf\n88.53 MB\nMon, 2015-08-31 10:00\nEyes_on_Waves_from_Space.pdf\n6.24 MB\nThu, 2018-05-03 10:00\nExploring_the_Antarctic.pdf\n35.11 MB\nWed, 2020-02-19 10:00\nImages_of_Moon_From_Chandrayan-1.pdf\n388.48 MB\nThu, 2010-12-23 10:00\nChandrayan-1_Lunar_Science_Atlas.pdf\n69.87 MB\nThu, 2015-04-30 10:00\nCoral_Reef_Atlas_of_Red_Sea_Gulf_of_Aden.pdf\n72.11 MB\nThu, 2018-05-03 10:00\nAtlas_of_Sea_Ice_Trends.pdf\n2.83 MB\nThu, 2012-03-01 10:00\nMars-atlas.pdf\n35.13 MB\nMon, 2015-08-31 10:00\n10 files - 735.95 MB\nRead Online\nExploring the Antarctic\nOcean from Space\nWave Atlas\nCoral reef Atlas\nUtilization AVIRIS-NG\nGlimpse of India by RISAT-1\nMars  Atlas\nLunar Science Atlas\nSea Ice Trends\nImages of Moon\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "India",
+      "tail_type": "REGION",
+      "evidence": "Thu, 2016-12-22 10:00\nGlimspes_of_India_by_RISAT-1.pdf\n88.53 MB\nMon, 2015-08-31 10:00\nEyes_on_Waves_from_Space.pdf\n6.24 MB\nThu, 2018-05-03 10:00\nExploring_the_Antarctic.pdf\n35.11 MB\nWed, 2020-02-19 10:00\nImages_of_Moon_From_Chandrayan-1.pdf\n388.48 MB\nThu, 2010-12-23 10:00\nChandrayan-1_Lunar_Science_Atlas.pdf\n69.87 MB\nThu, 2015-04-30 10:00\nCoral_Reef_Atlas_of_Red_Sea_Gulf_of_Aden.pdf\n72.11 MB\nThu, 2018-05-03 10:00\nAtlas_of_Sea_Ice_Trends.pdf\n2.83 MB\nThu, 2012-03-01 10:00\nMars-atlas.pdf\n35.13 MB\nMon, 2015-08-31 10:00\n10 files - 735.95 MB\nRead Online\nExploring the Antarctic\nOcean from Space\nWave Atlas\nCoral reef Atlas\nUtilization AVIRIS-NG\nGlimpse of India by RISAT-1\nMars  Atlas\nLunar Science Atlas\nSea Ice Trends\nImages of Moon\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "Mars",
+      "tail_type": "REGION",
+      "evidence": "Thu, 2016-12-22 10:00\nGlimspes_of_India_by_RISAT-1.pdf\n88.53 MB\nMon, 2015-08-31 10:00\nEyes_on_Waves_from_Space.pdf\n6.24 MB\nThu, 2018-05-03 10:00\nExploring_the_Antarctic.pdf\n35.11 MB\nWed, 2020-02-19 10:00\nImages_of_Moon_From_Chandrayan-1.pdf\n388.48 MB\nThu, 2010-12-23 10:00\nChandrayan-1_Lunar_Science_Atlas.pdf\n69.87 MB\nThu, 2015-04-30 10:00\nCoral_Reef_Atlas_of_Red_Sea_Gulf_of_Aden.pdf\n72.11 MB\nThu, 2018-05-03 10:00\nAtlas_of_Sea_Ice_Trends.pdf\n2.83 MB\nThu, 2012-03-01 10:00\nMars-atlas.pdf\n35.13 MB\nMon, 2015-08-31 10:00\n10 files - 735.95 MB\nRead Online\nExploring the Antarctic\nOcean from Space\nWave Atlas\nCoral reef Atlas\nUtilization AVIRIS-NG\nGlimpse of India by RISAT-1\nMars  Atlas\nLunar Science Atlas\nSea Ice Trends\nImages of Moon\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "Atlas\nLunar Science Atlas\nSea Ice Trends\nImages",
+      "tail_type": "REGION",
+      "evidence": "Thu, 2016-12-22 10:00\nGlimspes_of_India_by_RISAT-1.pdf\n88.53 MB\nMon, 2015-08-31 10:00\nEyes_on_Waves_from_Space.pdf\n6.24 MB\nThu, 2018-05-03 10:00\nExploring_the_Antarctic.pdf\n35.11 MB\nWed, 2020-02-19 10:00\nImages_of_Moon_From_Chandrayan-1.pdf\n388.48 MB\nThu, 2010-12-23 10:00\nChandrayan-1_Lunar_Science_Atlas.pdf\n69.87 MB\nThu, 2015-04-30 10:00\nCoral_Reef_Atlas_of_Red_Sea_Gulf_of_Aden.pdf\n72.11 MB\nThu, 2018-05-03 10:00\nAtlas_of_Sea_Ice_Trends.pdf\n2.83 MB\nThu, 2012-03-01 10:00\nMars-atlas.pdf\n35.13 MB\nMon, 2015-08-31 10:00\n10 files - 735.95 MB\nRead Online\nExploring the Antarctic\nOcean from Space\nWave Atlas\nCoral reef Atlas\nUtilization AVIRIS-NG\nGlimpse of India by RISAT-1\nMars  Atlas\nLunar Science Atlas\nSea Ice Trends\nImages of Moon\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "Thu, 2016-12-22 10:00\nGlimspes_of_India_by_RISAT-1.pdf\n88.53 MB\nMon, 2015-08-31 10:00\nEyes_on_Waves_from_Space.pdf\n6.24 MB\nThu, 2018-05-03 10:00\nExploring_the_Antarctic.pdf\n35.11 MB\nWed, 2020-02-19 10:00\nImages_of_Moon_From_Chandrayan-1.pdf\n388.48 MB\nThu, 2010-12-23 10:00\nChandrayan-1_Lunar_Science_Atlas.pdf\n69.87 MB\nThu, 2015-04-30 10:00\nCoral_Reef_Atlas_of_Red_Sea_Gulf_of_Aden.pdf\n72.11 MB\nThu, 2018-05-03 10:00\nAtlas_of_Sea_Ice_Trends.pdf\n2.83 MB\nThu, 2012-03-01 10:00\nMars-atlas.pdf\n35.13 MB\nMon, 2015-08-31 10:00\n10 files - 735.95 MB\nRead Online\nExploring the Antarctic\nOcean from Space\nWave Atlas\nCoral reef Atlas\nUtilization AVIRIS-NG\nGlimpse of India by RISAT-1\nMars  Atlas\nLunar Science Atlas\nSea Ice Trends\nImages of Moon\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "Thu, 2016-12-22 10:00\nGlimspes_of_India_by_RISAT-1.pdf\n88.53 MB\nMon, 2015-08-31 10:00\nEyes_on_Waves_from_Space.pdf\n6.24 MB\nThu, 2018-05-03 10:00\nExploring_the_Antarctic.pdf\n35.11 MB\nWed, 2020-02-19 10:00\nImages_of_Moon_From_Chandrayan-1.pdf\n388.48 MB\nThu, 2010-12-23 10:00\nChandrayan-1_Lunar_Science_Atlas.pdf\n69.87 MB\nThu, 2015-04-30 10:00\nCoral_Reef_Atlas_of_Red_Sea_Gulf_of_Aden.pdf\n72.11 MB\nThu, 2018-05-03 10:00\nAtlas_of_Sea_Ice_Trends.pdf\n2.83 MB\nThu, 2012-03-01 10:00\nMars-atlas.pdf\n35.13 MB\nMon, 2015-08-31 10:00\n10 files - 735.95 MB\nRead Online\nExploring the Antarctic\nOcean from Space\nWave Atlas\nCoral reef Atlas\nUtilization AVIRIS-NG\nGlimpse of India by RISAT-1\nMars  Atlas\nLunar Science Atlas\nSea Ice Trends\nImages of Moon\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic Satellite Data Archival Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic Satellite Data Archival Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "a Data Centre of Space Applications Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "Thu, 2016-12-22 10:00\nGlimspes_of_India_by_RISAT-1.pdf\n88.53 MB\nMon, 2015-08-31 10:00\nEy",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Indian",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "Thu, 2016-12-22 10:00\nGlimspes_of_India_by_RISAT-1.pdf\n88.53 MB\nMon, 2015-08-31 10:00\nEyes_on_Waves_from_Space.pdf\n6.24 MB\nThu, 2018-05-03 10:00\nExplo",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Satellite",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data, Archival",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Global Ocean Current",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "12-22 10:00\nGlimspes_of_India_by_RISAT-1.pdf\n88.53 MB\nMon, 2015-08-31 10:00\nEyes_on_Waves_from_Space.pdf\n6.24 MB\nThu, 2018-05-03 10:00\nExploring_the_Antarctic.pdf\n35.11 MB\nWed, 2020-02-19 10:00\nImages_of_Moon_From_Chandrayan-1.pdf\n388.48 MB\nThu, 2010-12-23 10:00\nChandrayan-1_Lunar_Science_Atlas.pdf\n69.87 MB\nThu, 2015-04-30 10:",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Access",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "12-22 10:00\nGlimspes_of_India_by_RISAT-1.pdf\n88.53 MB\nMon, 2015-08-31 10:00\nEyes_on_Waves_from_Space.pdf\n6.24 MB\nThu, 2018-05-03 10:00\nExploring_the_Antarctic.pdf\n35.11 MB\nWed, 2020-02-19 10:00\nImages_of_Moon_From_Chandrayan-1.pdf\n388.48 MB\nThu, 2010-12-23 10:00\nChandrayan-1_Lunar_Science_Atlas.pdf\n69.87 MB\nThu, 2015-04-30 10:00\nCoral_Ree",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Indian Mainland Coastal Product",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "12-22 10:00\nGlimspes_of_India_by_RISAT-1.pdf\n88.53 MB\nMon, 2015-08-31 10:00\nEyes_on_Waves_from_Space.pdf\n6.24 MB\nThu, 2018-05-03 10:00\nExploring_the_Antarctic.pdf\n35.11 MB\nWed, 2020-02-19 10:00\nImages_of_Moon_From_Chandrayan-1.pdf\n388.48 MB\nThu, 2010-12-23 10:00\nChandrayan-1_Lunar_Science_Atlas.pdf\n69.87 MB\nThu, 2015-04-30 10:00\nCoral_Reef_Atlas_of_Red_Sea_Gulf_of_Aden.pdf\n72.11 MB\nThu, 2018-05-03 10:00\nAtlas_of_Sea_Ice_Trends.pdf\n2.83 MB\nThu, 2012-03-01 10:00\nMars-atlas.pdf\n35.13 MB\nMon, 2015-08-31 10:00\n10 files - 735.95 MB\nRead Online\nExploring the Antarctic\nOcean from Space\nWave Atlas\nCoral reef Atlas\nUtilization AVIRIS-NG\nGlimpse of India by RISAT-1\nMars  Atlas\n",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Quality",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "12-22 10:00\nGlimspes_of_India_by_RISAT-1.pdf\n88.53 MB\nMon, 2015-08-31 10:00\nEyes_on_Waves_from_Space.pdf\n6.24 MB\nThu, 2018-05-03 10:00\nExploring_the_Antarctic.pdf\n35.11 MB\nWed, 2020-02-19 10:00\nImages_of_Moon_From_Chandrayan-1.pdf\n388.48 MB\nThu, 2010-12-23 10:00\nChandrayan-1_Lunar_Science_Atlas.pdf\n69.87 MB\nThu, 2015-04-30 10:00\nCoral_Reef_Atlas_of_Red_Sea_Gulf_of_Aden.pdf\n72.11 MB\nThu, 2018-05-03 10:00\nAtlas_of_Sea_Ice_Trends.pdf\n2.83 MB\nThu, 2012-03-01 10:00\nMars-atlas.pdf\n35.13 MB\nMon, 2015-08-31 10:00\n10 files - 735.95 MB\nRead Online\nExploring the Antarctic\nOcean from Space\nWave Atlas\nCoral reef Atlas\nUtilization AVIRIS-NG\nGlimpse of India by RISAT-1\nMars  Atlas\nLunar Science Atlas\nSea Ice Trends\nImages of Moon\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of IN",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "Antarctic",
+      "tail_type": "REGION",
+      "evidence": "12-22 10:00\nGlimspes_of_India_by_RISAT-1.pdf\n88.53 MB\nMon, 2015-08-31 10:00\nEyes_on_Waves_from_Space.pdf\n6.24 MB\nThu, 2018-05-03 10:00\nExploring_the_Antarctic.pdf\n35.11 MB\nWed, 2020-02-19 10:00\nImages_of_Moon_From_Chandrayan-1.pdf\n388.48 MB\nThu, 2010-12-23 10:00\nChandrayan-1_Lunar_Science_Atlas.pdf\n69.87 MB\nThu, 2015-04-30 10:00\nCoral_Reef_Atlas_of_Red_Sea_Gulf_of_Aden.pdf\n72.11 MB\nThu, 2018-05-03 10:00\nAtlas_of_Sea_Ice_Trends.pdf\n2.83 MB\nThu, 2012-03-01 10:00\nMars-atlas.pdf\n35.13 MB\nMon, 2015-08-31 10:00\n10 files - 735.95 MB\nRead Online\nExploring the Antarctic\nOcean from Space\nWave Atlas\nCoral reef Atlas\nUtilization AVIRIS-NG\nGlimpse of India by RISAT-1\nMars  Atlas\nLunar Science Atlas\nSea Ice Trends\nImages of Moon\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "India",
+      "tail_type": "REGION",
+      "evidence": "12-22 10:00\nGlimspes_of_India_by_RISAT-1.pdf\n88.53 MB\nMon, 2015-08-31 10:00\nEyes_on_Waves_from_Space.pdf\n6.24 MB\nThu, 2018-05-03 10:00\nExploring_the_Antarctic.pdf\n35.11 MB\nWed, 2020-02-19 10:00\nImages_of_Moon_From_Chandrayan-1.pdf\n388.48 MB\nThu, 2010-12-23 10:00\nChandrayan-1_Lunar_Science_Atlas.pdf\n69.87 MB\nThu, 2015-04-30 10:00\nCoral_Reef_Atlas_of_Red_Sea_Gulf_of_Aden.pdf\n72.11 MB\nThu, 2018-05-03 10:00\nAtlas_of_Sea_Ice_Trends.pdf\n2.83 MB\nThu, 2012-03-01 10:00\nMars-atlas.pdf\n35.13 MB\nMon, 2015-08-31 10:00\n10 files - 735.95 MB\nRead Online\nExploring the Antarctic\nOcean from Space\nWave Atlas\nCoral reef Atlas\nUtilization AVIRIS-NG\nGlimpse of India by RISAT-1\nMars  Atlas\nLunar Science Atlas\nSea Ice Trends\nImages of Moon\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "Mars",
+      "tail_type": "REGION",
+      "evidence": "12-22 10:00\nGlimspes_of_India_by_RISAT-1.pdf\n88.53 MB\nMon, 2015-08-31 10:00\nEyes_on_Waves_from_Space.pdf\n6.24 MB\nThu, 2018-05-03 10:00\nExploring_the_Antarctic.pdf\n35.11 MB\nWed, 2020-02-19 10:00\nImages_of_Moon_From_Chandrayan-1.pdf\n388.48 MB\nThu, 2010-12-23 10:00\nChandrayan-1_Lunar_Science_Atlas.pdf\n69.87 MB\nThu, 2015-04-30 10:00\nCoral_Reef_Atlas_of_Red_Sea_Gulf_of_Aden.pdf\n72.11 MB\nThu, 2018-05-03 10:00\nAtlas_of_Sea_Ice_Trends.pdf\n2.83 MB\nThu, 2012-03-01 10:00\nMars-atlas.pdf\n35.13 MB\nMon, 2015-08-31 10:00\n10 files - 735.95 MB\nRead Online\nExploring the Antarctic\nOcean from Space\nWave Atlas\nCoral reef Atlas\nUtilization AVIRIS-NG\nGlimpse of India by RISAT-1\nMars  Atlas\nLunar Science Atlas\nSea Ice Trends\nImages of Moon\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "Atlas\nLunar Science Atlas\nSea Ice Trends\nImages",
+      "tail_type": "REGION",
+      "evidence": "12-22 10:00\nGlimspes_of_India_by_RISAT-1.pdf\n88.53 MB\nMon, 2015-08-31 10:00\nEyes_on_Waves_from_Space.pdf\n6.24 MB\nThu, 2018-05-03 10:00\nExploring_the_Antarctic.pdf\n35.11 MB\nWed, 2020-02-19 10:00\nImages_of_Moon_From_Chandrayan-1.pdf\n388.48 MB\nThu, 2010-12-23 10:00\nChandrayan-1_Lunar_Science_Atlas.pdf\n69.87 MB\nThu, 2015-04-30 10:00\nCoral_Reef_Atlas_of_Red_Sea_Gulf_of_Aden.pdf\n72.11 MB\nThu, 2018-05-03 10:00\nAtlas_of_Sea_Ice_Trends.pdf\n2.83 MB\nThu, 2012-03-01 10:00\nMars-atlas.pdf\n35.13 MB\nMon, 2015-08-31 10:00\n10 files - 735.95 MB\nRead Online\nExploring the Antarctic\nOcean from Space\nWave Atlas\nCoral reef Atlas\nUtilization AVIRIS-NG\nGlimpse of India by RISAT-1\nMars  Atlas\nLunar Science Atlas\nSea Ice Trends\nImages of Moon\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "12-22 10:00\nGlimspes_of_India_by_RISAT-1.pdf\n88.53 MB\nMon, 2015-08-31 10:00\nEyes_on_Waves_from_Space.pdf\n6.24 MB\nThu, 2018-05-03 10:00\nExploring_the_Antarctic.pdf\n35.11 MB\nWed, 2020-02-19 10:00\nImages_of_Moon_From_Chandrayan-1.pdf\n388.48 MB\nThu, 2010-12-23 10:00\nChandrayan-1_Lunar_Science_Atlas.pdf\n69.87 MB\nThu, 2015-04-30 10:00\nCoral_Reef_Atlas_of_Red_Sea_Gulf_of_Aden.pdf\n72.11 MB\nThu, 2018-05-03 10:00\nAtlas_of_Sea_Ice_Trends.pdf\n2.83 MB\nThu, 2012-03-01 10:00\nMars-atlas.pdf\n35.13 MB\nMon, 2015-08-31 10:00\n10 files - 735.95 MB\nRead Online\nExploring the Antarctic\nOcean from Space\nWave Atlas\nCoral reef Atlas\nUtilization AVIRIS-NG\nGlimpse of India by RISAT-1\nMars  Atlas\nLunar Science Atlas\nSea Ice Trends\nImages of Moon\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "12-22 10:00\nGlimspes_of_India_by_RISAT-1.pdf\n88.53 MB\nMon, 2015-08-31 10:00\nEyes_on_Waves_from_Space.pdf\n6.24 MB\nThu, 2018-05-03 10:00\nExploring_the_Antarctic.pdf\n35.11 MB\nWed, 2020-02-19 10:00\nImages_of_Moon_From_Chandrayan-1.pdf\n388.48 MB\nThu, 2010-12-23 10:00\nChandrayan-1_Lunar_Science_Atlas.pdf\n69.87 MB\nThu, 2015-04-30 10:00\nCoral_Reef_Atlas_of_Red_Sea_Gulf_of_Aden.pdf\n72.11 MB\nThu, 2018-05-03 10:00\nAtlas_of_Sea_Ice_Trends.pdf\n2.83 MB\nThu, 2012-03-01 10:00\nMars-atlas.pdf\n35.13 MB\nMon, 2015-08-31 10:00\n10 files - 735.95 MB\nRead Online\nExploring the Antarctic\nOcean from Space\nWave Atlas\nCoral reef Atlas\nUtilization AVIRIS-NG\nGlimpse of India by RISAT-1\nMars  Atlas\nLunar Science Atlas\nSea Ice Trends\nImages of Moon\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic Satellite Data Archival Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic Satellite Data Archival Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "a Data Centre of Space Applications Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "12-22 10:00\nGlimspes_of_India_by_RISAT-1.pdf\n88.53 MB\nMon, 2015-08-31 10:00\nEy",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Indian",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "12-22 10:00\nGlimspes_of_India_by_RISAT-1.pdf\n88.53 MB\nMon, 2015-08-31 10:00\nEyes_on_Waves_from_Space.pdf\n6.24 MB\nThu, 2018-05-03 10:00\nExplo",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Satellite",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data, Archival",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Global Ocean Current",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "f\n88.53 MB\nMon, 2015-08-31 10:00\nEyes_on_Waves_from_Space.pdf\n6.24 MB\nThu, 2018-05-03 10:00\nExploring_the_Antarctic.pdf\n35.11 MB\nWed, 2020-02-19 10:00\nImages_of_Moon_From_Chandrayan-1.pdf\n388.48 MB\nThu, 2010-12-23 10:00\nChandrayan-1_Lunar_Science_Atlas.pdf\n69.87 MB\nThu, 2015-04-30 10:",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Access",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "f\n88.53 MB\nMon, 2015-08-31 10:00\nEyes_on_Waves_from_Space.pdf\n6.24 MB\nThu, 2018-05-03 10:00\nExploring_the_Antarctic.pdf\n35.11 MB\nWed, 2020-02-19 10:00\nImages_of_Moon_From_Chandrayan-1.pdf\n388.48 MB\nThu, 2010-12-23 10:00\nChandrayan-1_Lunar_Science_Atlas.pdf\n69.87 MB\nThu, 2015-04-30 10:00\nCoral_Ree",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Indian Mainland Coastal Product",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "f\n88.53 MB\nMon, 2015-08-31 10:00\nEyes_on_Waves_from_Space.pdf\n6.24 MB\nThu, 2018-05-03 10:00\nExploring_the_Antarctic.pdf\n35.11 MB\nWed, 2020-02-19 10:00\nImages_of_Moon_From_Chandrayan-1.pdf\n388.48 MB\nThu, 2010-12-23 10:00\nChandrayan-1_Lunar_Science_Atlas.pdf\n69.87 MB\nThu, 2015-04-30 10:00\nCoral_Reef_Atlas_of_Red_Sea_Gulf_of_Aden.pdf\n72.11 MB\nThu, 2018-05-03 10:00\nAtlas_of_Sea_Ice_Trends.pdf\n2.83 MB\nThu, 2012-03-01 10:00\nMars-atlas.pdf\n35.13 MB\nMon, 2015-08-31 10:00\n10 files - 735.95 MB\nRead Online\nExploring the Antarctic\nOcean from Space\nWave Atlas\nCoral reef Atlas\nUtilization AVIRIS-NG\nGlimpse of India by RISAT-1\nMars  Atlas\n",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Quality",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "f\n88.53 MB\nMon, 2015-08-31 10:00\nEyes_on_Waves_from_Space.pdf\n6.24 MB\nThu, 2018-05-03 10:00\nExploring_the_Antarctic.pdf\n35.11 MB\nWed, 2020-02-19 10:00\nImages_of_Moon_From_Chandrayan-1.pdf\n388.48 MB\nThu, 2010-12-23 10:00\nChandrayan-1_Lunar_Science_Atlas.pdf\n69.87 MB\nThu, 2015-04-30 10:00\nCoral_Reef_Atlas_of_Red_Sea_Gulf_of_Aden.pdf\n72.11 MB\nThu, 2018-05-03 10:00\nAtlas_of_Sea_Ice_Trends.pdf\n2.83 MB\nThu, 2012-03-01 10:00\nMars-atlas.pdf\n35.13 MB\nMon, 2015-08-31 10:00\n10 files - 735.95 MB\nRead Online\nExploring the Antarctic\nOcean from Space\nWave Atlas\nCoral reef Atlas\nUtilization AVIRIS-NG\nGlimpse of India by RISAT-1\nMars  Atlas\nLunar Science Atlas\nSea Ice Trends\nImages of Moon\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of IN",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "Antarctic",
+      "tail_type": "REGION",
+      "evidence": "f\n88.53 MB\nMon, 2015-08-31 10:00\nEyes_on_Waves_from_Space.pdf\n6.24 MB\nThu, 2018-05-03 10:00\nExploring_the_Antarctic.pdf\n35.11 MB\nWed, 2020-02-19 10:00\nImages_of_Moon_From_Chandrayan-1.pdf\n388.48 MB\nThu, 2010-12-23 10:00\nChandrayan-1_Lunar_Science_Atlas.pdf\n69.87 MB\nThu, 2015-04-30 10:00\nCoral_Reef_Atlas_of_Red_Sea_Gulf_of_Aden.pdf\n72.11 MB\nThu, 2018-05-03 10:00\nAtlas_of_Sea_Ice_Trends.pdf\n2.83 MB\nThu, 2012-03-01 10:00\nMars-atlas.pdf\n35.13 MB\nMon, 2015-08-31 10:00\n10 files - 735.95 MB\nRead Online\nExploring the Antarctic\nOcean from Space\nWave Atlas\nCoral reef Atlas\nUtilization AVIRIS-NG\nGlimpse of India by RISAT-1\nMars  Atlas\nLunar Science Atlas\nSea Ice Trends\nImages of Moon\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "India",
+      "tail_type": "REGION",
+      "evidence": "f\n88.53 MB\nMon, 2015-08-31 10:00\nEyes_on_Waves_from_Space.pdf\n6.24 MB\nThu, 2018-05-03 10:00\nExploring_the_Antarctic.pdf\n35.11 MB\nWed, 2020-02-19 10:00\nImages_of_Moon_From_Chandrayan-1.pdf\n388.48 MB\nThu, 2010-12-23 10:00\nChandrayan-1_Lunar_Science_Atlas.pdf\n69.87 MB\nThu, 2015-04-30 10:00\nCoral_Reef_Atlas_of_Red_Sea_Gulf_of_Aden.pdf\n72.11 MB\nThu, 2018-05-03 10:00\nAtlas_of_Sea_Ice_Trends.pdf\n2.83 MB\nThu, 2012-03-01 10:00\nMars-atlas.pdf\n35.13 MB\nMon, 2015-08-31 10:00\n10 files - 735.95 MB\nRead Online\nExploring the Antarctic\nOcean from Space\nWave Atlas\nCoral reef Atlas\nUtilization AVIRIS-NG\nGlimpse of India by RISAT-1\nMars  Atlas\nLunar Science Atlas\nSea Ice Trends\nImages of Moon\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "Mars",
+      "tail_type": "REGION",
+      "evidence": "f\n88.53 MB\nMon, 2015-08-31 10:00\nEyes_on_Waves_from_Space.pdf\n6.24 MB\nThu, 2018-05-03 10:00\nExploring_the_Antarctic.pdf\n35.11 MB\nWed, 2020-02-19 10:00\nImages_of_Moon_From_Chandrayan-1.pdf\n388.48 MB\nThu, 2010-12-23 10:00\nChandrayan-1_Lunar_Science_Atlas.pdf\n69.87 MB\nThu, 2015-04-30 10:00\nCoral_Reef_Atlas_of_Red_Sea_Gulf_of_Aden.pdf\n72.11 MB\nThu, 2018-05-03 10:00\nAtlas_of_Sea_Ice_Trends.pdf\n2.83 MB\nThu, 2012-03-01 10:00\nMars-atlas.pdf\n35.13 MB\nMon, 2015-08-31 10:00\n10 files - 735.95 MB\nRead Online\nExploring the Antarctic\nOcean from Space\nWave Atlas\nCoral reef Atlas\nUtilization AVIRIS-NG\nGlimpse of India by RISAT-1\nMars  Atlas\nLunar Science Atlas\nSea Ice Trends\nImages of Moon\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "Atlas\nLunar Science Atlas\nSea Ice Trends\nImages",
+      "tail_type": "REGION",
+      "evidence": "f\n88.53 MB\nMon, 2015-08-31 10:00\nEyes_on_Waves_from_Space.pdf\n6.24 MB\nThu, 2018-05-03 10:00\nExploring_the_Antarctic.pdf\n35.11 MB\nWed, 2020-02-19 10:00\nImages_of_Moon_From_Chandrayan-1.pdf\n388.48 MB\nThu, 2010-12-23 10:00\nChandrayan-1_Lunar_Science_Atlas.pdf\n69.87 MB\nThu, 2015-04-30 10:00\nCoral_Reef_Atlas_of_Red_Sea_Gulf_of_Aden.pdf\n72.11 MB\nThu, 2018-05-03 10:00\nAtlas_of_Sea_Ice_Trends.pdf\n2.83 MB\nThu, 2012-03-01 10:00\nMars-atlas.pdf\n35.13 MB\nMon, 2015-08-31 10:00\n10 files - 735.95 MB\nRead Online\nExploring the Antarctic\nOcean from Space\nWave Atlas\nCoral reef Atlas\nUtilization AVIRIS-NG\nGlimpse of India by RISAT-1\nMars  Atlas\nLunar Science Atlas\nSea Ice Trends\nImages of Moon\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "f\n88.53 MB\nMon, 2015-08-31 10:00\nEyes_on_Waves_from_Space.pdf\n6.24 MB\nThu, 2018-05-03 10:00\nExploring_the_Antarctic.pdf\n35.11 MB\nWed, 2020-02-19 10:00\nImages_of_Moon_From_Chandrayan-1.pdf\n388.48 MB\nThu, 2010-12-23 10:00\nChandrayan-1_Lunar_Science_Atlas.pdf\n69.87 MB\nThu, 2015-04-30 10:00\nCoral_Reef_Atlas_of_Red_Sea_Gulf_of_Aden.pdf\n72.11 MB\nThu, 2018-05-03 10:00\nAtlas_of_Sea_Ice_Trends.pdf\n2.83 MB\nThu, 2012-03-01 10:00\nMars-atlas.pdf\n35.13 MB\nMon, 2015-08-31 10:00\n10 files - 735.95 MB\nRead Online\nExploring the Antarctic\nOcean from Space\nWave Atlas\nCoral reef Atlas\nUtilization AVIRIS-NG\nGlimpse of India by RISAT-1\nMars  Atlas\nLunar Science Atlas\nSea Ice Trends\nImages of Moon\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "f\n88.53 MB\nMon, 2015-08-31 10:00\nEyes_on_Waves_from_Space.pdf\n6.24 MB\nThu, 2018-05-03 10:00\nExploring_the_Antarctic.pdf\n35.11 MB\nWed, 2020-02-19 10:00\nImages_of_Moon_From_Chandrayan-1.pdf\n388.48 MB\nThu, 2010-12-23 10:00\nChandrayan-1_Lunar_Science_Atlas.pdf\n69.87 MB\nThu, 2015-04-30 10:00\nCoral_Reef_Atlas_of_Red_Sea_Gulf_of_Aden.pdf\n72.11 MB\nThu, 2018-05-03 10:00\nAtlas_of_Sea_Ice_Trends.pdf\n2.83 MB\nThu, 2012-03-01 10:00\nMars-atlas.pdf\n35.13 MB\nMon, 2015-08-31 10:00\n10 files - 735.95 MB\nRead Online\nExploring the Antarctic\nOcean from Space\nWave Atlas\nCoral reef Atlas\nUtilization AVIRIS-NG\nGlimpse of India by RISAT-1\nMars  Atlas\nLunar Science Atlas\nSea Ice Trends\nImages of Moon\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic Satellite Data Archival Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic Satellite Data Archival Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "a Data Centre of Space Applications Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "f\n88.53 MB\nMon, 2015-08-31 10:00\nEy",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Indian",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "f\n88.53 MB\nMon, 2015-08-31 10:00\nEyes_on_Waves_from_Space.pdf\n6.24 MB\nThu, 2018-05-03 10:00\nExplo",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Satellite",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data, Archival",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Global Ocean Current",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "s_from_Space.pdf\n6.24 MB\nThu, 2018-05-03 10:00\nExploring_the_Antarctic.pdf\n35.11 MB\nWed, 2020-02-19 10:00\nImages_of_Moon_From_Chandrayan-1.pdf\n388.48 MB\nThu, 2010-12-23 10:00\nChandrayan-1_Lunar_Science_Atlas.pdf\n69.87 MB\nThu, 2015-04-30 10:",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Access",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "s_from_Space.pdf\n6.24 MB\nThu, 2018-05-03 10:00\nExploring_the_Antarctic.pdf\n35.11 MB\nWed, 2020-02-19 10:00\nImages_of_Moon_From_Chandrayan-1.pdf\n388.48 MB\nThu, 2010-12-23 10:00\nChandrayan-1_Lunar_Science_Atlas.pdf\n69.87 MB\nThu, 2015-04-30 10:00\nCoral_Ree",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Indian Mainland Coastal Product",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "s_from_Space.pdf\n6.24 MB\nThu, 2018-05-03 10:00\nExploring_the_Antarctic.pdf\n35.11 MB\nWed, 2020-02-19 10:00\nImages_of_Moon_From_Chandrayan-1.pdf\n388.48 MB\nThu, 2010-12-23 10:00\nChandrayan-1_Lunar_Science_Atlas.pdf\n69.87 MB\nThu, 2015-04-30 10:00\nCoral_Reef_Atlas_of_Red_Sea_Gulf_of_Aden.pdf\n72.11 MB\nThu, 2018-05-03 10:00\nAtlas_of_Sea_Ice_Trends.pdf\n2.83 MB\nThu, 2012-03-01 10:00\nMars-atlas.pdf\n35.13 MB\nMon, 2015-08-31 10:00\n10 files - 735.95 MB\nRead Online\nExploring the Antarctic\nOcean from Space\nWave Atlas\nCoral reef Atlas\nUtilization AVIRIS-NG\nGlimpse of India by RISAT-1\nMars  Atlas\n",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Quality",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "s_from_Space.pdf\n6.24 MB\nThu, 2018-05-03 10:00\nExploring_the_Antarctic.pdf\n35.11 MB\nWed, 2020-02-19 10:00\nImages_of_Moon_From_Chandrayan-1.pdf\n388.48 MB\nThu, 2010-12-23 10:00\nChandrayan-1_Lunar_Science_Atlas.pdf\n69.87 MB\nThu, 2015-04-30 10:00\nCoral_Reef_Atlas_of_Red_Sea_Gulf_of_Aden.pdf\n72.11 MB\nThu, 2018-05-03 10:00\nAtlas_of_Sea_Ice_Trends.pdf\n2.83 MB\nThu, 2012-03-01 10:00\nMars-atlas.pdf\n35.13 MB\nMon, 2015-08-31 10:00\n10 files - 735.95 MB\nRead Online\nExploring the Antarctic\nOcean from Space\nWave Atlas\nCoral reef Atlas\nUtilization AVIRIS-NG\nGlimpse of India by RISAT-1\nMars  Atlas\nLunar Science Atlas\nSea Ice Trends\nImages of Moon\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of IN",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "Antarctic",
+      "tail_type": "REGION",
+      "evidence": "s_from_Space.pdf\n6.24 MB\nThu, 2018-05-03 10:00\nExploring_the_Antarctic.pdf\n35.11 MB\nWed, 2020-02-19 10:00\nImages_of_Moon_From_Chandrayan-1.pdf\n388.48 MB\nThu, 2010-12-23 10:00\nChandrayan-1_Lunar_Science_Atlas.pdf\n69.87 MB\nThu, 2015-04-30 10:00\nCoral_Reef_Atlas_of_Red_Sea_Gulf_of_Aden.pdf\n72.11 MB\nThu, 2018-05-03 10:00\nAtlas_of_Sea_Ice_Trends.pdf\n2.83 MB\nThu, 2012-03-01 10:00\nMars-atlas.pdf\n35.13 MB\nMon, 2015-08-31 10:00\n10 files - 735.95 MB\nRead Online\nExploring the Antarctic\nOcean from Space\nWave Atlas\nCoral reef Atlas\nUtilization AVIRIS-NG\nGlimpse of India by RISAT-1\nMars  Atlas\nLunar Science Atlas\nSea Ice Trends\nImages of Moon\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "India",
+      "tail_type": "REGION",
+      "evidence": "s_from_Space.pdf\n6.24 MB\nThu, 2018-05-03 10:00\nExploring_the_Antarctic.pdf\n35.11 MB\nWed, 2020-02-19 10:00\nImages_of_Moon_From_Chandrayan-1.pdf\n388.48 MB\nThu, 2010-12-23 10:00\nChandrayan-1_Lunar_Science_Atlas.pdf\n69.87 MB\nThu, 2015-04-30 10:00\nCoral_Reef_Atlas_of_Red_Sea_Gulf_of_Aden.pdf\n72.11 MB\nThu, 2018-05-03 10:00\nAtlas_of_Sea_Ice_Trends.pdf\n2.83 MB\nThu, 2012-03-01 10:00\nMars-atlas.pdf\n35.13 MB\nMon, 2015-08-31 10:00\n10 files - 735.95 MB\nRead Online\nExploring the Antarctic\nOcean from Space\nWave Atlas\nCoral reef Atlas\nUtilization AVIRIS-NG\nGlimpse of India by RISAT-1\nMars  Atlas\nLunar Science Atlas\nSea Ice Trends\nImages of Moon\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "Mars",
+      "tail_type": "REGION",
+      "evidence": "s_from_Space.pdf\n6.24 MB\nThu, 2018-05-03 10:00\nExploring_the_Antarctic.pdf\n35.11 MB\nWed, 2020-02-19 10:00\nImages_of_Moon_From_Chandrayan-1.pdf\n388.48 MB\nThu, 2010-12-23 10:00\nChandrayan-1_Lunar_Science_Atlas.pdf\n69.87 MB\nThu, 2015-04-30 10:00\nCoral_Reef_Atlas_of_Red_Sea_Gulf_of_Aden.pdf\n72.11 MB\nThu, 2018-05-03 10:00\nAtlas_of_Sea_Ice_Trends.pdf\n2.83 MB\nThu, 2012-03-01 10:00\nMars-atlas.pdf\n35.13 MB\nMon, 2015-08-31 10:00\n10 files - 735.95 MB\nRead Online\nExploring the Antarctic\nOcean from Space\nWave Atlas\nCoral reef Atlas\nUtilization AVIRIS-NG\nGlimpse of India by RISAT-1\nMars  Atlas\nLunar Science Atlas\nSea Ice Trends\nImages of Moon\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "Atlas\nLunar Science Atlas\nSea Ice Trends\nImages",
+      "tail_type": "REGION",
+      "evidence": "s_from_Space.pdf\n6.24 MB\nThu, 2018-05-03 10:00\nExploring_the_Antarctic.pdf\n35.11 MB\nWed, 2020-02-19 10:00\nImages_of_Moon_From_Chandrayan-1.pdf\n388.48 MB\nThu, 2010-12-23 10:00\nChandrayan-1_Lunar_Science_Atlas.pdf\n69.87 MB\nThu, 2015-04-30 10:00\nCoral_Reef_Atlas_of_Red_Sea_Gulf_of_Aden.pdf\n72.11 MB\nThu, 2018-05-03 10:00\nAtlas_of_Sea_Ice_Trends.pdf\n2.83 MB\nThu, 2012-03-01 10:00\nMars-atlas.pdf\n35.13 MB\nMon, 2015-08-31 10:00\n10 files - 735.95 MB\nRead Online\nExploring the Antarctic\nOcean from Space\nWave Atlas\nCoral reef Atlas\nUtilization AVIRIS-NG\nGlimpse of India by RISAT-1\nMars  Atlas\nLunar Science Atlas\nSea Ice Trends\nImages of Moon\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "s_from_Space.pdf\n6.24 MB\nThu, 2018-05-03 10:00\nExploring_the_Antarctic.pdf\n35.11 MB\nWed, 2020-02-19 10:00\nImages_of_Moon_From_Chandrayan-1.pdf\n388.48 MB\nThu, 2010-12-23 10:00\nChandrayan-1_Lunar_Science_Atlas.pdf\n69.87 MB\nThu, 2015-04-30 10:00\nCoral_Reef_Atlas_of_Red_Sea_Gulf_of_Aden.pdf\n72.11 MB\nThu, 2018-05-03 10:00\nAtlas_of_Sea_Ice_Trends.pdf\n2.83 MB\nThu, 2012-03-01 10:00\nMars-atlas.pdf\n35.13 MB\nMon, 2015-08-31 10:00\n10 files - 735.95 MB\nRead Online\nExploring the Antarctic\nOcean from Space\nWave Atlas\nCoral reef Atlas\nUtilization AVIRIS-NG\nGlimpse of India by RISAT-1\nMars  Atlas\nLunar Science Atlas\nSea Ice Trends\nImages of Moon\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "s_from_Space.pdf\n6.24 MB\nThu, 2018-05-03 10:00\nExploring_the_Antarctic.pdf\n35.11 MB\nWed, 2020-02-19 10:00\nImages_of_Moon_From_Chandrayan-1.pdf\n388.48 MB\nThu, 2010-12-23 10:00\nChandrayan-1_Lunar_Science_Atlas.pdf\n69.87 MB\nThu, 2015-04-30 10:00\nCoral_Reef_Atlas_of_Red_Sea_Gulf_of_Aden.pdf\n72.11 MB\nThu, 2018-05-03 10:00\nAtlas_of_Sea_Ice_Trends.pdf\n2.83 MB\nThu, 2012-03-01 10:00\nMars-atlas.pdf\n35.13 MB\nMon, 2015-08-31 10:00\n10 files - 735.95 MB\nRead Online\nExploring the Antarctic\nOcean from Space\nWave Atlas\nCoral reef Atlas\nUtilization AVIRIS-NG\nGlimpse of India by RISAT-1\nMars  Atlas\nLunar Science Atlas\nSea Ice Trends\nImages of Moon\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic Satellite Data Archival Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic Satellite Data Archival Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "a Data Centre of Space Applications Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Indian",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "s_from_Space.pdf\n6.24 MB\nThu, 2018-05-03 10:00\nExplo",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Satellite",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data, Archival",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "DWR",
+      "head_type": "INSTRUMENT",
+      "type": "MEASURES",
+      "tail": "AWS",
+      "tail_type": "PARAMETER",
+      "evidence": "5-03 10:00\nExploring_the_Antarctic.pdf\n35.11 MB\nWed, 2020-02-19 10:00\nImages_of_Moon_From_Chandrayan-1.pdf\n388.48 MB\nThu, 2010-12-23 10:00\nChandrayan-1_Lunar_Science_Atlas.pdf\n69.87 ",
+      "source": "pattern"
+    },
+    {
+      "head": "MT-SAPHIR",
+      "head_type": "INSTRUMENT",
+      "type": "MEASURES",
+      "tail": "AWS",
+      "tail_type": "PARAMETER",
+      "evidence": "5-03 10:00\nExploring_the_Antarctic.pdf\n35.11 MB\nWed, 2020-02-19 10:00\nImages_of_Moon_From_Chandrayan-1.pdf\n388.48 MB\nThu, 2010-12-23 10:00\nChandrayan-1_Lunar_Science_Atlas.pdf\n69.87 MB\nThu, 2015-04-30 10:00\nCoral_Reef_Atlas_of_Red_Sea_Gulf_of_Aden.pdf\n72.11 MB\nThu, 2018-05",
+      "source": "pattern"
+    },
+    {
+      "head": "DWR",
+      "head_type": "INSTRUMENT",
+      "type": "COVERS",
+      "tail": "Antarctic",
+      "tail_type": "REGION",
+      "evidence": "_Moon_From_Chandrayan-1.pdf\n388.48 MB\nThu, 2010-12-23 10:00\nChandrayan-1_Lunar_Science_Atlas.pdf\n69.87 MB\nThu, 2015-04-30 10:00\nCoral_Reef_Atlas_of_Red_Sea_Gulf_of_Aden.pdf\n72.11 MB\nThu, 2018-05-03 10:00\nAtlas_of_Sea_Ice_Trends.pdf\n2.83 MB\nThu, 2012-03-01 10:00\nMars-atlas.pdf\n35.13 MB\nMon, 2015-08-31 10:00\n10 files - 735.95 MB\nRead Online\nExploring the Antarctic\nOcean from Space\nWave Atlas\nCoral reef Atlas\nUtilization AVIRIS-NG\nGlimpse of India by RISAT-1\nMars  Atlas\nLunar Science Atlas\nSea Ice Trends\nImages of Moon\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "DWR",
+      "head_type": "INSTRUMENT",
+      "type": "COVERS",
+      "tail": "India",
+      "tail_type": "REGION",
+      "evidence": "_Moon_From_Chandrayan-1.pdf\n388.48 MB\nThu, 2010-12-23 10:00\nChandrayan-1_Lunar_Science_Atlas.pdf\n69.87 MB\nThu, 2015-04-30 10:00\nCoral_Reef_Atlas_of_Red_Sea_Gulf_of_Aden.pdf\n72.11 MB\nThu, 2018-05-03 10:00\nAtlas_of_Sea_Ice_Trends.pdf\n2.83 MB\nThu, 2012-03-01 10:00\nMars-atlas.pdf\n35.13 MB\nMon, 2015-08-31 10:00\n10 files - 735.95 MB\nRead Online\nExploring the Antarctic\nOcean from Space\nWave Atlas\nCoral reef Atlas\nUtilization AVIRIS-NG\nGlimpse of India by RISAT-1\nMars  Atlas\nLunar Science Atlas\nSea Ice Trends\nImages of Moon\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "DWR",
+      "head_type": "INSTRUMENT",
+      "type": "COVERS",
+      "tail": "Mars",
+      "tail_type": "REGION",
+      "evidence": "_Moon_From_Chandrayan-1.pdf\n388.48 MB\nThu, 2010-12-23 10:00\nChandrayan-1_Lunar_Science_Atlas.pdf\n69.87 MB\nThu, 2015-04-30 10:00\nCoral_Reef_Atlas_of_Red_Sea_Gulf_of_Aden.pdf\n72.11 MB\nThu, 2018-05-03 10:00\nAtlas_of_Sea_Ice_Trends.pdf\n2.83 MB\nThu, 2012-03-01 10:00\nMars-atlas.pdf\n35.13 MB\nMon, 2015-08-31 10:00\n10 files - 735.95 MB\nRead Online\nExploring the Antarctic\nOcean from Space\nWave Atlas\nCoral reef Atlas\nUtilization AVIRIS-NG\nGlimpse of India by RISAT-1\nMars  Atlas\nLunar Science Atlas\nSea Ice Trends\nImages of Moon\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "DWR",
+      "head_type": "INSTRUMENT",
+      "type": "COVERS",
+      "tail": "Atlas\nLunar Science Atlas\nSea Ice Trends\nImages",
+      "tail_type": "REGION",
+      "evidence": "_Moon_From_Chandrayan-1.pdf\n388.48 MB\nThu, 2010-12-23 10:00\nChandrayan-1_Lunar_Science_Atlas.pdf\n69.87 MB\nThu, 2015-04-30 10:00\nCoral_Reef_Atlas_of_Red_Sea_Gulf_of_Aden.pdf\n72.11 MB\nThu, 2018-05-03 10:00\nAtlas_of_Sea_Ice_Trends.pdf\n2.83 MB\nThu, 2012-03-01 10:00\nMars-atlas.pdf\n35.13 MB\nMon, 2015-08-31 10:00\n10 files - 735.95 MB\nRead Online\nExploring the Antarctic\nOcean from Space\nWave Atlas\nCoral reef Atlas\nUtilization AVIRIS-NG\nGlimpse of India by RISAT-1\nMars  Atlas\nLunar Science Atlas\nSea Ice Trends\nImages of Moon\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "DWR",
+      "head_type": "INSTRUMENT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "_Moon_From_Chandrayan-1.pdf\n388.48 MB\nThu, 2010-12-23 10:00\nChandrayan-1_Lunar_Science_Atlas.pdf\n69.87 MB\nThu, 2015-04-30 10:00\nCoral_Reef_Atlas_of_Red_Sea_Gulf_of_Aden.pdf\n72.11 MB\nThu, 2018-05-03 10:00\nAtlas_of_Sea_Ice_Trends.pdf\n2.83 MB\nThu, 2012-03-01 10:00\nMars-atlas.pdf\n35.13 MB\nMon, 2015-08-31 10:00\n10 files - 735.95 MB\nRead Online\nExploring the Antarctic\nOcean from Space\nWave Atlas\nCoral reef Atlas\nUtilization AVIRIS-NG\nGlimpse of India by RISAT-1\nMars  Atlas\nLunar Science Atlas\nSea Ice Trends\nImages of Moon\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "DWR",
+      "head_type": "INSTRUMENT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "_Moon_From_Chandrayan-1.pdf\n388.48 MB\nThu, 2010-12-23 10:00\nChandrayan-1_Lunar_Science_Atlas.pdf\n69.87 MB\nThu, 2015-04-30 10:00\nCoral_Reef_Atlas_of_Red_Sea_Gulf_of_Aden.pdf\n72.11 MB\nThu, 2018-05-03 10:00\nAtlas_of_Sea_Ice_Trends.pdf\n2.83 MB\nThu, 2012-03-01 10:00\nMars-atlas.pdf\n35.13 MB\nMon, 2015-08-31 10:00\n10 files - 735.95 MB\nRead Online\nExploring the Antarctic\nOcean from Space\nWave Atlas\nCoral reef Atlas\nUtilization AVIRIS-NG\nGlimpse of India by RISAT-1\nMars  Atlas\nLunar Science Atlas\nSea Ice Trends\nImages of Moon\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Global Ocean Current",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Antarctic",
+      "tail_type": "REGION",
+      "evidence": "_From_Chandrayan-1.pdf\n388.48 MB\nThu, 2010-12-23 10:00\nChandrayan-1_Lunar_Science_Atlas.pdf\n69.87 MB\nThu, 2015-04-30 10:00\nCoral_Reef_Atlas_of_Red_Sea_Gulf_of_Aden.pdf\n72.11 MB\nThu, 2018-05-03 10:00\nAtlas_of_Sea_Ice_Trends.pdf\n2.83 MB\nThu, 2012-03-01 10:00\nMars-atlas.pdf\n35.13 MB\nMon, 2015-08-31 10:00\n10 files - 735.95 MB\nRead Online\nExploring the Antarctic\nOcean from Space\nWave Atlas\nCoral reef Atlas\nUtilization AVIRIS-NG\nGlimpse of India by RISAT-1\nMars  Atlas\nLunar Science Atlas\nSea Ice Trends\nImages of Moon\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Global Ocean Current",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "India",
+      "tail_type": "REGION",
+      "evidence": "_From_Chandrayan-1.pdf\n388.48 MB\nThu, 2010-12-23 10:00\nChandrayan-1_Lunar_Science_Atlas.pdf\n69.87 MB\nThu, 2015-04-30 10:00\nCoral_Reef_Atlas_of_Red_Sea_Gulf_of_Aden.pdf\n72.11 MB\nThu, 2018-05-03 10:00\nAtlas_of_Sea_Ice_Trends.pdf\n2.83 MB\nThu, 2012-03-01 10:00\nMars-atlas.pdf\n35.13 MB\nMon, 2015-08-31 10:00\n10 files - 735.95 MB\nRead Online\nExploring the Antarctic\nOcean from Space\nWave Atlas\nCoral reef Atlas\nUtilization AVIRIS-NG\nGlimpse of India by RISAT-1\nMars  Atlas\nLunar Science Atlas\nSea Ice Trends\nImages of Moon\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Global Ocean Current",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Mars",
+      "tail_type": "REGION",
+      "evidence": "_From_Chandrayan-1.pdf\n388.48 MB\nThu, 2010-12-23 10:00\nChandrayan-1_Lunar_Science_Atlas.pdf\n69.87 MB\nThu, 2015-04-30 10:00\nCoral_Reef_Atlas_of_Red_Sea_Gulf_of_Aden.pdf\n72.11 MB\nThu, 2018-05-03 10:00\nAtlas_of_Sea_Ice_Trends.pdf\n2.83 MB\nThu, 2012-03-01 10:00\nMars-atlas.pdf\n35.13 MB\nMon, 2015-08-31 10:00\n10 files - 735.95 MB\nRead Online\nExploring the Antarctic\nOcean from Space\nWave Atlas\nCoral reef Atlas\nUtilization AVIRIS-NG\nGlimpse of India by RISAT-1\nMars  Atlas\nLunar Science Atlas\nSea Ice Trends\nImages of Moon\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Global Ocean Current",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Atlas\nLunar Science Atlas\nSea Ice Trends\nImages",
+      "tail_type": "REGION",
+      "evidence": "_From_Chandrayan-1.pdf\n388.48 MB\nThu, 2010-12-23 10:00\nChandrayan-1_Lunar_Science_Atlas.pdf\n69.87 MB\nThu, 2015-04-30 10:00\nCoral_Reef_Atlas_of_Red_Sea_Gulf_of_Aden.pdf\n72.11 MB\nThu, 2018-05-03 10:00\nAtlas_of_Sea_Ice_Trends.pdf\n2.83 MB\nThu, 2012-03-01 10:00\nMars-atlas.pdf\n35.13 MB\nMon, 2015-08-31 10:00\n10 files - 735.95 MB\nRead Online\nExploring the Antarctic\nOcean from Space\nWave Atlas\nCoral reef Atlas\nUtilization AVIRIS-NG\nGlimpse of India by RISAT-1\nMars  Atlas\nLunar Science Atlas\nSea Ice Trends\nImages of Moon\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Global Ocean Current",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "_From_Chandrayan-1.pdf\n388.48 MB\nThu, 2010-12-23 10:00\nChandrayan-1_Lunar_Science_Atlas.pdf\n69.87 MB\nThu, 2015-04-30 10:00\nCoral_Reef_Atlas_of_Red_Sea_Gulf_of_Aden.pdf\n72.11 MB\nThu, 2018-05-03 10:00\nAtlas_of_Sea_Ice_Trends.pdf\n2.83 MB\nThu, 2012-03-01 10:00\nMars-atlas.pdf\n35.13 MB\nMon, 2015-08-31 10:00\n10 files - 735.95 MB\nRead Online\nExploring the Antarctic\nOcean from Space\nWave Atlas\nCoral reef Atlas\nUtilization AVIRIS-NG\nGlimpse of India by RISAT-1\nMars  Atlas\nLunar Science Atlas\nSea Ice Trends\nImages of Moon\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Global Ocean Current",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "_From_Chandrayan-1.pdf\n388.48 MB\nThu, 2010-12-23 10:00\nChandrayan-1_Lunar_Science_Atlas.pdf\n69.87 MB\nThu, 2015-04-30 10:00\nCoral_Reef_Atlas_of_Red_Sea_Gulf_of_Aden.pdf\n72.11 MB\nThu, 2018-05-03 10:00\nAtlas_of_Sea_Ice_Trends.pdf\n2.83 MB\nThu, 2012-03-01 10:00\nMars-atlas.pdf\n35.13 MB\nMon, 2015-08-31 10:00\n10 files - 735.95 MB\nRead Online\nExploring the Antarctic\nOcean from Space\nWave Atlas\nCoral reef Atlas\nUtilization AVIRIS-NG\nGlimpse of India by RISAT-1\nMars  Atlas\nLunar Science Atlas\nSea Ice Trends\nImages of Moon\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Data Access",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Antarctic",
+      "tail_type": "REGION",
+      "evidence": "f\n388.48 MB\nThu, 2010-12-23 10:00\nChandrayan-1_Lunar_Science_Atlas.pdf\n69.87 MB\nThu, 2015-04-30 10:00\nCoral_Reef_Atlas_of_Red_Sea_Gulf_of_Aden.pdf\n72.11 MB\nThu, 2018-05-03 10:00\nAtlas_of_Sea_Ice_Trends.pdf\n2.83 MB\nThu, 2012-03-01 10:00\nMars-atlas.pdf\n35.13 MB\nMon, 2015-08-31 10:00\n10 files - 735.95 MB\nRead Online\nExploring the Antarctic\nOcean from Space\nWave Atlas\nCoral reef Atlas\nUtilization AVIRIS-NG\nGlimpse of India by RISAT-1\nMars  Atlas\nLunar Science Atlas\nSea Ice Trends\nImages of Moon\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Data Access",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "India",
+      "tail_type": "REGION",
+      "evidence": "f\n388.48 MB\nThu, 2010-12-23 10:00\nChandrayan-1_Lunar_Science_Atlas.pdf\n69.87 MB\nThu, 2015-04-30 10:00\nCoral_Reef_Atlas_of_Red_Sea_Gulf_of_Aden.pdf\n72.11 MB\nThu, 2018-05-03 10:00\nAtlas_of_Sea_Ice_Trends.pdf\n2.83 MB\nThu, 2012-03-01 10:00\nMars-atlas.pdf\n35.13 MB\nMon, 2015-08-31 10:00\n10 files - 735.95 MB\nRead Online\nExploring the Antarctic\nOcean from Space\nWave Atlas\nCoral reef Atlas\nUtilization AVIRIS-NG\nGlimpse of India by RISAT-1\nMars  Atlas\nLunar Science Atlas\nSea Ice Trends\nImages of Moon\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Data Access",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Mars",
+      "tail_type": "REGION",
+      "evidence": "f\n388.48 MB\nThu, 2010-12-23 10:00\nChandrayan-1_Lunar_Science_Atlas.pdf\n69.87 MB\nThu, 2015-04-30 10:00\nCoral_Reef_Atlas_of_Red_Sea_Gulf_of_Aden.pdf\n72.11 MB\nThu, 2018-05-03 10:00\nAtlas_of_Sea_Ice_Trends.pdf\n2.83 MB\nThu, 2012-03-01 10:00\nMars-atlas.pdf\n35.13 MB\nMon, 2015-08-31 10:00\n10 files - 735.95 MB\nRead Online\nExploring the Antarctic\nOcean from Space\nWave Atlas\nCoral reef Atlas\nUtilization AVIRIS-NG\nGlimpse of India by RISAT-1\nMars  Atlas\nLunar Science Atlas\nSea Ice Trends\nImages of Moon\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Data Access",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Atlas\nLunar Science Atlas\nSea Ice Trends\nImages",
+      "tail_type": "REGION",
+      "evidence": "f\n388.48 MB\nThu, 2010-12-23 10:00\nChandrayan-1_Lunar_Science_Atlas.pdf\n69.87 MB\nThu, 2015-04-30 10:00\nCoral_Reef_Atlas_of_Red_Sea_Gulf_of_Aden.pdf\n72.11 MB\nThu, 2018-05-03 10:00\nAtlas_of_Sea_Ice_Trends.pdf\n2.83 MB\nThu, 2012-03-01 10:00\nMars-atlas.pdf\n35.13 MB\nMon, 2015-08-31 10:00\n10 files - 735.95 MB\nRead Online\nExploring the Antarctic\nOcean from Space\nWave Atlas\nCoral reef Atlas\nUtilization AVIRIS-NG\nGlimpse of India by RISAT-1\nMars  Atlas\nLunar Science Atlas\nSea Ice Trends\nImages of Moon\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Data Access",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "f\n388.48 MB\nThu, 2010-12-23 10:00\nChandrayan-1_Lunar_Science_Atlas.pdf\n69.87 MB\nThu, 2015-04-30 10:00\nCoral_Reef_Atlas_of_Red_Sea_Gulf_of_Aden.pdf\n72.11 MB\nThu, 2018-05-03 10:00\nAtlas_of_Sea_Ice_Trends.pdf\n2.83 MB\nThu, 2012-03-01 10:00\nMars-atlas.pdf\n35.13 MB\nMon, 2015-08-31 10:00\n10 files - 735.95 MB\nRead Online\nExploring the Antarctic\nOcean from Space\nWave Atlas\nCoral reef Atlas\nUtilization AVIRIS-NG\nGlimpse of India by RISAT-1\nMars  Atlas\nLunar Science Atlas\nSea Ice Trends\nImages of Moon\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Data Access",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "f\n388.48 MB\nThu, 2010-12-23 10:00\nChandrayan-1_Lunar_Science_Atlas.pdf\n69.87 MB\nThu, 2015-04-30 10:00\nCoral_Reef_Atlas_of_Red_Sea_Gulf_of_Aden.pdf\n72.11 MB\nThu, 2018-05-03 10:00\nAtlas_of_Sea_Ice_Trends.pdf\n2.83 MB\nThu, 2012-03-01 10:00\nMars-atlas.pdf\n35.13 MB\nMon, 2015-08-31 10:00\n10 files - 735.95 MB\nRead Online\nExploring the Antarctic\nOcean from Space\nWave Atlas\nCoral reef Atlas\nUtilization AVIRIS-NG\nGlimpse of India by RISAT-1\nMars  Atlas\nLunar Science Atlas\nSea Ice Trends\nImages of Moon\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "MT-SAPHIR",
+      "head_type": "INSTRUMENT",
+      "type": "COVERS",
+      "tail": "Antarctic",
+      "tail_type": "REGION",
+      "evidence": "e_Atlas.pdf\n69.87 MB\nThu, 2015-04-30 10:00\nCoral_Reef_Atlas_of_Red_Sea_Gulf_of_Aden.pdf\n72.11 MB\nThu, 2018-05-03 10:00\nAtlas_of_Sea_Ice_Trends.pdf\n2.83 MB\nThu, 2012-03-01 10:00\nMars-atlas.pdf\n35.13 MB\nMon, 2015-08-31 10:00\n10 files - 735.95 MB\nRead Online\nExploring the Antarctic\nOcean from Space\nWave Atlas\nCoral reef Atlas\nUtilization AVIRIS-NG\nGlimpse of India by RISAT-1\nMars  Atlas\nLunar Science Atlas\nSea Ice Trends\nImages of Moon\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "MT-SAPHIR",
+      "head_type": "INSTRUMENT",
+      "type": "COVERS",
+      "tail": "India",
+      "tail_type": "REGION",
+      "evidence": "e_Atlas.pdf\n69.87 MB\nThu, 2015-04-30 10:00\nCoral_Reef_Atlas_of_Red_Sea_Gulf_of_Aden.pdf\n72.11 MB\nThu, 2018-05-03 10:00\nAtlas_of_Sea_Ice_Trends.pdf\n2.83 MB\nThu, 2012-03-01 10:00\nMars-atlas.pdf\n35.13 MB\nMon, 2015-08-31 10:00\n10 files - 735.95 MB\nRead Online\nExploring the Antarctic\nOcean from Space\nWave Atlas\nCoral reef Atlas\nUtilization AVIRIS-NG\nGlimpse of India by RISAT-1\nMars  Atlas\nLunar Science Atlas\nSea Ice Trends\nImages of Moon\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "MT-SAPHIR",
+      "head_type": "INSTRUMENT",
+      "type": "COVERS",
+      "tail": "Mars",
+      "tail_type": "REGION",
+      "evidence": "e_Atlas.pdf\n69.87 MB\nThu, 2015-04-30 10:00\nCoral_Reef_Atlas_of_Red_Sea_Gulf_of_Aden.pdf\n72.11 MB\nThu, 2018-05-03 10:00\nAtlas_of_Sea_Ice_Trends.pdf\n2.83 MB\nThu, 2012-03-01 10:00\nMars-atlas.pdf\n35.13 MB\nMon, 2015-08-31 10:00\n10 files - 735.95 MB\nRead Online\nExploring the Antarctic\nOcean from Space\nWave Atlas\nCoral reef Atlas\nUtilization AVIRIS-NG\nGlimpse of India by RISAT-1\nMars  Atlas\nLunar Science Atlas\nSea Ice Trends\nImages of Moon\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "MT-SAPHIR",
+      "head_type": "INSTRUMENT",
+      "type": "COVERS",
+      "tail": "Atlas\nLunar Science Atlas\nSea Ice Trends\nImages",
+      "tail_type": "REGION",
+      "evidence": "e_Atlas.pdf\n69.87 MB\nThu, 2015-04-30 10:00\nCoral_Reef_Atlas_of_Red_Sea_Gulf_of_Aden.pdf\n72.11 MB\nThu, 2018-05-03 10:00\nAtlas_of_Sea_Ice_Trends.pdf\n2.83 MB\nThu, 2012-03-01 10:00\nMars-atlas.pdf\n35.13 MB\nMon, 2015-08-31 10:00\n10 files - 735.95 MB\nRead Online\nExploring the Antarctic\nOcean from Space\nWave Atlas\nCoral reef Atlas\nUtilization AVIRIS-NG\nGlimpse of India by RISAT-1\nMars  Atlas\nLunar Science Atlas\nSea Ice Trends\nImages of Moon\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "MT-SAPHIR",
+      "head_type": "INSTRUMENT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "e_Atlas.pdf\n69.87 MB\nThu, 2015-04-30 10:00\nCoral_Reef_Atlas_of_Red_Sea_Gulf_of_Aden.pdf\n72.11 MB\nThu, 2018-05-03 10:00\nAtlas_of_Sea_Ice_Trends.pdf\n2.83 MB\nThu, 2012-03-01 10:00\nMars-atlas.pdf\n35.13 MB\nMon, 2015-08-31 10:00\n10 files - 735.95 MB\nRead Online\nExploring the Antarctic\nOcean from Space\nWave Atlas\nCoral reef Atlas\nUtilization AVIRIS-NG\nGlimpse of India by RISAT-1\nMars  Atlas\nLunar Science Atlas\nSea Ice Trends\nImages of Moon\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "MT-SAPHIR",
+      "head_type": "INSTRUMENT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "e_Atlas.pdf\n69.87 MB\nThu, 2015-04-30 10:00\nCoral_Reef_Atlas_of_Red_Sea_Gulf_of_Aden.pdf\n72.11 MB\nThu, 2018-05-03 10:00\nAtlas_of_Sea_Ice_Trends.pdf\n2.83 MB\nThu, 2012-03-01 10:00\nMars-atlas.pdf\n35.13 MB\nMon, 2015-08-31 10:00\n10 files - 735.95 MB\nRead Online\nExploring the Antarctic\nOcean from Space\nWave Atlas\nCoral reef Atlas\nUtilization AVIRIS-NG\nGlimpse of India by RISAT-1\nMars  Atlas\nLunar Science Atlas\nSea Ice Trends\nImages of Moon\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "ISRO",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Antarctic",
+      "tail_type": "REGION",
+      "evidence": "f_Red_Sea_Gulf_of_Aden.pdf\n72.11 MB\nThu, 2018-05-03 10:00\nAtlas_of_Sea_Ice_Trends.pdf\n2.83 MB\nThu, 2012-03-01 10:00\nMars-atlas.pdf\n35.13 MB\nMon, 2015-08-31 10:00\n10 files - 735.95 MB\nRead Online\nExploring the Antarctic\nOcean from Space\nWave Atlas\nCoral reef Atlas\nUtilization AVIRIS-NG\nGlimpse of India by RISAT-1\nMars  Atlas\nLunar Science Atlas\nSea Ice Trends\nImages of Moon\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "ISRO",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "India",
+      "tail_type": "REGION",
+      "evidence": "f_Red_Sea_Gulf_of_Aden.pdf\n72.11 MB\nThu, 2018-05-03 10:00\nAtlas_of_Sea_Ice_Trends.pdf\n2.83 MB\nThu, 2012-03-01 10:00\nMars-atlas.pdf\n35.13 MB\nMon, 2015-08-31 10:00\n10 files - 735.95 MB\nRead Online\nExploring the Antarctic\nOcean from Space\nWave Atlas\nCoral reef Atlas\nUtilization AVIRIS-NG\nGlimpse of India by RISAT-1\nMars  Atlas\nLunar Science Atlas\nSea Ice Trends\nImages of Moon\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "ISRO",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Mars",
+      "tail_type": "REGION",
+      "evidence": "f_Red_Sea_Gulf_of_Aden.pdf\n72.11 MB\nThu, 2018-05-03 10:00\nAtlas_of_Sea_Ice_Trends.pdf\n2.83 MB\nThu, 2012-03-01 10:00\nMars-atlas.pdf\n35.13 MB\nMon, 2015-08-31 10:00\n10 files - 735.95 MB\nRead Online\nExploring the Antarctic\nOcean from Space\nWave Atlas\nCoral reef Atlas\nUtilization AVIRIS-NG\nGlimpse of India by RISAT-1\nMars  Atlas\nLunar Science Atlas\nSea Ice Trends\nImages of Moon\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "ISRO",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Atlas\nLunar Science Atlas\nSea Ice Trends\nImages",
+      "tail_type": "REGION",
+      "evidence": "f_Red_Sea_Gulf_of_Aden.pdf\n72.11 MB\nThu, 2018-05-03 10:00\nAtlas_of_Sea_Ice_Trends.pdf\n2.83 MB\nThu, 2012-03-01 10:00\nMars-atlas.pdf\n35.13 MB\nMon, 2015-08-31 10:00\n10 files - 735.95 MB\nRead Online\nExploring the Antarctic\nOcean from Space\nWave Atlas\nCoral reef Atlas\nUtilization AVIRIS-NG\nGlimpse of India by RISAT-1\nMars  Atlas\nLunar Science Atlas\nSea Ice Trends\nImages of Moon\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "ISRO",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "f_Red_Sea_Gulf_of_Aden.pdf\n72.11 MB\nThu, 2018-05-03 10:00\nAtlas_of_Sea_Ice_Trends.pdf\n2.83 MB\nThu, 2012-03-01 10:00\nMars-atlas.pdf\n35.13 MB\nMon, 2015-08-31 10:00\n10 files - 735.95 MB\nRead Online\nExploring the Antarctic\nOcean from Space\nWave Atlas\nCoral reef Atlas\nUtilization AVIRIS-NG\nGlimpse of India by RISAT-1\nMars  Atlas\nLunar Science Atlas\nSea Ice Trends\nImages of Moon\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "ISRO",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "f_Red_Sea_Gulf_of_Aden.pdf\n72.11 MB\nThu, 2018-05-03 10:00\nAtlas_of_Sea_Ice_Trends.pdf\n2.83 MB\nThu, 2012-03-01 10:00\nMars-atlas.pdf\n35.13 MB\nMon, 2015-08-31 10:00\n10 files - 735.95 MB\nRead Online\nExploring the Antarctic\nOcean from Space\nWave Atlas\nCoral reef Atlas\nUtilization AVIRIS-NG\nGlimpse of India by RISAT-1\nMars  Atlas\nLunar Science Atlas\nSea Ice Trends\nImages of Moon\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Indian Mainland Coastal Product",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Antarctic",
+      "tail_type": "REGION",
+      "evidence": "Exploring the Antarctic\nOcean from Space\nWave Atlas\nCoral reef Atlas\nUtilization AVIRIS-NG\nGlimpse of India by RISAT-1\nMars  Atlas\nLunar Science Atlas\nSea Ice Trends\nImages of Moon\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Indian Mainland Coastal Product",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "India",
+      "tail_type": "REGION",
+      "evidence": "Exploring the Antarctic\nOcean from Space\nWave Atlas\nCoral reef Atlas\nUtilization AVIRIS-NG\nGlimpse of India by RISAT-1\nMars  Atlas\nLunar Science Atlas\nSea Ice Trends\nImages of Moon\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Indian Mainland Coastal Product",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Mars",
+      "tail_type": "REGION",
+      "evidence": "Exploring the Antarctic\nOcean from Space\nWave Atlas\nCoral reef Atlas\nUtilization AVIRIS-NG\nGlimpse of India by RISAT-1\nMars  Atlas\nLunar Science Atlas\nSea Ice Trends\nImages of Moon\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Indian Mainland Coastal Product",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Atlas\nLunar Science Atlas\nSea Ice Trends\nImages",
+      "tail_type": "REGION",
+      "evidence": "Exploring the Antarctic\nOcean from Space\nWave Atlas\nCoral reef Atlas\nUtilization AVIRIS-NG\nGlimpse of India by RISAT-1\nMars  Atlas\nLunar Science Atlas\nSea Ice Trends\nImages of Moon\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Indian Mainland Coastal Product",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "Exploring the Antarctic\nOcean from Space\nWave Atlas\nCoral reef Atlas\nUtilization AVIRIS-NG\nGlimpse of India by RISAT-1\nMars  Atlas\nLunar Science Atlas\nSea Ice Trends\nImages of Moon\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Indian Mainland Coastal Product",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "Exploring the Antarctic\nOcean from Space\nWave Atlas\nCoral reef Atlas\nUtilization AVIRIS-NG\nGlimpse of India by RISAT-1\nMars  Atlas\nLunar Science Atlas\nSea Ice Trends\nImages of Moon\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Data Quality",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Antarctic",
+      "tail_type": "REGION",
+      "evidence": "bsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Data Quality",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "India",
+      "tail_type": "REGION",
+      "evidence": "bsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Data Quality",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Mars",
+      "tail_type": "REGION",
+      "evidence": "bsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Data Quality",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Atlas\nLunar Science Atlas\nSea Ice Trends\nImages",
+      "tail_type": "REGION",
+      "evidence": "bsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Data Quality",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "bsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Data Quality",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "bsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic Satellite Data Archival Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Antarctic",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Antarctic",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic Satellite Data Archival Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Antarctic",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Antarctic",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "a Data Centre of Space Applications Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Antarctic",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Antarctic",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Indian",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Antarctic",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Antarctic",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Satellite",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Antarctic",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Data, Archival",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Antarctic",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Data Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Antarctic",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic Satellite Data Archival Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "India",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "India",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic Satellite Data Archival Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "India",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "India",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "a Data Centre of Space Applications Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "India",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "India",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Indian",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "India",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "India",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Satellite",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "India",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Data, Archival",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "India",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Data Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "India",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic Satellite Data Archival Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Mars",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Mars",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic Satellite Data Archival Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Mars",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Mars",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "a Data Centre of Space Applications Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Mars",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Mars",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Indian",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Mars",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Mars",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Satellite",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Mars",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Data, Archival",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Mars",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Data Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Mars",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic Satellite Data Archival Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Atlas\nLunar Science Atlas\nSea Ice Trends\nImages",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Atlas\nLunar Science Atlas\nSea Ice Trends\nImages",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic Satellite Data Archival Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Atlas\nLunar Science Atlas\nSea Ice Trends\nImages",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Atlas\nLunar Science Atlas\nSea Ice Trends\nImages",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "a Data Centre of Space Applications Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Atlas\nLunar Science Atlas\nSea Ice Trends\nImages",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Atlas\nLunar Science Atlas\nSea Ice Trends\nImages",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Indian",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Atlas\nLunar Science Atlas\nSea Ice Trends\nImages",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Atlas\nLunar Science Atlas\nSea Ice Trends\nImages",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Satellite",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Atlas\nLunar Science Atlas\nSea Ice Trends\nImages",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Data, Archival",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Atlas\nLunar Science Atlas\nSea Ice Trends\nImages",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Data Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Atlas\nLunar Science Atlas\nSea Ice Trends\nImages",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic Satellite Data Archival Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic Satellite Data Archival Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "a Data Centre of Space Applications Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Indian",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Satellite",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Data, Archival",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Data Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic Satellite Data Archival Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic Satellite Data Archival Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "a Data Centre of Space Applications Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Indian",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Satellite",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Data, Archival",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Data Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    }
+  ],
+  "stats": {
+    "entity_count": 69,
+    "relation_count": 232
+  }
+}

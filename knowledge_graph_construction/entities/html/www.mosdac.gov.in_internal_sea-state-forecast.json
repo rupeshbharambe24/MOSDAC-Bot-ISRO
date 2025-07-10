@@ -1,0 +1,12 @@
+{
+  "source": "R:\\Projects\\MOSDAC Help Bot\\Codes\\data_processing\\processed_output\\html\\www.mosdac.gov.in_internal_sea-state-forecast.json",
+  "text_entities": [
+    {
+      "text": "MOSDAC Weather Gallery",
+      "label": "ORG",
+      "start": 0,
+      "end": 22
+    }
+  ],
+  "metadata_entities": []
+}

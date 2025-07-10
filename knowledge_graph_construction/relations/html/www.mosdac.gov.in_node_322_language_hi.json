@@ -1,0 +1,1286 @@
+{
+  "source": "R:\\Projects\\MOSDAC Help Bot\\Codes\\data_processing\\processed_output\\html\\www.mosdac.gov.in_node_322_language_hi.json",
+  "entities": [
+    {
+      "text": "3डीआर",
+      "label": "CARDINAL",
+      "start": 6,
+      "end": 11,
+      "mosdac_type": "CARDINAL"
+    },
+    {
+      "text": "मुख्य",
+      "label": "ORG",
+      "start": 76,
+      "end": 81,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "English",
+      "label": "LANGUAGE",
+      "start": 122,
+      "end": 129,
+      "mosdac_type": "LANGUAGE"
+    },
+    {
+      "text": "इसरो\nहोम",
+      "label": "REGION",
+      "start": 215,
+      "end": 223,
+      "mosdac_type": "REGION"
+    },
+    {
+      "text": "इनसैट-3डीआर",
+      "label": "ORG",
+      "start": 229,
+      "end": 240,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "3डी",
+      "label": "CARDINAL",
+      "start": 517,
+      "end": 520,
+      "mosdac_type": "CARDINAL"
+    },
+    {
+      "text": "इसरो वर्षा",
+      "label": "ORG",
+      "start": 621,
+      "end": 631,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "ऊर्जा\nभारतीय",
+      "label": "LAW",
+      "start": 798,
+      "end": 810,
+      "mosdac_type": "LAW"
+    },
+    {
+      "text": "समुद्री बर्फ",
+      "label": "NORP",
+      "start": 874,
+      "end": 886,
+      "mosdac_type": "NORP"
+    },
+    {
+      "text": "होने की प्रायिकता",
+      "label": "ORG",
+      "start": 895,
+      "end": 912,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "अंशांकन",
+      "label": "ORG",
+      "start": 953,
+      "end": 960,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "संबंधित",
+      "label": "ORG",
+      "start": 971,
+      "end": 978,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "हैं",
+      "label": "CARDINAL",
+      "start": 1034,
+      "end": 1037,
+      "mosdac_type": "CARDINAL"
+    },
+    {
+      "text": "3डीआर",
+      "label": "CARDINAL",
+      "start": 1075,
+      "end": 1080,
+      "mosdac_type": "CARDINAL"
+    },
+    {
+      "text": "मामले",
+      "label": "REGION",
+      "start": 1117,
+      "end": 1122,
+      "mosdac_type": "REGION"
+    },
+    {
+      "text": "या इंडियन नेशनल सैटेलाइट सिस्टम",
+      "label": "ORG",
+      "start": 1155,
+      "end": 1186,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "प्रसारण",
+      "label": "REGION",
+      "start": 1206,
+      "end": 1213,
+      "mosdac_type": "REGION"
+    },
+    {
+      "text": "इसरो द्वारा",
+      "label": "ORG",
+      "start": 1274,
+      "end": 1285,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "प्रमोचित",
+      "label": "ORG",
+      "start": 1286,
+      "end": 1294,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "भू-स्थिर",
+      "label": "ORG",
+      "start": 1309,
+      "end": 1317,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "1983",
+      "label": "DATE",
+      "start": 1346,
+      "end": 1350,
+      "mosdac_type": "DATE"
+    },
+    {
+      "text": "मुख्य",
+      "label": "ORG",
+      "start": 1484,
+      "end": 1489,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "ध्वनित्र",
+      "label": "REGION",
+      "start": 1630,
+      "end": 1638,
+      "mosdac_type": "REGION"
+    },
+    {
+      "text": "मिशन का",
+      "label": "ORG",
+      "start": 1648,
+      "end": 1655,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "मुख्य",
+      "label": "ORG",
+      "start": 1656,
+      "end": 1661,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "जीवन",
+      "label": "CARDINAL",
+      "start": 1671,
+      "end": 1675,
+      "mosdac_type": "CARDINAL"
+    },
+    {
+      "text": "पर्यावरण",
+      "label": "DATE",
+      "start": 1719,
+      "end": 1727,
+      "mosdac_type": "DATE"
+    },
+    {
+      "text": "इनसैट3डीआर",
+      "label": "ORG",
+      "start": 1769,
+      "end": 1779,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "रहा है",
+      "label": "ORG",
+      "start": 1828,
+      "end": 1834,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "डेटा",
+      "label": "ORG",
+      "start": 1838,
+      "end": 1842,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "प्रसार",
+      "label": "PRODUCT",
+      "start": 1843,
+      "end": 1849,
+      "mosdac_type": "PRODUCT"
+    },
+    {
+      "text": "माध्यम",
+      "label": "PERSON",
+      "start": 1904,
+      "end": 1910,
+      "mosdac_type": "PERSON"
+    },
+    {
+      "text": "प्रणाली अंतरिक्ष उपयोग",
+      "label": "ORG",
+      "start": 1989,
+      "end": 2011,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "इनसैट-3डीआर",
+      "label": "ORG",
+      "start": 2069,
+      "end": 2080,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "डेटा",
+      "label": "ORG",
+      "start": 2081,
+      "end": 2085,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "प्रसंस्करण मोटे तौर पर चार",
+      "label": "ORG",
+      "start": 2089,
+      "end": 2115,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "प्रणाली",
+      "label": "ORG",
+      "start": 2181,
+      "end": 2188,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "2.कच्चा",
+      "label": "ORG",
+      "start": 2189,
+      "end": 2196,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "L0",
+      "label": "CARDINAL",
+      "start": 2203,
+      "end": 2205,
+      "mosdac_type": "CARDINAL"
+    },
+    {
+      "text": "डीआर",
+      "label": "ORG",
+      "start": 2248,
+      "end": 2252,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "प्रणाली",
+      "label": "ORG",
+      "start": 2254,
+      "end": 2261,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "डेटा",
+      "label": "ORG",
+      "start": 2267,
+      "end": 2271,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "संसाधित",
+      "label": "ORG",
+      "start": 2275,
+      "end": 2282,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "डेटा प्रसंस्करण",
+      "label": "ORG",
+      "start": 2326,
+      "end": 2341,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "प्रणाली",
+      "label": "ORG",
+      "start": 2349,
+      "end": 2356,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "प्रणाली",
+      "label": "ORG",
+      "start": 2407,
+      "end": 2414,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "74°",
+      "label": "CARDINAL",
+      "start": 2418,
+      "end": 2421,
+      "mosdac_type": "CARDINAL"
+    },
+    {
+      "text": "English",
+      "label": "LANGUAGE",
+      "start": 2449,
+      "end": 2456,
+      "mosdac_type": "LANGUAGE"
+    },
+    {
+      "text": "अंतरिक्ष",
+      "label": "REGION",
+      "start": 2492,
+      "end": 2500,
+      "mosdac_type": "REGION"
+    },
+    {
+      "text": "इसरो,",
+      "label": "REGION",
+      "start": 2515,
+      "end": 2520,
+      "mosdac_type": "REGION"
+    },
+    {
+      "text": "Oceanographic Satellite Data Archival Centre",
+      "label": "DATA_PRODUCT",
+      "start": 19,
+      "end": 63,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "MOSDAC",
+      "label": "DATA_PRODUCT",
+      "start": 65,
+      "end": 71,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "मामले",
+      "label": "REGION",
+      "start": 36,
+      "end": 41,
+      "mosdac_type": "REGION"
+    },
+    {
+      "text": "है।इनसैट या इंडियन नेशनल सैटेलाइट सिस्टम",
+      "label": "EVENT",
+      "start": 64,
+      "end": 104,
+      "mosdac_type": "EVENT"
+    },
+    {
+      "text": "प्रसारण",
+      "label": "REGION",
+      "start": 124,
+      "end": 131,
+      "mosdac_type": "REGION"
+    },
+    {
+      "text": "इसरो द्वारा",
+      "label": "ORG",
+      "start": 192,
+      "end": 203,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "प्रमोचित",
+      "label": "ORG",
+      "start": 204,
+      "end": 212,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "भू-स्थिर",
+      "label": "ORG",
+      "start": 227,
+      "end": 235,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "1983",
+      "label": "DATE",
+      "start": 264,
+      "end": 268,
+      "mosdac_type": "DATE"
+    },
+    {
+      "text": "Oceanographic Satellite Data Archival Centre",
+      "label": "DATA_PRODUCT",
+      "start": 19,
+      "end": 63,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "MOSDAC",
+      "label": "DATA_PRODUCT",
+      "start": 65,
+      "end": 71,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "a Data Centre of Space Applications Centre",
+      "label": "DATA_PRODUCT",
+      "start": 76,
+      "end": 118,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "MOSDAC",
+      "label": "DATA_PRODUCT",
+      "start": 212,
+      "end": 218,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "Indian",
+      "label": "DATA_PRODUCT",
+      "start": 274,
+      "end": 280,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "Oceanographic",
+      "label": "DATA_PRODUCT",
+      "start": 16,
+      "end": 29,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "Satellite",
+      "label": "DATA_PRODUCT",
+      "start": 31,
+      "end": 40,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "Data, Archival",
+      "label": "DATA_PRODUCT",
+      "start": 42,
+      "end": 56,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "Data Centre",
+      "label": "DATA_PRODUCT",
+      "start": 58,
+      "end": 69,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "MOSDAC",
+      "label": "ORG",
+      "start": 0,
+      "end": 6,
+      "mosdac_type": "ORG"
+    }
+  ],
+  "relations": [
+    {
+      "head": "Oceanographic Satellite Data Archival Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "इसरो\nहोम",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "इसरो\nहोम",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic Satellite Data Archival Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "इसरो\nहोम",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "इसरो\nहोम",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "a Data Centre of Space Applications Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "इसरो\nहोम",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "इसरो\nहोम",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Indian",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "इसरो\nहोम",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "इसरो\nहोम",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Satellite",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "इसरो\nहोम",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Data, Archival",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "इसरो\nहोम",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Data Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "इसरो\nहोम",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic Satellite Data Archival Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "मामले",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "मामले",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic Satellite Data Archival Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "मामले",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "मामले",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "a Data Centre of Space Applications Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "मामले",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "मामले",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Indian",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "मामले",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "मामले",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Satellite",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "मामले",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Data, Archival",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "मामले",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Data Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "मामले",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic Satellite Data Archival Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "प्रसारण",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "प्रसारण",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic Satellite Data Archival Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "प्रसारण",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "प्रसारण",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "a Data Centre of Space Applications Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "प्रसारण",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "प्रसारण",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Indian",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "प्रसारण",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "प्रसारण",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Satellite",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "प्रसारण",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Data, Archival",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "प्रसारण",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Data Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "प्रसारण",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic Satellite Data Archival Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "ध्वनित्र",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "ध्वनित्र",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic Satellite Data Archival Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "ध्वनित्र",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "ध्वनित्र",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "a Data Centre of Space Applications Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "ध्वनित्र",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "ध्वनित्र",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Indian",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "ध्वनित्र",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "ध्वनित्र",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Satellite",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "ध्वनित्र",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Data, Archival",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "ध्वनित्र",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Data Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "ध्वनित्र",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic Satellite Data Archival Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "अंतरिक्ष",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "अंतरिक्ष",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic Satellite Data Archival Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "अंतरिक्ष",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "अंतरिक्ष",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "a Data Centre of Space Applications Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "अंतरिक्ष",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "अंतरिक्ष",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Indian",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "अंतरिक्ष",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "अंतरिक्ष",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Satellite",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "अंतरिक्ष",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Data, Archival",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "अंतरिक्ष",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Data Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "अंतरिक्ष",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic Satellite Data Archival Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "इसरो,",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "इसरो,",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic Satellite Data Archival Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "इसरो,",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "इसरो,",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "a Data Centre of Space Applications Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "इसरो,",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "इसरो,",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Indian",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "इसरो,",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "इसरो,",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Satellite",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "इसरो,",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Data, Archival",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "इसरो,",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Data Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "इसरो,",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic Satellite Data Archival Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "मामले",
+      "tail_type": "REGION",
+      "evidence": "देशांतर पर स्थित है।\nEnglish\nखोज\nखोज\nहमारा अनुसरण करें\nमॉस्डैक, अंतरिक्ष उपयोग केंद्र, इसरो",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic Satellite Data Archival Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "प्रसारण",
+      "tail_type": "REGION",
+      "evidence": "देशांतर पर स्थित है।\nEnglish\nखोज\nखोज\nहमारा अनुसरण करें\nमॉस्डैक, अंतरिक्ष उपयोग केंद्र, इसरो, भारत सरकार द्वारा निर्मित और संचालित वेबसाइट",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "मामले",
+      "tail_type": "REGION",
+      "evidence": "त है।\nEnglish\nखोज\nखोज\nहमारा अनुसरण करें\nमॉस्डैक, अंतरिक्ष उपयोग केंद्र, इसरो",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "प्रसारण",
+      "tail_type": "REGION",
+      "evidence": "त है।\nEnglish\nखोज\nखोज\nहमारा अनुसरण करें\nमॉस्डैक, अंतरिक्ष उपयोग केंद्र, इसरो, भारत सरकार द्वारा निर्मित और संचालित वेबसाइट",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic Satellite Data Archival Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "मामले",
+      "tail_type": "REGION",
+      "evidence": "देशांतर पर स्थित है।\nEnglish\nखोज\nखोज\nहमारा अनुसरण करें\nमॉस्डैक, अंतरिक्ष उपयोग केंद्र, इसरो, भारत सरकार द्वारा नि",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "मामले",
+      "tail_type": "REGION",
+      "evidence": "देशांतर पर स्थित है।\nEnglish\nखोज\nखोज\nहमारा अनुसरण करें\nमॉस्डैक, अंतरिक्ष उपयोग केंद्र, इसरो, भारत सरकार द्वारा निर्मित और",
+      "source": "pattern"
+    },
+    {
+      "head": "a Data Centre of Space Applications Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "मामले",
+      "tail_type": "REGION",
+      "evidence": "देशांतर पर स्थित है।\nEnglish\nखोज\nखोज\nहमारा अनुसरण करें\nमॉस्डैक, अंतरिक्ष उपयोग केंद्र, इसरो, भारत सरकार द्वारा निर्मित और संचालित वेबसाइट",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "मामले",
+      "tail_type": "REGION",
+      "evidence": "देशांतर पर स्थित है।\nEnglish\nखोज\nखोज\nहमारा अनुसरण करें\nमॉस्डैक, अंतरिक्ष उपयोग केंद्र, इसरो, भारत सरकार द्वारा निर्मित और संचालित वेबसाइट",
+      "source": "pattern"
+    },
+    {
+      "head": "Indian",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "मामले",
+      "tail_type": "REGION",
+      "evidence": "देशांतर पर स्थित है।\nEnglish\nखोज\nखोज\nहमारा अनुसरण करें\nमॉस्डैक, अंतरिक्ष उपयोग केंद्र, इसरो, भारत सरकार द्वारा निर्मित और संचालित वेबसाइट",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "मामले",
+      "tail_type": "REGION",
+      "evidence": "देशांतर पर स्थित है।\nEnglish\nखोज\nखोज\nहमारा अनुसरण करें\nमॉस्डैक, अंतरिक्ष उपयोग ",
+      "source": "pattern"
+    },
+    {
+      "head": "Satellite",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "मामले",
+      "tail_type": "REGION",
+      "evidence": "देशांतर पर स्थित है।\nEnglish\nखोज\nखोज\nहमारा अनुसरण करें\nमॉस्डैक, अंतरिक्ष उपयोग केंद्र, इसर",
+      "source": "pattern"
+    },
+    {
+      "head": "Data, Archival",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "मामले",
+      "tail_type": "REGION",
+      "evidence": "देशांतर पर स्थित है।\nEnglish\nखोज\nखोज\nहमारा अनुसरण करें\nमॉस्डैक, अंतरिक्ष उपयोग केंद्र, इसरो, भारत सरकार द्",
+      "source": "pattern"
+    },
+    {
+      "head": "Data Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "मामले",
+      "tail_type": "REGION",
+      "evidence": "देशांतर पर स्थित है।\nEnglish\nखोज\nखोज\nहमारा अनुसरण करें\nमॉस्डैक, अंतरिक्ष उपयोग केंद्र, इसरो, भारत सरकार द्वारा निर्मित ",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic Satellite Data Archival Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "प्रसारण",
+      "tail_type": "REGION",
+      "evidence": "पयोग केंद्र, इसरो, भारत सरकार द्वारा नि",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "प्रसारण",
+      "tail_type": "REGION",
+      "evidence": "पयोग केंद्र, इसरो, भारत सरकार द्वारा निर्मित और",
+      "source": "pattern"
+    },
+    {
+      "head": "a Data Centre of Space Applications Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "प्रसारण",
+      "tail_type": "REGION",
+      "evidence": "पयोग केंद्र, इसरो, भारत सरकार द्वारा निर्मित और संचालित वेबसाइट",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "प्रसारण",
+      "tail_type": "REGION",
+      "evidence": "पयोग केंद्र, इसरो, भारत सरकार द्वारा निर्मित और संचालित वेबसाइट",
+      "source": "pattern"
+    },
+    {
+      "head": "Indian",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "प्रसारण",
+      "tail_type": "REGION",
+      "evidence": "पयोग केंद्र, इसरो, भारत सरकार द्वारा निर्मित और संचालित वेबसाइट",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "प्रसारण",
+      "tail_type": "REGION",
+      "evidence": "पयोग ",
+      "source": "pattern"
+    },
+    {
+      "head": "Satellite",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "प्रसारण",
+      "tail_type": "REGION",
+      "evidence": "पयोग केंद्र, इसर",
+      "source": "pattern"
+    },
+    {
+      "head": "Data, Archival",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "प्रसारण",
+      "tail_type": "REGION",
+      "evidence": "पयोग केंद्र, इसरो, भारत सरकार द्",
+      "source": "pattern"
+    },
+    {
+      "head": "Data Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "प्रसारण",
+      "tail_type": "REGION",
+      "evidence": "पयोग केंद्र, इसरो, भारत सरकार द्वारा निर्मित ",
+      "source": "pattern"
+    }
+  ],
+  "stats": {
+    "entity_count": 69,
+    "relation_count": 88
+  }
+}

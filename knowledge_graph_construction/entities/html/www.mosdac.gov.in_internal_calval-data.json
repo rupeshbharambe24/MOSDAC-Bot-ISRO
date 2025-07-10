@@ -1,0 +1,72 @@
+{
+  "source": "R:\\Projects\\MOSDAC Help Bot\\Codes\\data_processing\\processed_output\\html\\www.mosdac.gov.in_internal_calval-data.json",
+  "text_entities": [
+    {
+      "text": "MOSDAC Single",
+      "label": "REGION",
+      "start": 10,
+      "end": 23
+    },
+    {
+      "text": "English",
+      "label": "NORP",
+      "start": 49,
+      "end": 56
+    },
+    {
+      "text": "English",
+      "label": "LANGUAGE",
+      "start": 63,
+      "end": 70
+    },
+    {
+      "text": "MOSDAC Single-Sign",
+      "label": "ORG",
+      "start": 102,
+      "end": 120
+    },
+    {
+      "text": "अंतरिक्ष",
+      "label": "REGION",
+      "start": 183,
+      "end": 191
+    },
+    {
+      "text": "इसरो,",
+      "label": "REGION",
+      "start": 206,
+      "end": 211
+    },
+    {
+      "text": "MOSDAC",
+      "label": "ORG",
+      "start": 273,
+      "end": 279
+    },
+    {
+      "text": "Space Applications Centre",
+      "label": "ORG",
+      "start": 281,
+      "end": 306
+    },
+    {
+      "text": "Indian Space Research Organisation",
+      "label": "REGION",
+      "start": 308,
+      "end": 342
+    },
+    {
+      "text": "Govt",
+      "label": "ORG",
+      "start": 344,
+      "end": 348
+    },
+    {
+      "text": "INDIA",
+      "label": "REGION",
+      "start": 353,
+      "end": 358
+    }
+  ],
+  "metadata_entities": []
+}

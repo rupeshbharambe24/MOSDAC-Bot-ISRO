@@ -1,0 +1,17 @@
+{
+  "source_url": "https://www.mosdac.gov.in/internal/oilspill",
+  "content_type": "text/html",
+  "text": "{{appName}}\nSelect Date :\nNo Oil Spill Threat\nClick on icon to collapse\nClick on icon to expand\nSelect Parameter :\nLCS Cores\nOil Spill Trajectory:\nInsert Polygon\nDiffusion:\n0\n50\n100\n150\n200\n250\n300\n350\n400\n450\n500\n550\n600\n650\n700\n750\n800\n850\n900\n950\n1000\n1500\n2000\n2500\n3000\n3500\n4000\n4500\n5000\n6000\n7000\n8000\n9000\n10000\nm^2/sec\nSubmit\nClear\n<\nPrev\n>\nNext\nLegends\nAnalysis\n{{item.visible}}\n{{generalMessage.infoMsg.analysisNoBtn.message}}\nFor More Detail:-\nDescription-LCS-Cores.pdf\nThe information contained in this website is currently a Beta site under development. Some of the information, layers may not have been completely validated. This information is to be used along with other reliable data sources for interpretation and derivation of weather and oceanographic events.\nThe information is provided on best effort basis and while we endeavor to keep the information up to date and correct, we make no representations or warranties of any kind, express or implied, about the absolute accuracies of information, data products, services, or related graphics contained on the website for any purpose unless and until explicitly mentioned.\nIn no event will we be liable for any loss or damage including without limitation, indirect or consequential loss or damage, or any loss or damage whatsoever arising from loss of data or profits arising out of, or in connection with, the use of this website.The maps are only for gross indication of locations.Every effort is made to keep the website up and running smoothly. However, we take no responsibility for, and will not be liable for, the website being temporarily unavailable due to technical issues beyond our control.\nContact: admin@mosdac.gov.in. Technical query: aditya.osd@sac.isro.gov.in\nDeveloped & Maintained By: DWD/SAC/ISRO.\nCredits for following information/layers/data used in this website is dually acknowledged:\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t* Input altimeter currents data: Near Real Time data provided by E.U. Copernicus Marine Service Information; https://doi.org/10.48670/moi-00149\n*Lagrangian Coherent Structures layers: Indian Space Research Organisation(ISRO)\n\t\t\t\t\t\t\t* Bhuvan Layer: NRSC, Hyderabd (www.nrsc.gov.in)\n* Cartodem and LISS-3 Mosaic: Bhuvan, NRSC, Hyderabd (www.nrsc.gov.in)\n* OpenStreetMap: @OpenStreetMap Contributors (www.openstreetmap.org/copyright)\n* True Marble: Unearthed Outdoors, LLC\n* Satellite Data Layers : Indian Space Research Organisation (ISRO)\n* India River Basins/ State/ District Boundaries and World Coastlines : India Meteorological Department, Delhi (www.imd.gov.in))\nClose",
+  "cleaned_text": null,
+  "language": null,
+  "metadata": {
+    "theme-color": "#317EFB",
+    "description": "Author: Mosdac, Illustrator: Satellite Images, Category: Scientific Spatial Data",
+    "viewport": "initial-scale=1.0, user-scalable=yes, width=device-width"
+  },
+  "tables": [],
+  "figures": [],
+  "visual_data": [],
+  "document_type": null,
+  "keywords": []
+}

@@ -1,0 +1,24 @@
+{
+  "source": "R:\\Projects\\MOSDAC Help Bot\\Codes\\data_processing\\processed_output\\html\\www.mosdac.gov.in_internal_catalog-radar.json",
+  "entities": [
+    {
+      "text": "सूची",
+      "label": "ORG",
+      "start": 35,
+      "end": 39,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "RADAR Catalog",
+      "label": "DATA_PRODUCT",
+      "start": 40,
+      "end": 53,
+      "mosdac_type": "DATA_PRODUCT"
+    }
+  ],
+  "relations": [],
+  "stats": {
+    "entity_count": 2,
+    "relation_count": 0
+  }
+}

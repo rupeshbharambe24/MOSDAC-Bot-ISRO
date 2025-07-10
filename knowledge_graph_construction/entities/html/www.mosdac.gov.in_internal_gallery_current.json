@@ -1,0 +1,12 @@
+{
+  "source": "R:\\Projects\\MOSDAC Help Bot\\Codes\\data_processing\\processed_output\\html\\www.mosdac.gov.in_internal_gallery_current.json",
+  "text_entities": [
+    {
+      "text": "MOSDAC Ocean Current Gallery",
+      "label": "REGION",
+      "start": 0,
+      "end": 28
+    }
+  ],
+  "metadata_entities": []
+}

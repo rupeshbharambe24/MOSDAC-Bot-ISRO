@@ -1,0 +1,25 @@
+{
+  "source": "R:\\Projects\\MOSDAC Help Bot\\Codes\\data_processing\\processed_output\\html\\www.mosdac.gov.in_internal_state.json",
+  "text_entities": [
+    {
+      "text": "Alerts & Forewarning",
+      "label": "ORG",
+      "start": 0,
+      "end": 20
+    },
+    {
+      "text": "JavaScript",
+      "label": "PRODUCT",
+      "start": 40,
+      "end": 50
+    }
+  ],
+  "metadata_entities": [
+    {
+      "text": "000000",
+      "label": "MONEY",
+      "start": 1,
+      "end": 7
+    }
+  ]
+}

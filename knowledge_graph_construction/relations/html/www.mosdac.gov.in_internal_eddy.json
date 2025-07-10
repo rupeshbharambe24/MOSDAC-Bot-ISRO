@@ -1,0 +1,389 @@
+{
+  "source": "R:\\Projects\\MOSDAC Help Bot\\Codes\\data_processing\\processed_output\\html\\www.mosdac.gov.in_internal_eddy.json",
+  "entities": [
+    {
+      "text": "Dec-2024",
+      "label": "DATA_PRODUCT",
+      "start": 115,
+      "end": 123,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "Eddy Detection",
+      "label": "PRODUCT",
+      "start": 281,
+      "end": 295,
+      "mosdac_type": "PRODUCT"
+    },
+    {
+      "text": "DWD",
+      "label": "ORG",
+      "start": 336,
+      "end": 339,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "NRDB",
+      "label": "ORG",
+      "start": 369,
+      "end": 373,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "Ports",
+      "label": "ORG",
+      "start": 376,
+      "end": 381,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "* Bhuvan Layer",
+      "label": "ORG",
+      "start": 527,
+      "end": 541,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "NRSC",
+      "label": "STATION",
+      "start": 543,
+      "end": 547,
+      "mosdac_type": "STATION"
+    },
+    {
+      "text": "www.nrsc.gov.in",
+      "label": "REGION",
+      "start": 559,
+      "end": 574,
+      "mosdac_type": "STATION"
+    },
+    {
+      "text": "OpenStreetMap",
+      "label": "REGION",
+      "start": 578,
+      "end": 591,
+      "mosdac_type": "REGION"
+    },
+    {
+      "text": "Indian Space Research Organisation",
+      "label": "DATA_PRODUCT",
+      "start": 681,
+      "end": 715,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "ISRO",
+      "label": "STATION",
+      "start": 717,
+      "end": 721,
+      "mosdac_type": "STATION"
+    },
+    {
+      "text": "LLC",
+      "label": "ORG",
+      "start": 758,
+      "end": 761,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "India",
+      "label": "REGION",
+      "start": 764,
+      "end": 769,
+      "mosdac_type": "REGION"
+    },
+    {
+      "text": "Basins/ State/ District Boundaries",
+      "label": "REGION",
+      "start": 776,
+      "end": 810,
+      "mosdac_type": "REGION"
+    },
+    {
+      "text": "Meteorological Department",
+      "label": "STATION",
+      "start": 840,
+      "end": 865,
+      "mosdac_type": "STATION"
+    },
+    {
+      "text": "Delhi",
+      "label": "REGION",
+      "start": 867,
+      "end": 872,
+      "mosdac_type": "REGION"
+    },
+    {
+      "text": "E.U. Copernicus Marine Service Information",
+      "label": "DATA_PRODUCT",
+      "start": 1046,
+      "end": 1088,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "317EFB",
+      "label": "MONEY",
+      "start": 1,
+      "end": 7,
+      "mosdac_type": "MONEY"
+    }
+  ],
+  "relations": [
+    {
+      "head": "Dec-2024",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "OpenStreetMap",
+      "tail_type": "REGION",
+      "evidence": "ndaries and World Coastlines : India Meteorological Department, Delhi (www.imd.gov.in)\nCredits for following information/layers/data used in this website is dually acknowledged:\n*",
+      "source": "pattern"
+    },
+    {
+      "head": "Dec-2024",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "India",
+      "tail_type": "REGION",
+      "evidence": "ndaries and World Coastlines : India Meteorological Department, Delhi (www.imd.gov.in)\nCredits for following information/layers/data used in this website is dually acknowledged:\n*",
+      "source": "pattern"
+    },
+    {
+      "head": "Dec-2024",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Basins/ State/ District Boundaries",
+      "tail_type": "REGION",
+      "evidence": "ndaries and World Coastlines : India Meteorological Department, Delhi (www.imd.gov.in)\nCredits for following information/layers/data used in this website is dually acknowledged:\n*",
+      "source": "pattern"
+    },
+    {
+      "head": "Dec-2024",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Delhi",
+      "tail_type": "REGION",
+      "evidence": "ndaries and World Coastlines : India Meteorological Department, Delhi (www.imd.gov.in)\nCredits for following information/layers/data used in this website is dually acknowledged:\n*",
+      "source": "pattern"
+    },
+    {
+      "head": "NRSC",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "OpenStreetMap",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "NRSC",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "India",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "NRSC",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Basins/ State/ District Boundaries",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "NRSC",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Delhi",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "www.nrsc.gov.in",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "OpenStreetMap",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "www.nrsc.gov.in",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "India",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "www.nrsc.gov.in",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Basins/ State/ District Boundaries",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "www.nrsc.gov.in",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Delhi",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Indian Space Research Organisation",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "OpenStreetMap",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "ISRO",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "OpenStreetMap",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Meteorological Department",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "OpenStreetMap",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "E.U. Copernicus Marine Service Information",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "OpenStreetMap",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Indian Space Research Organisation",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "India",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Indian Space Research Organisation",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Basins/ State/ District Boundaries",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Indian Space Research Organisation",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Delhi",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "ISRO",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "India",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "ISRO",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Basins/ State/ District Boundaries",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "ISRO",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Delhi",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Meteorological Department",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "India",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "E.U. Copernicus Marine Service Information",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "India",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Meteorological Department",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Basins/ State/ District Boundaries",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "E.U. Copernicus Marine Service Information",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Basins/ State/ District Boundaries",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Meteorological Department",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Delhi",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "E.U. Copernicus Marine Service Information",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Delhi",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    }
+  ],
+  "stats": {
+    "entity_count": 18,
+    "relation_count": 28
+  }
+}

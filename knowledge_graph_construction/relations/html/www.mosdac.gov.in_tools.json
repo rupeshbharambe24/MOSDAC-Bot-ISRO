@@ -1,0 +1,2935 @@
+{
+  "source": "R:\\Projects\\MOSDAC Help Bot\\Codes\\data_processing\\processed_output\\html\\www.mosdac.gov.in_tools.json",
+  "entities": [
+    {
+      "text": "Meteorological & Oceanographic Satellite Data Archival Centre\nSkip",
+      "label": "DATA_PRODUCT",
+      "start": 0,
+      "end": 66,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "English",
+      "label": "DATA_PRODUCT",
+      "start": 104,
+      "end": 111,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "Satellite Data Archival Centre\nSpace Applications Centre",
+      "label": "DATA_PRODUCT",
+      "start": 143,
+      "end": 199,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "ISRO",
+      "label": "ORG",
+      "start": 201,
+      "end": 205,
+      "mosdac_type": "STATION"
+    },
+    {
+      "text": "INSAT-3DR",
+      "label": "SATELLITE",
+      "start": 220,
+      "end": 229,
+      "mosdac_type": "SATELLITE"
+    },
+    {
+      "text": "INSAT-3D",
+      "label": "SATELLITE",
+      "start": 230,
+      "end": 238,
+      "mosdac_type": "SATELLITE"
+    },
+    {
+      "text": "SARAL",
+      "label": "SATELLITE",
+      "start": 273,
+      "end": 278,
+      "mosdac_type": "SATELLITE"
+    },
+    {
+      "text": "SCATSAT-1",
+      "label": "SATELLITE",
+      "start": 318,
+      "end": 327,
+      "mosdac_type": "SATELLITE"
+    },
+    {
+      "text": "AWS",
+      "label": "DATA_PRODUCT",
+      "start": 354,
+      "end": 357,
+      "mosdac_type": "PARAMETER"
+    },
+    {
+      "text": "RADAR",
+      "label": "ORG",
+      "start": 426,
+      "end": 431,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "DWR",
+      "label": "ORG",
+      "start": 433,
+      "end": 436,
+      "mosdac_type": "INSTRUMENT"
+    },
+    {
+      "text": "Global Ocean Current",
+      "label": "DATA_PRODUCT",
+      "start": 438,
+      "end": 458,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "Data Access",
+      "label": "DATA_PRODUCT",
+      "start": 459,
+      "end": 470,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "MT-SAPHIR",
+      "label": "DATA_PRODUCT",
+      "start": 518,
+      "end": 527,
+      "mosdac_type": "INSTRUMENT"
+    },
+    {
+      "text": "ISRO",
+      "label": "STATION",
+      "start": 579,
+      "end": 583,
+      "mosdac_type": "STATION"
+    },
+    {
+      "text": "Indian Mainland Coastal Product",
+      "label": "DATA_PRODUCT",
+      "start": 774,
+      "end": 805,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "Renewable Energy\nCal-Val",
+      "label": "ORG",
+      "start": 890,
+      "end": 914,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "RSS Feeds",
+      "label": "ORG",
+      "start": 924,
+      "end": 933,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "Data Quality",
+      "label": "DATA_PRODUCT",
+      "start": 981,
+      "end": 993,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "IDV Plugin",
+      "label": "DATA_PRODUCT",
+      "start": 1107,
+      "end": 1117,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "INSAT-3D",
+      "label": "DATA_PRODUCT",
+      "start": 1122,
+      "end": 1130,
+      "mosdac_type": "SATELLITE"
+    },
+    {
+      "text": "3DR Data Products",
+      "label": "DATA_PRODUCT",
+      "start": 1133,
+      "end": 1150,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "IDV Plugin",
+      "label": "DATA_PRODUCT",
+      "start": 1151,
+      "end": 1161,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "INSAT-3D",
+      "label": "DATA_PRODUCT",
+      "start": 1166,
+      "end": 1174,
+      "mosdac_type": "SATELLITE"
+    },
+    {
+      "text": "3DR Data Products\n",
+      "label": "DATA_PRODUCT",
+      "start": 1177,
+      "end": 1195,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "Linux & Windows - 64",
+      "label": "DATA_PRODUCT",
+      "start": 1195,
+      "end": 1215,
+      "mosdac_type": "PARAMETER"
+    },
+    {
+      "text": "3.3",
+      "label": "CARDINAL",
+      "start": 1291,
+      "end": 1294,
+      "mosdac_type": "CARDINAL"
+    },
+    {
+      "text": "MB\nAtmospheric Correction Model",
+      "label": "DATA_PRODUCT",
+      "start": 1295,
+      "end": 1326,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "32",
+      "label": "CARDINAL",
+      "start": 1440,
+      "end": 1442,
+      "mosdac_type": "CARDINAL"
+    },
+    {
+      "text": "https://mosdac.gov.in/software/SACRS2_Package.rar",
+      "label": "DATA_PRODUCT",
+      "start": 1447,
+      "end": 1496,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "7.5",
+      "label": "CARDINAL",
+      "start": 1516,
+      "end": 1519,
+      "mosdac_type": "CARDINAL"
+    },
+    {
+      "text": "Megha Tropiques",
+      "label": "PERSON",
+      "start": 1523,
+      "end": 1538,
+      "mosdac_type": "PERSON"
+    },
+    {
+      "text": "HDF5",
+      "label": "ORG",
+      "start": 1550,
+      "end": 1554,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "Binary/ASCII",
+      "label": "ORG",
+      "start": 1558,
+      "end": 1570,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "Megha Tropiques",
+      "label": "PERSON",
+      "start": 1581,
+      "end": 1596,
+      "mosdac_type": "PERSON"
+    },
+    {
+      "text": "HDF5",
+      "label": "ORG",
+      "start": 1608,
+      "end": 1612,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "Binary/ASCII",
+      "label": "ORG",
+      "start": 1616,
+      "end": 1628,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "RHEL5 /CentOS5 32",
+      "label": "PRODUCT",
+      "start": 1639,
+      "end": 1656,
+      "mosdac_type": "PRODUCT"
+    },
+    {
+      "text": "3.3",
+      "label": "CARDINAL",
+      "start": 1732,
+      "end": 1735,
+      "mosdac_type": "CARDINAL"
+    },
+    {
+      "text": "Megha Tropiques HDF Viewer\n",
+      "label": "PERSON",
+      "start": 1739,
+      "end": 1766,
+      "mosdac_type": "PERSON"
+    },
+    {
+      "text": "Megha Tropiques HDF Viewer",
+      "label": "PERSON",
+      "start": 1766,
+      "end": 1792,
+      "mosdac_type": "PERSON"
+    },
+    {
+      "text": "9.9",
+      "label": "CARDINAL",
+      "start": 1883,
+      "end": 1886,
+      "mosdac_type": "CARDINAL"
+    },
+    {
+      "text": "Megha Tropiques",
+      "label": "PERSON",
+      "start": 1890,
+      "end": 1905,
+      "mosdac_type": "PERSON"
+    },
+    {
+      "text": "HDF5",
+      "label": "ORG",
+      "start": 1917,
+      "end": 1921,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "Binary/ASCII",
+      "label": "ORG",
+      "start": 1925,
+      "end": 1937,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "Megha Tropiques",
+      "label": "PERSON",
+      "start": 1948,
+      "end": 1963,
+      "mosdac_type": "PERSON"
+    },
+    {
+      "text": "HDF5",
+      "label": "ORG",
+      "start": 1975,
+      "end": 1979,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "Binary/ASCII",
+      "label": "ORG",
+      "start": 1983,
+      "end": 1995,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "Windows 32",
+      "label": "DATA_PRODUCT",
+      "start": 2006,
+      "end": 2016,
+      "mosdac_type": "PARAMETER"
+    },
+    {
+      "text": "2.9",
+      "label": "CARDINAL",
+      "start": 2090,
+      "end": 2093,
+      "mosdac_type": "CARDINAL"
+    },
+    {
+      "text": "Megha Tropiques HDF Viewer",
+      "label": "PERSON",
+      "start": 2097,
+      "end": 2123,
+      "mosdac_type": "PERSON"
+    },
+    {
+      "text": "Megha Tropiques HDF Viewer",
+      "label": "PERSON",
+      "start": 2124,
+      "end": 2150,
+      "mosdac_type": "PERSON"
+    },
+    {
+      "text": "32",
+      "label": "CARDINAL",
+      "start": 2159,
+      "end": 2161,
+      "mosdac_type": "CARDINAL"
+    },
+    {
+      "text": "6.3",
+      "label": "CARDINAL",
+      "start": 2228,
+      "end": 2231,
+      "mosdac_type": "CARDINAL"
+    },
+    {
+      "text": "HDF5",
+      "label": "ORG",
+      "start": 2235,
+      "end": 2239,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "ASCII",
+      "label": "ORG",
+      "start": 2243,
+      "end": 2248,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "HDF5",
+      "label": "ORG",
+      "start": 2259,
+      "end": 2263,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "ASCII",
+      "label": "ORG",
+      "start": 2267,
+      "end": 2272,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "VHRR",
+      "label": "INSTRUMENT",
+      "start": 2296,
+      "end": 2300,
+      "mosdac_type": "INSTRUMENT"
+    },
+    {
+      "text": "5.3",
+      "label": "CARDINAL",
+      "start": 2395,
+      "end": 2398,
+      "mosdac_type": "CARDINAL"
+    },
+    {
+      "text": "HDF5",
+      "label": "ORG",
+      "start": 2402,
+      "end": 2406,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "ASCII Converter",
+      "label": "ORG",
+      "start": 2410,
+      "end": 2425,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "HDF5",
+      "label": "PRODUCT",
+      "start": 2426,
+      "end": 2430,
+      "mosdac_type": "PRODUCT"
+    },
+    {
+      "text": "ASCII",
+      "label": "ORG",
+      "start": 2434,
+      "end": 2439,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "VHRR",
+      "label": "INSTRUMENT",
+      "start": 2463,
+      "end": 2467,
+      "mosdac_type": "INSTRUMENT"
+    },
+    {
+      "text": "6.4",
+      "label": "CARDINAL",
+      "start": 2562,
+      "end": 2565,
+      "mosdac_type": "CARDINAL"
+    },
+    {
+      "text": "MOSDAC",
+      "label": "ORG",
+      "start": 2625,
+      "end": 2631,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "Space Applications Centre",
+      "label": "ORG",
+      "start": 2633,
+      "end": 2658,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "Indian Space Research Organisation",
+      "label": "REGION",
+      "start": 2660,
+      "end": 2694,
+      "mosdac_type": "REGION"
+    },
+    {
+      "text": "Govt",
+      "label": "ORG",
+      "start": 2696,
+      "end": 2700,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "INDIA",
+      "label": "REGION",
+      "start": 2705,
+      "end": 2710,
+      "mosdac_type": "REGION"
+    },
+    {
+      "text": "Oceanographic Satellite Data Archival Centre",
+      "label": "DATA_PRODUCT",
+      "start": 19,
+      "end": 63,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "MOSDAC",
+      "label": "DATA_PRODUCT",
+      "start": 65,
+      "end": 71,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "Oceanographic Satellite Data Archival Centre",
+      "label": "DATA_PRODUCT",
+      "start": 19,
+      "end": 63,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "MOSDAC",
+      "label": "DATA_PRODUCT",
+      "start": 65,
+      "end": 71,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "a Data Centre of Space Applications Centre",
+      "label": "DATA_PRODUCT",
+      "start": 76,
+      "end": 118,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "Oceanographic Satellite Data Archival Centre",
+      "label": "DATA_PRODUCT",
+      "start": 19,
+      "end": 63,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "MOSDAC",
+      "label": "DATA_PRODUCT",
+      "start": 65,
+      "end": 71,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "a Data Centre of Space Applications Centre",
+      "label": "DATA_PRODUCT",
+      "start": 76,
+      "end": 118,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "MOSDAC",
+      "label": "DATA_PRODUCT",
+      "start": 212,
+      "end": 218,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "Indian",
+      "label": "DATA_PRODUCT",
+      "start": 274,
+      "end": 280,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "Oceanographic",
+      "label": "DATA_PRODUCT",
+      "start": 16,
+      "end": 29,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "Satellite",
+      "label": "DATA_PRODUCT",
+      "start": 31,
+      "end": 40,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "Data, Archival",
+      "label": "DATA_PRODUCT",
+      "start": 42,
+      "end": 56,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "Data Centre",
+      "label": "DATA_PRODUCT",
+      "start": 58,
+      "end": 69,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "MOSDAC",
+      "label": "ORG",
+      "start": 0,
+      "end": 6,
+      "mosdac_type": "ORG"
+    }
+  ],
+  "relations": [
+    {
+      "head": "DWR",
+      "head_type": "INSTRUMENT",
+      "type": "MEASURES",
+      "tail": "AWS",
+      "tail_type": "PARAMETER",
+      "evidence": "Meteorological & Oceanographic Satellite Data Archival Centre\nSkip to main Content\n-\nA\nA\n+\nA\nA\nA\nहिन्दी\nEnglish\nMeteorological & Oceanographic Satellite Data Archival Centre\nSpace Applications Centre, ISRO\nHome\nMissions\nINSAT-3DR\nINSAT-3D\nKALPANA-1\nINSAT-3A\nMeghaTropiques\nSARAL-AltiKa\nOCEANSAT-2\nOCEANSAT-3\nINSAT-3DS\nSCATSAT-1\nCatalog\nSatellite\nInsitu (AWS)\nRADAR\nGalleries\nSatellite Products\nWeather Forecast\nOcean Forecast\nRADAR (DWR)\nGlobal Ocean Current\nData Access\nOrder Data\nOpen Data\nAtmosphere\nBayesian based MT-SAPHIR rainfall\nGPS derived Integrated water vapour\nGSMap ISRO Rain\nMETEOSAT8 Cloud Properties\nLand\n3D Volumetric TERLS DWRproduct\n",
+      "source": "model"
+    },
+    {
+      "head": "MT-SAPHIR",
+      "head_type": "INSTRUMENT",
+      "type": "MEASURES",
+      "tail": "AWS",
+      "tail_type": "PARAMETER",
+      "evidence": "Meteorological & Oceanographic Satellite Data Archival Centre\nSkip to main Content\n-\nA\nA\n+\nA\nA\nA\nहिन्दी\nEnglish\nMeteorological & Oceanographic Satellite Data Archival Centre\nSpace Applications Centre, ISRO\nHome\nMissions\nINSAT-3DR\nINSAT-3D\nKALPANA-1\nINSAT-3A\nMeghaTropiques\nSARAL-AltiKa\nOCEANSAT-2\nOCEANSAT-3\nINSAT-3DS\nSCATSAT-1\nCatalog\nSatellite\nInsitu (AWS)\nRADAR\nGalleries\nSatellite Products\nWeather Forecast\nOcean Forecast\nRADAR (DWR)\nGlobal Ocean Current\nData Access\nOrder Data\nOpen Data\nAtmosphere\nBayesian based MT-SAPHIR rainfall\nGPS derived Integrated water vapour\nGSMap ISRO Rain\nMETEOSAT8 Cloud Properties\nLand\n3D Volumetric TERLS DWRproduct\n",
+      "source": "model"
+    },
+    {
+      "head": "VHRR",
+      "head_type": "INSTRUMENT",
+      "type": "MEASURES",
+      "tail": "Linux & Windows - 64",
+      "tail_type": "PARAMETER",
+      "evidence": "Help\nYou are here\nHome\n» Tools\nSoftwares / Tools\nDescription\nPlatform\nDownload URL\nIDV Plugin for INSAT-3D | 3DR Data Products\nIDV Plugin for INSAT-3D | 3DR Data Products\nLinux & Windows - 64 bit\nhttps://mosdac.gov.in/software/INSAT_IDV_PLUGIN.jar\nFormat: JAR, Size: 3.3 MB\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nWindows 32 bit\nhttps://mosdac.gov.in/software/SACRS2_Package.rar\nFormat: RAR, Size: 7.5 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-linux.zip\nFormat: ZIP, Size: 3.3 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/hdftool-linux.zip\nFormat: ZIP, Size: 9.9 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nWindows 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-txt.zip\nFormat: ZIP, Size: 2.9 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool.zip\nFormat: ZIP, Size: 6.3 MB\nHDF5 TO ASCII converter\nHDF5 TO ASCII converter for Kalpana1-VHRR PR products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/PR_hdf_ascii.tar\nFormat: TAR, Size: 5.3 MB\nHDF5 to ASCII Converter\nHDF5 TO ASCII converter for Kalpana1-VHRR DP products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/DP_hdf_ascii.tar\nFormat: TAR, Size: 6.4 MB\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "model"
+    },
+    {
+      "head": "VHRR",
+      "head_type": "INSTRUMENT",
+      "type": "MEASURES",
+      "tail": "Linux & Windows - 64",
+      "tail_type": "PARAMETER",
+      "evidence": "Help\nYou are here\nHome\n» Tools\nSoftwares / Tools\nDescription\nPlatform\nDownload URL\nIDV Plugin for INSAT-3D | 3DR Data Products\nIDV Plugin for INSAT-3D | 3DR Data Products\nLinux & Windows - 64 bit\nhttps://mosdac.gov.in/software/INSAT_IDV_PLUGIN.jar\nFormat: JAR, Size: 3.3 MB\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nWindows 32 bit\nhttps://mosdac.gov.in/software/SACRS2_Package.rar\nFormat: RAR, Size: 7.5 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-linux.zip\nFormat: ZIP, Size: 3.3 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/hdftool-linux.zip\nFormat: ZIP, Size: 9.9 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nWindows 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-txt.zip\nFormat: ZIP, Size: 2.9 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool.zip\nFormat: ZIP, Size: 6.3 MB\nHDF5 TO ASCII converter\nHDF5 TO ASCII converter for Kalpana1-VHRR PR products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/PR_hdf_ascii.tar\nFormat: TAR, Size: 5.3 MB\nHDF5 to ASCII Converter\nHDF5 TO ASCII converter for Kalpana1-VHRR DP products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/DP_hdf_ascii.tar\nFormat: TAR, Size: 6.4 MB\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "model"
+    },
+    {
+      "head": "VHRR",
+      "head_type": "INSTRUMENT",
+      "type": "MEASURES",
+      "tail": "Windows 32",
+      "tail_type": "PARAMETER",
+      "evidence": "Help\nYou are here\nHome\n» Tools\nSoftwares / Tools\nDescription\nPlatform\nDownload URL\nIDV Plugin for INSAT-3D | 3DR Data Products\nIDV Plugin for INSAT-3D | 3DR Data Products\nLinux & Windows - 64 bit\nhttps://mosdac.gov.in/software/INSAT_IDV_PLUGIN.jar\nFormat: JAR, Size: 3.3 MB\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nWindows 32 bit\nhttps://mosdac.gov.in/software/SACRS2_Package.rar\nFormat: RAR, Size: 7.5 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-linux.zip\nFormat: ZIP, Size: 3.3 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/hdftool-linux.zip\nFormat: ZIP, Size: 9.9 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nWindows 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-txt.zip\nFormat: ZIP, Size: 2.9 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool.zip\nFormat: ZIP, Size: 6.3 MB\nHDF5 TO ASCII converter\nHDF5 TO ASCII converter for Kalpana1-VHRR PR products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/PR_hdf_ascii.tar\nFormat: TAR, Size: 5.3 MB\nHDF5 to ASCII Converter\nHDF5 TO ASCII converter for Kalpana1-VHRR DP products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/DP_hdf_ascii.tar\nFormat: TAR, Size: 6.4 MB\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "model"
+    },
+    {
+      "head": "VHRR",
+      "head_type": "INSTRUMENT",
+      "type": "MEASURES",
+      "tail": "Windows 32",
+      "tail_type": "PARAMETER",
+      "evidence": "Help\nYou are here\nHome\n» Tools\nSoftwares / Tools\nDescription\nPlatform\nDownload URL\nIDV Plugin for INSAT-3D | 3DR Data Products\nIDV Plugin for INSAT-3D | 3DR Data Products\nLinux & Windows - 64 bit\nhttps://mosdac.gov.in/software/INSAT_IDV_PLUGIN.jar\nFormat: JAR, Size: 3.3 MB\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nWindows 32 bit\nhttps://mosdac.gov.in/software/SACRS2_Package.rar\nFormat: RAR, Size: 7.5 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-linux.zip\nFormat: ZIP, Size: 3.3 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/hdftool-linux.zip\nFormat: ZIP, Size: 9.9 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nWindows 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-txt.zip\nFormat: ZIP, Size: 2.9 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool.zip\nFormat: ZIP, Size: 6.3 MB\nHDF5 TO ASCII converter\nHDF5 TO ASCII converter for Kalpana1-VHRR PR products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/PR_hdf_ascii.tar\nFormat: TAR, Size: 5.3 MB\nHDF5 to ASCII Converter\nHDF5 TO ASCII converter for Kalpana1-VHRR DP products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/DP_hdf_ascii.tar\nFormat: TAR, Size: 6.4 MB\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "model"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Meteorological & Oceanographic Satellite Data Archival Centre\nSkip",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "Help\nYou are here\nHome\n» Tools\nSoftwares / Tools\nDescription\nPlatform\nDownload URL\nIDV Plugin for INSAT-3D | 3DR Data Products\nIDV Plugin for INSAT-3D | 3DR Data Products\nLinux & Windows - 64 bit\nhttps://mosdac.gov.in/software/INSAT_IDV_PLUGIN.jar\nFormat: JAR, Size: 3.3 MB\nAtmos",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Meteorological & Oceanographic Satellite Data Archival Centre\nSkip",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "Help\nYou are here\nHome\n» Tools\nSoftwares / Tools\nDescription\nPlatform\nDownload URL\nIDV Plugin for INSAT-3D | 3DR Data Products\nIDV Plugin for INSAT-3D | 3DR Data Products\nLinux & Windows - 64 bit\nhttps://mosdac.gov.in/software/INSAT_IDV_PLUGIN.jar\nFormat: JAR, Size: 3.3 MB\nAtmospheric Co",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Meteorological & Oceanographic Satellite Data Archival Centre\nSkip",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "Help\nYou are here\nHome\n» Tools\nSoftwares / Tools\nDescription\nPlatform\nDownload URL\nIDV Plugin for INSAT-3D | 3DR Data Products\nIDV Plugin for INSAT-3D | 3DR Data Products\nLinux & Windows - 64 bit\nhttps://mosdac.gov.in/software/INSAT_IDV_PLUGIN.jar\nFormat: JAR, Size: 3.3 MB\nAtmospheric Correction Model for Resourcesat-2 AWiFS d",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Meteorological & Oceanographic Satellite Data Archival Centre\nSkip",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "Help\nYou are here\nHome\n» Tools\nSoftwares / Tools\nDescription\nPlatform\nDownload URL\nIDV Plugin for INSAT-3D | 3DR Data Products\nIDV Plugin for INSAT-3D | 3DR Data Products\nLinux & Windows - 64 bit\nhttps://mosdac.gov.in/software/INSAT_IDV_PLUGIN.jar\nFormat: JAR, Size: 3.3 MB\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nAtmospheric Correction Model for Res",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Meteorological & Oceanographic Satellite Data Archival Centre\nSkip",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "Help\nYou are here\nHome\n» Tools\nSoftwares / Tools\nDescription\nPlatform\nDownload URL\nIDV Plugin for INSAT-3D | 3DR Data Products\nIDV Plugin for INSAT-3D | 3DR Data Products\nLinux & Windows - 64 bit\nhttps://mosdac.gov.in/software/INSAT_IDV_PLUGIN.jar\nFormat: JAR, Size: 3.3 MB\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nWindows 32 bit\nhttps://mosdac.gov.in/software/SACRS2_Package.rar\nFormat: RAR, Size: 7.5 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-linux.zip\nFormat: ZIP, Size: 3.3 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/hdftool-linux.zip\nFormat: ZIP, Size: 9.9 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nWindows 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-txt.zip\nFormat: ZIP, Size: 2.9 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Meteorological & Oceanographic Satellite Data Archival Centre\nSkip",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "Help\nYou are here\nHome\n» Tools\nSoftwares / Tools\nDescription\nPlatform\nDownload URL\nIDV Plugin for INSAT-3D | 3DR Data Products\nIDV Plugin for INSAT-3D | 3DR Data Products\nLinux & Windows - 64 bit\nhttps://mosdac.gov.in/software/INSAT_IDV_PLUGIN.jar\nFormat: JAR, Size: 3.3 MB\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nWindows 32 bit\nhttps://mosdac.gov.in/software/SACRS2_Package.rar\nFormat: RAR, Size: 7.5 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-linux.zip\nFormat: ZIP, Size: 3.3 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/hdftool-linux.zip\nFormat: ZIP, Size: 9.9 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nWindows 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-txt.zip\nFormat: ZIP, Size: 2.9 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool.zip\nFormat: ZIP, Size: 6.3 MB\nHDF5 TO ASCII",
+      "source": "pattern"
+    },
+    {
+      "head": "Meteorological & Oceanographic Satellite Data Archival Centre\nSkip",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "Help\nYou are here\nHome\n» Tools\nSoftwares / Tools\nDescription\nPlatform\nDownload URL\nIDV Plugin for INSAT-3D | 3DR Data Products\nIDV Plugin for INSAT-3D | 3DR Data Products\nLinux & Windows - 64 bit\nhttps://mosdac.gov.in/software/INSAT_IDV_PLUGIN.jar\nFormat: JAR, Size: 3.3 MB\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nWindows 32 bit\nhttps://mosdac.gov.in/software/SACRS2_Package.rar\nFormat: RAR, Size: 7.5 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-linux.zip\nFormat: ZIP, Size: 3.3 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/hdftool-linux.zip\nFormat: ZIP, Size: 9.9 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nWindows 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-txt.zip\nFormat: ZIP, Size: 2.9 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool.zip\nFormat: ZIP, Size: 6.3 MB\nHDF5 TO ASCII converter\nHDF5 TO ASCII converter for Kalpana1-VHRR PR products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/PR_hdf_ascii.tar\nFormat: TAR, Size: 5.3 MB\nHDF5 to ASCII Converter\nHDF5 TO ASCII converter for Kalpana1-VHRR DP products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/DP_hdf_ascii.tar\nFormat: TAR, Size: 6.4 MB\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Meteorological & Oceanographic Satellite Data Archival Centre\nSkip",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "Help\nYou are here\nHome\n» Tools\nSoftwares / Tools\nDescription\nPlatform\nDownload URL\nIDV Plugin for INSAT-3D | 3DR Data Products\nIDV Plugin for INSAT-3D | 3DR Data Products\nLinux & Windows - 64 bit\nhttps://mosdac.gov.in/software/INSAT_IDV_PLUGIN.jar\nFormat: JAR, Size: 3.3 MB\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nWindows 32 bit\nhttps://mosdac.gov.in/software/SACRS2_Package.rar\nFormat: RAR, Size: 7.5 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-linux.zip\nFormat: ZIP, Size: 3.3 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/hdftool-linux.zip\nFormat: ZIP, Size: 9.9 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nWindows 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-txt.zip\nFormat: ZIP, Size: 2.9 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool.zip\nFormat: ZIP, Size: 6.3 MB\nHDF5 TO ASCII converter\nHDF5 TO ASCII converter for Kalpana1-VHRR PR products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/PR_hdf_ascii.tar\nFormat: TAR, Size: 5.3 MB\nHDF5 to ASCII Converter\nHDF5 TO ASCII converter for Kalpana1-VHRR DP products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/DP_hdf_ascii.tar\nFormat: TAR, Size: 6.4 MB\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "English",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "iption\nPlatform\nDownload URL\nIDV Plugin for INSAT-3D | 3DR Data Products\nIDV Plugin for INSAT-3D | 3DR Data Products\nLinux & Windows - 64 bit\nhttps://mosdac.gov.in/software/INSAT_IDV_PLUGIN.jar\nFormat: JAR, Size: 3.3 MB\nAtmos",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "English",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "iption\nPlatform\nDownload URL\nIDV Plugin for INSAT-3D | 3DR Data Products\nIDV Plugin for INSAT-3D | 3DR Data Products\nLinux & Windows - 64 bit\nhttps://mosdac.gov.in/software/INSAT_IDV_PLUGIN.jar\nFormat: JAR, Size: 3.3 MB\nAtmospheric Co",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "English",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "iption\nPlatform\nDownload URL\nIDV Plugin for INSAT-3D | 3DR Data Products\nIDV Plugin for INSAT-3D | 3DR Data Products\nLinux & Windows - 64 bit\nhttps://mosdac.gov.in/software/INSAT_IDV_PLUGIN.jar\nFormat: JAR, Size: 3.3 MB\nAtmospheric Correction Model for Resourcesat-2 AWiFS d",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "English",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "iption\nPlatform\nDownload URL\nIDV Plugin for INSAT-3D | 3DR Data Products\nIDV Plugin for INSAT-3D | 3DR Data Products\nLinux & Windows - 64 bit\nhttps://mosdac.gov.in/software/INSAT_IDV_PLUGIN.jar\nFormat: JAR, Size: 3.3 MB\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nAtmospheric Correction Model for Res",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "English",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "iption\nPlatform\nDownload URL\nIDV Plugin for INSAT-3D | 3DR Data Products\nIDV Plugin for INSAT-3D | 3DR Data Products\nLinux & Windows - 64 bit\nhttps://mosdac.gov.in/software/INSAT_IDV_PLUGIN.jar\nFormat: JAR, Size: 3.3 MB\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nWindows 32 bit\nhttps://mosdac.gov.in/software/SACRS2_Package.rar\nFormat: RAR, Size: 7.5 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-linux.zip\nFormat: ZIP, Size: 3.3 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/hdftool-linux.zip\nFormat: ZIP, Size: 9.9 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nWindows 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-txt.zip\nFormat: ZIP, Size: 2.9 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "English",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "iption\nPlatform\nDownload URL\nIDV Plugin for INSAT-3D | 3DR Data Products\nIDV Plugin for INSAT-3D | 3DR Data Products\nLinux & Windows - 64 bit\nhttps://mosdac.gov.in/software/INSAT_IDV_PLUGIN.jar\nFormat: JAR, Size: 3.3 MB\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nWindows 32 bit\nhttps://mosdac.gov.in/software/SACRS2_Package.rar\nFormat: RAR, Size: 7.5 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-linux.zip\nFormat: ZIP, Size: 3.3 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/hdftool-linux.zip\nFormat: ZIP, Size: 9.9 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nWindows 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-txt.zip\nFormat: ZIP, Size: 2.9 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool.zip\nFormat: ZIP, Size: 6.3 MB\nHDF5 TO ASCII",
+      "source": "pattern"
+    },
+    {
+      "head": "English",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "iption\nPlatform\nDownload URL\nIDV Plugin for INSAT-3D | 3DR Data Products\nIDV Plugin for INSAT-3D | 3DR Data Products\nLinux & Windows - 64 bit\nhttps://mosdac.gov.in/software/INSAT_IDV_PLUGIN.jar\nFormat: JAR, Size: 3.3 MB\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nWindows 32 bit\nhttps://mosdac.gov.in/software/SACRS2_Package.rar\nFormat: RAR, Size: 7.5 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-linux.zip\nFormat: ZIP, Size: 3.3 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/hdftool-linux.zip\nFormat: ZIP, Size: 9.9 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nWindows 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-txt.zip\nFormat: ZIP, Size: 2.9 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool.zip\nFormat: ZIP, Size: 6.3 MB\nHDF5 TO ASCII converter\nHDF5 TO ASCII converter for Kalpana1-VHRR PR products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/PR_hdf_ascii.tar\nFormat: TAR, Size: 5.3 MB\nHDF5 to ASCII Converter\nHDF5 TO ASCII converter for Kalpana1-VHRR DP products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/DP_hdf_ascii.tar\nFormat: TAR, Size: 6.4 MB\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "English",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "iption\nPlatform\nDownload URL\nIDV Plugin for INSAT-3D | 3DR Data Products\nIDV Plugin for INSAT-3D | 3DR Data Products\nLinux & Windows - 64 bit\nhttps://mosdac.gov.in/software/INSAT_IDV_PLUGIN.jar\nFormat: JAR, Size: 3.3 MB\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nWindows 32 bit\nhttps://mosdac.gov.in/software/SACRS2_Package.rar\nFormat: RAR, Size: 7.5 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-linux.zip\nFormat: ZIP, Size: 3.3 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/hdftool-linux.zip\nFormat: ZIP, Size: 9.9 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nWindows 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-txt.zip\nFormat: ZIP, Size: 2.9 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool.zip\nFormat: ZIP, Size: 6.3 MB\nHDF5 TO ASCII converter\nHDF5 TO ASCII converter for Kalpana1-VHRR PR products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/PR_hdf_ascii.tar\nFormat: TAR, Size: 5.3 MB\nHDF5 to ASCII Converter\nHDF5 TO ASCII converter for Kalpana1-VHRR DP products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/DP_hdf_ascii.tar\nFormat: TAR, Size: 6.4 MB\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Satellite Data Archival Centre\nSpace Applications Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": " for INSAT-3D | 3DR Data Products\nIDV Plugin for INSAT-3D | 3DR Data Products\nLinux & Windows - 64 bit\nhttps://mosdac.gov.in/software/INSAT_IDV_PLUGIN.jar\nFormat: JAR, Size: 3.3 MB\nAtmos",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Satellite Data Archival Centre\nSpace Applications Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": " for INSAT-3D | 3DR Data Products\nIDV Plugin for INSAT-3D | 3DR Data Products\nLinux & Windows - 64 bit\nhttps://mosdac.gov.in/software/INSAT_IDV_PLUGIN.jar\nFormat: JAR, Size: 3.3 MB\nAtmospheric Co",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Satellite Data Archival Centre\nSpace Applications Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": " for INSAT-3D | 3DR Data Products\nIDV Plugin for INSAT-3D | 3DR Data Products\nLinux & Windows - 64 bit\nhttps://mosdac.gov.in/software/INSAT_IDV_PLUGIN.jar\nFormat: JAR, Size: 3.3 MB\nAtmospheric Correction Model for Resourcesat-2 AWiFS d",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Satellite Data Archival Centre\nSpace Applications Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": " for INSAT-3D | 3DR Data Products\nIDV Plugin for INSAT-3D | 3DR Data Products\nLinux & Windows - 64 bit\nhttps://mosdac.gov.in/software/INSAT_IDV_PLUGIN.jar\nFormat: JAR, Size: 3.3 MB\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nAtmospheric Correction Model for Res",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Satellite Data Archival Centre\nSpace Applications Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": " for INSAT-3D | 3DR Data Products\nIDV Plugin for INSAT-3D | 3DR Data Products\nLinux & Windows - 64 bit\nhttps://mosdac.gov.in/software/INSAT_IDV_PLUGIN.jar\nFormat: JAR, Size: 3.3 MB\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nWindows 32 bit\nhttps://mosdac.gov.in/software/SACRS2_Package.rar\nFormat: RAR, Size: 7.5 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-linux.zip\nFormat: ZIP, Size: 3.3 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/hdftool-linux.zip\nFormat: ZIP, Size: 9.9 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nWindows 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-txt.zip\nFormat: ZIP, Size: 2.9 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Satellite Data Archival Centre\nSpace Applications Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": " for INSAT-3D | 3DR Data Products\nIDV Plugin for INSAT-3D | 3DR Data Products\nLinux & Windows - 64 bit\nhttps://mosdac.gov.in/software/INSAT_IDV_PLUGIN.jar\nFormat: JAR, Size: 3.3 MB\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nWindows 32 bit\nhttps://mosdac.gov.in/software/SACRS2_Package.rar\nFormat: RAR, Size: 7.5 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-linux.zip\nFormat: ZIP, Size: 3.3 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/hdftool-linux.zip\nFormat: ZIP, Size: 9.9 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nWindows 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-txt.zip\nFormat: ZIP, Size: 2.9 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool.zip\nFormat: ZIP, Size: 6.3 MB\nHDF5 TO ASCII",
+      "source": "pattern"
+    },
+    {
+      "head": "Satellite Data Archival Centre\nSpace Applications Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": " for INSAT-3D | 3DR Data Products\nIDV Plugin for INSAT-3D | 3DR Data Products\nLinux & Windows - 64 bit\nhttps://mosdac.gov.in/software/INSAT_IDV_PLUGIN.jar\nFormat: JAR, Size: 3.3 MB\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nWindows 32 bit\nhttps://mosdac.gov.in/software/SACRS2_Package.rar\nFormat: RAR, Size: 7.5 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-linux.zip\nFormat: ZIP, Size: 3.3 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/hdftool-linux.zip\nFormat: ZIP, Size: 9.9 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nWindows 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-txt.zip\nFormat: ZIP, Size: 2.9 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool.zip\nFormat: ZIP, Size: 6.3 MB\nHDF5 TO ASCII converter\nHDF5 TO ASCII converter for Kalpana1-VHRR PR products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/PR_hdf_ascii.tar\nFormat: TAR, Size: 5.3 MB\nHDF5 to ASCII Converter\nHDF5 TO ASCII converter for Kalpana1-VHRR DP products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/DP_hdf_ascii.tar\nFormat: TAR, Size: 6.4 MB\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Satellite Data Archival Centre\nSpace Applications Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": " for INSAT-3D | 3DR Data Products\nIDV Plugin for INSAT-3D | 3DR Data Products\nLinux & Windows - 64 bit\nhttps://mosdac.gov.in/software/INSAT_IDV_PLUGIN.jar\nFormat: JAR, Size: 3.3 MB\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nWindows 32 bit\nhttps://mosdac.gov.in/software/SACRS2_Package.rar\nFormat: RAR, Size: 7.5 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-linux.zip\nFormat: ZIP, Size: 3.3 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/hdftool-linux.zip\nFormat: ZIP, Size: 9.9 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nWindows 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-txt.zip\nFormat: ZIP, Size: 2.9 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool.zip\nFormat: ZIP, Size: 6.3 MB\nHDF5 TO ASCII converter\nHDF5 TO ASCII converter for Kalpana1-VHRR PR products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/PR_hdf_ascii.tar\nFormat: TAR, Size: 5.3 MB\nHDF5 to ASCII Converter\nHDF5 TO ASCII converter for Kalpana1-VHRR DP products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/DP_hdf_ascii.tar\nFormat: TAR, Size: 6.4 MB\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "ISRO",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "| 3DR Data Products\nLinux & Windows - 64 bit\nhttps://mosdac.gov.in/software/INSAT_IDV_PLUGIN.jar\nFormat: JAR, Size: 3.3 MB\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nWindows 32 bit\nhttps://mosdac.gov.in/software/SACRS2_Package.rar\nFormat: RAR, Size: 7.5 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-linux.zip\nFormat: ZIP, Size: 3.3 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/hdftool-linux.zip\nFormat: ZIP, Size: 9.9 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nWindows 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-txt.zip\nFormat: ZIP, Size: 2.9 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool.zip\nFormat: ZIP, Size: 6.3 MB\nHDF5 TO ASCII converter\nHDF5 TO ASCII converter for Kalpana1-VHRR PR products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/PR_hdf_ascii.tar\nFormat: TAR, Size: 5.3 MB\nHDF5 to ASCII Converter\nHDF5 TO ASCII converter for Kalpana1-VHRR DP products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/DP_hdf_ascii.tar\nFormat: TAR, Size: 6.4 MB\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "ISRO",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "| 3DR Data Products\nLinux & Windows - 64 bit\nhttps://mosdac.gov.in/software/INSAT_IDV_PLUGIN.jar\nFormat: JAR, Size: 3.3 MB\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nWindows 32 bit\nhttps://mosdac.gov.in/software/SACRS2_Package.rar\nFormat: RAR, Size: 7.5 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-linux.zip\nFormat: ZIP, Size: 3.3 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/hdftool-linux.zip\nFormat: ZIP, Size: 9.9 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nWindows 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-txt.zip\nFormat: ZIP, Size: 2.9 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool.zip\nFormat: ZIP, Size: 6.3 MB\nHDF5 TO ASCII converter\nHDF5 TO ASCII converter for Kalpana1-VHRR PR products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/PR_hdf_ascii.tar\nFormat: TAR, Size: 5.3 MB\nHDF5 to ASCII Converter\nHDF5 TO ASCII converter for Kalpana1-VHRR DP products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/DP_hdf_ascii.tar\nFormat: TAR, Size: 6.4 MB\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Global Ocean Current",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "\nLinux & Windows - 64 bit\nhttps://mosdac.gov.in/software/INSAT_IDV_PLUGIN.jar\nFormat: JAR, Size: 3.3 MB\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nWindows 32 bit\nhttps://mosdac.gov.in/software/SACRS2_Package.rar\nFormat: RAR, Size: 7.5 MB\nMegha Tro",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Access",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "\nLinux & Windows - 64 bit\nhttps://mosdac.gov.in/software/INSAT_IDV_PLUGIN.jar\nFormat: JAR, Size: 3.3 MB\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nWindows 32 bit\nhttps://mosdac.gov.in/software/SACRS2_Package.rar\nFormat: RAR, Size: 7.5 MB\nMegha Tropiques batch",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Indian Mainland Coastal Product",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "\nLinux & Windows - 64 bit\nhttps://mosdac.gov.in/software/INSAT_IDV_PLUGIN.jar\nFormat: JAR, Size: 3.3 MB\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nWindows 32 bit\nhttps://mosdac.gov.in/software/SACRS2_Package.rar\nFormat: RAR, Size: 7.5 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-linux.zip\nFormat: ZIP, Size: 3.3 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/hdftool-linux.zip\nFormat: ZIP, Si",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Quality",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "\nLinux & Windows - 64 bit\nhttps://mosdac.gov.in/software/INSAT_IDV_PLUGIN.jar\nFormat: JAR, Size: 3.3 MB\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nWindows 32 bit\nhttps://mosdac.gov.in/software/SACRS2_Package.rar\nFormat: RAR, Size: 7.5 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-linux.zip\nFormat: ZIP, Size: 3.3 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/hdftool-linux.zip\nFormat: ZIP, Size: 9.9 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nWindows 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-txt.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "IDV Plugin",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "\nLinux & Windows - 64 bit\nhttps://mosdac.gov.in/software/INSAT_IDV_PLUGIN.jar\nFormat: JAR, Size: 3.3 MB\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nWindows 32 bit\nhttps://mosdac.gov.in/software/SACRS2_Package.rar\nFormat: RAR, Size: 7.5 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-linux.zip\nFormat: ZIP, Size: 3.3 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/hdftool-linux.zip\nFormat: ZIP, Size: 9.9 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nWindows 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-txt.zip\nFormat: ZIP, Size: 2.9 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/sof",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "3DR Data Products",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "\nLinux & Windows - 64 bit\nhttps://mosdac.gov.in/software/INSAT_IDV_PLUGIN.jar\nFormat: JAR, Size: 3.3 MB\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nWindows 32 bit\nhttps://mosdac.gov.in/software/SACRS2_Package.rar\nFormat: RAR, Size: 7.5 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-linux.zip\nFormat: ZIP, Size: 3.3 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/hdftool-linux.zip\nFormat: ZIP, Size: 9.9 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nWindows 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-txt.zip\nFormat: ZIP, Size: 2.9 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool.zip\nFormat: ZIP, Si",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "IDV Plugin",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "\nLinux & Windows - 64 bit\nhttps://mosdac.gov.in/software/INSAT_IDV_PLUGIN.jar\nFormat: JAR, Size: 3.3 MB\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nWindows 32 bit\nhttps://mosdac.gov.in/software/SACRS2_Package.rar\nFormat: RAR, Size: 7.5 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-linux.zip\nFormat: ZIP, Size: 3.3 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/hdftool-linux.zip\nFormat: ZIP, Size: 9.9 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nWindows 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-txt.zip\nFormat: ZIP, Size: 2.9 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool.zip\nFormat: ZIP, Size: 6.3 MB\n",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "3DR Data Products\n",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "\nLinux & Windows - 64 bit\nhttps://mosdac.gov.in/software/INSAT_IDV_PLUGIN.jar\nFormat: JAR, Size: 3.3 MB\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nWindows 32 bit\nhttps://mosdac.gov.in/software/SACRS2_Package.rar\nFormat: RAR, Size: 7.5 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-linux.zip\nFormat: ZIP, Size: 3.3 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/hdftool-linux.zip\nFormat: ZIP, Size: 9.9 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nWindows 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-txt.zip\nFormat: ZIP, Size: 2.9 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool.zip\nFormat: ZIP, Size: 6.3 MB\nHDF5 TO ASCII converter\nHDF5 TO AS",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MB\nAtmospheric Correction Model",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "\nLinux & Windows - 64 bit\nhttps://mosdac.gov.in/software/INSAT_IDV_PLUGIN.jar\nFormat: JAR, Size: 3.3 MB\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nWindows 32 bit\nhttps://mosdac.gov.in/software/SACRS2_Package.rar\nFormat: RAR, Size: 7.5 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-linux.zip\nFormat: ZIP, Size: 3.3 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/hdftool-linux.zip\nFormat: ZIP, Size: 9.9 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nWindows 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-txt.zip\nFormat: ZIP, Size: 2.9 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool.zip\nFormat: ZIP, Size: 6.3 MB\nHDF5 TO ASCII converter\nHDF5 TO ASCII converter for Kalpana1-VHRR PR products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/PR_hdf_ascii.tar\nFormat: TAR, Size: 5.3 M",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "https://mosdac.gov.in/software/SACRS2_Package.rar",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "\nLinux & Windows - 64 bit\nhttps://mosdac.gov.in/software/INSAT_IDV_PLUGIN.jar\nFormat: JAR, Size: 3.3 MB\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nWindows 32 bit\nhttps://mosdac.gov.in/software/SACRS2_Package.rar\nFormat: RAR, Size: 7.5 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-linux.zip\nFormat: ZIP, Size: 3.3 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/hdftool-linux.zip\nFormat: ZIP, Size: 9.9 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nWindows 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-txt.zip\nFormat: ZIP, Size: 2.9 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool.zip\nFormat: ZIP, Size: 6.3 MB\nHDF5 TO ASCII converter\nHDF5 TO ASCII converter for Kalpana1-VHRR PR products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/PR_hdf_ascii.tar\nFormat: TAR, Size: 5.3 MB\nHDF5 to ASCII Converter\nHDF5 TO ASCII converter for Kalpana1-VHRR DP products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/DP_hdf_ascii.tar\nFormat: TAR, Size: 6.4 MB\nS",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "\nLinux & Windows - 64 bit\nhttps://mosdac.gov.in/software/INSAT_IDV_PLUGIN.jar\nFormat: JAR, Size: 3.3 MB\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nWindows 32 bit\nhttps://mosdac.gov.in/software/SACRS2_Package.rar\nFormat: RAR, Size: 7.5 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-linux.zip\nFormat: ZIP, Size: 3.3 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/hdftool-linux.zip\nFormat: ZIP, Size: 9.9 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nWindows 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-txt.zip\nFormat: ZIP, Size: 2.9 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool.zip\nFormat: ZIP, Size: 6.3 MB\nHDF5 TO ASCII converter\nHDF5 TO ASCII converter for Kalpana1-VHRR PR products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/PR_hdf_ascii.tar\nFormat: TAR, Size: 5.3 MB\nHDF5 to ASCII Converter\nHDF5 TO ASCII converter for Kalpana1-VHRR DP products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/DP_hdf_ascii.tar\nFormat: TAR, Size: 6.4 MB\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "\nLinux & Windows - 64 bit\nhttps://mosdac.gov.in/software/INSAT_IDV_PLUGIN.jar\nFormat: JAR, Size: 3.3 MB\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nWindows 32 bit\nhttps://mosdac.gov.in/software/SACRS2_Package.rar\nFormat: RAR, Size: 7.5 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-linux.zip\nFormat: ZIP, Size: 3.3 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/hdftool-linux.zip\nFormat: ZIP, Size: 9.9 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nWindows 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-txt.zip\nFormat: ZIP, Size: 2.9 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool.zip\nFormat: ZIP, Size: 6.3 MB\nHDF5 TO ASCII converter\nHDF5 TO ASCII converter for Kalpana1-VHRR PR products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/PR_hdf_ascii.tar\nFormat: TAR, Size: 5.3 MB\nHDF5 to ASCII Converter\nHDF5 TO ASCII converter for Kalpana1-VHRR DP products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/DP_hdf_ascii.tar\nFormat: TAR, Size: 6.4 MB\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic Satellite Data Archival Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic Satellite Data Archival Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "a Data Centre of Space Applications Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic Satellite Data Archival Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "a Data Centre of Space Applications Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "\nLinux & Windows - 64 bit\nhttps://mosdac.gov.in/software/INSAT_IDV_PLUGIN.jar\nFormat: JAR, Size: 3",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Indian",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "\nLinux & Windows - 64 bit\nhttps://mosdac.gov.in/software/INSAT_IDV_PLUGIN.jar\nFormat: JAR, Size: 3.3 MB\nAtmospheric Correction Model for Resourcesat-2 AWiFS dat",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Satellite",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data, Archival",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Global Ocean Current",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "indows - 64 bit\nhttps://mosdac.gov.in/software/INSAT_IDV_PLUGIN.jar\nFormat: JAR, Size: 3.3 MB\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nWindows 32 bit\nhttps://mosdac.gov.in/software/SACRS2_Package.rar\nFormat: RAR, Size: 7.5 MB\nMegha Tro",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Access",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "indows - 64 bit\nhttps://mosdac.gov.in/software/INSAT_IDV_PLUGIN.jar\nFormat: JAR, Size: 3.3 MB\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nWindows 32 bit\nhttps://mosdac.gov.in/software/SACRS2_Package.rar\nFormat: RAR, Size: 7.5 MB\nMegha Tropiques batch",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Indian Mainland Coastal Product",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "indows - 64 bit\nhttps://mosdac.gov.in/software/INSAT_IDV_PLUGIN.jar\nFormat: JAR, Size: 3.3 MB\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nWindows 32 bit\nhttps://mosdac.gov.in/software/SACRS2_Package.rar\nFormat: RAR, Size: 7.5 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-linux.zip\nFormat: ZIP, Size: 3.3 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/hdftool-linux.zip\nFormat: ZIP, Si",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Quality",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "indows - 64 bit\nhttps://mosdac.gov.in/software/INSAT_IDV_PLUGIN.jar\nFormat: JAR, Size: 3.3 MB\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nWindows 32 bit\nhttps://mosdac.gov.in/software/SACRS2_Package.rar\nFormat: RAR, Size: 7.5 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-linux.zip\nFormat: ZIP, Size: 3.3 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/hdftool-linux.zip\nFormat: ZIP, Size: 9.9 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nWindows 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-txt.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "IDV Plugin",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "indows - 64 bit\nhttps://mosdac.gov.in/software/INSAT_IDV_PLUGIN.jar\nFormat: JAR, Size: 3.3 MB\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nWindows 32 bit\nhttps://mosdac.gov.in/software/SACRS2_Package.rar\nFormat: RAR, Size: 7.5 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-linux.zip\nFormat: ZIP, Size: 3.3 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/hdftool-linux.zip\nFormat: ZIP, Size: 9.9 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nWindows 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-txt.zip\nFormat: ZIP, Size: 2.9 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/sof",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "3DR Data Products",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "indows - 64 bit\nhttps://mosdac.gov.in/software/INSAT_IDV_PLUGIN.jar\nFormat: JAR, Size: 3.3 MB\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nWindows 32 bit\nhttps://mosdac.gov.in/software/SACRS2_Package.rar\nFormat: RAR, Size: 7.5 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-linux.zip\nFormat: ZIP, Size: 3.3 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/hdftool-linux.zip\nFormat: ZIP, Size: 9.9 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nWindows 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-txt.zip\nFormat: ZIP, Size: 2.9 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool.zip\nFormat: ZIP, Si",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "IDV Plugin",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "indows - 64 bit\nhttps://mosdac.gov.in/software/INSAT_IDV_PLUGIN.jar\nFormat: JAR, Size: 3.3 MB\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nWindows 32 bit\nhttps://mosdac.gov.in/software/SACRS2_Package.rar\nFormat: RAR, Size: 7.5 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-linux.zip\nFormat: ZIP, Size: 3.3 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/hdftool-linux.zip\nFormat: ZIP, Size: 9.9 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nWindows 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-txt.zip\nFormat: ZIP, Size: 2.9 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool.zip\nFormat: ZIP, Size: 6.3 MB\n",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "3DR Data Products\n",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "indows - 64 bit\nhttps://mosdac.gov.in/software/INSAT_IDV_PLUGIN.jar\nFormat: JAR, Size: 3.3 MB\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nWindows 32 bit\nhttps://mosdac.gov.in/software/SACRS2_Package.rar\nFormat: RAR, Size: 7.5 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-linux.zip\nFormat: ZIP, Size: 3.3 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/hdftool-linux.zip\nFormat: ZIP, Size: 9.9 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nWindows 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-txt.zip\nFormat: ZIP, Size: 2.9 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool.zip\nFormat: ZIP, Size: 6.3 MB\nHDF5 TO ASCII converter\nHDF5 TO AS",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MB\nAtmospheric Correction Model",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "indows - 64 bit\nhttps://mosdac.gov.in/software/INSAT_IDV_PLUGIN.jar\nFormat: JAR, Size: 3.3 MB\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nWindows 32 bit\nhttps://mosdac.gov.in/software/SACRS2_Package.rar\nFormat: RAR, Size: 7.5 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-linux.zip\nFormat: ZIP, Size: 3.3 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/hdftool-linux.zip\nFormat: ZIP, Size: 9.9 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nWindows 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-txt.zip\nFormat: ZIP, Size: 2.9 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool.zip\nFormat: ZIP, Size: 6.3 MB\nHDF5 TO ASCII converter\nHDF5 TO ASCII converter for Kalpana1-VHRR PR products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/PR_hdf_ascii.tar\nFormat: TAR, Size: 5.3 M",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "https://mosdac.gov.in/software/SACRS2_Package.rar",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "indows - 64 bit\nhttps://mosdac.gov.in/software/INSAT_IDV_PLUGIN.jar\nFormat: JAR, Size: 3.3 MB\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nWindows 32 bit\nhttps://mosdac.gov.in/software/SACRS2_Package.rar\nFormat: RAR, Size: 7.5 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-linux.zip\nFormat: ZIP, Size: 3.3 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/hdftool-linux.zip\nFormat: ZIP, Size: 9.9 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nWindows 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-txt.zip\nFormat: ZIP, Size: 2.9 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool.zip\nFormat: ZIP, Size: 6.3 MB\nHDF5 TO ASCII converter\nHDF5 TO ASCII converter for Kalpana1-VHRR PR products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/PR_hdf_ascii.tar\nFormat: TAR, Size: 5.3 MB\nHDF5 to ASCII Converter\nHDF5 TO ASCII converter for Kalpana1-VHRR DP products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/DP_hdf_ascii.tar\nFormat: TAR, Size: 6.4 MB\nS",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "indows - 64 bit\nhttps://mosdac.gov.in/software/INSAT_IDV_PLUGIN.jar\nFormat: JAR, Size: 3.3 MB\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nWindows 32 bit\nhttps://mosdac.gov.in/software/SACRS2_Package.rar\nFormat: RAR, Size: 7.5 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-linux.zip\nFormat: ZIP, Size: 3.3 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/hdftool-linux.zip\nFormat: ZIP, Size: 9.9 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nWindows 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-txt.zip\nFormat: ZIP, Size: 2.9 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool.zip\nFormat: ZIP, Size: 6.3 MB\nHDF5 TO ASCII converter\nHDF5 TO ASCII converter for Kalpana1-VHRR PR products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/PR_hdf_ascii.tar\nFormat: TAR, Size: 5.3 MB\nHDF5 to ASCII Converter\nHDF5 TO ASCII converter for Kalpana1-VHRR DP products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/DP_hdf_ascii.tar\nFormat: TAR, Size: 6.4 MB\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "indows - 64 bit\nhttps://mosdac.gov.in/software/INSAT_IDV_PLUGIN.jar\nFormat: JAR, Size: 3.3 MB\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nWindows 32 bit\nhttps://mosdac.gov.in/software/SACRS2_Package.rar\nFormat: RAR, Size: 7.5 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-linux.zip\nFormat: ZIP, Size: 3.3 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/hdftool-linux.zip\nFormat: ZIP, Size: 9.9 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nWindows 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-txt.zip\nFormat: ZIP, Size: 2.9 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool.zip\nFormat: ZIP, Size: 6.3 MB\nHDF5 TO ASCII converter\nHDF5 TO ASCII converter for Kalpana1-VHRR PR products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/PR_hdf_ascii.tar\nFormat: TAR, Size: 5.3 MB\nHDF5 to ASCII Converter\nHDF5 TO ASCII converter for Kalpana1-VHRR DP products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/DP_hdf_ascii.tar\nFormat: TAR, Size: 6.4 MB\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic Satellite Data Archival Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic Satellite Data Archival Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "a Data Centre of Space Applications Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic Satellite Data Archival Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "a Data Centre of Space Applications Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "indows - 64 bit\nhttps://mosdac.gov.in/software/INSAT_IDV_PLUGIN.jar\nFormat: JAR, Size: 3",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Indian",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "indows - 64 bit\nhttps://mosdac.gov.in/software/INSAT_IDV_PLUGIN.jar\nFormat: JAR, Size: 3.3 MB\nAtmospheric Correction Model for Resourcesat-2 AWiFS dat",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Satellite",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data, Archival",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Global Ocean Current",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "are/INSAT_IDV_PLUGIN.jar\nFormat: JAR, Size: 3.3 MB\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nWindows 32 bit\nhttps://mosdac.gov.in/software/SACRS2_Package.rar\nFormat: RAR, Size: 7.5 MB\nMegha Tro",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Access",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "are/INSAT_IDV_PLUGIN.jar\nFormat: JAR, Size: 3.3 MB\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nWindows 32 bit\nhttps://mosdac.gov.in/software/SACRS2_Package.rar\nFormat: RAR, Size: 7.5 MB\nMegha Tropiques batch",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Indian Mainland Coastal Product",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "are/INSAT_IDV_PLUGIN.jar\nFormat: JAR, Size: 3.3 MB\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nWindows 32 bit\nhttps://mosdac.gov.in/software/SACRS2_Package.rar\nFormat: RAR, Size: 7.5 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-linux.zip\nFormat: ZIP, Size: 3.3 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/hdftool-linux.zip\nFormat: ZIP, Si",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Quality",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "are/INSAT_IDV_PLUGIN.jar\nFormat: JAR, Size: 3.3 MB\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nWindows 32 bit\nhttps://mosdac.gov.in/software/SACRS2_Package.rar\nFormat: RAR, Size: 7.5 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-linux.zip\nFormat: ZIP, Size: 3.3 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/hdftool-linux.zip\nFormat: ZIP, Size: 9.9 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nWindows 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-txt.",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "IDV Plugin",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "are/INSAT_IDV_PLUGIN.jar\nFormat: JAR, Size: 3.3 MB\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nWindows 32 bit\nhttps://mosdac.gov.in/software/SACRS2_Package.rar\nFormat: RAR, Size: 7.5 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-linux.zip\nFormat: ZIP, Size: 3.3 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/hdftool-linux.zip\nFormat: ZIP, Size: 9.9 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nWindows 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-txt.zip\nFormat: ZIP, Size: 2.9 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/sof",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "3DR Data Products",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "are/INSAT_IDV_PLUGIN.jar\nFormat: JAR, Size: 3.3 MB\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nWindows 32 bit\nhttps://mosdac.gov.in/software/SACRS2_Package.rar\nFormat: RAR, Size: 7.5 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-linux.zip\nFormat: ZIP, Size: 3.3 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/hdftool-linux.zip\nFormat: ZIP, Size: 9.9 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nWindows 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-txt.zip\nFormat: ZIP, Size: 2.9 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool.zip\nFormat: ZIP, Si",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "IDV Plugin",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "are/INSAT_IDV_PLUGIN.jar\nFormat: JAR, Size: 3.3 MB\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nWindows 32 bit\nhttps://mosdac.gov.in/software/SACRS2_Package.rar\nFormat: RAR, Size: 7.5 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-linux.zip\nFormat: ZIP, Size: 3.3 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/hdftool-linux.zip\nFormat: ZIP, Size: 9.9 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nWindows 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-txt.zip\nFormat: ZIP, Size: 2.9 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool.zip\nFormat: ZIP, Size: 6.3 MB\n",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "3DR Data Products\n",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "are/INSAT_IDV_PLUGIN.jar\nFormat: JAR, Size: 3.3 MB\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nWindows 32 bit\nhttps://mosdac.gov.in/software/SACRS2_Package.rar\nFormat: RAR, Size: 7.5 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-linux.zip\nFormat: ZIP, Size: 3.3 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/hdftool-linux.zip\nFormat: ZIP, Size: 9.9 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nWindows 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-txt.zip\nFormat: ZIP, Size: 2.9 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool.zip\nFormat: ZIP, Size: 6.3 MB\nHDF5 TO ASCII converter\nHDF5 TO AS",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MB\nAtmospheric Correction Model",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "are/INSAT_IDV_PLUGIN.jar\nFormat: JAR, Size: 3.3 MB\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nWindows 32 bit\nhttps://mosdac.gov.in/software/SACRS2_Package.rar\nFormat: RAR, Size: 7.5 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-linux.zip\nFormat: ZIP, Size: 3.3 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/hdftool-linux.zip\nFormat: ZIP, Size: 9.9 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nWindows 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-txt.zip\nFormat: ZIP, Size: 2.9 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool.zip\nFormat: ZIP, Size: 6.3 MB\nHDF5 TO ASCII converter\nHDF5 TO ASCII converter for Kalpana1-VHRR PR products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/PR_hdf_ascii.tar\nFormat: TAR, Size: 5.3 M",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "https://mosdac.gov.in/software/SACRS2_Package.rar",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "are/INSAT_IDV_PLUGIN.jar\nFormat: JAR, Size: 3.3 MB\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nWindows 32 bit\nhttps://mosdac.gov.in/software/SACRS2_Package.rar\nFormat: RAR, Size: 7.5 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-linux.zip\nFormat: ZIP, Size: 3.3 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/hdftool-linux.zip\nFormat: ZIP, Size: 9.9 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nWindows 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-txt.zip\nFormat: ZIP, Size: 2.9 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool.zip\nFormat: ZIP, Size: 6.3 MB\nHDF5 TO ASCII converter\nHDF5 TO ASCII converter for Kalpana1-VHRR PR products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/PR_hdf_ascii.tar\nFormat: TAR, Size: 5.3 MB\nHDF5 to ASCII Converter\nHDF5 TO ASCII converter for Kalpana1-VHRR DP products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/DP_hdf_ascii.tar\nFormat: TAR, Size: 6.4 MB\nS",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "are/INSAT_IDV_PLUGIN.jar\nFormat: JAR, Size: 3.3 MB\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nWindows 32 bit\nhttps://mosdac.gov.in/software/SACRS2_Package.rar\nFormat: RAR, Size: 7.5 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-linux.zip\nFormat: ZIP, Size: 3.3 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/hdftool-linux.zip\nFormat: ZIP, Size: 9.9 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nWindows 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-txt.zip\nFormat: ZIP, Size: 2.9 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool.zip\nFormat: ZIP, Size: 6.3 MB\nHDF5 TO ASCII converter\nHDF5 TO ASCII converter for Kalpana1-VHRR PR products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/PR_hdf_ascii.tar\nFormat: TAR, Size: 5.3 MB\nHDF5 to ASCII Converter\nHDF5 TO ASCII converter for Kalpana1-VHRR DP products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/DP_hdf_ascii.tar\nFormat: TAR, Size: 6.4 MB\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "are/INSAT_IDV_PLUGIN.jar\nFormat: JAR, Size: 3.3 MB\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nWindows 32 bit\nhttps://mosdac.gov.in/software/SACRS2_Package.rar\nFormat: RAR, Size: 7.5 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-linux.zip\nFormat: ZIP, Size: 3.3 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/hdftool-linux.zip\nFormat: ZIP, Size: 9.9 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nWindows 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-txt.zip\nFormat: ZIP, Size: 2.9 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool.zip\nFormat: ZIP, Size: 6.3 MB\nHDF5 TO ASCII converter\nHDF5 TO ASCII converter for Kalpana1-VHRR PR products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/PR_hdf_ascii.tar\nFormat: TAR, Size: 5.3 MB\nHDF5 to ASCII Converter\nHDF5 TO ASCII converter for Kalpana1-VHRR DP products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/DP_hdf_ascii.tar\nFormat: TAR, Size: 6.4 MB\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic Satellite Data Archival Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic Satellite Data Archival Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "a Data Centre of Space Applications Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic Satellite Data Archival Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "a Data Centre of Space Applications Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "are/INSAT_IDV_PLUGIN.jar\nFormat: JAR, Size: 3",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Indian",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "are/INSAT_IDV_PLUGIN.jar\nFormat: JAR, Size: 3.3 MB\nAtmospheric Correction Model for Resourcesat-2 AWiFS dat",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Satellite",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data, Archival",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Global Ocean Current",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": ".3 MB\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nWindows 32 bit\nhttps://mosdac.gov.in/software/SACRS2_Package.rar\nFormat: RAR, Size: 7.5 MB\nMegha Tro",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Access",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": ".3 MB\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nWindows 32 bit\nhttps://mosdac.gov.in/software/SACRS2_Package.rar\nFormat: RAR, Size: 7.5 MB\nMegha Tropiques batch",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Indian Mainland Coastal Product",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": ".3 MB\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nWindows 32 bit\nhttps://mosdac.gov.in/software/SACRS2_Package.rar\nFormat: RAR, Size: 7.5 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-linux.zip\nFormat: ZIP, Size: 3.3 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/hdftool-linux.zip\nFormat: ZIP, Si",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Quality",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": ".3 MB\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nWindows 32 bit\nhttps://mosdac.gov.in/software/SACRS2_Package.rar\nFormat: RAR, Size: 7.5 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-linux.zip\nFormat: ZIP, Size: 3.3 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/hdftool-linux.zip\nFormat: ZIP, Size: 9.9 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nWindows 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-txt.",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "IDV Plugin",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": ".3 MB\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nWindows 32 bit\nhttps://mosdac.gov.in/software/SACRS2_Package.rar\nFormat: RAR, Size: 7.5 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-linux.zip\nFormat: ZIP, Size: 3.3 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/hdftool-linux.zip\nFormat: ZIP, Size: 9.9 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nWindows 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-txt.zip\nFormat: ZIP, Size: 2.9 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/sof",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "3DR Data Products",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": ".3 MB\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nWindows 32 bit\nhttps://mosdac.gov.in/software/SACRS2_Package.rar\nFormat: RAR, Size: 7.5 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-linux.zip\nFormat: ZIP, Size: 3.3 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/hdftool-linux.zip\nFormat: ZIP, Size: 9.9 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nWindows 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-txt.zip\nFormat: ZIP, Size: 2.9 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool.zip\nFormat: ZIP, Si",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "IDV Plugin",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": ".3 MB\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nWindows 32 bit\nhttps://mosdac.gov.in/software/SACRS2_Package.rar\nFormat: RAR, Size: 7.5 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-linux.zip\nFormat: ZIP, Size: 3.3 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/hdftool-linux.zip\nFormat: ZIP, Size: 9.9 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nWindows 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-txt.zip\nFormat: ZIP, Size: 2.9 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool.zip\nFormat: ZIP, Size: 6.3 MB\n",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "3DR Data Products\n",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": ".3 MB\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nWindows 32 bit\nhttps://mosdac.gov.in/software/SACRS2_Package.rar\nFormat: RAR, Size: 7.5 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-linux.zip\nFormat: ZIP, Size: 3.3 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/hdftool-linux.zip\nFormat: ZIP, Size: 9.9 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nWindows 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-txt.zip\nFormat: ZIP, Size: 2.9 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool.zip\nFormat: ZIP, Size: 6.3 MB\nHDF5 TO ASCII converter\nHDF5 TO AS",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MB\nAtmospheric Correction Model",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": ".3 MB\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nWindows 32 bit\nhttps://mosdac.gov.in/software/SACRS2_Package.rar\nFormat: RAR, Size: 7.5 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-linux.zip\nFormat: ZIP, Size: 3.3 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/hdftool-linux.zip\nFormat: ZIP, Size: 9.9 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nWindows 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-txt.zip\nFormat: ZIP, Size: 2.9 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool.zip\nFormat: ZIP, Size: 6.3 MB\nHDF5 TO ASCII converter\nHDF5 TO ASCII converter for Kalpana1-VHRR PR products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/PR_hdf_ascii.tar\nFormat: TAR, Size: 5.3 M",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "https://mosdac.gov.in/software/SACRS2_Package.rar",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": ".3 MB\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nWindows 32 bit\nhttps://mosdac.gov.in/software/SACRS2_Package.rar\nFormat: RAR, Size: 7.5 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-linux.zip\nFormat: ZIP, Size: 3.3 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/hdftool-linux.zip\nFormat: ZIP, Size: 9.9 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nWindows 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-txt.zip\nFormat: ZIP, Size: 2.9 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool.zip\nFormat: ZIP, Size: 6.3 MB\nHDF5 TO ASCII converter\nHDF5 TO ASCII converter for Kalpana1-VHRR PR products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/PR_hdf_ascii.tar\nFormat: TAR, Size: 5.3 MB\nHDF5 to ASCII Converter\nHDF5 TO ASCII converter for Kalpana1-VHRR DP products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/DP_hdf_ascii.tar\nFormat: TAR, Size: 6.4 MB\nS",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": ".3 MB\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nWindows 32 bit\nhttps://mosdac.gov.in/software/SACRS2_Package.rar\nFormat: RAR, Size: 7.5 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-linux.zip\nFormat: ZIP, Size: 3.3 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/hdftool-linux.zip\nFormat: ZIP, Size: 9.9 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nWindows 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-txt.zip\nFormat: ZIP, Size: 2.9 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool.zip\nFormat: ZIP, Size: 6.3 MB\nHDF5 TO ASCII converter\nHDF5 TO ASCII converter for Kalpana1-VHRR PR products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/PR_hdf_ascii.tar\nFormat: TAR, Size: 5.3 MB\nHDF5 to ASCII Converter\nHDF5 TO ASCII converter for Kalpana1-VHRR DP products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/DP_hdf_ascii.tar\nFormat: TAR, Size: 6.4 MB\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": ".3 MB\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nWindows 32 bit\nhttps://mosdac.gov.in/software/SACRS2_Package.rar\nFormat: RAR, Size: 7.5 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-linux.zip\nFormat: ZIP, Size: 3.3 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/hdftool-linux.zip\nFormat: ZIP, Size: 9.9 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nWindows 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-txt.zip\nFormat: ZIP, Size: 2.9 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool.zip\nFormat: ZIP, Size: 6.3 MB\nHDF5 TO ASCII converter\nHDF5 TO ASCII converter for Kalpana1-VHRR PR products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/PR_hdf_ascii.tar\nFormat: TAR, Size: 5.3 MB\nHDF5 to ASCII Converter\nHDF5 TO ASCII converter for Kalpana1-VHRR DP products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/DP_hdf_ascii.tar\nFormat: TAR, Size: 6.4 MB\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic Satellite Data Archival Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic Satellite Data Archival Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "a Data Centre of Space Applications Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic Satellite Data Archival Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "a Data Centre of Space Applications Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Indian",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": ".3 MB\nAtmospheric Correction Model for Resourcesat-2 AWiFS dat",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Satellite",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data, Archival",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "DWR",
+      "head_type": "INSTRUMENT",
+      "type": "MEASURES",
+      "tail": "AWS",
+      "tail_type": "PARAMETER",
+      "evidence": "or Resourcesat-2 AWiFS data (SACRS2)\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nWindows 32 bit\nhttps://mosdac.gov.in/software/SACRS2_Package.rar\nFormat: RAR, ",
+      "source": "pattern"
+    },
+    {
+      "head": "MT-SAPHIR",
+      "head_type": "INSTRUMENT",
+      "type": "MEASURES",
+      "tail": "AWS",
+      "tail_type": "PARAMETER",
+      "evidence": "or Resourcesat-2 AWiFS data (SACRS2)\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nWindows 32 bit\nhttps://mosdac.gov.in/software/SACRS2_Package.rar\nFormat: RAR, Size: 7.5 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batc",
+      "source": "pattern"
+    },
+    {
+      "head": "VHRR",
+      "head_type": "INSTRUMENT",
+      "type": "MEASURES",
+      "tail": "AWS",
+      "tail_type": "PARAMETER",
+      "evidence": "or Resourcesat-2 AWiFS data (SACRS2)\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nWindows 32 bit\nhttps://mosdac.gov.in/software/SACRS2_Package.rar\nFormat: RAR, Size: 7.5 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-linux.zip\nFormat: ZIP, Size: 3.3 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/hdftool-linux.zip\nFormat: ZIP, Size: 9.9 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nWindows 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-txt.zip\nFormat: ZIP, Size: 2.9 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool.zip\nFormat: ZIP, Size: 6.3 MB\nHDF5 TO ASCII converter\nHDF5 TO ASCII converter for Kalpana1-VHRR PR products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/PR_hdf_ascii.tar\nFormat: TAR, Size: 5.3 MB\nHDF5 to ASCII Converter\nHDF5 TO ASCII converter for Kalpana1-VHRR DP products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/DP_hdf_ascii.tar\nFormat: TAR, Size: 6.4 MB\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "VHRR",
+      "head_type": "INSTRUMENT",
+      "type": "MEASURES",
+      "tail": "AWS",
+      "tail_type": "PARAMETER",
+      "evidence": "or Resourcesat-2 AWiFS data (SACRS2)\nAtmospheric Correction Model for Resourcesat-2 AWiFS data (SACRS2)\nWindows 32 bit\nhttps://mosdac.gov.in/software/SACRS2_Package.rar\nFormat: RAR, Size: 7.5 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-linux.zip\nFormat: ZIP, Size: 3.3 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/hdftool-linux.zip\nFormat: ZIP, Size: 9.9 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nWindows 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-txt.zip\nFormat: ZIP, Size: 2.9 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool.zip\nFormat: ZIP, Size: 6.3 MB\nHDF5 TO ASCII converter\nHDF5 TO ASCII converter for Kalpana1-VHRR PR products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/PR_hdf_ascii.tar\nFormat: TAR, Size: 5.3 MB\nHDF5 to ASCII Converter\nHDF5 TO ASCII converter for Kalpana1-VHRR DP products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/DP_hdf_ascii.tar\nFormat: TAR, Size: 6.4 MB\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "DWR",
+      "head_type": "INSTRUMENT",
+      "type": "MEASURES",
+      "tail": "Linux & Windows - 64",
+      "tail_type": "PARAMETER",
+      "evidence": "at-2 AWiFS data (SACRS2)\nWindows 32 bit\nhttps://mosdac.gov.in/software/SACRS2_Package.rar\nFormat: RAR, Size: 7.5 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-linux.zip\nFormat: ZIP, Size: 3.3 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/hdftool-linux.zip\nFormat: ZIP, Size: 9.9 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nWindows 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-txt.zip\nFormat: ZIP, Size: 2.9 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool.zip\nFormat: ZIP, Size: 6.3 MB\nHDF5 TO ASCII converter\nHDF5 TO ASCII converter for Ka",
+      "source": "pattern"
+    },
+    {
+      "head": "DWR",
+      "head_type": "INSTRUMENT",
+      "type": "MEASURES",
+      "tail": "Windows 32",
+      "tail_type": "PARAMETER",
+      "evidence": "at-2 AWiFS data (SACRS2)\nWindows 32 bit\nhttps://mosdac.gov.in/software/SACRS2_Package.rar\nFormat: RAR, Size: 7.5 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-linux.zip\nFormat: ZIP, Size: 3.3 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/hdftool-linux.zip\nFormat: ZIP, Size: 9.9 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nWindows 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-txt.zip\nFormat: ZIP, Size: 2.9 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool.zip\nFormat: ZIP, Size: 6.3 MB\nHDF5 TO ASCII converter\nHDF5 TO ASCII converter for Kalpana1-VHRR PR products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/PR_hdf_ascii.tar\nFormat: TAR, Size: 5.3 MB\nHDF5 to ASCII Converter\nHDF5 TO ASCII converter for Kalpana1-VHRR DP products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/DP_hdf_ascii.tar\nFormat: TAR, Size: 6.4 MB\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "DWR",
+      "head_type": "INSTRUMENT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "at-2 AWiFS data (SACRS2)\nWindows 32 bit\nhttps://mosdac.gov.in/software/SACRS2_Package.rar\nFormat: RAR, Size: 7.5 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-linux.zip\nFormat: ZIP, Size: 3.3 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/hdftool-linux.zip\nFormat: ZIP, Size: 9.9 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nWindows 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-txt.zip\nFormat: ZIP, Size: 2.9 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool.zip\nFormat: ZIP, Size: 6.3 MB\nHDF5 TO ASCII converter\nHDF5 TO ASCII converter for Kalpana1-VHRR PR products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/PR_hdf_ascii.tar\nFormat: TAR, Size: 5.3 MB\nHDF5 to ASCII Converter\nHDF5 TO ASCII converter for Kalpana1-VHRR DP products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/DP_hdf_ascii.tar\nFormat: TAR, Size: 6.4 MB\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "DWR",
+      "head_type": "INSTRUMENT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "at-2 AWiFS data (SACRS2)\nWindows 32 bit\nhttps://mosdac.gov.in/software/SACRS2_Package.rar\nFormat: RAR, Size: 7.5 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-linux.zip\nFormat: ZIP, Size: 3.3 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/hdftool-linux.zip\nFormat: ZIP, Size: 9.9 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nWindows 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-txt.zip\nFormat: ZIP, Size: 2.9 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool.zip\nFormat: ZIP, Size: 6.3 MB\nHDF5 TO ASCII converter\nHDF5 TO ASCII converter for Kalpana1-VHRR PR products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/PR_hdf_ascii.tar\nFormat: TAR, Size: 5.3 MB\nHDF5 to ASCII Converter\nHDF5 TO ASCII converter for Kalpana1-VHRR DP products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/DP_hdf_ascii.tar\nFormat: TAR, Size: 6.4 MB\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Global Ocean Current",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "AWiFS data (SACRS2)\nWindows 32 bit\nhttps://mosdac.gov.in/software/SACRS2_Package.rar\nFormat: RAR, Size: 7.5 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-linux.zip\nFormat: ZIP, Size: 3.3 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/hdftool-linux.zip\nFormat: ZIP, Size: 9.9 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nWindows 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-txt.zip\nFormat: ZIP, Size: 2.9 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Global Ocean Current",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "AWiFS data (SACRS2)\nWindows 32 bit\nhttps://mosdac.gov.in/software/SACRS2_Package.rar\nFormat: RAR, Size: 7.5 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-linux.zip\nFormat: ZIP, Size: 3.3 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/hdftool-linux.zip\nFormat: ZIP, Size: 9.9 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nWindows 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-txt.zip\nFormat: ZIP, Size: 2.9 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool.zip\nFormat: ZIP, Size: 6.3 MB\nHDF5 TO ASCII",
+      "source": "pattern"
+    },
+    {
+      "head": "Global Ocean Current",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "AWiFS data (SACRS2)\nWindows 32 bit\nhttps://mosdac.gov.in/software/SACRS2_Package.rar\nFormat: RAR, Size: 7.5 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-linux.zip\nFormat: ZIP, Size: 3.3 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/hdftool-linux.zip\nFormat: ZIP, Size: 9.9 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nWindows 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-txt.zip\nFormat: ZIP, Size: 2.9 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool.zip\nFormat: ZIP, Size: 6.3 MB\nHDF5 TO ASCII converter\nHDF5 TO ASCII converter for Kalpana1-VHRR PR products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/PR_hdf_ascii.tar\nFormat: TAR, Size: 5.3 MB\nHDF5 to ASCII Converter\nHDF5 TO ASCII converter for Kalpana1-VHRR DP products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/DP_hdf_ascii.tar\nFormat: TAR, Size: 6.4 MB\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Global Ocean Current",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "AWiFS data (SACRS2)\nWindows 32 bit\nhttps://mosdac.gov.in/software/SACRS2_Package.rar\nFormat: RAR, Size: 7.5 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-linux.zip\nFormat: ZIP, Size: 3.3 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/hdftool-linux.zip\nFormat: ZIP, Size: 9.9 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nWindows 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-txt.zip\nFormat: ZIP, Size: 2.9 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool.zip\nFormat: ZIP, Size: 6.3 MB\nHDF5 TO ASCII converter\nHDF5 TO ASCII converter for Kalpana1-VHRR PR products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/PR_hdf_ascii.tar\nFormat: TAR, Size: 5.3 MB\nHDF5 to ASCII Converter\nHDF5 TO ASCII converter for Kalpana1-VHRR DP products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/DP_hdf_ascii.tar\nFormat: TAR, Size: 6.4 MB\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Access",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "indows 32 bit\nhttps://mosdac.gov.in/software/SACRS2_Package.rar\nFormat: RAR, Size: 7.5 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-linux.zip\nFormat: ZIP, Size: 3.3 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/hdftool-linux.zip\nFormat: ZIP, Size: 9.9 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nWindows 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-txt.zip\nFormat: ZIP, Size: 2.9 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Access",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "indows 32 bit\nhttps://mosdac.gov.in/software/SACRS2_Package.rar\nFormat: RAR, Size: 7.5 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-linux.zip\nFormat: ZIP, Size: 3.3 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/hdftool-linux.zip\nFormat: ZIP, Size: 9.9 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nWindows 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-txt.zip\nFormat: ZIP, Size: 2.9 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool.zip\nFormat: ZIP, Size: 6.3 MB\nHDF5 TO ASCII",
+      "source": "pattern"
+    },
+    {
+      "head": "Data Access",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "indows 32 bit\nhttps://mosdac.gov.in/software/SACRS2_Package.rar\nFormat: RAR, Size: 7.5 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-linux.zip\nFormat: ZIP, Size: 3.3 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/hdftool-linux.zip\nFormat: ZIP, Size: 9.9 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nWindows 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-txt.zip\nFormat: ZIP, Size: 2.9 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool.zip\nFormat: ZIP, Size: 6.3 MB\nHDF5 TO ASCII converter\nHDF5 TO ASCII converter for Kalpana1-VHRR PR products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/PR_hdf_ascii.tar\nFormat: TAR, Size: 5.3 MB\nHDF5 to ASCII Converter\nHDF5 TO ASCII converter for Kalpana1-VHRR DP products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/DP_hdf_ascii.tar\nFormat: TAR, Size: 6.4 MB\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Data Access",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "indows 32 bit\nhttps://mosdac.gov.in/software/SACRS2_Package.rar\nFormat: RAR, Size: 7.5 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-linux.zip\nFormat: ZIP, Size: 3.3 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/hdftool-linux.zip\nFormat: ZIP, Size: 9.9 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nWindows 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-txt.zip\nFormat: ZIP, Size: 2.9 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool.zip\nFormat: ZIP, Size: 6.3 MB\nHDF5 TO ASCII converter\nHDF5 TO ASCII converter for Kalpana1-VHRR PR products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/PR_hdf_ascii.tar\nFormat: TAR, Size: 5.3 MB\nHDF5 to ASCII Converter\nHDF5 TO ASCII converter for Kalpana1-VHRR DP products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/DP_hdf_ascii.tar\nFormat: TAR, Size: 6.4 MB\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "MT-SAPHIR",
+      "head_type": "INSTRUMENT",
+      "type": "MEASURES",
+      "tail": "Linux & Windows - 64",
+      "tail_type": "PARAMETER",
+      "evidence": ".rar\nFormat: RAR, Size: 7.5 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-linux.zip\nFormat: ZIP, Size: 3.3 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/hdftool-linux.zip\nFormat: ZIP, Size: 9.9 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nWindows 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-txt.zip\nFormat: ZIP, Size: 2.9 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool.zip\nFormat: ZIP, Size: 6.3 MB\nHDF5 TO ASCII converter\nHDF5 TO ASCII converter for Ka",
+      "source": "pattern"
+    },
+    {
+      "head": "MT-SAPHIR",
+      "head_type": "INSTRUMENT",
+      "type": "MEASURES",
+      "tail": "Windows 32",
+      "tail_type": "PARAMETER",
+      "evidence": ".rar\nFormat: RAR, Size: 7.5 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-linux.zip\nFormat: ZIP, Size: 3.3 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/hdftool-linux.zip\nFormat: ZIP, Size: 9.9 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nWindows 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-txt.zip\nFormat: ZIP, Size: 2.9 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool.zip\nFormat: ZIP, Size: 6.3 MB\nHDF5 TO ASCII converter\nHDF5 TO ASCII converter for Kalpana1-VHRR PR products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/PR_hdf_ascii.tar\nFormat: TAR, Size: 5.3 MB\nHDF5 to ASCII Converter\nHDF5 TO ASCII converter for Kalpana1-VHRR DP products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/DP_hdf_ascii.tar\nFormat: TAR, Size: 6.4 MB\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "MT-SAPHIR",
+      "head_type": "INSTRUMENT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": ".rar\nFormat: RAR, Size: 7.5 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-linux.zip\nFormat: ZIP, Size: 3.3 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/hdftool-linux.zip\nFormat: ZIP, Size: 9.9 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nWindows 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-txt.zip\nFormat: ZIP, Size: 2.9 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool.zip\nFormat: ZIP, Size: 6.3 MB\nHDF5 TO ASCII converter\nHDF5 TO ASCII converter for Kalpana1-VHRR PR products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/PR_hdf_ascii.tar\nFormat: TAR, Size: 5.3 MB\nHDF5 to ASCII Converter\nHDF5 TO ASCII converter for Kalpana1-VHRR DP products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/DP_hdf_ascii.tar\nFormat: TAR, Size: 6.4 MB\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "MT-SAPHIR",
+      "head_type": "INSTRUMENT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": ".rar\nFormat: RAR, Size: 7.5 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-linux.zip\nFormat: ZIP, Size: 3.3 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/hdftool-linux.zip\nFormat: ZIP, Size: 9.9 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nWindows 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-txt.zip\nFormat: ZIP, Size: 2.9 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool.zip\nFormat: ZIP, Size: 6.3 MB\nHDF5 TO ASCII converter\nHDF5 TO ASCII converter for Kalpana1-VHRR PR products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/PR_hdf_ascii.tar\nFormat: TAR, Size: 5.3 MB\nHDF5 to ASCII Converter\nHDF5 TO ASCII converter for Kalpana1-VHRR DP products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/DP_hdf_ascii.tar\nFormat: TAR, Size: 6.4 MB\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "ISRO",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-linux.zip\nFormat: ZIP, Size: 3.3 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/hdftool-linux.zip\nFormat: ZIP, Size: 9.9 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nWindows 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-txt.zip\nFormat: ZIP, Size: 2.9 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool.zip\nFormat: ZIP, Size: 6.3 MB\nHDF5 TO ASCII converter\nHDF5 TO ASCII converter for Kalpana1-VHRR PR products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/PR_hdf_ascii.tar\nFormat: TAR, Size: 5.3 MB\nHDF5 to ASCII Converter\nHDF5 TO ASCII converter for Kalpana1-VHRR DP products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/DP_hdf_ascii.tar\nFormat: TAR, Size: 6.4 MB\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "ISRO",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-linux.zip\nFormat: ZIP, Size: 3.3 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/hdftool-linux.zip\nFormat: ZIP, Size: 9.9 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nWindows 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-txt.zip\nFormat: ZIP, Size: 2.9 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool.zip\nFormat: ZIP, Size: 6.3 MB\nHDF5 TO ASCII converter\nHDF5 TO ASCII converter for Kalpana1-VHRR PR products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/PR_hdf_ascii.tar\nFormat: TAR, Size: 5.3 MB\nHDF5 to ASCII Converter\nHDF5 TO ASCII converter for Kalpana1-VHRR DP products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/DP_hdf_ascii.tar\nFormat: TAR, Size: 6.4 MB\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Indian Mainland Coastal Product",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "piques HDF Viewer\nMegha Tropiques HDF Viewer\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/hdftool-linux.zip\nFormat: ZIP, Size: 9.9 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nWindows 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-txt.zip\nFormat: ZIP, Size: 2.9 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Indian Mainland Coastal Product",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "piques HDF Viewer\nMegha Tropiques HDF Viewer\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/hdftool-linux.zip\nFormat: ZIP, Size: 9.9 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nWindows 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-txt.zip\nFormat: ZIP, Size: 2.9 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool.zip\nFormat: ZIP, Size: 6.3 MB\nHDF5 TO ASCII",
+      "source": "pattern"
+    },
+    {
+      "head": "Indian Mainland Coastal Product",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "piques HDF Viewer\nMegha Tropiques HDF Viewer\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/hdftool-linux.zip\nFormat: ZIP, Size: 9.9 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nWindows 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-txt.zip\nFormat: ZIP, Size: 2.9 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool.zip\nFormat: ZIP, Size: 6.3 MB\nHDF5 TO ASCII converter\nHDF5 TO ASCII converter for Kalpana1-VHRR PR products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/PR_hdf_ascii.tar\nFormat: TAR, Size: 5.3 MB\nHDF5 to ASCII Converter\nHDF5 TO ASCII converter for Kalpana1-VHRR DP products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/DP_hdf_ascii.tar\nFormat: TAR, Size: 6.4 MB\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Indian Mainland Coastal Product",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "piques HDF Viewer\nMegha Tropiques HDF Viewer\nRHEL5 /CentOS5 32 bit\nhttps://mosdac.gov.in/software/hdftool-linux.zip\nFormat: ZIP, Size: 9.9 MB\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nMegha Tropiques batch mode HDF5 to Binary/ASCII converter\nWindows 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-txt.zip\nFormat: ZIP, Size: 2.9 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool.zip\nFormat: ZIP, Size: 6.3 MB\nHDF5 TO ASCII converter\nHDF5 TO ASCII converter for Kalpana1-VHRR PR products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/PR_hdf_ascii.tar\nFormat: TAR, Size: 5.3 MB\nHDF5 to ASCII Converter\nHDF5 TO ASCII converter for Kalpana1-VHRR DP products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/DP_hdf_ascii.tar\nFormat: TAR, Size: 6.4 MB\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Quality",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "ropiques batch mode HDF5 to Binary/ASCII converter\nWindows 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-txt.zip\nFormat: ZIP, Size: 2.9 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Quality",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "ropiques batch mode HDF5 to Binary/ASCII converter\nWindows 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-txt.zip\nFormat: ZIP, Size: 2.9 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool.zip\nFormat: ZIP, Size: 6.3 MB\nHDF5 TO ASCII",
+      "source": "pattern"
+    },
+    {
+      "head": "Data Quality",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "ropiques batch mode HDF5 to Binary/ASCII converter\nWindows 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-txt.zip\nFormat: ZIP, Size: 2.9 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool.zip\nFormat: ZIP, Size: 6.3 MB\nHDF5 TO ASCII converter\nHDF5 TO ASCII converter for Kalpana1-VHRR PR products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/PR_hdf_ascii.tar\nFormat: TAR, Size: 5.3 MB\nHDF5 to ASCII Converter\nHDF5 TO ASCII converter for Kalpana1-VHRR DP products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/DP_hdf_ascii.tar\nFormat: TAR, Size: 6.4 MB\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Data Quality",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "ropiques batch mode HDF5 to Binary/ASCII converter\nWindows 32 bit\nhttps://mosdac.gov.in/software/mt-hdf-bin-txt.zip\nFormat: ZIP, Size: 2.9 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool.zip\nFormat: ZIP, Size: 6.3 MB\nHDF5 TO ASCII converter\nHDF5 TO ASCII converter for Kalpana1-VHRR PR products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/PR_hdf_ascii.tar\nFormat: TAR, Size: 5.3 MB\nHDF5 to ASCII Converter\nHDF5 TO ASCII converter for Kalpana1-VHRR DP products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/DP_hdf_ascii.tar\nFormat: TAR, Size: 6.4 MB\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "IDV Plugin",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "P, Size: 2.9 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "IDV Plugin",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "P, Size: 2.9 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool.zip\nFormat: ZIP, Size: 6.3 MB\nHDF5 TO ASCII",
+      "source": "pattern"
+    },
+    {
+      "head": "IDV Plugin",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "P, Size: 2.9 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool.zip\nFormat: ZIP, Size: 6.3 MB\nHDF5 TO ASCII converter\nHDF5 TO ASCII converter for Kalpana1-VHRR PR products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/PR_hdf_ascii.tar\nFormat: TAR, Size: 5.3 MB\nHDF5 to ASCII Converter\nHDF5 TO ASCII converter for Kalpana1-VHRR DP products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/DP_hdf_ascii.tar\nFormat: TAR, Size: 6.4 MB\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "IDV Plugin",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "P, Size: 2.9 MB\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool.zip\nFormat: ZIP, Size: 6.3 MB\nHDF5 TO ASCII converter\nHDF5 TO ASCII converter for Kalpana1-VHRR PR products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/PR_hdf_ascii.tar\nFormat: TAR, Size: 5.3 MB\nHDF5 to ASCII Converter\nHDF5 TO ASCII converter for Kalpana1-VHRR DP products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/DP_hdf_ascii.tar\nFormat: TAR, Size: 6.4 MB\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "3DR Data Products",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool.zip\nFormat: ZIP, Si",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "IDV Plugin",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool.zip\nFormat: ZIP, Size: 6.3 MB\n",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "3DR Data Products\n",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool.zip\nFormat: ZIP, Size: 6.3 MB\nHDF5 TO ASCII converter\nHDF5 TO AS",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MB\nAtmospheric Correction Model",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool.zip\nFormat: ZIP, Size: 6.3 MB\nHDF5 TO ASCII converter\nHDF5 TO ASCII converter for Kalpana1-VHRR PR products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/PR_hdf_ascii.tar\nFormat: TAR, Size: 5.3 M",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "https://mosdac.gov.in/software/SACRS2_Package.rar",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool.zip\nFormat: ZIP, Size: 6.3 MB\nHDF5 TO ASCII converter\nHDF5 TO ASCII converter for Kalpana1-VHRR PR products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/PR_hdf_ascii.tar\nFormat: TAR, Size: 5.3 MB\nHDF5 to ASCII Converter\nHDF5 TO ASCII converter for Kalpana1-VHRR DP products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/DP_hdf_ascii.tar\nFormat: TAR, Size: 6.4 MB\nS",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool.zip\nFormat: ZIP, Size: 6.3 MB\nHDF5 TO ASCII converter\nHDF5 TO ASCII converter for Kalpana1-VHRR PR products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/PR_hdf_ascii.tar\nFormat: TAR, Size: 5.3 MB\nHDF5 to ASCII Converter\nHDF5 TO ASCII converter for Kalpana1-VHRR DP products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/DP_hdf_ascii.tar\nFormat: TAR, Size: 6.4 MB\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "\nMegha Tropiques HDF Viewer\nMegha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool.zip\nFormat: ZIP, Size: 6.3 MB\nHDF5 TO ASCII converter\nHDF5 TO ASCII converter for Kalpana1-VHRR PR products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/PR_hdf_ascii.tar\nFormat: TAR, Size: 5.3 MB\nHDF5 to ASCII Converter\nHDF5 TO ASCII converter for Kalpana1-VHRR DP products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/DP_hdf_ascii.tar\nFormat: TAR, Size: 6.4 MB\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic Satellite Data Archival Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic Satellite Data Archival Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "a Data Centre of Space Applications Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic Satellite Data Archival Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "a Data Centre of Space Applications Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Indian",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Satellite",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data, Archival",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "3DR Data Products",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "iques HDF Viewer\nMegha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool.zip\nFormat: ZIP, Size: 6.3 MB\nHDF5 TO ASCII",
+      "source": "pattern"
+    },
+    {
+      "head": "3DR Data Products",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "iques HDF Viewer\nMegha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool.zip\nFormat: ZIP, Size: 6.3 MB\nHDF5 TO ASCII converter\nHDF5 TO ASCII converter for Kalpana1-VHRR PR products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/PR_hdf_ascii.tar\nFormat: TAR, Size: 5.3 MB\nHDF5 to ASCII Converter\nHDF5 TO ASCII converter for Kalpana1-VHRR DP products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/DP_hdf_ascii.tar\nFormat: TAR, Size: 6.4 MB\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "3DR Data Products",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "iques HDF Viewer\nMegha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool.zip\nFormat: ZIP, Size: 6.3 MB\nHDF5 TO ASCII converter\nHDF5 TO ASCII converter for Kalpana1-VHRR PR products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/PR_hdf_ascii.tar\nFormat: TAR, Size: 5.3 MB\nHDF5 to ASCII Converter\nHDF5 TO ASCII converter for Kalpana1-VHRR DP products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/DP_hdf_ascii.tar\nFormat: TAR, Size: 6.4 MB\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "IDV Plugin",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "egha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool.zip\nFormat: ZIP, Size: 6.3 MB\nHDF5 TO ASCII",
+      "source": "pattern"
+    },
+    {
+      "head": "IDV Plugin",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "egha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool.zip\nFormat: ZIP, Size: 6.3 MB\nHDF5 TO ASCII converter\nHDF5 TO ASCII converter for Kalpana1-VHRR PR products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/PR_hdf_ascii.tar\nFormat: TAR, Size: 5.3 MB\nHDF5 to ASCII Converter\nHDF5 TO ASCII converter for Kalpana1-VHRR DP products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/DP_hdf_ascii.tar\nFormat: TAR, Size: 6.4 MB\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "IDV Plugin",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "egha Tropiques HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool.zip\nFormat: ZIP, Size: 6.3 MB\nHDF5 TO ASCII converter\nHDF5 TO ASCII converter for Kalpana1-VHRR PR products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/PR_hdf_ascii.tar\nFormat: TAR, Size: 5.3 MB\nHDF5 to ASCII Converter\nHDF5 TO ASCII converter for Kalpana1-VHRR DP products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/DP_hdf_ascii.tar\nFormat: TAR, Size: 6.4 MB\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "3DR Data Products\n",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool.zip\nFormat: ZIP, Size: 6.3 MB\nHDF5 TO ASCII converter\nHDF5 TO AS",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MB\nAtmospheric Correction Model",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool.zip\nFormat: ZIP, Size: 6.3 MB\nHDF5 TO ASCII converter\nHDF5 TO ASCII converter for Kalpana1-VHRR PR products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/PR_hdf_ascii.tar\nFormat: TAR, Size: 5.3 M",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "https://mosdac.gov.in/software/SACRS2_Package.rar",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool.zip\nFormat: ZIP, Size: 6.3 MB\nHDF5 TO ASCII converter\nHDF5 TO ASCII converter for Kalpana1-VHRR PR products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/PR_hdf_ascii.tar\nFormat: TAR, Size: 5.3 MB\nHDF5 to ASCII Converter\nHDF5 TO ASCII converter for Kalpana1-VHRR DP products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/DP_hdf_ascii.tar\nFormat: TAR, Size: 6.4 MB\nS",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool.zip\nFormat: ZIP, Size: 6.3 MB\nHDF5 TO ASCII converter\nHDF5 TO ASCII converter for Kalpana1-VHRR PR products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/PR_hdf_ascii.tar\nFormat: TAR, Size: 5.3 MB\nHDF5 to ASCII Converter\nHDF5 TO ASCII converter for Kalpana1-VHRR DP products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/DP_hdf_ascii.tar\nFormat: TAR, Size: 6.4 MB\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "HDF Viewer\nWindows 32 bit\nhttps://mosdac.gov.in/software/HdfTool.zip\nFormat: ZIP, Size: 6.3 MB\nHDF5 TO ASCII converter\nHDF5 TO ASCII converter for Kalpana1-VHRR PR products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/PR_hdf_ascii.tar\nFormat: TAR, Size: 5.3 MB\nHDF5 to ASCII Converter\nHDF5 TO ASCII converter for Kalpana1-VHRR DP products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/DP_hdf_ascii.tar\nFormat: TAR, Size: 6.4 MB\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic Satellite Data Archival Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic Satellite Data Archival Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "a Data Centre of Space Applications Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic Satellite Data Archival Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "a Data Centre of Space Applications Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Indian",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Satellite",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data, Archival",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "3DR Data Products\n",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "Windows 32 bit\nhttps://mosdac.gov.in/software/HdfTool.zip\nFormat: ZIP, Size: 6.3 MB\nHDF5 TO ASCII converter\nHDF5 TO ASCII converter for Kalpana1-VHRR PR products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/PR_hdf_ascii.tar\nFormat: TAR, Size: 5.3 MB\nHDF5 to ASCII Converter\nHDF5 TO ASCII converter for Kalpana1-VHRR DP products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/DP_hdf_ascii.tar\nFormat: TAR, Size: 6.4 MB\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "3DR Data Products\n",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "Windows 32 bit\nhttps://mosdac.gov.in/software/HdfTool.zip\nFormat: ZIP, Size: 6.3 MB\nHDF5 TO ASCII converter\nHDF5 TO ASCII converter for Kalpana1-VHRR PR products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/PR_hdf_ascii.tar\nFormat: TAR, Size: 5.3 MB\nHDF5 to ASCII Converter\nHDF5 TO ASCII converter for Kalpana1-VHRR DP products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/DP_hdf_ascii.tar\nFormat: TAR, Size: 6.4 MB\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "VHRR",
+      "head_type": "INSTRUMENT",
+      "type": "MEASURES",
+      "tail": "Linux & Windows - 64",
+      "tail_type": "PARAMETER",
+      "evidence": "ps://mosdac.gov.in/software/HdfTool.zip\nFormat: ZIP, Size: 6.3 MB\nHDF5 TO ASCII converter\nHDF5 TO ASCII converter for Kalpana1-VHRR PR products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/PR_hdf_ascii.tar\nFormat: TAR, Size: 5.3 MB\nHDF5 to ASCII Converter\nHDF5 TO ASCII converter for Kalpana1-VHRR DP products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/DP_hdf_ascii.tar\nFormat: TAR, Size: 6.4 MB\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "VHRR",
+      "head_type": "INSTRUMENT",
+      "type": "MEASURES",
+      "tail": "Linux & Windows - 64",
+      "tail_type": "PARAMETER",
+      "evidence": "ps://mosdac.gov.in/software/HdfTool.zip\nFormat: ZIP, Size: 6.3 MB\nHDF5 TO ASCII converter\nHDF5 TO ASCII converter for Kalpana1-VHRR PR products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/PR_hdf_ascii.tar\nFormat: TAR, Size: 5.3 MB\nHDF5 to ASCII Converter\nHDF5 TO ASCII converter for Kalpana1-VHRR DP products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/DP_hdf_ascii.tar\nFormat: TAR, Size: 6.4 MB\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "MB\nAtmospheric Correction Model",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "CII converter for Kalpana1-VHRR PR products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/PR_hdf_ascii.tar\nFormat: TAR, Size: 5.3 MB\nHDF5 to ASCII Converter\nHDF5 TO ASCII converter for Kalpana1-VHRR DP products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/DP_hdf_ascii.tar\nFormat: TAR, Size: 6.4 MB\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "MB\nAtmospheric Correction Model",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "CII converter for Kalpana1-VHRR PR products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/PR_hdf_ascii.tar\nFormat: TAR, Size: 5.3 MB\nHDF5 to ASCII Converter\nHDF5 TO ASCII converter for Kalpana1-VHRR DP products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/DP_hdf_ascii.tar\nFormat: TAR, Size: 6.4 MB\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "https://mosdac.gov.in/software/SACRS2_Package.rar",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "rter\nHDF5 TO ASCII converter for Kalpana1-VHRR DP products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/DP_hdf_ascii.tar\nFormat: TAR, Size: 6.4 MB\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "https://mosdac.gov.in/software/SACRS2_Package.rar",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "rter\nHDF5 TO ASCII converter for Kalpana1-VHRR DP products\nRHEL4 /CentOS4\nhttps://mosdac.gov.in/software/DP_hdf_ascii.tar\nFormat: TAR, Size: 6.4 MB\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "VHRR",
+      "head_type": "INSTRUMENT",
+      "type": "MEASURES",
+      "tail": "Windows 32",
+      "tail_type": "PARAMETER",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "VHRR",
+      "head_type": "INSTRUMENT",
+      "type": "MEASURES",
+      "tail": "Windows 32",
+      "tail_type": "PARAMETER",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "VHRR",
+      "head_type": "INSTRUMENT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "VHRR",
+      "head_type": "INSTRUMENT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "VHRR",
+      "head_type": "INSTRUMENT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "VHRR",
+      "head_type": "INSTRUMENT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic Satellite Data Archival Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic Satellite Data Archival Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "a Data Centre of Space Applications Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic Satellite Data Archival Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "a Data Centre of Space Applications Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Indian",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Satellite",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Data, Archival",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Data Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic Satellite Data Archival Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic Satellite Data Archival Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "a Data Centre of Space Applications Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic Satellite Data Archival Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "a Data Centre of Space Applications Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Indian",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Satellite",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Data, Archival",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Data Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    }
+  ],
+  "stats": {
+    "entity_count": 86,
+    "relation_count": 258
+  }
+}

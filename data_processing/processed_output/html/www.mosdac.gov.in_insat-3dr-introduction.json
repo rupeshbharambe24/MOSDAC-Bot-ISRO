@@ -1,0 +1,23 @@
+{
+  "source_url": "https://www.mosdac.gov.in/insat-3dr-introduction",
+  "content_type": "text/html",
+  "text": "INSAT-3DR Introduction | Meteorological & Oceanographic Satellite Data Archival Centre\nSkip to main Content\n-\nA\nA\n+\nA\nA\nA\nहिन्दी\nEnglish\nMeteorological & Oceanographic Satellite Data Archival Centre\nSpace Applications Centre, ISRO\nHome\nMissions\nINSAT-3DR\nINSAT-3D\nKALPANA-1\nINSAT-3A\nMeghaTropiques\nSARAL-AltiKa\nOCEANSAT-2\nOCEANSAT-3\nINSAT-3DS\nSCATSAT-1\nCatalog\nSatellite\nInsitu (AWS)\nRADAR\nGalleries\nSatellite Products\nWeather Forecast\nOcean Forecast\nRADAR (DWR)\nGlobal Ocean Current\nData Access\nOrder Data\nOpen Data\nAtmosphere\nBayesian based MT-SAPHIR rainfall\nGPS derived Integrated water vapour\nGSMap ISRO Rain\nMETEOSAT8 Cloud Properties\nLand\n3D Volumetric TERLS DWRproduct\nInland Water Height\nRiver Discharge\nSoil Moisture\nOcean\nGlobal Ocean Surface Current\nHigh Resolution Sea Surface Salinity\nIndian Mainland Coastal Product\nOcean Subsurface\nOceanic Eddies Detection\nSea Ice Occurrence Probability\nWave based Renewable Energy\nCal-Val\nForecast\nRSS Feeds\nReports\nCalibration\nInsitu\nRelative\nValidation\nData Quality\nWeather\nAtlases\nTools\nSitemap\nHelp\nYou are here\nHome\n»\nMissions\n»\nINSAT-3DR\n» Introduction\nINSAT-3DR Introduction\nI\nNSAT-3DR is a dedicated meteorological spacecraft designed for enhanced meteorological observations and monitoring of land and ocean surfaces for weather forecasting and disaster warning. INSAT-3DR is configured on I-2K bus with Sounder, Imager and Data Relay Transponder (DRT) and Satellite Aided Search & Rescue (SAS&R) Payloads. INSAT-3DR with a lift of mass of about 2211 kg was flown on September 08, 2016 by GSLV-F05. Communication Payload sub systems are configured to support INSAT system for DRT SAS&R and Meteorological Payload services.\nThe mission goal is stated as \"to provide an operational, environmental & storm warning system to protect life & property and also to monitor earth's surface and carryout oceanic observations and also provide data dissemination capabilities\"\nThe satellite has 3 payloads\nMeteorological (MET) - IMAGER and SOUNDER\nData Relay Transponder (DRT)\nSatellite Aided Search and Rescue (SAS&R)\nThe geophysical parameters that will be extracted from INSAT-3DR are Outgoing Longwave Radiation (OLR), Quantitative Precipitation Estimation (QPE), Sea Surface Temperature (SST), Snow Cover, Snow Depth, Fire, Smoke, Aerosol, Cloud Motion Vectors (CMV), Water Vapour Winds (WVW), Upper Tropospheric Humidity (UTH), Temperature, Humidity Profile and Total Ozone, Fog, Visible Wind Vectors and other value added parameters from Imager and Sounder.\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+  "cleaned_text": null,
+  "language": null,
+  "metadata": {
+    "title": "Meteorological and Oceanographic Satellite Data Archival Centre (MOSDAC)",
+    "description": "INSAT-3DR is a dedicated meteorological spacecraft designed for enhanced meteorological observations and monitoring of land and ocean surfaces for weather forecasting and disaster warning. INSAT-3DR is configured on I-2K bus with Sounder, Imager and Data Relay Transponder (DRT) and Satellite Aided Search & Rescue (SAS&R) Payloads. INSAT-3DR with a lift of mass of about 2211 kg",
+    "abstract": "Meteorological and Oceanographic Satellite Data Archival Centre (MOSDAC) is a Data Centre of Space Applications Centre (SAC) and has facility for satellite data reception, processing, analysis and dissemination. MOSDAC is operationally supplying earth observation data from Indian meteorology and oceanography satellites.",
+    "keywords": "Meteorological, Oceanographic, Satellite, Data, Archival, Data Centre",
+    "generator": "MOSDAC",
+    "mobileoptimized": "width",
+    "handheldfriendly": "true",
+    "viewport": "width=device-width, initial-scale=1.0",
+    "lang": "en"
+  },
+  "tables": [],
+  "figures": [],
+  "visual_data": [],
+  "document_type": null,
+  "keywords": []
+}

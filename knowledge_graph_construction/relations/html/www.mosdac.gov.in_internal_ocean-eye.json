@@ -1,0 +1,611 @@
+{
+  "source": "R:\\Projects\\MOSDAC Help Bot\\Codes\\data_processing\\processed_output\\html\\www.mosdac.gov.in_internal_ocean-eye.json",
+  "entities": [
+    {
+      "text": "Long/Lat",
+      "label": "ORG",
+      "start": 306,
+      "end": 314,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "74.2",
+      "label": "CARDINAL",
+      "start": 369,
+      "end": 373,
+      "mosdac_type": "CARDINAL"
+    },
+    {
+      "text": "73.1",
+      "label": "CARDINAL",
+      "start": 375,
+      "end": 379,
+      "mosdac_type": "CARDINAL"
+    },
+    {
+      "text": "5.1",
+      "label": "CARDINAL",
+      "start": 390,
+      "end": 393,
+      "mosdac_type": "CARDINAL"
+    },
+    {
+      "text": "-0.23",
+      "label": "REGION",
+      "start": 395,
+      "end": 400,
+      "mosdac_type": "REGION"
+    },
+    {
+      "text": "DWD/SAC/ISRO",
+      "label": "DATA_PRODUCT",
+      "start": 442,
+      "end": 454,
+      "mosdac_type": "STATION"
+    },
+    {
+      "text": "E.U. Copernicus Marine Service Information",
+      "label": "DATA_PRODUCT",
+      "start": 725,
+      "end": 767,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "Indian Space Research",
+      "label": "REGION",
+      "start": 844,
+      "end": 865,
+      "mosdac_type": "REGION"
+    },
+    {
+      "text": "NRSC",
+      "label": "STATION",
+      "start": 957,
+      "end": 961,
+      "mosdac_type": "STATION"
+    },
+    {
+      "text": "www.nrsc.gov.in",
+      "label": "REGION",
+      "start": 973,
+      "end": 988,
+      "mosdac_type": "STATION"
+    },
+    {
+      "text": "Cartodem",
+      "label": "ORG",
+      "start": 992,
+      "end": 1000,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "Mosaic",
+      "label": "PRODUCT",
+      "start": 1012,
+      "end": 1018,
+      "mosdac_type": "PRODUCT"
+    },
+    {
+      "text": "Bhuvan",
+      "label": "ORG",
+      "start": 1020,
+      "end": 1026,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "NRSC",
+      "label": "ORG",
+      "start": 1028,
+      "end": 1032,
+      "mosdac_type": "STATION"
+    },
+    {
+      "text": "www.nrsc.gov.in",
+      "label": "REGION",
+      "start": 1044,
+      "end": 1059,
+      "mosdac_type": "STATION"
+    },
+    {
+      "text": "OpenStreetMap",
+      "label": "REGION",
+      "start": 1063,
+      "end": 1076,
+      "mosdac_type": "REGION"
+    },
+    {
+      "text": "LLC",
+      "label": "ORG",
+      "start": 1175,
+      "end": 1178,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "Indian Space Research Organisation",
+      "label": "DATA_PRODUCT",
+      "start": 1205,
+      "end": 1239,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "ISRO",
+      "label": "STATION",
+      "start": 1241,
+      "end": 1245,
+      "mosdac_type": "STATION"
+    },
+    {
+      "text": "India",
+      "label": "REGION",
+      "start": 1249,
+      "end": 1254,
+      "mosdac_type": "REGION"
+    },
+    {
+      "text": "Basins/ State/ District Boundaries",
+      "label": "REGION",
+      "start": 1261,
+      "end": 1295,
+      "mosdac_type": "REGION"
+    },
+    {
+      "text": "India Meteorological Department",
+      "label": "ORG",
+      "start": 1319,
+      "end": 1350,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "Delhi",
+      "label": "REGION",
+      "start": 1352,
+      "end": 1357,
+      "mosdac_type": "REGION"
+    },
+    {
+      "text": "317EFB",
+      "label": "MONEY",
+      "start": 1,
+      "end": 7,
+      "mosdac_type": "MONEY"
+    }
+  ],
+  "relations": [
+    {
+      "head": "DWD/SAC/ISRO",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "-0.23",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "E.U. Copernicus Marine Service Information",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "-0.23",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "NRSC",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "-0.23",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "www.nrsc.gov.in",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "-0.23",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "NRSC",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "-0.23",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "www.nrsc.gov.in",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "-0.23",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Indian Space Research Organisation",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "-0.23",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "ISRO",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "-0.23",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "DWD/SAC/ISRO",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Indian Space Research",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "DWD/SAC/ISRO",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "OpenStreetMap",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "DWD/SAC/ISRO",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "India",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "DWD/SAC/ISRO",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Basins/ State/ District Boundaries",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "DWD/SAC/ISRO",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Delhi",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "E.U. Copernicus Marine Service Information",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "E.U. Copernicus Marine Service Information",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "OpenStreetMap",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "E.U. Copernicus Marine Service Information",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "India",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "E.U. Copernicus Marine Service Information",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Basins/ State/ District Boundaries",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "E.U. Copernicus Marine Service Information",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Delhi",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "NRSC",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Indian Space Research",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "www.nrsc.gov.in",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Indian Space Research",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "NRSC",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Indian Space Research",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "www.nrsc.gov.in",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Indian Space Research",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Indian Space Research Organisation",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "ISRO",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Indian Space Research",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "NRSC",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "OpenStreetMap",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "NRSC",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "India",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "NRSC",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Basins/ State/ District Boundaries",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "NRSC",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Delhi",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "www.nrsc.gov.in",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "OpenStreetMap",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "www.nrsc.gov.in",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "India",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "www.nrsc.gov.in",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Basins/ State/ District Boundaries",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "www.nrsc.gov.in",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Delhi",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "NRSC",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "OpenStreetMap",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "NRSC",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "India",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "NRSC",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Basins/ State/ District Boundaries",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "NRSC",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Delhi",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "www.nrsc.gov.in",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "OpenStreetMap",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "www.nrsc.gov.in",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "India",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "www.nrsc.gov.in",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Basins/ State/ District Boundaries",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "www.nrsc.gov.in",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Delhi",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Indian Space Research Organisation",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "OpenStreetMap",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "ISRO",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "OpenStreetMap",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Indian Space Research Organisation",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "India",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Indian Space Research Organisation",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Basins/ State/ District Boundaries",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Indian Space Research Organisation",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Delhi",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "ISRO",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "India",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "ISRO",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Basins/ State/ District Boundaries",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "ISRO",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Delhi",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    }
+  ],
+  "stats": {
+    "entity_count": 24,
+    "relation_count": 48
+  }
+}

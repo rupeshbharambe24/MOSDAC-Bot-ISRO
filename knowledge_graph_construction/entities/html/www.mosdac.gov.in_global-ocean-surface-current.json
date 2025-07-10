@@ -1,0 +1,1795 @@
+{
+  "source": "R:\\Projects\\MOSDAC Help Bot\\Codes\\data_processing\\processed_output\\html\\www.mosdac.gov.in_global-ocean-surface-current.json",
+  "text_entities": [
+    {
+      "text": "Global Ocean Surface Current | Meteorological & Oceanographic Satellite Data Archival Centre\nSkip",
+      "label": "DATA_PRODUCT",
+      "start": 0,
+      "end": 97
+    },
+    {
+      "text": "English",
+      "label": "DATA_PRODUCT",
+      "start": 135,
+      "end": 142
+    },
+    {
+      "text": "Satellite Data Archival Centre\nSpace Applications Centre",
+      "label": "DATA_PRODUCT",
+      "start": 174,
+      "end": 230
+    },
+    {
+      "text": "ISRO",
+      "label": "ORG",
+      "start": 232,
+      "end": 236
+    },
+    {
+      "text": "INSAT-3DR",
+      "label": "SATELLITE",
+      "start": 251,
+      "end": 260
+    },
+    {
+      "text": "INSAT-3D",
+      "label": "SATELLITE",
+      "start": 261,
+      "end": 269
+    },
+    {
+      "text": "SARAL",
+      "label": "SATELLITE",
+      "start": 304,
+      "end": 309
+    },
+    {
+      "text": "SCATSAT-1",
+      "label": "SATELLITE",
+      "start": 349,
+      "end": 358
+    },
+    {
+      "text": "AWS",
+      "label": "DATA_PRODUCT",
+      "start": 385,
+      "end": 388
+    },
+    {
+      "text": "RADAR",
+      "label": "ORG",
+      "start": 457,
+      "end": 462
+    },
+    {
+      "text": "DWR",
+      "label": "ORG",
+      "start": 464,
+      "end": 467
+    },
+    {
+      "text": "Global Ocean Current",
+      "label": "DATA_PRODUCT",
+      "start": 469,
+      "end": 489
+    },
+    {
+      "text": "Data Access",
+      "label": "DATA_PRODUCT",
+      "start": 490,
+      "end": 501
+    },
+    {
+      "text": "MT-SAPHIR",
+      "label": "DATA_PRODUCT",
+      "start": 549,
+      "end": 558
+    },
+    {
+      "text": "ISRO",
+      "label": "STATION",
+      "start": 610,
+      "end": 614
+    },
+    {
+      "text": "Indian Mainland Coastal Product",
+      "label": "DATA_PRODUCT",
+      "start": 805,
+      "end": 836
+    },
+    {
+      "text": "Renewable Energy\nCal-Val",
+      "label": "ORG",
+      "start": 921,
+      "end": 945
+    },
+    {
+      "text": "RSS Feeds",
+      "label": "ORG",
+      "start": 955,
+      "end": 964
+    },
+    {
+      "text": "Data Quality",
+      "label": "DATA_PRODUCT",
+      "start": 1012,
+      "end": 1024
+    },
+    {
+      "text": "Data Access",
+      "label": "DATA_PRODUCT",
+      "start": 1080,
+      "end": 1091
+    },
+    {
+      "text": "Global Ocean Surface Current",
+      "label": "DATA_PRODUCT",
+      "start": 1114,
+      "end": 1142
+    },
+    {
+      "text": "0",
+      "label": "CARDINAL",
+      "start": 1253,
+      "end": 1254
+    },
+    {
+      "text": "30",
+      "label": "CARDINAL",
+      "start": 1258,
+      "end": 1260
+    },
+    {
+      "text": "three",
+      "label": "CARDINAL",
+      "start": 1307,
+      "end": 1312
+    },
+    {
+      "text": "first",
+      "label": "ORDINAL",
+      "start": 1357,
+      "end": 1362
+    },
+    {
+      "text": "Altimeter",
+      "label": "DATA_PRODUCT",
+      "start": 1374,
+      "end": 1383
+    },
+    {
+      "text": "MADT",
+      "label": "ORG",
+      "start": 1436,
+      "end": 1440
+    },
+    {
+      "text": "SARAL",
+      "label": "SATELLITE",
+      "start": 1498,
+      "end": 1503
+    },
+    {
+      "text": "ALTIKA",
+      "label": "DATA_PRODUCT",
+      "start": 1504,
+      "end": 1510
+    },
+    {
+      "text": "Cryosat",
+      "label": "DATA_PRODUCT",
+      "start": 1512,
+      "end": 1519
+    },
+    {
+      "text": "second",
+      "label": "DATA_PRODUCT",
+      "start": 1530,
+      "end": 1536
+    },
+    {
+      "text": "ASCAT",
+      "label": "ORG",
+      "start": 1596,
+      "end": 1601
+    },
+    {
+      "text": "SST",
+      "label": "DATA_PRODUCT",
+      "start": 1644,
+      "end": 1647
+    },
+    {
+      "text": "AVHRR",
+      "label": "INSTRUMENT",
+      "start": 1666,
+      "end": 1671
+    },
+    {
+      "text": "Bonjean and Lagerloef",
+      "label": "ORG",
+      "start": 1702,
+      "end": 1723
+    },
+    {
+      "text": "2002",
+      "label": "DATE",
+      "start": 1726,
+      "end": 1730
+    },
+    {
+      "text": "altimeter data",
+      "label": "DATA_PRODUCT",
+      "start": 1816,
+      "end": 1830
+    },
+    {
+      "text": "Data Access",
+      "label": "DATA_PRODUCT",
+      "start": 2188,
+      "end": 2199
+    },
+    {
+      "text": "the Science Products",
+      "label": "DATA_PRODUCT",
+      "start": 2221,
+      "end": 2241
+    },
+    {
+      "text": "MOSDAC Single Sign",
+      "label": "DATA_PRODUCT",
+      "start": 2259,
+      "end": 2277
+    },
+    {
+      "text": "Data Version",
+      "label": "DATA_PRODUCT",
+      "start": 2320,
+      "end": 2332
+    },
+    {
+      "text": "daily",
+      "label": "DATE",
+      "start": 2369,
+      "end": 2374
+    },
+    {
+      "text": "Absolute Dynamic Topography",
+      "label": "DATA_PRODUCT",
+      "start": 2390,
+      "end": 2417
+    },
+    {
+      "text": "AVISO/DUACS",
+      "label": "DATA_PRODUCT",
+      "start": 2440,
+      "end": 2451
+    },
+    {
+      "text": "daily",
+      "label": "DATE",
+      "start": 2498,
+      "end": 2503
+    },
+    {
+      "text": "ASCAT",
+      "label": "ORG",
+      "start": 2548,
+      "end": 2553
+    },
+    {
+      "text": "daily",
+      "label": "DATE",
+      "start": 2647,
+      "end": 2652
+    },
+    {
+      "text": "gridded SST",
+      "label": "DATA_PRODUCT",
+      "start": 2653,
+      "end": 2664
+    },
+    {
+      "text": "Reynolds OISST",
+      "label": "DATA_PRODUCT",
+      "start": 2673,
+      "end": 2687
+    },
+    {
+      "text": "MOSDAC",
+      "label": "DATA_PRODUCT",
+      "start": 2800,
+      "end": 2806
+    },
+    {
+      "text": "Sikhakolli et al.",
+      "label": "PERSON",
+      "start": 2838,
+      "end": 2855
+    },
+    {
+      "text": "2013",
+      "label": "DATE",
+      "start": 2857,
+      "end": 2861
+    },
+    {
+      "text": "Sikhakolli",
+      "label": "PERSON",
+      "start": 2864,
+      "end": 2874
+    },
+    {
+      "text": "R.",
+      "label": "NORP",
+      "start": 2876,
+      "end": 2878
+    },
+    {
+      "text": "R. Sharma",
+      "label": "PERSON",
+      "start": 2880,
+      "end": 2889
+    },
+    {
+      "text": "R. Kumar",
+      "label": "PERSON",
+      "start": 2891,
+      "end": 2899
+    },
+    {
+      "text": "B. S. Gohil",
+      "label": "PERSON",
+      "start": 2901,
+      "end": 2912
+    },
+    {
+      "text": "A. Sarkar",
+      "label": "PERSON",
+      "start": 2914,
+      "end": 2923
+    },
+    {
+      "text": "K. V. S. R. Prasad",
+      "label": "PERSON",
+      "start": 2925,
+      "end": 2943
+    },
+    {
+      "text": "S. Basu",
+      "label": "PERSON",
+      "start": 2948,
+      "end": 2955
+    },
+    {
+      "text": "Indian Ocean",
+      "label": "DATA_PRODUCT",
+      "start": 2983,
+      "end": 2995
+    },
+    {
+      "text": "Rem",
+      "label": "ORG",
+      "start": 3035,
+      "end": 3038
+    },
+    {
+      "text": "Lett",
+      "label": "PERSON",
+      "start": 3046,
+      "end": 3050
+    },
+    {
+      "text": "4",
+      "label": "CARDINAL",
+      "start": 3053,
+      "end": 3054
+    },
+    {
+      "text": "335",
+      "label": "CARDINAL",
+      "start": 3056,
+      "end": 3059
+    },
+    {
+      "text": "2013",
+      "label": "DATE",
+      "start": 3065,
+      "end": 3069
+    },
+    {
+      "text": "daily",
+      "label": "DATE",
+      "start": 3098,
+      "end": 3103
+    },
+    {
+      "text": "MADT",
+      "label": "ORG",
+      "start": 3120,
+      "end": 3124
+    },
+    {
+      "text": "Vector",
+      "label": "DATA_PRODUCT",
+      "start": 3126,
+      "end": 3132
+    },
+    {
+      "text": "SST",
+      "label": "DATA_PRODUCT",
+      "start": 3143,
+      "end": 3146
+    },
+    {
+      "text": "Geostrophic",
+      "label": "DATA_PRODUCT",
+      "start": 3156,
+      "end": 3167
+    },
+    {
+      "text": "first",
+      "label": "ORDINAL",
+      "start": 3251,
+      "end": 3256
+    },
+    {
+      "text": "3°",
+      "label": "CARDINAL",
+      "start": 3300,
+      "end": 3302
+    },
+    {
+      "text": "90",
+      "label": "CARDINAL",
+      "start": 3307,
+      "end": 3309
+    },
+    {
+      "text": "3",
+      "label": "CARDINAL",
+      "start": 3316,
+      "end": 3317
+    },
+    {
+      "text": "90",
+      "label": "CARDINAL",
+      "start": 3323,
+      "end": 3325
+    },
+    {
+      "text": "0.25",
+      "label": "CARDINAL",
+      "start": 3453,
+      "end": 3457
+    },
+    {
+      "text": "± 3° to ± 4°",
+      "label": "QUANTITY",
+      "start": 3618,
+      "end": 3630
+    },
+    {
+      "text": "D. Croize-Fillon",
+      "label": "PERSON",
+      "start": 3661,
+      "end": 3677
+    },
+    {
+      "text": "2011",
+      "label": "DATE",
+      "start": 3679,
+      "end": 3683
+    },
+    {
+      "text": "Metop/ASCAT",
+      "label": "DATA_PRODUCT",
+      "start": 3718,
+      "end": 3729
+    },
+    {
+      "text": "Journal of Remote Sensing",
+      "label": "DATA_PRODUCT",
+      "start": 3751,
+      "end": 3776
+    },
+    {
+      "text": "10.1080/01431161.2011.600348",
+      "label": "CARDINAL",
+      "start": 3782,
+      "end": 3810
+    },
+    {
+      "text": "G. S. E. Lagerloef",
+      "label": "PERSON",
+      "start": 3828,
+      "end": 3846
+    },
+    {
+      "text": "2002",
+      "label": "DATE",
+      "start": 3848,
+      "end": 3852
+    },
+    {
+      "text": "Diagnostic",
+      "label": "ORG",
+      "start": 3855,
+      "end": 3865
+    },
+    {
+      "text": "Pacific Ocean",
+      "label": "REGION",
+      "start": 3925,
+      "end": 3938
+    },
+    {
+      "text": "J. Phys",
+      "label": "PERSON",
+      "start": 3941,
+      "end": 3948
+    },
+    {
+      "text": "32",
+      "label": "CARDINAL",
+      "start": 3961,
+      "end": 3963
+    },
+    {
+      "text": "2938-2954",
+      "label": "CARDINAL",
+      "start": 3965,
+      "end": 3974
+    },
+    {
+      "text": "Reynolds",
+      "label": "PERSON",
+      "start": 3976,
+      "end": 3984
+    },
+    {
+      "text": "R. W.",
+      "label": "PERSON",
+      "start": 3986,
+      "end": 3991
+    },
+    {
+      "text": "T. M. Smith,_C. Liu",
+      "label": "PERSON",
+      "start": 3993,
+      "end": 4012
+    },
+    {
+      "text": "D. B. Chelton",
+      "label": "PERSON",
+      "start": 4014,
+      "end": 4027
+    },
+    {
+      "text": "K. S. Casey",
+      "label": "PERSON",
+      "start": 4029,
+      "end": 4040
+    },
+    {
+      "text": "M. G. Schlax",
+      "label": "PERSON",
+      "start": 4046,
+      "end": 4058
+    },
+    {
+      "text": "2007",
+      "label": "DATE",
+      "start": 4060,
+      "end": 4064
+    },
+    {
+      "text": "Daily",
+      "label": "DATE",
+      "start": 4067,
+      "end": 4072
+    },
+    {
+      "text": "J. Climate",
+      "label": "ORG",
+      "start": 4135,
+      "end": 4145
+    },
+    {
+      "text": "20",
+      "label": "CARDINAL",
+      "start": 4148,
+      "end": 4150
+    },
+    {
+      "text": "5473-5496",
+      "label": "DATE",
+      "start": 4152,
+      "end": 4161
+    },
+    {
+      "text": "Sikhakolli",
+      "label": "REGION",
+      "start": 4163,
+      "end": 4173
+    },
+    {
+      "text": "R.",
+      "label": "NORP",
+      "start": 4175,
+      "end": 4177
+    },
+    {
+      "text": "R. Sharma",
+      "label": "PERSON",
+      "start": 4179,
+      "end": 4188
+    },
+    {
+      "text": "S. Basu",
+      "label": "PERSON",
+      "start": 4190,
+      "end": 4197
+    },
+    {
+      "text": "B. S. Gohil",
+      "label": "PERSON",
+      "start": 4199,
+      "end": 4210
+    },
+    {
+      "text": "A. Sarkar",
+      "label": "PERSON",
+      "start": 4212,
+      "end": 4221
+    },
+    {
+      "text": "K. V. S. Prasad",
+      "label": "PERSON",
+      "start": 4226,
+      "end": 4241
+    },
+    {
+      "text": "Indian Ocean",
+      "label": "DATA_PRODUCT",
+      "start": 4309,
+      "end": 4321
+    },
+    {
+      "text": "J. Earth Syst",
+      "label": "DATA_PRODUCT",
+      "start": 4343,
+      "end": 4356
+    },
+    {
+      "text": "Sci.",
+      "label": "ORG",
+      "start": 4358,
+      "end": 4362
+    },
+    {
+      "text": "2013",
+      "label": "DATE",
+      "start": 4364,
+      "end": 4368
+    },
+    {
+      "text": "Sikhakolli",
+      "label": "DATA_PRODUCT",
+      "start": 4370,
+      "end": 4380
+    },
+    {
+      "text": "R.",
+      "label": "NORP",
+      "start": 4382,
+      "end": 4384
+    },
+    {
+      "text": "R. Sharma",
+      "label": "DATA_PRODUCT",
+      "start": 4386,
+      "end": 4395
+    },
+    {
+      "text": "R. Kumar",
+      "label": "PERSON",
+      "start": 4397,
+      "end": 4405
+    },
+    {
+      "text": "B. S. Gohil",
+      "label": "PERSON",
+      "start": 4407,
+      "end": 4418
+    },
+    {
+      "text": "A. Sarkar",
+      "label": "PERSON",
+      "start": 4420,
+      "end": 4429
+    },
+    {
+      "text": "K. V. S. R. Prasad",
+      "label": "PERSON",
+      "start": 4431,
+      "end": 4449
+    },
+    {
+      "text": "S. Basu",
+      "label": "PERSON",
+      "start": 4454,
+      "end": 4461
+    },
+    {
+      "text": "Indian Ocean",
+      "label": "DATA_PRODUCT",
+      "start": 4489,
+      "end": 4501
+    },
+    {
+      "text": "Rem",
+      "label": "ORG",
+      "start": 4541,
+      "end": 4544
+    },
+    {
+      "text": "Lett",
+      "label": "PERSON",
+      "start": 4552,
+      "end": 4556
+    },
+    {
+      "text": "4",
+      "label": "CARDINAL",
+      "start": 4559,
+      "end": 4560
+    },
+    {
+      "text": "335",
+      "label": "CARDINAL",
+      "start": 4562,
+      "end": 4565
+    },
+    {
+      "text": "2013",
+      "label": "DATE",
+      "start": 4571,
+      "end": 4575
+    },
+    {
+      "text": "M)ADT",
+      "label": "CARDINAL",
+      "start": 4618,
+      "end": 4623
+    },
+    {
+      "text": "AVISO",
+      "label": "ORG",
+      "start": 4666,
+      "end": 4671
+    },
+    {
+      "text": "Nov 2009",
+      "label": "DATA_PRODUCT",
+      "start": 4673,
+      "end": 4681
+    },
+    {
+      "text": "Bonjean and Lagerloef",
+      "label": "ORG",
+      "start": 4755,
+      "end": 4776
+    },
+    {
+      "text": "2002",
+      "label": "DATE",
+      "start": 4778,
+      "end": 4782
+    },
+    {
+      "text": "zero",
+      "label": "CARDINAL",
+      "start": 5081,
+      "end": 5085
+    },
+    {
+      "text": "z",
+      "label": "ORG",
+      "start": 5154,
+      "end": 5155
+    },
+    {
+      "text": "∇ p + AU",
+      "label": "ORG",
+      "start": 5234,
+      "end": 5242
+    },
+    {
+      "text": "1a",
+      "label": "CARDINAL",
+      "start": 5246,
+      "end": 5248
+    },
+    {
+      "text": "1b",
+      "label": "CARDINAL",
+      "start": 5272,
+      "end": 5274
+    },
+    {
+      "text": "1c",
+      "label": "CARDINAL",
+      "start": 5295,
+      "end": 5297
+    },
+    {
+      "text": "z=0",
+      "label": "REGION",
+      "start": 5371,
+      "end": 5374
+    },
+    {
+      "text": "2a",
+      "label": "CARDINAL",
+      "start": 5385,
+      "end": 5387
+    },
+    {
+      "text": "z",
+      "label": "NORP",
+      "start": 5394,
+      "end": 5395
+    },
+    {
+      "text": "2b",
+      "label": "CARDINAL",
+      "start": 5407,
+      "end": 5409
+    },
+    {
+      "text": "1025 kg",
+      "label": "QUANTITY",
+      "start": 5447,
+      "end": 5454
+    },
+    {
+      "text": "9.8",
+      "label": "CARDINAL",
+      "start": 5498,
+      "end": 5501
+    },
+    {
+      "text": "3 x 10",
+      "label": "CARDINAL",
+      "start": 5557,
+      "end": 5563
+    },
+    {
+      "text": "70",
+      "label": "CARDINAL",
+      "start": 5683,
+      "end": 5685
+    },
+    {
+      "text": "1 m",
+      "label": "MONEY",
+      "start": 5769,
+      "end": 5772
+    },
+    {
+      "text": "1",
+      "label": "CARDINAL",
+      "start": 5786,
+      "end": 5787
+    },
+    {
+      "text": "1 m",
+      "label": "QUANTITY",
+      "start": 5790,
+      "end": 5793
+    },
+    {
+      "text": "8 x 10",
+      "label": "CARDINAL",
+      "start": 5805,
+      "end": 5811
+    },
+    {
+      "text": "2",
+      "label": "CARDINAL",
+      "start": 5817,
+      "end": 5818
+    },
+    {
+      "text": "2.2",
+      "label": "CARDINAL",
+      "start": 5834,
+      "end": 5837
+    },
+    {
+      "text": "1",
+      "label": "CARDINAL",
+      "start": 5846,
+      "end": 5847
+    },
+    {
+      "text": "1 m",
+      "label": "QUANTITY",
+      "start": 5850,
+      "end": 5853
+    },
+    {
+      "text": "8 x 10",
+      "label": "CARDINAL",
+      "start": 5865,
+      "end": 5871
+    },
+    {
+      "text": "2",
+      "label": "CARDINAL",
+      "start": 5877,
+      "end": 5878
+    },
+    {
+      "text": "2.2",
+      "label": "CARDINAL",
+      "start": 5894,
+      "end": 5897
+    },
+    {
+      "text": "1",
+      "label": "CARDINAL",
+      "start": 5959,
+      "end": 5960
+    },
+    {
+      "text": "3",
+      "label": "CARDINAL",
+      "start": 5967,
+      "end": 5968
+    },
+    {
+      "text": "second",
+      "label": "ORDINAL",
+      "start": 5981,
+      "end": 5987
+    },
+    {
+      "text": "2a",
+      "label": "CARDINAL",
+      "start": 6075,
+      "end": 6077
+    },
+    {
+      "text": "4",
+      "label": "CARDINAL",
+      "start": 6246,
+      "end": 6247
+    },
+    {
+      "text": "1/2",
+      "label": "CARDINAL",
+      "start": 6321,
+      "end": 6324
+    },
+    {
+      "text": "Ekman",
+      "label": "PERSON",
+      "start": 6375,
+      "end": 6380
+    },
+    {
+      "text": "2A/|f|",
+      "label": "DATA_PRODUCT",
+      "start": 6399,
+      "end": 6405
+    },
+    {
+      "text": "4",
+      "label": "CARDINAL",
+      "start": 6424,
+      "end": 6425
+    },
+    {
+      "text": "Bonjean",
+      "label": "REGION",
+      "start": 6681,
+      "end": 6688
+    },
+    {
+      "text": "Lagerloef",
+      "label": "REGION",
+      "start": 6693,
+      "end": 6702
+    },
+    {
+      "text": "2002",
+      "label": "DATE",
+      "start": 6704,
+      "end": 6708
+    },
+    {
+      "text": "OSCAR Currents: Bonjean, F",
+      "label": "DATA_PRODUCT",
+      "start": 7159,
+      "end": 7185
+    },
+    {
+      "text": "G. S. E. Lagerloef",
+      "label": "DATA_PRODUCT",
+      "start": 7191,
+      "end": 7209
+    },
+    {
+      "text": "2002",
+      "label": "DATE",
+      "start": 7211,
+      "end": 7215
+    },
+    {
+      "text": "Diagnostic",
+      "label": "ORG",
+      "start": 7218,
+      "end": 7228
+    },
+    {
+      "text": "Pacific Ocean",
+      "label": "REGION",
+      "start": 7288,
+      "end": 7301
+    },
+    {
+      "text": "J. Phys",
+      "label": "PERSON",
+      "start": 7304,
+      "end": 7311
+    },
+    {
+      "text": "32",
+      "label": "CARDINAL",
+      "start": 7324,
+      "end": 7326
+    },
+    {
+      "text": "2938",
+      "label": "CARDINAL",
+      "start": 7328,
+      "end": 7332
+    },
+    {
+      "text": "Joel Sudre",
+      "label": "PERSON",
+      "start": 7354,
+      "end": 7364
+    },
+    {
+      "text": "Christophe Maes",
+      "label": "PERSON",
+      "start": 7366,
+      "end": 7381
+    },
+    {
+      "text": "Veronique Garcon",
+      "label": "PERSON",
+      "start": 7386,
+      "end": 7402
+    },
+    {
+      "text": "2013",
+      "label": "DATE",
+      "start": 7404,
+      "end": 7408
+    },
+    {
+      "text": "Ekman",
+      "label": "PERSON",
+      "start": 7454,
+      "end": 7459
+    },
+    {
+      "text": "Limnology",
+      "label": "ORG",
+      "start": 7478,
+      "end": 7487
+    },
+    {
+      "text": "Oceanography",
+      "label": "REGION",
+      "start": 7492,
+      "end": 7504
+    },
+    {
+      "text": "10.1215/21573689-2071927",
+      "label": "CARDINAL",
+      "start": 7511,
+      "end": 7535
+    },
+    {
+      "text": "SAC-ISRO",
+      "label": "DATA_PRODUCT",
+      "start": 7680,
+      "end": 7688
+    },
+    {
+      "text": "TOT",
+      "label": "ORG",
+      "start": 7695,
+      "end": 7698
+    },
+    {
+      "text": "Geostrophic +",
+      "label": "REGION",
+      "start": 7742,
+      "end": 7755
+    },
+    {
+      "text": "YYYY",
+      "label": "DATE",
+      "start": 7771,
+      "end": 7775
+    },
+    {
+      "text": "the year",
+      "label": "DATE",
+      "start": 7792,
+      "end": 7800
+    },
+    {
+      "text": "2015",
+      "label": "DATE",
+      "start": 7806,
+      "end": 7810
+    },
+    {
+      "text": "MM",
+      "label": "PERSON",
+      "start": 7812,
+      "end": 7814
+    },
+    {
+      "text": "the month",
+      "label": "DATE",
+      "start": 7831,
+      "end": 7840
+    },
+    {
+      "text": "09",
+      "label": "CARDINAL",
+      "start": 7846,
+      "end": 7848
+    },
+    {
+      "text": "26",
+      "label": "CARDINAL",
+      "start": 7883,
+      "end": 7885
+    },
+    {
+      "text": "NetCDF 4",
+      "label": "DATA_PRODUCT",
+      "start": 7912,
+      "end": 7920
+    },
+    {
+      "text": "MetaData\nSr.",
+      "label": "DATA_PRODUCT",
+      "start": 7961,
+      "end": 7973
+    },
+    {
+      "text": "1",
+      "label": "CARDINAL",
+      "start": 8011,
+      "end": 8012
+    },
+    {
+      "text": "English",
+      "label": "DATA_PRODUCT",
+      "start": 8031,
+      "end": 8038
+    },
+    {
+      "text": "2",
+      "label": "CARDINAL",
+      "start": 8039,
+      "end": 8040
+    },
+    {
+      "text": "Rajesh Sikhakolli",
+      "label": "DATA_PRODUCT",
+      "start": 8062,
+      "end": 8079
+    },
+    {
+      "text": "GRD",
+      "label": "ORG",
+      "start": 8081,
+      "end": 8084
+    },
+    {
+      "text": "Space Applications Centre",
+      "label": "ORG",
+      "start": 8096,
+      "end": 8121
+    },
+    {
+      "text": "ISRO",
+      "label": "STATION",
+      "start": 8123,
+      "end": 8127
+    },
+    {
+      "text": "India",
+      "label": "REGION",
+      "start": 8148,
+      "end": 8153
+    },
+    {
+      "text": "3",
+      "label": "CARDINAL",
+      "start": 8186,
+      "end": 8187
+    },
+    {
+      "text": "September 15, 2015",
+      "label": "DATA_PRODUCT",
+      "start": 8202,
+      "end": 8220
+    },
+    {
+      "text": "4",
+      "label": "CARDINAL",
+      "start": 8221,
+      "end": 8222
+    },
+    {
+      "text": "5",
+      "label": "CARDINAL",
+      "start": 8304,
+      "end": 8305
+    },
+    {
+      "text": "Meridional",
+      "label": "DATA_PRODUCT",
+      "start": 8322,
+      "end": 8332
+    },
+    {
+      "text": "Ocean Surface Current",
+      "label": "DATA_PRODUCT",
+      "start": 8347,
+      "end": 8368
+    },
+    {
+      "text": "6",
+      "label": "CARDINAL",
+      "start": 8375,
+      "end": 8376
+    },
+    {
+      "text": "Sea Level",
+      "label": "REGION",
+      "start": 8474,
+      "end": 8483
+    },
+    {
+      "text": "7",
+      "label": "CARDINAL",
+      "start": 8546,
+      "end": 8547
+    },
+    {
+      "text": "Rajesh Sikhakolli",
+      "label": "DATA_PRODUCT",
+      "start": 8568,
+      "end": 8585
+    },
+    {
+      "text": "GRD",
+      "label": "ORG",
+      "start": 8587,
+      "end": 8590
+    },
+    {
+      "text": "Space Applications Centre",
+      "label": "ORG",
+      "start": 8602,
+      "end": 8627
+    },
+    {
+      "text": "ISRO",
+      "label": "STATION",
+      "start": 8629,
+      "end": 8633
+    },
+    {
+      "text": "India",
+      "label": "REGION",
+      "start": 8654,
+      "end": 8659
+    },
+    {
+      "text": "8",
+      "label": "CARDINAL",
+      "start": 8692,
+      "end": 8693
+    },
+    {
+      "text": "9",
+      "label": "CARDINAL",
+      "start": 8717,
+      "end": 8718
+    },
+    {
+      "text": "10",
+      "label": "CARDINAL",
+      "start": 8760,
+      "end": 8762
+    },
+    {
+      "text": "Spatial Resolution",
+      "label": "REGION",
+      "start": 8763,
+      "end": 8781
+    },
+    {
+      "text": "11",
+      "label": "CARDINAL",
+      "start": 8803,
+      "end": 8805
+    },
+    {
+      "text": "English",
+      "label": "LANGUAGE",
+      "start": 8815,
+      "end": 8822
+    },
+    {
+      "text": "12",
+      "label": "CARDINAL",
+      "start": 8823,
+      "end": 8825
+    },
+    {
+      "text": "13",
+      "label": "CARDINAL",
+      "start": 8863,
+      "end": 8865
+    },
+    {
+      "text": "Ocean Circulation",
+      "label": "REGION",
+      "start": 8891,
+      "end": 8908
+    },
+    {
+      "text": "14\nDate",
+      "label": "DATE",
+      "start": 8909,
+      "end": 8916
+    },
+    {
+      "text": "15",
+      "label": "CARDINAL",
+      "start": 8933,
+      "end": 8935
+    },
+    {
+      "text": "Rajesh Sikhakolli",
+      "label": "PERSON",
+      "start": 8958,
+      "end": 8975
+    },
+    {
+      "text": "GRD",
+      "label": "ORG",
+      "start": 8977,
+      "end": 8980
+    },
+    {
+      "text": "Space Applications Centre",
+      "label": "ORG",
+      "start": 8992,
+      "end": 9017
+    },
+    {
+      "text": "ISRO",
+      "label": "STATION",
+      "start": 9019,
+      "end": 9023
+    },
+    {
+      "text": "India",
+      "label": "REGION",
+      "start": 9044,
+      "end": 9049
+    },
+    {
+      "text": "16",
+      "label": "CARDINAL",
+      "start": 9082,
+      "end": 9084
+    },
+    {
+      "text": "Organization\nSpace Applications Centre",
+      "label": "ORG",
+      "start": 9085,
+      "end": 9123
+    },
+    {
+      "text": "ISRO",
+      "label": "STATION",
+      "start": 9125,
+      "end": 9129
+    },
+    {
+      "text": "Ahmedabad",
+      "label": "REGION",
+      "start": 9132,
+      "end": 9141
+    },
+    {
+      "text": "India",
+      "label": "REGION",
+      "start": 9143,
+      "end": 9148
+    },
+    {
+      "text": "16a",
+      "label": "CARDINAL",
+      "start": 9149,
+      "end": 9152
+    },
+    {
+      "text": "Ocean Surface",
+      "label": "REGION",
+      "start": 9174,
+      "end": 9187
+    },
+    {
+      "text": "each day",
+      "label": "DATE",
+      "start": 9207,
+      "end": 9215
+    },
+    {
+      "text": "daily",
+      "label": "DATE",
+      "start": 9222,
+      "end": 9227
+    },
+    {
+      "text": "MADT",
+      "label": "ORG",
+      "start": 9264,
+      "end": 9268
+    },
+    {
+      "text": "AVISO",
+      "label": "ORG",
+      "start": 9280,
+      "end": 9285
+    },
+    {
+      "text": "book-2009",
+      "label": "DATA_PRODUCT",
+      "start": 9310,
+      "end": 9319
+    },
+    {
+      "text": "ASCAT",
+      "label": "ORG",
+      "start": 9345,
+      "end": 9350
+    },
+    {
+      "text": "2011",
+      "label": "DATE",
+      "start": 9368,
+      "end": 9372
+    },
+    {
+      "text": "SST",
+      "label": "DATA_PRODUCT",
+      "start": 9378,
+      "end": 9381
+    },
+    {
+      "text": "AVHRR",
+      "label": "ORG",
+      "start": 9392,
+      "end": 9397
+    },
+    {
+      "text": "Reynolds et al.",
+      "label": "DATA_PRODUCT",
+      "start": 9399,
+      "end": 9414
+    },
+    {
+      "text": "2007",
+      "label": "DATE",
+      "start": 9416,
+      "end": 9420
+    },
+    {
+      "text": "16b",
+      "label": "CARDINAL",
+      "start": 9422,
+      "end": 9425
+    },
+    {
+      "text": "Rajesh Sikhakolli",
+      "label": "PERSON",
+      "start": 9446,
+      "end": 9463
+    },
+    {
+      "text": "GRD",
+      "label": "ORG",
+      "start": 9465,
+      "end": 9468
+    },
+    {
+      "text": "Space Applications Centre",
+      "label": "ORG",
+      "start": 9480,
+      "end": 9505
+    },
+    {
+      "text": "ISRO",
+      "label": "STATION",
+      "start": 9507,
+      "end": 9511
+    },
+    {
+      "text": "India",
+      "label": "REGION",
+      "start": 9532,
+      "end": 9537
+    },
+    {
+      "text": "16c",
+      "label": "CARDINAL",
+      "start": 9570,
+      "end": 9573
+    },
+    {
+      "text": "GRD",
+      "label": "ORG",
+      "start": 9603,
+      "end": 9606
+    },
+    {
+      "text": "ISRO",
+      "label": "STATION",
+      "start": 9623,
+      "end": 9627
+    },
+    {
+      "text": "India",
+      "label": "REGION",
+      "start": 9648,
+      "end": 9653
+    },
+    {
+      "text": "17",
+      "label": "CARDINAL",
+      "start": 9708,
+      "end": 9710
+    },
+    {
+      "text": "0",
+      "label": "CARDINAL",
+      "start": 9821,
+      "end": 9822
+    },
+    {
+      "text": "30",
+      "label": "CARDINAL",
+      "start": 9826,
+      "end": 9828
+    },
+    {
+      "text": "18",
+      "label": "CARDINAL",
+      "start": 9853,
+      "end": 9855
+    },
+    {
+      "text": "90 deg",
+      "label": "QUANTITY",
+      "start": 9897,
+      "end": 9903
+    },
+    {
+      "text": "0 to 360 deg\n19",
+      "label": "CARDINAL",
+      "start": 9921,
+      "end": 9936
+    },
+    {
+      "text": "Global Ocean",
+      "label": "REGION",
+      "start": 9976,
+      "end": 9988
+    },
+    {
+      "text": "20",
+      "label": "CARDINAL",
+      "start": 9989,
+      "end": 9991
+    },
+    {
+      "text": "90 deg",
+      "label": "QUANTITY",
+      "start": 10028,
+      "end": 10034
+    },
+    {
+      "text": "0 to 360 deg",
+      "label": "CARDINAL",
+      "start": 10052,
+      "end": 10064
+    },
+    {
+      "text": "21",
+      "label": "CARDINAL",
+      "start": 10065,
+      "end": 10067
+    },
+    {
+      "text": "22",
+      "label": "CARDINAL",
+      "start": 10090,
+      "end": 10092
+    },
+    {
+      "text": "23",
+      "label": "CARDINAL",
+      "start": 10190,
+      "end": 10192
+    },
+    {
+      "text": "4",
+      "label": "CARDINAL",
+      "start": 10216,
+      "end": 10217
+    },
+    {
+      "text": "24",
+      "label": "CARDINAL",
+      "start": 10218,
+      "end": 10220
+    },
+    {
+      "text": "MOSDAC",
+      "label": "ORG",
+      "start": 10357,
+      "end": 10363
+    },
+    {
+      "text": "Space Applications Centre",
+      "label": "ORG",
+      "start": 10365,
+      "end": 10390
+    },
+    {
+      "text": "Indian Space Research Organisation",
+      "label": "REGION",
+      "start": 10392,
+      "end": 10426
+    },
+    {
+      "text": "Govt",
+      "label": "ORG",
+      "start": 10428,
+      "end": 10432
+    },
+    {
+      "text": "INDIA",
+      "label": "REGION",
+      "start": 10437,
+      "end": 10442
+    }
+  ],
+  "metadata_entities": [
+    {
+      "text": "Oceanographic Satellite Data Archival Centre",
+      "label": "DATA_PRODUCT",
+      "start": 19,
+      "end": 63
+    },
+    {
+      "text": "MOSDAC",
+      "label": "DATA_PRODUCT",
+      "start": 65,
+      "end": 71
+    },
+    {
+      "text": "The Global Ocean Surface Current",
+      "label": "REGION",
+      "start": 0,
+      "end": 32
+    },
+    {
+      "text": "0",
+      "label": "CARDINAL",
+      "start": 81,
+      "end": 82
+    },
+    {
+      "text": "30",
+      "label": "CARDINAL",
+      "start": 86,
+      "end": 88
+    },
+    {
+      "text": "three",
+      "label": "CARDINAL",
+      "start": 135,
+      "end": 140
+    },
+    {
+      "text": "Oceanographic Satellite Data Archival Centre",
+      "label": "DATA_PRODUCT",
+      "start": 19,
+      "end": 63
+    },
+    {
+      "text": "MOSDAC",
+      "label": "DATA_PRODUCT",
+      "start": 65,
+      "end": 71
+    },
+    {
+      "text": "a Data Centre of Space Applications Centre",
+      "label": "DATA_PRODUCT",
+      "start": 76,
+      "end": 118
+    },
+    {
+      "text": "MOSDAC",
+      "label": "DATA_PRODUCT",
+      "start": 212,
+      "end": 218
+    },
+    {
+      "text": "Indian",
+      "label": "DATA_PRODUCT",
+      "start": 274,
+      "end": 280
+    },
+    {
+      "text": "Oceanographic",
+      "label": "DATA_PRODUCT",
+      "start": 16,
+      "end": 29
+    },
+    {
+      "text": "Satellite",
+      "label": "DATA_PRODUCT",
+      "start": 31,
+      "end": 40
+    },
+    {
+      "text": "Data, Archival",
+      "label": "DATA_PRODUCT",
+      "start": 42,
+      "end": 56
+    },
+    {
+      "text": "Data Centre",
+      "label": "DATA_PRODUCT",
+      "start": 58,
+      "end": 69
+    },
+    {
+      "text": "MOSDAC",
+      "label": "ORG",
+      "start": 0,
+      "end": 6
+    }
+  ]
+}

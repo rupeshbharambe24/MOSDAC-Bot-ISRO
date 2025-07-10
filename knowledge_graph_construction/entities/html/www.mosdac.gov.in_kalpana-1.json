@@ -1,0 +1,421 @@
+{
+  "source": "R:\\Projects\\MOSDAC Help Bot\\Codes\\data_processing\\processed_output\\html\\www.mosdac.gov.in_kalpana-1.json",
+  "text_entities": [
+    {
+      "text": "Meteorological & Oceanographic Satellite Data Archival Centre\nSkip",
+      "label": "DATA_PRODUCT",
+      "start": 12,
+      "end": 78
+    },
+    {
+      "text": "English",
+      "label": "DATA_PRODUCT",
+      "start": 116,
+      "end": 123
+    },
+    {
+      "text": "Satellite Data Archival Centre\nSpace Applications Centre",
+      "label": "DATA_PRODUCT",
+      "start": 155,
+      "end": 211
+    },
+    {
+      "text": "ISRO",
+      "label": "ORG",
+      "start": 213,
+      "end": 217
+    },
+    {
+      "text": "INSAT-3DR",
+      "label": "SATELLITE",
+      "start": 232,
+      "end": 241
+    },
+    {
+      "text": "INSAT-3D",
+      "label": "SATELLITE",
+      "start": 242,
+      "end": 250
+    },
+    {
+      "text": "SARAL",
+      "label": "SATELLITE",
+      "start": 285,
+      "end": 290
+    },
+    {
+      "text": "SCATSAT-1",
+      "label": "SATELLITE",
+      "start": 330,
+      "end": 339
+    },
+    {
+      "text": "AWS",
+      "label": "DATA_PRODUCT",
+      "start": 366,
+      "end": 369
+    },
+    {
+      "text": "RADAR",
+      "label": "ORG",
+      "start": 438,
+      "end": 443
+    },
+    {
+      "text": "DWR",
+      "label": "ORG",
+      "start": 445,
+      "end": 448
+    },
+    {
+      "text": "Global Ocean Current",
+      "label": "DATA_PRODUCT",
+      "start": 450,
+      "end": 470
+    },
+    {
+      "text": "Data Access",
+      "label": "DATA_PRODUCT",
+      "start": 471,
+      "end": 482
+    },
+    {
+      "text": "MT-SAPHIR",
+      "label": "DATA_PRODUCT",
+      "start": 530,
+      "end": 539
+    },
+    {
+      "text": "ISRO",
+      "label": "STATION",
+      "start": 591,
+      "end": 595
+    },
+    {
+      "text": "Indian Mainland Coastal Product",
+      "label": "DATA_PRODUCT",
+      "start": 786,
+      "end": 817
+    },
+    {
+      "text": "Renewable Energy\nCal-Val",
+      "label": "ORG",
+      "start": 902,
+      "end": 926
+    },
+    {
+      "text": "RSS Feeds",
+      "label": "ORG",
+      "start": 936,
+      "end": 945
+    },
+    {
+      "text": "Data Quality",
+      "label": "DATA_PRODUCT",
+      "start": 993,
+      "end": 1005
+    },
+    {
+      "text": "Metsat",
+      "label": "ORG",
+      "start": 1092,
+      "end": 1098
+    },
+    {
+      "text": "ISRO",
+      "label": "ORG",
+      "start": 1143,
+      "end": 1147
+    },
+    {
+      "text": "I-1000",
+      "label": "NORP",
+      "start": 1217,
+      "end": 1223
+    },
+    {
+      "text": "18AH",
+      "label": "CARDINAL",
+      "start": 1322,
+      "end": 1326
+    },
+    {
+      "text": "GaAs",
+      "label": "ORG",
+      "start": 1354,
+      "end": 1358
+    },
+    {
+      "text": "Ge",
+      "label": "ORG",
+      "start": 1359,
+      "end": 1361
+    },
+    {
+      "text": "640 watts",
+      "label": "QUANTITY",
+      "start": 1385,
+      "end": 1394
+    },
+    {
+      "text": "3",
+      "label": "CARDINAL",
+      "start": 1419,
+      "end": 1420
+    },
+    {
+      "text": "440",
+      "label": "CARDINAL",
+      "start": 1633,
+      "end": 1636
+    },
+    {
+      "text": "Newtons",
+      "label": "ORG",
+      "start": 1637,
+      "end": 1644
+    },
+    {
+      "text": "22",
+      "label": "CARDINAL",
+      "start": 1681,
+      "end": 1683
+    },
+    {
+      "text": "Newtons",
+      "label": "ORG",
+      "start": 1684,
+      "end": 1691
+    },
+    {
+      "text": "Metsat",
+      "label": "ORG",
+      "start": 1758,
+      "end": 1764
+    },
+    {
+      "text": "VHRR",
+      "label": "INSTRUMENT",
+      "start": 1816,
+      "end": 1820
+    },
+    {
+      "text": "Data Relay Transponder",
+      "label": "DATA_PRODUCT",
+      "start": 1828,
+      "end": 1850
+    },
+    {
+      "text": "DRT",
+      "label": "ORG",
+      "start": 1852,
+      "end": 1855
+    },
+    {
+      "text": "VHRR",
+      "label": "PERSON",
+      "start": 1888,
+      "end": 1892
+    },
+    {
+      "text": "8 km",
+      "label": "DATA_PRODUCT",
+      "start": 2007,
+      "end": 2011
+    },
+    {
+      "text": "DRT",
+      "label": "ORG",
+      "start": 2013,
+      "end": 2016
+    },
+    {
+      "text": "un",
+      "label": "ORG",
+      "start": 2044,
+      "end": 2046
+    },
+    {
+      "text": "India",
+      "label": "REGION",
+      "start": 2101,
+      "end": 2106
+    },
+    {
+      "text": "Meteorological Data Utilisation Centre",
+      "label": "DATA_PRODUCT",
+      "start": 2151,
+      "end": 2189
+    },
+    {
+      "text": "about 495 kg",
+      "label": "QUANTITY",
+      "start": 2217,
+      "end": 2229
+    },
+    {
+      "text": "1060 kgs",
+      "label": "QUANTITY",
+      "start": 2339,
+      "end": 2347
+    },
+    {
+      "text": "September 2002",
+      "label": "DATE",
+      "start": 2351,
+      "end": 2365
+    },
+    {
+      "text": "MOSDAC",
+      "label": "ORG",
+      "start": 2612,
+      "end": 2618
+    },
+    {
+      "text": "Space Applications Centre",
+      "label": "ORG",
+      "start": 2620,
+      "end": 2645
+    },
+    {
+      "text": "Indian Space Research Organisation",
+      "label": "REGION",
+      "start": 2647,
+      "end": 2681
+    },
+    {
+      "text": "Govt",
+      "label": "ORG",
+      "start": 2683,
+      "end": 2687
+    },
+    {
+      "text": "INDIA",
+      "label": "REGION",
+      "start": 2692,
+      "end": 2697
+    }
+  ],
+  "metadata_entities": [
+    {
+      "text": "Oceanographic Satellite Data Archival Centre",
+      "label": "DATA_PRODUCT",
+      "start": 19,
+      "end": 63
+    },
+    {
+      "text": "MOSDAC",
+      "label": "DATA_PRODUCT",
+      "start": 65,
+      "end": 71
+    },
+    {
+      "text": "Metsat",
+      "label": "ORG",
+      "start": 0,
+      "end": 6
+    },
+    {
+      "text": "ISRO",
+      "label": "ORG",
+      "start": 51,
+      "end": 55
+    },
+    {
+      "text": "I-1000",
+      "label": "NORP",
+      "start": 125,
+      "end": 131
+    },
+    {
+      "text": "18AH",
+      "label": "CARDINAL",
+      "start": 230,
+      "end": 234
+    },
+    {
+      "text": "GaAs",
+      "label": "ORG",
+      "start": 262,
+      "end": 266
+    },
+    {
+      "text": "Ge",
+      "label": "ORG",
+      "start": 267,
+      "end": 269
+    },
+    {
+      "text": "640 watts",
+      "label": "QUANTITY",
+      "start": 293,
+      "end": 302
+    },
+    {
+      "text": "3",
+      "label": "CARDINAL",
+      "start": 327,
+      "end": 328
+    },
+    {
+      "text": "Oceanographic Satellite Data Archival Centre",
+      "label": "DATA_PRODUCT",
+      "start": 19,
+      "end": 63
+    },
+    {
+      "text": "MOSDAC",
+      "label": "DATA_PRODUCT",
+      "start": 65,
+      "end": 71
+    },
+    {
+      "text": "a Data Centre of Space Applications Centre",
+      "label": "DATA_PRODUCT",
+      "start": 76,
+      "end": 118
+    },
+    {
+      "text": "MOSDAC",
+      "label": "DATA_PRODUCT",
+      "start": 212,
+      "end": 218
+    },
+    {
+      "text": "Indian",
+      "label": "DATA_PRODUCT",
+      "start": 274,
+      "end": 280
+    },
+    {
+      "text": "Oceanographic",
+      "label": "DATA_PRODUCT",
+      "start": 16,
+      "end": 29
+    },
+    {
+      "text": "Satellite",
+      "label": "DATA_PRODUCT",
+      "start": 31,
+      "end": 40
+    },
+    {
+      "text": "Data, Archival",
+      "label": "DATA_PRODUCT",
+      "start": 42,
+      "end": 56
+    },
+    {
+      "text": "Data Centre",
+      "label": "DATA_PRODUCT",
+      "start": 58,
+      "end": 69
+    },
+    {
+      "text": "MOSDAC",
+      "label": "ORG",
+      "start": 0,
+      "end": 6
+    }
+  ]
+}

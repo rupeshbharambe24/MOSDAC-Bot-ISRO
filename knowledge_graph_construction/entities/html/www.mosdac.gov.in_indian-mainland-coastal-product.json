@@ -1,0 +1,1951 @@
+{
+  "source": "R:\\Projects\\MOSDAC Help Bot\\Codes\\data_processing\\processed_output\\html\\www.mosdac.gov.in_indian-mainland-coastal-product.json",
+  "text_entities": [
+    {
+      "text": "Indian Mainland Coastal Product",
+      "label": "DATA_PRODUCT",
+      "start": 0,
+      "end": 31
+    },
+    {
+      "text": "Satellite Data Archival Centre\nSkip",
+      "label": "DATA_PRODUCT",
+      "start": 65,
+      "end": 100
+    },
+    {
+      "text": "English",
+      "label": "DATA_PRODUCT",
+      "start": 138,
+      "end": 145
+    },
+    {
+      "text": "Satellite Data Archival Centre\nSpace Applications Centre",
+      "label": "DATA_PRODUCT",
+      "start": 177,
+      "end": 233
+    },
+    {
+      "text": "ISRO",
+      "label": "ORG",
+      "start": 235,
+      "end": 239
+    },
+    {
+      "text": "INSAT-3DR",
+      "label": "SATELLITE",
+      "start": 254,
+      "end": 263
+    },
+    {
+      "text": "INSAT-3D",
+      "label": "SATELLITE",
+      "start": 264,
+      "end": 272
+    },
+    {
+      "text": "SARAL",
+      "label": "SATELLITE",
+      "start": 307,
+      "end": 312
+    },
+    {
+      "text": "SCATSAT-1",
+      "label": "SATELLITE",
+      "start": 352,
+      "end": 361
+    },
+    {
+      "text": "AWS",
+      "label": "DATA_PRODUCT",
+      "start": 388,
+      "end": 391
+    },
+    {
+      "text": "RADAR",
+      "label": "ORG",
+      "start": 460,
+      "end": 465
+    },
+    {
+      "text": "DWR",
+      "label": "ORG",
+      "start": 467,
+      "end": 470
+    },
+    {
+      "text": "Global Ocean Current",
+      "label": "DATA_PRODUCT",
+      "start": 472,
+      "end": 492
+    },
+    {
+      "text": "Data Access",
+      "label": "DATA_PRODUCT",
+      "start": 493,
+      "end": 504
+    },
+    {
+      "text": "MT-SAPHIR",
+      "label": "DATA_PRODUCT",
+      "start": 552,
+      "end": 561
+    },
+    {
+      "text": "ISRO",
+      "label": "STATION",
+      "start": 613,
+      "end": 617
+    },
+    {
+      "text": "Indian Mainland Coastal Product",
+      "label": "DATA_PRODUCT",
+      "start": 808,
+      "end": 839
+    },
+    {
+      "text": "Renewable Energy\nCal-Val",
+      "label": "ORG",
+      "start": 924,
+      "end": 948
+    },
+    {
+      "text": "RSS Feeds",
+      "label": "ORG",
+      "start": 958,
+      "end": 967
+    },
+    {
+      "text": "Data Quality",
+      "label": "DATA_PRODUCT",
+      "start": 1015,
+      "end": 1027
+    },
+    {
+      "text": "Data Access",
+      "label": "DATA_PRODUCT",
+      "start": 1083,
+      "end": 1094
+    },
+    {
+      "text": "Indian Mainland Coastal Product",
+      "label": "DATA_PRODUCT",
+      "start": 1149,
+      "end": 1180
+    },
+    {
+      "text": "SARAL",
+      "label": "SATELLITE",
+      "start": 1181,
+      "end": 1186
+    },
+    {
+      "text": "25 February 2013",
+      "label": "DATA_PRODUCT",
+      "start": 1210,
+      "end": 1226
+    },
+    {
+      "text": "ISRO",
+      "label": "LAW",
+      "start": 1263,
+      "end": 1267
+    },
+    {
+      "text": "CNES",
+      "label": "ORG",
+      "start": 1272,
+      "end": 1276
+    },
+    {
+      "text": "SARAL",
+      "label": "SATELLITE",
+      "start": 1336,
+      "end": 1341
+    },
+    {
+      "text": "Sea Surface Height",
+      "label": "DATA_PRODUCT",
+      "start": 1488,
+      "end": 1506
+    },
+    {
+      "text": "40-Hz",
+      "label": "QUANTITY",
+      "start": 1567,
+      "end": 1572
+    },
+    {
+      "text": "Indian",
+      "label": "DATA_PRODUCT",
+      "start": 1618,
+      "end": 1624
+    },
+    {
+      "text": "up to 50 km",
+      "label": "DATA_PRODUCT",
+      "start": 1650,
+      "end": 1661
+    },
+    {
+      "text": "35",
+      "label": "CARDINAL",
+      "start": 1709,
+      "end": 1711
+    },
+    {
+      "text": "SARAL",
+      "label": "SATELLITE",
+      "start": 1722,
+      "end": 1727
+    },
+    {
+      "text": "March 2013 through July 2016",
+      "label": "DATA_PRODUCT",
+      "start": 1749,
+      "end": 1777
+    },
+    {
+      "text": "Data Access",
+      "label": "DATA_PRODUCT",
+      "start": 1779,
+      "end": 1790
+    },
+    {
+      "text": "the Science Products",
+      "label": "DATA_PRODUCT",
+      "start": 1812,
+      "end": 1832
+    },
+    {
+      "text": "MOSDAC Single Sign",
+      "label": "DATA_PRODUCT",
+      "start": 1850,
+      "end": 1868
+    },
+    {
+      "text": "Data Version",
+      "label": "DATA_PRODUCT",
+      "start": 1911,
+      "end": 1923
+    },
+    {
+      "text": "Altimeter Sensor-Interim",
+      "label": "DATA_PRODUCT",
+      "start": 1956,
+      "end": 1980
+    },
+    {
+      "text": "Indian Ocean Bathymetry",
+      "label": "DATA_PRODUCT",
+      "start": 2014,
+      "end": 2037
+    },
+    {
+      "text": "Indian Ocean",
+      "label": "DATA_PRODUCT",
+      "start": 2038,
+      "end": 2050
+    },
+    {
+      "text": "BETA9",
+      "label": "ORG",
+      "start": 2308,
+      "end": 2313
+    },
+    {
+      "text": "Brown",
+      "label": "PERSON",
+      "start": 2325,
+      "end": 2330
+    },
+    {
+      "text": "Gaussian Peak",
+      "label": "PRODUCT",
+      "start": 2347,
+      "end": 2360
+    },
+    {
+      "text": "SSH",
+      "label": "DATA_PRODUCT",
+      "start": 2399,
+      "end": 2402
+    },
+    {
+      "text": "SWH",
+      "label": "PARAMETER",
+      "start": 2465,
+      "end": 2468
+    },
+    {
+      "text": "SWH",
+      "label": "PARAMETER",
+      "start": 2521,
+      "end": 2524
+    },
+    {
+      "text": "&quot",
+      "label": "ORG",
+      "start": 2609,
+      "end": 2614
+    },
+    {
+      "text": "Genetic Algorithm &quot",
+      "label": "DATA_PRODUCT",
+      "start": 2616,
+      "end": 2639
+    },
+    {
+      "text": "Remya et al. 2011",
+      "label": "PERSON",
+      "start": 2642,
+      "end": 2659
+    },
+    {
+      "text": "SWH",
+      "label": "ORG",
+      "start": 2695,
+      "end": 2698
+    },
+    {
+      "text": "40 Hz",
+      "label": "DATA_PRODUCT",
+      "start": 2726,
+      "end": 2731
+    },
+    {
+      "text": "lanczos",
+      "label": "DATA_PRODUCT",
+      "start": 2757,
+      "end": 2764
+    },
+    {
+      "text": "40 Hz",
+      "label": "DATA_PRODUCT",
+      "start": 2868,
+      "end": 2873
+    },
+    {
+      "text": "lanczos",
+      "label": "DATA_PRODUCT",
+      "start": 2899,
+      "end": 2906
+    },
+    {
+      "text": "Amarouche L",
+      "label": "ORG",
+      "start": 2957,
+      "end": 2968
+    },
+    {
+      "text": "Thibaut P",
+      "label": "PERSON",
+      "start": 2970,
+      "end": 2979
+    },
+    {
+      "text": "Zanife O.-Z",
+      "label": "PERSON",
+      "start": 2981,
+      "end": 2992
+    },
+    {
+      "text": "Dumont",
+      "label": "PERSON",
+      "start": 2994,
+      "end": 3000
+    },
+    {
+      "text": "P. Vincent J.-P.",
+      "label": "PERSON",
+      "start": 3002,
+      "end": 3018
+    },
+    {
+      "text": "Steunou N 2004",
+      "label": "ORG",
+      "start": 3023,
+      "end": 3037
+    },
+    {
+      "text": "Mar. Geod",
+      "label": "PERSON",
+      "start": 3119,
+      "end": 3128
+    },
+    {
+      "text": "27",
+      "label": "CARDINAL",
+      "start": 3130,
+      "end": 3132
+    },
+    {
+      "text": "171-197",
+      "label": "CARDINAL",
+      "start": 3134,
+      "end": 3141
+    },
+    {
+      "text": "Brown",
+      "label": "PERSON",
+      "start": 3143,
+      "end": 3148
+    },
+    {
+      "text": "1977",
+      "label": "DATE",
+      "start": 3156,
+      "end": 3160
+    },
+    {
+      "text": "IEEE Trans",
+      "label": "ORG",
+      "start": 3232,
+      "end": 3242
+    },
+    {
+      "text": "Antennas Propag",
+      "label": "ORG",
+      "start": 3244,
+      "end": 3259
+    },
+    {
+      "text": "AP-25",
+      "label": "PRODUCT",
+      "start": 3261,
+      "end": 3266
+    },
+    {
+      "text": "67",
+      "label": "CARDINAL",
+      "start": 3268,
+      "end": 3270
+    },
+    {
+      "text": "Chelton",
+      "label": "REGION",
+      "start": 3275,
+      "end": 3282
+    },
+    {
+      "text": "D. B.",
+      "label": "PERSON",
+      "start": 3284,
+      "end": 3289
+    },
+    {
+      "text": "J. C. Ries",
+      "label": "PERSON",
+      "start": 3291,
+      "end": 3301
+    },
+    {
+      "text": "B. J. Haines",
+      "label": "PERSON",
+      "start": 3303,
+      "end": 3315
+    },
+    {
+      "text": "L. L. Fu",
+      "label": "PERSON",
+      "start": 3317,
+      "end": 3325
+    },
+    {
+      "text": "P. S. Callahan",
+      "label": "PERSON",
+      "start": 3331,
+      "end": 3345
+    },
+    {
+      "text": "2001",
+      "label": "DATE",
+      "start": 3347,
+      "end": 3351
+    },
+    {
+      "text": "Satellite Altimetry",
+      "label": "WORK_OF_ART",
+      "start": 3354,
+      "end": 3373
+    },
+    {
+      "text": "Satellite Altimetry",
+      "label": "ORG",
+      "start": 3376,
+      "end": 3395
+    },
+    {
+      "text": "Earth Sciences",
+      "label": "ORG",
+      "start": 3400,
+      "end": 3414
+    },
+    {
+      "text": "L.L. Fu",
+      "label": "PERSON",
+      "start": 3420,
+      "end": 3427
+    },
+    {
+      "text": "1-131",
+      "label": "CARDINAL",
+      "start": 3449,
+      "end": 3454
+    },
+    {
+      "text": "Chaudhary A.",
+      "label": "PERSON",
+      "start": 3456,
+      "end": 3468
+    },
+    {
+      "text": "Basu S.",
+      "label": "PERSON",
+      "start": 3470,
+      "end": 3477
+    },
+    {
+      "text": "Kumar R",
+      "label": "PERSON",
+      "start": 3479,
+      "end": 3486
+    },
+    {
+      "text": "Mahesh",
+      "label": "PERSON",
+      "start": 3488,
+      "end": 3494
+    },
+    {
+      "text": "C.",
+      "label": "PERSON",
+      "start": 3496,
+      "end": 3498
+    },
+    {
+      "text": "Sharma R. 2015",
+      "label": "PERSON",
+      "start": 3503,
+      "end": 3517
+    },
+    {
+      "text": "40-Hz",
+      "label": "CARDINAL",
+      "start": 3551,
+      "end": 3556
+    },
+    {
+      "text": "Linear Discriminant Analysis",
+      "label": "ORG",
+      "start": 3573,
+      "end": 3601
+    },
+    {
+      "text": "Bayes Decision Rule",
+      "label": "REGION",
+      "start": 3606,
+      "end": 3625
+    },
+    {
+      "text": "Gujarat",
+      "label": "REGION",
+      "start": 3633,
+      "end": 3640
+    },
+    {
+      "text": "Marine Geodesy",
+      "label": "DATA_PRODUCT",
+      "start": 3657,
+      "end": 3671
+    },
+    {
+      "text": "Coastal",
+      "label": "DATA_PRODUCT",
+      "start": 3673,
+      "end": 3680
+    },
+    {
+      "text": "Hydrology Altimetry",
+      "label": "DATA_PRODUCT",
+      "start": 3685,
+      "end": 3704
+    },
+    {
+      "text": "SALP-MU-P-",
+      "label": "DATA_PRODUCT",
+      "start": 3752,
+      "end": 3762
+    },
+    {
+      "text": "1",
+      "label": "CARDINAL",
+      "start": 3781,
+      "end": 3782
+    },
+    {
+      "text": "Oct. 4, 2010",
+      "label": "DATE",
+      "start": 3787,
+      "end": 3799
+    },
+    {
+      "text": "Deng",
+      "label": "PERSON",
+      "start": 3800,
+      "end": 3804
+    },
+    {
+      "text": "X.",
+      "label": "PERSON",
+      "start": 3806,
+      "end": 3808
+    },
+    {
+      "text": "W. E. Featherstone",
+      "label": "PERSON",
+      "start": 3814,
+      "end": 3832
+    },
+    {
+      "text": "2006",
+      "label": "DATE",
+      "start": 3834,
+      "end": 3838
+    },
+    {
+      "text": "Australia",
+      "label": "REGION",
+      "start": 3937,
+      "end": 3946
+    },
+    {
+      "text": "J. Geophys",
+      "label": "PERSON",
+      "start": 3948,
+      "end": 3958
+    },
+    {
+      "text": "111",
+      "label": "CARDINAL",
+      "start": 3965,
+      "end": 3968
+    },
+    {
+      "text": "doi:10.1029/2005JC003039",
+      "label": "LANGUAGE",
+      "start": 3970,
+      "end": 3994
+    },
+    {
+      "text": "Deng",
+      "label": "PERSON",
+      "start": 3996,
+      "end": 4000
+    },
+    {
+      "text": "Dissertation",
+      "label": "ORG",
+      "start": 4114,
+      "end": 4126
+    },
+    {
+      "text": "Curtin University of Technology",
+      "label": "ORG",
+      "start": 4128,
+      "end": 4159
+    },
+    {
+      "text": "Perth",
+      "label": "REGION",
+      "start": 4161,
+      "end": 4166
+    },
+    {
+      "text": "Australia",
+      "label": "REGION",
+      "start": 4168,
+      "end": 4177
+    },
+    {
+      "text": "Halimi",
+      "label": "PERSON",
+      "start": 4179,
+      "end": 4185
+    },
+    {
+      "text": "C. Mailhes",
+      "label": "PERSON",
+      "start": 4191,
+      "end": 4201
+    },
+    {
+      "text": "J. – Y. Tourneret",
+      "label": "DATA_PRODUCT",
+      "start": 4203,
+      "end": 4220
+    },
+    {
+      "text": "P. Thibaut",
+      "label": "DATA_PRODUCT",
+      "start": 4222,
+      "end": 4232
+    },
+    {
+      "text": "F. Boy",
+      "label": "DATA_PRODUCT",
+      "start": 4238,
+      "end": 4244
+    },
+    {
+      "text": "2013",
+      "label": "DATE",
+      "start": 4246,
+      "end": 4250
+    },
+    {
+      "text": "IEEE Trans",
+      "label": "ORG",
+      "start": 4305,
+      "end": 4315
+    },
+    {
+      "text": "Geosci",
+      "label": "PERSON",
+      "start": 4317,
+      "end": 4323
+    },
+    {
+      "text": "51",
+      "label": "CARDINAL",
+      "start": 4337,
+      "end": 4339
+    },
+    {
+      "text": "1568-1577",
+      "label": "DATE",
+      "start": 4341,
+      "end": 4350
+    },
+    {
+      "text": "PISTACH",
+      "label": "DATA_PRODUCT",
+      "start": 4356,
+      "end": 4363
+    },
+    {
+      "text": "Proc",
+      "label": "WORK_OF_ART",
+      "start": 4434,
+      "end": 4438
+    },
+    {
+      "text": "OST-ST Meeting",
+      "label": "DATA_PRODUCT",
+      "start": 4440,
+      "end": 4454
+    },
+    {
+      "text": "Seattle",
+      "label": "REGION",
+      "start": 4456,
+      "end": 4463
+    },
+    {
+      "text": "WA",
+      "label": "REGION",
+      "start": 4465,
+      "end": 4467
+    },
+    {
+      "text": "Nelder",
+      "label": "ORG",
+      "start": 4469,
+      "end": 4475
+    },
+    {
+      "text": "J.A.",
+      "label": "PERSON",
+      "start": 4477,
+      "end": 4481
+    },
+    {
+      "text": "Mead R.",
+      "label": "PERSON",
+      "start": 4486,
+      "end": 4493
+    },
+    {
+      "text": "1965",
+      "label": "DATE",
+      "start": 4494,
+      "end": 4498
+    },
+    {
+      "text": "Computer Journal",
+      "label": "ORG",
+      "start": 4544,
+      "end": 4560
+    },
+    {
+      "text": "4",
+      "label": "CARDINAL",
+      "start": 4573,
+      "end": 4574
+    },
+    {
+      "text": "308",
+      "label": "CARDINAL",
+      "start": 4576,
+      "end": 4579
+    },
+    {
+      "text": "Ray",
+      "label": "PERSON",
+      "start": 4585,
+      "end": 4588
+    },
+    {
+      "text": "R. D.",
+      "label": "PERSON",
+      "start": 4590,
+      "end": 4595
+    },
+    {
+      "text": "1999",
+      "label": "DATE",
+      "start": 4597,
+      "end": 4601
+    },
+    {
+      "text": "TOPEX/POSEIDON",
+      "label": "ORG",
+      "start": 4634,
+      "end": 4648
+    },
+    {
+      "text": "GOT99.2",
+      "label": "NORP",
+      "start": 4660,
+      "end": 4667
+    },
+    {
+      "text": "NASA Tech",
+      "label": "ORG",
+      "start": 4669,
+      "end": 4678
+    },
+    {
+      "text": "1999-209478",
+      "label": "DATE",
+      "start": 4691,
+      "end": 4702
+    },
+    {
+      "text": "Goddard Space Flight Center",
+      "label": "DATA_PRODUCT",
+      "start": 4704,
+      "end": 4731
+    },
+    {
+      "text": "Greenbelt",
+      "label": "DATA_PRODUCT",
+      "start": 4733,
+      "end": 4742
+    },
+    {
+      "text": "MD",
+      "label": "REGION",
+      "start": 4744,
+      "end": 4746
+    },
+    {
+      "text": "SARAL",
+      "label": "SATELLITE",
+      "start": 4748,
+      "end": 4753
+    },
+    {
+      "text": "Products Handbook",
+      "label": "DATA_PRODUCT",
+      "start": 4761,
+      "end": 4778
+    },
+    {
+      "text": "2",
+      "label": "DATE",
+      "start": 4803,
+      "end": 4804
+    },
+    {
+      "text": "4",
+      "label": "DATE",
+      "start": 4806,
+      "end": 4807
+    },
+    {
+      "text": "December 9, 2013\nRemya",
+      "label": "DATA_PRODUCT",
+      "start": 4809,
+      "end": 4831
+    },
+    {
+      "text": "G.",
+      "label": "PERSON",
+      "start": 4833,
+      "end": 4835
+    },
+    {
+      "text": "Kumar",
+      "label": "PERSON",
+      "start": 4837,
+      "end": 4842
+    },
+    {
+      "text": "R.",
+      "label": "PERSON",
+      "start": 4844,
+      "end": 4846
+    },
+    {
+      "text": "Basu",
+      "label": "PERSON",
+      "start": 4848,
+      "end": 4852
+    },
+    {
+      "text": "S., &amp",
+      "label": "ORG",
+      "start": 4854,
+      "end": 4862
+    },
+    {
+      "text": "Sarkar",
+      "label": "PERSON",
+      "start": 4864,
+      "end": 4870
+    },
+    {
+      "text": "2011",
+      "label": "DATE",
+      "start": 4876,
+      "end": 4880
+    },
+    {
+      "text": "IEEE Geoscience and Remote Sensing Letters",
+      "label": "ORG",
+      "start": 4944,
+      "end": 4986
+    },
+    {
+      "text": "8(2",
+      "label": "DATE",
+      "start": 4988,
+      "end": 4991
+    },
+    {
+      "text": "354",
+      "label": "CARDINAL",
+      "start": 4994,
+      "end": 4997
+    },
+    {
+      "text": "R. Govindan",
+      "label": "PERSON",
+      "start": 5003,
+      "end": 5014
+    },
+    {
+      "text": "R. Kumar",
+      "label": "PERSON",
+      "start": 5016,
+      "end": 5024
+    },
+    {
+      "text": "S. Basu",
+      "label": "PERSON",
+      "start": 5026,
+      "end": 5033
+    },
+    {
+      "text": "A. Sarkar",
+      "label": "ORG",
+      "start": 5038,
+      "end": 5047
+    },
+    {
+      "text": "&quot",
+      "label": "ORG",
+      "start": 5049,
+      "end": 5054
+    },
+    {
+      "text": "Altimeter-Derived Ocean Wave Period Using Genetic Algorithm, &quot",
+      "label": "REGION",
+      "start": 5056,
+      "end": 5122
+    },
+    {
+      "text": "IEEE Geosci",
+      "label": "ORG",
+      "start": 5124,
+      "end": 5135
+    },
+    {
+      "text": "Lett",
+      "label": "PERSON",
+      "start": 5150,
+      "end": 5154
+    },
+    {
+      "text": ",VOL 8.NO",
+      "label": "PERSON",
+      "start": 5155,
+      "end": 5164
+    },
+    {
+      "text": "354",
+      "label": "CARDINAL",
+      "start": 5172,
+      "end": 5175
+    },
+    {
+      "text": "March 2011",
+      "label": "DATE",
+      "start": 5183,
+      "end": 5193
+    },
+    {
+      "text": "Sindhu",
+      "label": "PERSON",
+      "start": 5194,
+      "end": 5200
+    },
+    {
+      "text": "I. Suresh",
+      "label": "PERSON",
+      "start": 5206,
+      "end": 5215
+    },
+    {
+      "text": "A. S. Unnikrishnan",
+      "label": "PERSON",
+      "start": 5217,
+      "end": 5235
+    },
+    {
+      "text": "N. V. Bhatkar",
+      "label": "PERSON",
+      "start": 5237,
+      "end": 5250
+    },
+    {
+      "text": "G. S. Michael",
+      "label": "DATA_PRODUCT",
+      "start": 5264,
+      "end": 5277
+    },
+    {
+      "text": "2007",
+      "label": "DATE",
+      "start": 5278,
+      "end": 5282
+    },
+    {
+      "text": "the Indian Ocean",
+      "label": "DATA_PRODUCT",
+      "start": 5348,
+      "end": 5364
+    },
+    {
+      "text": "J. Earth Syst",
+      "label": "ORG",
+      "start": 5366,
+      "end": 5379
+    },
+    {
+      "text": "Sci",
+      "label": "ORG",
+      "start": 5381,
+      "end": 5384
+    },
+    {
+      "text": "Sreejith",
+      "label": "ORG",
+      "start": 5398,
+      "end": 5406
+    },
+    {
+      "text": "K.M.",
+      "label": "PERSON",
+      "start": 5408,
+      "end": 5412
+    },
+    {
+      "text": "Rajesh",
+      "label": "PERSON",
+      "start": 5414,
+      "end": 5420
+    },
+    {
+      "text": "S.",
+      "label": "PERSON",
+      "start": 5422,
+      "end": 5424
+    },
+    {
+      "text": "Majumdar",
+      "label": "PERSON",
+      "start": 5426,
+      "end": 5434
+    },
+    {
+      "text": "T.J.",
+      "label": "PERSON",
+      "start": 5436,
+      "end": 5440
+    },
+    {
+      "text": "Srinivasa Rao G.",
+      "label": "PERSON",
+      "start": 5442,
+      "end": 5458
+    },
+    {
+      "text": "Radhakrishna",
+      "label": "PERSON",
+      "start": 5460,
+      "end": 5472
+    },
+    {
+      "text": "M.",
+      "label": "PERSON",
+      "start": 5474,
+      "end": 5476
+    },
+    {
+      "text": "Krishna",
+      "label": "PERSON",
+      "start": 5478,
+      "end": 5485
+    },
+    {
+      "text": "K.S.",
+      "label": "REGION",
+      "start": 5487,
+      "end": 5491
+    },
+    {
+      "text": "Rajawat A.S.",
+      "label": "PERSON",
+      "start": 5493,
+      "end": 5505
+    },
+    {
+      "text": "2013",
+      "label": "DATE",
+      "start": 5507,
+      "end": 5511
+    },
+    {
+      "text": "Indian Ocean",
+      "label": "DATA_PRODUCT",
+      "start": 5585,
+      "end": 5597
+    },
+    {
+      "text": "J. Asian Earth Sci",
+      "label": "ORG",
+      "start": 5638,
+      "end": 5656
+    },
+    {
+      "text": "62",
+      "label": "CARDINAL",
+      "start": 5658,
+      "end": 5660
+    },
+    {
+      "text": "616–626",
+      "label": "CARDINAL",
+      "start": 5662,
+      "end": 5669
+    },
+    {
+      "text": "SARAL",
+      "label": "SATELLITE",
+      "start": 5770,
+      "end": 5775
+    },
+    {
+      "text": "Geophysical Product",
+      "label": "DATA_PRODUCT",
+      "start": 5784,
+      "end": 5803
+    },
+    {
+      "text": "Indian Mainland Region",
+      "label": "DATA_PRODUCT",
+      "start": 5808,
+      "end": 5830
+    },
+    {
+      "text": "Handbook SARAL",
+      "label": "DATA_PRODUCT",
+      "start": 5898,
+      "end": 5912
+    },
+    {
+      "text": "Geophysical Product",
+      "label": "DATA_PRODUCT",
+      "start": 5921,
+      "end": 5940
+    },
+    {
+      "text": "Indian Mainland Region",
+      "label": "DATA_PRODUCT",
+      "start": 5945,
+      "end": 5967
+    },
+    {
+      "text": "1.14",
+      "label": "CARDINAL",
+      "start": 5975,
+      "end": 5979
+    },
+    {
+      "text": "1",
+      "label": "CARDINAL",
+      "start": 6104,
+      "end": 6105
+    },
+    {
+      "text": "Wave",
+      "label": "ORG",
+      "start": 6112,
+      "end": 6116
+    },
+    {
+      "text": "Kilowatt",
+      "label": "CARDINAL",
+      "start": 6157,
+      "end": 6165
+    },
+    {
+      "text": "2",
+      "label": "CARDINAL",
+      "start": 6169,
+      "end": 6170
+    },
+    {
+      "text": "3",
+      "label": "CARDINAL",
+      "start": 6205,
+      "end": 6206
+    },
+    {
+      "text": "4",
+      "label": "CARDINAL",
+      "start": 6256,
+      "end": 6257
+    },
+    {
+      "text": "seconds",
+      "label": "TIME",
+      "start": 6280,
+      "end": 6287
+    },
+    {
+      "text": "5",
+      "label": "CARDINAL",
+      "start": 6289,
+      "end": 6290
+    },
+    {
+      "text": "kilogram/cubic meter",
+      "label": "QUANTITY",
+      "start": 6322,
+      "end": 6342
+    },
+    {
+      "text": "6",
+      "label": "CARDINAL",
+      "start": 6344,
+      "end": 6345
+    },
+    {
+      "text": "Altimeter",
+      "label": "DATA_PRODUCT",
+      "start": 6571,
+      "end": 6580
+    },
+    {
+      "text": "Data Gap",
+      "label": "DATA_PRODUCT",
+      "start": 6612,
+      "end": 6620
+    },
+    {
+      "text": "1-Hz",
+      "label": "QUANTITY",
+      "start": 6747,
+      "end": 6751
+    },
+    {
+      "text": "SARAL",
+      "label": "SATELLITE",
+      "start": 6763,
+      "end": 6768
+    },
+    {
+      "text": "Coastal",
+      "label": "DATA_PRODUCT",
+      "start": 6897,
+      "end": 6904
+    },
+    {
+      "text": "ssha_cycCCC_yyyymmdd_yymmdd.jpg",
+      "label": "PERSON",
+      "start": 7096,
+      "end": 7127
+    },
+    {
+      "text": "CCC",
+      "label": "ORG",
+      "start": 7269,
+      "end": 7272
+    },
+    {
+      "text": "TTTT",
+      "label": "ORG",
+      "start": 7297,
+      "end": 7301
+    },
+    {
+      "text": "MetaData\nSr.",
+      "label": "DATA_PRODUCT",
+      "start": 7589,
+      "end": 7601
+    },
+    {
+      "text": "1",
+      "label": "CARDINAL",
+      "start": 7639,
+      "end": 7640
+    },
+    {
+      "text": "English",
+      "label": "DATA_PRODUCT",
+      "start": 7659,
+      "end": 7666
+    },
+    {
+      "text": "2",
+      "label": "CARDINAL",
+      "start": 7667,
+      "end": 7668
+    },
+    {
+      "text": "3",
+      "label": "CARDINAL",
+      "start": 7693,
+      "end": 7694
+    },
+    {
+      "text": "October",
+      "label": "DATA_PRODUCT",
+      "start": 7709,
+      "end": 7716
+    },
+    {
+      "text": "2016",
+      "label": "DATE",
+      "start": 7718,
+      "end": 7722
+    },
+    {
+      "text": "4",
+      "label": "CARDINAL",
+      "start": 7723,
+      "end": 7724
+    },
+    {
+      "text": "5",
+      "label": "CARDINAL",
+      "start": 7894,
+      "end": 7895
+    },
+    {
+      "text": "SARAL",
+      "label": "SATELLITE",
+      "start": 7902,
+      "end": 7907
+    },
+    {
+      "text": "Indian",
+      "label": "DATA_PRODUCT",
+      "start": 7932,
+      "end": 7938
+    },
+    {
+      "text": "Wind Wave Power",
+      "label": "DATA_PRODUCT",
+      "start": 7951,
+      "end": 7966
+    },
+    {
+      "text": "6",
+      "label": "CARDINAL",
+      "start": 7975,
+      "end": 7976
+    },
+    {
+      "text": "SARAL",
+      "label": "SATELLITE",
+      "start": 7986,
+      "end": 7991
+    },
+    {
+      "text": "ISRO-CNES",
+      "label": "DATA_PRODUCT",
+      "start": 8001,
+      "end": 8010
+    },
+    {
+      "text": "2013",
+      "label": "DATE",
+      "start": 8059,
+      "end": 8063
+    },
+    {
+      "text": "Ka",
+      "label": "ORG",
+      "start": 8078,
+      "end": 8080
+    },
+    {
+      "text": "Brown",
+      "label": "PERSON",
+      "start": 8418,
+      "end": 8423
+    },
+    {
+      "text": "SARAL/",
+      "label": "SATELLITE",
+      "start": 8722,
+      "end": 8728
+    },
+    {
+      "text": "MLE4",
+      "label": "REGION",
+      "start": 8811,
+      "end": 8815
+    },
+    {
+      "text": "40 Hz",
+      "label": "QUANTITY",
+      "start": 9064,
+      "end": 9069
+    },
+    {
+      "text": "BETA5",
+      "label": "PRODUCT",
+      "start": 9196,
+      "end": 9201
+    },
+    {
+      "text": "BETA9",
+      "label": "ORG",
+      "start": 9203,
+      "end": 9208
+    },
+    {
+      "text": "Brown",
+      "label": "PERSON",
+      "start": 9213,
+      "end": 9218
+    },
+    {
+      "text": "7",
+      "label": "CARDINAL",
+      "start": 9358,
+      "end": 9359
+    },
+    {
+      "text": "Aditya Chaudhary",
+      "label": "DATA_PRODUCT",
+      "start": 9376,
+      "end": 9392
+    },
+    {
+      "text": "OSD",
+      "label": "ORG",
+      "start": 9394,
+      "end": 9397
+    },
+    {
+      "text": "Space Applications Centre",
+      "label": "DATA_PRODUCT",
+      "start": 9409,
+      "end": 9434
+    },
+    {
+      "text": "ISRO",
+      "label": "STATION",
+      "start": 9436,
+      "end": 9440
+    },
+    {
+      "text": "Ahmedabad",
+      "label": "REGION",
+      "start": 9443,
+      "end": 9452
+    },
+    {
+      "text": "380015",
+      "label": "DATE",
+      "start": 9453,
+      "end": 9459
+    },
+    {
+      "text": "8",
+      "label": "CARDINAL",
+      "start": 9488,
+      "end": 9489
+    },
+    {
+      "text": "35",
+      "label": "CARDINAL",
+      "start": 9507,
+      "end": 9509
+    },
+    {
+      "text": "SARAL",
+      "label": "SATELLITE",
+      "start": 9520,
+      "end": 9525
+    },
+    {
+      "text": "9",
+      "label": "CARDINAL",
+      "start": 9603,
+      "end": 9604
+    },
+    {
+      "text": "10",
+      "label": "CARDINAL",
+      "start": 9646,
+      "end": 9648
+    },
+    {
+      "text": "Spatial Resolution",
+      "label": "DATA_PRODUCT",
+      "start": 9649,
+      "end": 9667
+    },
+    {
+      "text": "40 Hz",
+      "label": "DATA_PRODUCT",
+      "start": 9688,
+      "end": 9693
+    },
+    {
+      "text": "nearly 180",
+      "label": "CARDINAL",
+      "start": 9737,
+      "end": 9747
+    },
+    {
+      "text": "English",
+      "label": "LANGUAGE",
+      "start": 9762,
+      "end": 9769
+    },
+    {
+      "text": "12",
+      "label": "CARDINAL",
+      "start": 9770,
+      "end": 9772
+    },
+    {
+      "text": "Coastal Altimetry",
+      "label": "REGION",
+      "start": 9788,
+      "end": 9805
+    },
+    {
+      "text": "13",
+      "label": "CARDINAL",
+      "start": 9806,
+      "end": 9808
+    },
+    {
+      "text": "14\nDate",
+      "label": "DATE",
+      "start": 9920,
+      "end": 9927
+    },
+    {
+      "text": "SARAL",
+      "label": "SATELLITE",
+      "start": 9961,
+      "end": 9966
+    },
+    {
+      "text": "March 2013 to July 2016",
+      "label": "DATE",
+      "start": 9975,
+      "end": 9998
+    },
+    {
+      "text": "15",
+      "label": "CARDINAL",
+      "start": 10000,
+      "end": 10002
+    },
+    {
+      "text": "Aditya Chaudhary",
+      "label": "PERSON",
+      "start": 10021,
+      "end": 10037
+    },
+    {
+      "text": "OSD",
+      "label": "ORG",
+      "start": 10038,
+      "end": 10041
+    },
+    {
+      "text": "Space Applications Centre",
+      "label": "ORG",
+      "start": 10054,
+      "end": 10079
+    },
+    {
+      "text": "ISRO",
+      "label": "STATION",
+      "start": 10081,
+      "end": 10085
+    },
+    {
+      "text": "India",
+      "label": "REGION",
+      "start": 10106,
+      "end": 10111
+    },
+    {
+      "text": "16",
+      "label": "CARDINAL",
+      "start": 10112,
+      "end": 10114
+    },
+    {
+      "text": "Organization\nSpace Applications Centre",
+      "label": "ORG",
+      "start": 10115,
+      "end": 10153
+    },
+    {
+      "text": "ISRO",
+      "label": "STATION",
+      "start": 10155,
+      "end": 10159
+    },
+    {
+      "text": "Ahmedabad",
+      "label": "REGION",
+      "start": 10162,
+      "end": 10171
+    },
+    {
+      "text": "India",
+      "label": "REGION",
+      "start": 10173,
+      "end": 10178
+    },
+    {
+      "text": "16a",
+      "label": "CARDINAL",
+      "start": 10179,
+      "end": 10182
+    },
+    {
+      "text": "Indian",
+      "label": "DATA_PRODUCT",
+      "start": 10263,
+      "end": 10269
+    },
+    {
+      "text": "16b",
+      "label": "CARDINAL",
+      "start": 10276,
+      "end": 10279
+    },
+    {
+      "text": "Aditya Chaudhary",
+      "label": "PERSON",
+      "start": 10296,
+      "end": 10312
+    },
+    {
+      "text": "OSD",
+      "label": "ORG",
+      "start": 10314,
+      "end": 10317
+    },
+    {
+      "text": "ISRO",
+      "label": "STATION",
+      "start": 10334,
+      "end": 10338
+    },
+    {
+      "text": "India",
+      "label": "REGION",
+      "start": 10359,
+      "end": 10364
+    },
+    {
+      "text": "16c",
+      "label": "CARDINAL",
+      "start": 10422,
+      "end": 10425
+    },
+    {
+      "text": "OSD",
+      "label": "ORG",
+      "start": 10455,
+      "end": 10458
+    },
+    {
+      "text": "ISRO",
+      "label": "STATION",
+      "start": 10475,
+      "end": 10479
+    },
+    {
+      "text": "India",
+      "label": "REGION",
+      "start": 10500,
+      "end": 10505
+    },
+    {
+      "text": "17",
+      "label": "CARDINAL",
+      "start": 10563,
+      "end": 10565
+    },
+    {
+      "text": "68E",
+      "label": "CARDINAL",
+      "start": 10621,
+      "end": 10624
+    },
+    {
+      "text": "90E",
+      "label": "CARDINAL",
+      "start": 10635,
+      "end": 10638
+    },
+    {
+      "text": "18",
+      "label": "CARDINAL",
+      "start": 10639,
+      "end": 10641
+    },
+    {
+      "text": "Indian Coastal Region",
+      "label": "REGION",
+      "start": 10681,
+      "end": 10702
+    },
+    {
+      "text": "19",
+      "label": "CARDINAL",
+      "start": 10703,
+      "end": 10705
+    },
+    {
+      "text": "68E",
+      "label": "CARDINAL",
+      "start": 10756,
+      "end": 10759
+    },
+    {
+      "text": "90E",
+      "label": "CARDINAL",
+      "start": 10770,
+      "end": 10773
+    },
+    {
+      "text": "20",
+      "label": "CARDINAL",
+      "start": 10774,
+      "end": 10776
+    },
+    {
+      "text": "March 2013 to July 2016\n21",
+      "label": "DATE",
+      "start": 10793,
+      "end": 10819
+    },
+    {
+      "text": "22",
+      "label": "CARDINAL",
+      "start": 10862,
+      "end": 10864
+    },
+    {
+      "text": "23",
+      "label": "CARDINAL",
+      "start": 10925,
+      "end": 10927
+    },
+    {
+      "text": "3",
+      "label": "CARDINAL",
+      "start": 10951,
+      "end": 10952
+    },
+    {
+      "text": "S-IGDR",
+      "label": "DATA_PRODUCT",
+      "start": 10990,
+      "end": 10996
+    },
+    {
+      "text": "24",
+      "label": "CARDINAL",
+      "start": 11006,
+      "end": 11008
+    },
+    {
+      "text": "MOSDAC",
+      "label": "ORG",
+      "start": 11116,
+      "end": 11122
+    },
+    {
+      "text": "Space Applications Centre",
+      "label": "ORG",
+      "start": 11124,
+      "end": 11149
+    },
+    {
+      "text": "Indian Space Research Organisation",
+      "label": "REGION",
+      "start": 11151,
+      "end": 11185
+    },
+    {
+      "text": "Govt",
+      "label": "ORG",
+      "start": 11187,
+      "end": 11191
+    },
+    {
+      "text": "INDIA",
+      "label": "REGION",
+      "start": 11196,
+      "end": 11201
+    }
+  ],
+  "metadata_entities": [
+    {
+      "text": "Oceanographic Satellite Data Archival Centre",
+      "label": "DATA_PRODUCT",
+      "start": 19,
+      "end": 63
+    },
+    {
+      "text": "MOSDAC",
+      "label": "DATA_PRODUCT",
+      "start": 65,
+      "end": 71
+    },
+    {
+      "text": "SARAL",
+      "label": "SATELLITE",
+      "start": 0,
+      "end": 5
+    },
+    {
+      "text": "25 February 2013",
+      "label": "DATE",
+      "start": 29,
+      "end": 45
+    },
+    {
+      "text": "ISRO",
+      "label": "LAW",
+      "start": 82,
+      "end": 86
+    },
+    {
+      "text": "CNES",
+      "label": "ORG",
+      "start": 91,
+      "end": 95
+    },
+    {
+      "text": "Oceanographic Satellite Data Archival Centre",
+      "label": "DATA_PRODUCT",
+      "start": 19,
+      "end": 63
+    },
+    {
+      "text": "MOSDAC",
+      "label": "DATA_PRODUCT",
+      "start": 65,
+      "end": 71
+    },
+    {
+      "text": "a Data Centre of Space Applications Centre",
+      "label": "DATA_PRODUCT",
+      "start": 76,
+      "end": 118
+    },
+    {
+      "text": "MOSDAC",
+      "label": "DATA_PRODUCT",
+      "start": 212,
+      "end": 218
+    },
+    {
+      "text": "Indian",
+      "label": "DATA_PRODUCT",
+      "start": 274,
+      "end": 280
+    },
+    {
+      "text": "Oceanographic",
+      "label": "DATA_PRODUCT",
+      "start": 16,
+      "end": 29
+    },
+    {
+      "text": "Satellite",
+      "label": "DATA_PRODUCT",
+      "start": 31,
+      "end": 40
+    },
+    {
+      "text": "Data, Archival",
+      "label": "DATA_PRODUCT",
+      "start": 42,
+      "end": 56
+    },
+    {
+      "text": "Data Centre",
+      "label": "DATA_PRODUCT",
+      "start": 58,
+      "end": 69
+    },
+    {
+      "text": "MOSDAC",
+      "label": "ORG",
+      "start": 0,
+      "end": 6
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+Steps: 
+
+1. Data Collection - main.py
+2. Data Processing - main.py
+3. Knowledge Graph Construction -   1. entity_extractor.py
+                                    2. relationship_extractor.py
+                                    3. graph_builder.py
+                                    4. data_collector.py
+                                    5. fix_encoding.py
+                                    6. graph_cleaner.py
+
+4. RAG Pipeline - app.py
+5. RAG Pipeline + Frontend - npm run dev + api_server.py
+
+
+The models folder in the knowledge_graph_construction is the BERT Model files generated for 
+Checkpoint 75 -  final model at epoch 75 for Entity Recognition: Identifying entities in text to become nodes in your knowledge graph
+mosdac_relation_classifier for Relation Classification: Determining how entities are related to form edges in your graph
+The presence of separate relation classifier files suggests a pipeline approach where entities are identified first, then relations between them are classified.
+
+

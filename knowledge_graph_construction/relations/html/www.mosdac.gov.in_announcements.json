@@ -1,0 +1,3053 @@
+{
+  "source": "R:\\Projects\\MOSDAC Help Bot\\Codes\\data_processing\\processed_output\\html\\www.mosdac.gov.in_announcements.json",
+  "entities": [
+    {
+      "text": "Meteorological & Oceanographic Satellite Data Archival Centre\nSkip",
+      "label": "DATA_PRODUCT",
+      "start": 0,
+      "end": 66,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "English",
+      "label": "DATA_PRODUCT",
+      "start": 104,
+      "end": 111,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "Satellite Data Archival Centre\nSpace Applications Centre",
+      "label": "DATA_PRODUCT",
+      "start": 143,
+      "end": 199,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "ISRO",
+      "label": "ORG",
+      "start": 201,
+      "end": 205,
+      "mosdac_type": "STATION"
+    },
+    {
+      "text": "INSAT-3DR",
+      "label": "SATELLITE",
+      "start": 220,
+      "end": 229,
+      "mosdac_type": "SATELLITE"
+    },
+    {
+      "text": "INSAT-3D",
+      "label": "SATELLITE",
+      "start": 230,
+      "end": 238,
+      "mosdac_type": "SATELLITE"
+    },
+    {
+      "text": "SARAL",
+      "label": "SATELLITE",
+      "start": 273,
+      "end": 278,
+      "mosdac_type": "SATELLITE"
+    },
+    {
+      "text": "SCATSAT-1",
+      "label": "SATELLITE",
+      "start": 318,
+      "end": 327,
+      "mosdac_type": "SATELLITE"
+    },
+    {
+      "text": "AWS",
+      "label": "DATA_PRODUCT",
+      "start": 354,
+      "end": 357,
+      "mosdac_type": "PARAMETER"
+    },
+    {
+      "text": "RADAR",
+      "label": "ORG",
+      "start": 426,
+      "end": 431,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "DWR",
+      "label": "ORG",
+      "start": 433,
+      "end": 436,
+      "mosdac_type": "INSTRUMENT"
+    },
+    {
+      "text": "Global Ocean Current",
+      "label": "DATA_PRODUCT",
+      "start": 438,
+      "end": 458,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "Data Access",
+      "label": "DATA_PRODUCT",
+      "start": 459,
+      "end": 470,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "MT-SAPHIR",
+      "label": "DATA_PRODUCT",
+      "start": 518,
+      "end": 527,
+      "mosdac_type": "INSTRUMENT"
+    },
+    {
+      "text": "ISRO",
+      "label": "STATION",
+      "start": 579,
+      "end": 583,
+      "mosdac_type": "STATION"
+    },
+    {
+      "text": "Indian Mainland Coastal Product",
+      "label": "DATA_PRODUCT",
+      "start": 774,
+      "end": 805,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "Renewable Energy\nCal-Val",
+      "label": "ORG",
+      "start": 890,
+      "end": 914,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "RSS Feeds",
+      "label": "ORG",
+      "start": 924,
+      "end": 933,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "Data Quality",
+      "label": "DATA_PRODUCT",
+      "start": 981,
+      "end": 993,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "Kerala",
+      "label": "REGION",
+      "start": 1093,
+      "end": 1099,
+      "mosdac_type": "REGION"
+    },
+    {
+      "text": "2024",
+      "label": "CARDINAL",
+      "start": 1101,
+      "end": 1105,
+      "mosdac_type": "CARDINAL"
+    },
+    {
+      "text": "763.84",
+      "label": "CARDINAL",
+      "start": 1137,
+      "end": 1143,
+      "mosdac_type": "CARDINAL"
+    },
+    {
+      "text": "KB",
+      "label": "NORP",
+      "start": 1144,
+      "end": 1146,
+      "mosdac_type": "NORP"
+    },
+    {
+      "text": "20-May-24",
+      "label": "CARDINAL",
+      "start": 1149,
+      "end": 1158,
+      "mosdac_type": "CARDINAL"
+    },
+    {
+      "text": "Kerala",
+      "label": "REGION",
+      "start": 1170,
+      "end": 1176,
+      "mosdac_type": "REGION"
+    },
+    {
+      "text": "463.15",
+      "label": "DATA_PRODUCT",
+      "start": 1222,
+      "end": 1228,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "KB",
+      "label": "NORP",
+      "start": 1229,
+      "end": 1231,
+      "mosdac_type": "NORP"
+    },
+    {
+      "text": "15",
+      "label": "CARDINAL",
+      "start": 1234,
+      "end": 1236,
+      "mosdac_type": "CARDINAL"
+    },
+    {
+      "text": "INSAT",
+      "label": "ORG",
+      "start": 1244,
+      "end": 1249,
+      "mosdac_type": "SATELLITE"
+    },
+    {
+      "text": "1.61",
+      "label": "CARDINAL",
+      "start": 1308,
+      "end": 1312,
+      "mosdac_type": "CARDINAL"
+    },
+    {
+      "text": "Data Download",
+      "label": "DATA_PRODUCT",
+      "start": 1346,
+      "end": 1359,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "347.33",
+      "label": "DATA_PRODUCT",
+      "start": 1390,
+      "end": 1396,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "KB",
+      "label": "NORP",
+      "start": 1397,
+      "end": 1399,
+      "mosdac_type": "NORP"
+    },
+    {
+      "text": "08-Nov-21",
+      "label": "CARDINAL",
+      "start": 1402,
+      "end": 1411,
+      "mosdac_type": "CARDINAL"
+    },
+    {
+      "text": "Amphan",
+      "label": "REGION",
+      "start": 1457,
+      "end": 1463,
+      "mosdac_type": "REGION"
+    },
+    {
+      "text": "853.28",
+      "label": "CARDINAL",
+      "start": 1502,
+      "end": 1508,
+      "mosdac_type": "CARDINAL"
+    },
+    {
+      "text": "19",
+      "label": "CARDINAL",
+      "start": 1514,
+      "end": 1516,
+      "mosdac_type": "CARDINAL"
+    },
+    {
+      "text": "930.83",
+      "label": "CARDINAL",
+      "start": 1596,
+      "end": 1602,
+      "mosdac_type": "CARDINAL"
+    },
+    {
+      "text": "KB",
+      "label": "NORP",
+      "start": 1603,
+      "end": 1605,
+      "mosdac_type": "NORP"
+    },
+    {
+      "text": "22-Apr-16",
+      "label": "CARDINAL",
+      "start": 1608,
+      "end": 1617,
+      "mosdac_type": "CARDINAL"
+    },
+    {
+      "text": "131.04",
+      "label": "CARDINAL",
+      "start": 1680,
+      "end": 1686,
+      "mosdac_type": "CARDINAL"
+    },
+    {
+      "text": "KB",
+      "label": "NORP",
+      "start": 1687,
+      "end": 1689,
+      "mosdac_type": "NORP"
+    },
+    {
+      "text": "13-Apr-16",
+      "label": "CARDINAL",
+      "start": 1692,
+      "end": 1701,
+      "mosdac_type": "CARDINAL"
+    },
+    {
+      "text": "MOSDAC",
+      "label": "ORG",
+      "start": 1758,
+      "end": 1764,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "Space Applications Centre",
+      "label": "ORG",
+      "start": 1766,
+      "end": 1791,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "Indian Space Research Organisation",
+      "label": "REGION",
+      "start": 1793,
+      "end": 1827,
+      "mosdac_type": "REGION"
+    },
+    {
+      "text": "Govt",
+      "label": "ORG",
+      "start": 1829,
+      "end": 1833,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "INDIA",
+      "label": "REGION",
+      "start": 1838,
+      "end": 1843,
+      "mosdac_type": "REGION"
+    },
+    {
+      "text": "Oceanographic Satellite Data Archival Centre",
+      "label": "DATA_PRODUCT",
+      "start": 19,
+      "end": 63,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "MOSDAC",
+      "label": "DATA_PRODUCT",
+      "start": 65,
+      "end": 71,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "Oceanographic Satellite Data Archival Centre",
+      "label": "DATA_PRODUCT",
+      "start": 19,
+      "end": 63,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "MOSDAC",
+      "label": "DATA_PRODUCT",
+      "start": 65,
+      "end": 71,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "a Data Centre of Space Applications Centre",
+      "label": "DATA_PRODUCT",
+      "start": 76,
+      "end": 118,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "Oceanographic Satellite Data Archival Centre",
+      "label": "DATA_PRODUCT",
+      "start": 19,
+      "end": 63,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "MOSDAC",
+      "label": "DATA_PRODUCT",
+      "start": 65,
+      "end": 71,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "a Data Centre of Space Applications Centre",
+      "label": "DATA_PRODUCT",
+      "start": 76,
+      "end": 118,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "MOSDAC",
+      "label": "DATA_PRODUCT",
+      "start": 212,
+      "end": 218,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "Indian",
+      "label": "DATA_PRODUCT",
+      "start": 274,
+      "end": 280,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "Oceanographic",
+      "label": "DATA_PRODUCT",
+      "start": 16,
+      "end": 29,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "Satellite",
+      "label": "DATA_PRODUCT",
+      "start": 31,
+      "end": 40,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "Data, Archival",
+      "label": "DATA_PRODUCT",
+      "start": 42,
+      "end": 56,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "Data Centre",
+      "label": "DATA_PRODUCT",
+      "start": 58,
+      "end": 69,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "MOSDAC",
+      "label": "ORG",
+      "start": 0,
+      "end": 6,
+      "mosdac_type": "ORG"
+    }
+  ],
+  "relations": [
+    {
+      "head": "DWR",
+      "head_type": "INSTRUMENT",
+      "type": "MEASURES",
+      "tail": "AWS",
+      "tail_type": "PARAMETER",
+      "evidence": "Meteorological & Oceanographic Satellite Data Archival Centre\nSkip to main Content\n-\nA\nA\n+\nA\nA\nA\nहिन्दी\nEnglish\nMeteorological & Oceanographic Satellite Data Archival Centre\nSpace Applications Centre, ISRO\nHome\nMissions\nINSAT-3DR\nINSAT-3D\nKALPANA-1\nINSAT-3A\nMeghaTropiques\nSARAL-AltiKa\nOCEANSAT-2\nOCEANSAT-3\nINSAT-3DS\nSCATSAT-1\nCatalog\nSatellite\nInsitu (AWS)\nRADAR\nGalleries\nSatellite Products\nWeather Forecast\nOcean Forecast\nRADAR (DWR)\nGlobal Ocean Current\nData Access\nOrder Data\nOpen Data\nAtmosphere\nBayesian based MT-SAPHIR rainfall\nGPS derived Integrated water vapour\nGSMap ISRO Rain\nMETEOSAT8 Cloud Properties\nLand\n3D Volumetric TERLS DWRproduct\n",
+      "source": "model"
+    },
+    {
+      "head": "MT-SAPHIR",
+      "head_type": "INSTRUMENT",
+      "type": "MEASURES",
+      "tail": "AWS",
+      "tail_type": "PARAMETER",
+      "evidence": "Meteorological & Oceanographic Satellite Data Archival Centre\nSkip to main Content\n-\nA\nA\n+\nA\nA\nA\nहिन्दी\nEnglish\nMeteorological & Oceanographic Satellite Data Archival Centre\nSpace Applications Centre, ISRO\nHome\nMissions\nINSAT-3DR\nINSAT-3D\nKALPANA-1\nINSAT-3A\nMeghaTropiques\nSARAL-AltiKa\nOCEANSAT-2\nOCEANSAT-3\nINSAT-3DS\nSCATSAT-1\nCatalog\nSatellite\nInsitu (AWS)\nRADAR\nGalleries\nSatellite Products\nWeather Forecast\nOcean Forecast\nRADAR (DWR)\nGlobal Ocean Current\nData Access\nOrder Data\nOpen Data\nAtmosphere\nBayesian based MT-SAPHIR rainfall\nGPS derived Integrated water vapour\nGSMap ISRO Rain\nMETEOSAT8 Cloud Properties\nLand\n3D Volumetric TERLS DWRproduct\n",
+      "source": "model"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Meteorological & Oceanographic Satellite Data Archival Centre\nSkip",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "Help\nYou are here\nHome\n»\nAnnouncements\nMonsoon Onset Prediction over Kerala (2024)\n|\nPDF, Tool: PDFViewer, Size:\n763.84 KB\n|\n20-May-24\nOnset over Kerala - Monsoon 2023\n|\nPDF, Tool: PDFViewer, Size:\n463.15 KB\n|\n15-May-23\nINSAT Product Version Information\n|\nPDF, Tool: PDFViewer, S",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Meteorological & Oceanographic Satellite Data Archival Centre\nSkip",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "Help\nYou are here\nHome\n»\nAnnouncements\nMonsoon Onset Prediction over Kerala (2024)\n|\nPDF, Tool: PDFViewer, Size:\n763.84 KB\n|\n20-May-24\nOnset over Kerala - Monsoon 2023\n|\nPDF, Tool: PDFViewer, Size:\n463.15 KB\n|\n15-May-23\nINSAT Product Version Information\n|\nPDF, Tool: PDFViewer, Size:\n1.61",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Meteorological & Oceanographic Satellite Data Archival Centre\nSkip",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "Help\nYou are here\nHome\n»\nAnnouncements\nMonsoon Onset Prediction over Kerala (2024)\n|\nPDF, Tool: PDFViewer, Size:\n763.84 KB\n|\n20-May-24\nOnset over Kerala - Monsoon 2023\n|\nPDF, Tool: PDFViewer, Size:\n463.15 KB\n|\n15-May-23\nINSAT Product Version Information\n|\nPDF, Tool: PDFViewer, Size:\n1.61 MB\n|\n01-Sep-22\nSFTP Services for Data D",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Meteorological & Oceanographic Satellite Data Archival Centre\nSkip",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "Help\nYou are here\nHome\n»\nAnnouncements\nMonsoon Onset Prediction over Kerala (2024)\n|\nPDF, Tool: PDFViewer, Size:\n763.84 KB\n|\n20-May-24\nOnset over Kerala - Monsoon 2023\n|\nPDF, Tool: PDFViewer, Size:\n463.15 KB\n|\n15-May-23\nINSAT Product Version Information\n|\nPDF, Tool: PDFViewer, Size:\n1.61 MB\n|\n01-Sep-22\nSFTP Services for Data Download\n|\nPDF, Tool: PDFViewer, Size:\n347.33 KB\n|",
+      "source": "pattern"
+    },
+    {
+      "head": "Meteorological & Oceanographic Satellite Data Archival Centre\nSkip",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Kerala",
+      "tail_type": "REGION",
+      "evidence": "Help\nYou are here\nHome\n»\nAnnouncements\nMonsoon Onset Prediction over Kerala (2024)\n|\nPDF, Tool: PDFViewer, Size:\n763.84 KB\n|\n20-May-24\nOnset over Kerala - Monsoon 2023\n|\nPDF, Tool: PDFViewer, Size:\n463.15 KB\n|\n15-May-23\nINSAT Product Version Information\n|\nPDF, Tool: PDFViewer, Size:\n1.61 MB\n|\n01-Sep-22\nSFTP Services for Data Download\n|\nPDF, Tool: PDFViewer, Size:\n347.33 KB\n|\n08-Nov-21\nAmphan, Inundation region due to landfall of Amphan cyclone\n|\nPDF, Tool: PDFViewer, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: A Decade of Service to the Nation\n|\nPDF, Tool: PDFViewer, Size:\n930.83 KB\n|\n22-Apr-16\nDigital Object Identifier (DOI)\n|\nPDF, Tool: PDFViewer, Size:\n131.04 KB\n|\n13-Apr-16\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Meteorological & Oceanographic Satellite Data Archival Centre\nSkip",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Kerala",
+      "tail_type": "REGION",
+      "evidence": "Help\nYou are here\nHome\n»\nAnnouncements\nMonsoon Onset Prediction over Kerala (2024)\n|\nPDF, Tool: PDFViewer, Size:\n763.84 KB\n|\n20-May-24\nOnset over Kerala - Monsoon 2023\n|\nPDF, Tool: PDFViewer, Size:\n463.15 KB\n|\n15-May-23\nINSAT Product Version Information\n|\nPDF, Tool: PDFViewer, Size:\n1.61 MB\n|\n01-Sep-22\nSFTP Services for Data Download\n|\nPDF, Tool: PDFViewer, Size:\n347.33 KB\n|\n08-Nov-21\nAmphan, Inundation region due to landfall of Amphan cyclone\n|\nPDF, Tool: PDFViewer, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: A Decade of Service to the Nation\n|\nPDF, Tool: PDFViewer, Size:\n930.83 KB\n|\n22-Apr-16\nDigital Object Identifier (DOI)\n|\nPDF, Tool: PDFViewer, Size:\n131.04 KB\n|\n13-Apr-16\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Meteorological & Oceanographic Satellite Data Archival Centre\nSkip",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "Help\nYou are here\nHome\n»\nAnnouncements\nMonsoon Onset Prediction over Kerala (2024)\n|\nPDF, Tool: PDFViewer, Size:\n763.84 KB\n|\n20-May-24\nOnset over Kerala - Monsoon 2023\n|\nPDF, Tool: PDFViewer, Size:\n463.15 KB\n|\n15-May-23\nINSAT Product Version Information\n|\nPDF, Tool: PDFViewer, Size:\n1.61 MB\n|\n01-Sep-22\nSFTP Services for Data Download\n|\nPDF, Tool: PDFViewer, Size:\n347.33 KB\n|\n08-Nov-21\nAmphan, Inundation region due to landfall of Amphan cyclone\n|\nPDF, Tool: PDFViewer, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: A Decade of Service to the Nation\n|\nPDF, Tool: PDFViewer, Size:\n930.83 KB\n|\n22-Apr-16\nDigital Object Identifier (DOI)\n|\nPDF, Tool: PDFViewer, Size:\n131.04 KB\n|\n13-Apr-16\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Meteorological & Oceanographic Satellite Data Archival Centre\nSkip",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Amphan",
+      "tail_type": "REGION",
+      "evidence": "Help\nYou are here\nHome\n»\nAnnouncements\nMonsoon Onset Prediction over Kerala (2024)\n|\nPDF, Tool: PDFViewer, Size:\n763.84 KB\n|\n20-May-24\nOnset over Kerala - Monsoon 2023\n|\nPDF, Tool: PDFViewer, Size:\n463.15 KB\n|\n15-May-23\nINSAT Product Version Information\n|\nPDF, Tool: PDFViewer, Size:\n1.61 MB\n|\n01-Sep-22\nSFTP Services for Data Download\n|\nPDF, Tool: PDFViewer, Size:\n347.33 KB\n|\n08-Nov-21\nAmphan, Inundation region due to landfall of Amphan cyclone\n|\nPDF, Tool: PDFViewer, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: A Decade of Service to the Nation\n|\nPDF, Tool: PDFViewer, Size:\n930.83 KB\n|\n22-Apr-16\nDigital Object Identifier (DOI)\n|\nPDF, Tool: PDFViewer, Size:\n131.04 KB\n|\n13-Apr-16\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Meteorological & Oceanographic Satellite Data Archival Centre\nSkip",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "Help\nYou are here\nHome\n»\nAnnouncements\nMonsoon Onset Prediction over Kerala (2024)\n|\nPDF, Tool: PDFViewer, Size:\n763.84 KB\n|\n20-May-24\nOnset over Kerala - Monsoon 2023\n|\nPDF, Tool: PDFViewer, Size:\n463.15 KB\n|\n15-May-23\nINSAT Product Version Information\n|\nPDF, Tool: PDFViewer, Size:\n1.61 MB\n|\n01-Sep-22\nSFTP Services for Data Download\n|\nPDF, Tool: PDFViewer, Size:\n347.33 KB\n|\n08-Nov-21\nAmphan, Inundation region due to landfall of Amphan cyclone\n|\nPDF, Tool: PDFViewer, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: A Decade of Service to the Nation\n|\nPDF, Tool: PDFViewer, Size:\n930.83 KB\n|\n22-Apr-16\nDigital Object Identifier (DOI)\n|\nPDF, Tool: PDFViewer, Size:\n131.04 KB\n|\n13-Apr-16\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Meteorological & Oceanographic Satellite Data Archival Centre\nSkip",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "Help\nYou are here\nHome\n»\nAnnouncements\nMonsoon Onset Prediction over Kerala (2024)\n|\nPDF, Tool: PDFViewer, Size:\n763.84 KB\n|\n20-May-24\nOnset over Kerala - Monsoon 2023\n|\nPDF, Tool: PDFViewer, Size:\n463.15 KB\n|\n15-May-23\nINSAT Product Version Information\n|\nPDF, Tool: PDFViewer, Size:\n1.61 MB\n|\n01-Sep-22\nSFTP Services for Data Download\n|\nPDF, Tool: PDFViewer, Size:\n347.33 KB\n|\n08-Nov-21\nAmphan, Inundation region due to landfall of Amphan cyclone\n|\nPDF, Tool: PDFViewer, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: A Decade of Service to the Nation\n|\nPDF, Tool: PDFViewer, Size:\n930.83 KB\n|\n22-Apr-16\nDigital Object Identifier (DOI)\n|\nPDF, Tool: PDFViewer, Size:\n131.04 KB\n|\n13-Apr-16\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "English",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "rediction over Kerala (2024)\n|\nPDF, Tool: PDFViewer, Size:\n763.84 KB\n|\n20-May-24\nOnset over Kerala - Monsoon 2023\n|\nPDF, Tool: PDFViewer, Size:\n463.15 KB\n|\n15-May-23\nINSAT Product Version Information\n|\nPDF, Tool: PDFViewer, S",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "English",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "rediction over Kerala (2024)\n|\nPDF, Tool: PDFViewer, Size:\n763.84 KB\n|\n20-May-24\nOnset over Kerala - Monsoon 2023\n|\nPDF, Tool: PDFViewer, Size:\n463.15 KB\n|\n15-May-23\nINSAT Product Version Information\n|\nPDF, Tool: PDFViewer, Size:\n1.61",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "English",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "rediction over Kerala (2024)\n|\nPDF, Tool: PDFViewer, Size:\n763.84 KB\n|\n20-May-24\nOnset over Kerala - Monsoon 2023\n|\nPDF, Tool: PDFViewer, Size:\n463.15 KB\n|\n15-May-23\nINSAT Product Version Information\n|\nPDF, Tool: PDFViewer, Size:\n1.61 MB\n|\n01-Sep-22\nSFTP Services for Data D",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "English",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "rediction over Kerala (2024)\n|\nPDF, Tool: PDFViewer, Size:\n763.84 KB\n|\n20-May-24\nOnset over Kerala - Monsoon 2023\n|\nPDF, Tool: PDFViewer, Size:\n463.15 KB\n|\n15-May-23\nINSAT Product Version Information\n|\nPDF, Tool: PDFViewer, Size:\n1.61 MB\n|\n01-Sep-22\nSFTP Services for Data Download\n|\nPDF, Tool: PDFViewer, Size:\n347.33 KB\n|",
+      "source": "pattern"
+    },
+    {
+      "head": "English",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Kerala",
+      "tail_type": "REGION",
+      "evidence": "rediction over Kerala (2024)\n|\nPDF, Tool: PDFViewer, Size:\n763.84 KB\n|\n20-May-24\nOnset over Kerala - Monsoon 2023\n|\nPDF, Tool: PDFViewer, Size:\n463.15 KB\n|\n15-May-23\nINSAT Product Version Information\n|\nPDF, Tool: PDFViewer, Size:\n1.61 MB\n|\n01-Sep-22\nSFTP Services for Data Download\n|\nPDF, Tool: PDFViewer, Size:\n347.33 KB\n|\n08-Nov-21\nAmphan, Inundation region due to landfall of Amphan cyclone\n|\nPDF, Tool: PDFViewer, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: A Decade of Service to the Nation\n|\nPDF, Tool: PDFViewer, Size:\n930.83 KB\n|\n22-Apr-16\nDigital Object Identifier (DOI)\n|\nPDF, Tool: PDFViewer, Size:\n131.04 KB\n|\n13-Apr-16\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "English",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Kerala",
+      "tail_type": "REGION",
+      "evidence": "rediction over Kerala (2024)\n|\nPDF, Tool: PDFViewer, Size:\n763.84 KB\n|\n20-May-24\nOnset over Kerala - Monsoon 2023\n|\nPDF, Tool: PDFViewer, Size:\n463.15 KB\n|\n15-May-23\nINSAT Product Version Information\n|\nPDF, Tool: PDFViewer, Size:\n1.61 MB\n|\n01-Sep-22\nSFTP Services for Data Download\n|\nPDF, Tool: PDFViewer, Size:\n347.33 KB\n|\n08-Nov-21\nAmphan, Inundation region due to landfall of Amphan cyclone\n|\nPDF, Tool: PDFViewer, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: A Decade of Service to the Nation\n|\nPDF, Tool: PDFViewer, Size:\n930.83 KB\n|\n22-Apr-16\nDigital Object Identifier (DOI)\n|\nPDF, Tool: PDFViewer, Size:\n131.04 KB\n|\n13-Apr-16\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "English",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "rediction over Kerala (2024)\n|\nPDF, Tool: PDFViewer, Size:\n763.84 KB\n|\n20-May-24\nOnset over Kerala - Monsoon 2023\n|\nPDF, Tool: PDFViewer, Size:\n463.15 KB\n|\n15-May-23\nINSAT Product Version Information\n|\nPDF, Tool: PDFViewer, Size:\n1.61 MB\n|\n01-Sep-22\nSFTP Services for Data Download\n|\nPDF, Tool: PDFViewer, Size:\n347.33 KB\n|\n08-Nov-21\nAmphan, Inundation region due to landfall of Amphan cyclone\n|\nPDF, Tool: PDFViewer, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: A Decade of Service to the Nation\n|\nPDF, Tool: PDFViewer, Size:\n930.83 KB\n|\n22-Apr-16\nDigital Object Identifier (DOI)\n|\nPDF, Tool: PDFViewer, Size:\n131.04 KB\n|\n13-Apr-16\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "English",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Amphan",
+      "tail_type": "REGION",
+      "evidence": "rediction over Kerala (2024)\n|\nPDF, Tool: PDFViewer, Size:\n763.84 KB\n|\n20-May-24\nOnset over Kerala - Monsoon 2023\n|\nPDF, Tool: PDFViewer, Size:\n463.15 KB\n|\n15-May-23\nINSAT Product Version Information\n|\nPDF, Tool: PDFViewer, Size:\n1.61 MB\n|\n01-Sep-22\nSFTP Services for Data Download\n|\nPDF, Tool: PDFViewer, Size:\n347.33 KB\n|\n08-Nov-21\nAmphan, Inundation region due to landfall of Amphan cyclone\n|\nPDF, Tool: PDFViewer, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: A Decade of Service to the Nation\n|\nPDF, Tool: PDFViewer, Size:\n930.83 KB\n|\n22-Apr-16\nDigital Object Identifier (DOI)\n|\nPDF, Tool: PDFViewer, Size:\n131.04 KB\n|\n13-Apr-16\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "English",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "rediction over Kerala (2024)\n|\nPDF, Tool: PDFViewer, Size:\n763.84 KB\n|\n20-May-24\nOnset over Kerala - Monsoon 2023\n|\nPDF, Tool: PDFViewer, Size:\n463.15 KB\n|\n15-May-23\nINSAT Product Version Information\n|\nPDF, Tool: PDFViewer, Size:\n1.61 MB\n|\n01-Sep-22\nSFTP Services for Data Download\n|\nPDF, Tool: PDFViewer, Size:\n347.33 KB\n|\n08-Nov-21\nAmphan, Inundation region due to landfall of Amphan cyclone\n|\nPDF, Tool: PDFViewer, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: A Decade of Service to the Nation\n|\nPDF, Tool: PDFViewer, Size:\n930.83 KB\n|\n22-Apr-16\nDigital Object Identifier (DOI)\n|\nPDF, Tool: PDFViewer, Size:\n131.04 KB\n|\n13-Apr-16\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "English",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "rediction over Kerala (2024)\n|\nPDF, Tool: PDFViewer, Size:\n763.84 KB\n|\n20-May-24\nOnset over Kerala - Monsoon 2023\n|\nPDF, Tool: PDFViewer, Size:\n463.15 KB\n|\n15-May-23\nINSAT Product Version Information\n|\nPDF, Tool: PDFViewer, Size:\n1.61 MB\n|\n01-Sep-22\nSFTP Services for Data Download\n|\nPDF, Tool: PDFViewer, Size:\n347.33 KB\n|\n08-Nov-21\nAmphan, Inundation region due to landfall of Amphan cyclone\n|\nPDF, Tool: PDFViewer, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: A Decade of Service to the Nation\n|\nPDF, Tool: PDFViewer, Size:\n930.83 KB\n|\n22-Apr-16\nDigital Object Identifier (DOI)\n|\nPDF, Tool: PDFViewer, Size:\n131.04 KB\n|\n13-Apr-16\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Satellite Data Archival Centre\nSpace Applications Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "l: PDFViewer, Size:\n763.84 KB\n|\n20-May-24\nOnset over Kerala - Monsoon 2023\n|\nPDF, Tool: PDFViewer, Size:\n463.15 KB\n|\n15-May-23\nINSAT Product Version Information\n|\nPDF, Tool: PDFViewer, S",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Satellite Data Archival Centre\nSpace Applications Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "l: PDFViewer, Size:\n763.84 KB\n|\n20-May-24\nOnset over Kerala - Monsoon 2023\n|\nPDF, Tool: PDFViewer, Size:\n463.15 KB\n|\n15-May-23\nINSAT Product Version Information\n|\nPDF, Tool: PDFViewer, Size:\n1.61",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Satellite Data Archival Centre\nSpace Applications Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "l: PDFViewer, Size:\n763.84 KB\n|\n20-May-24\nOnset over Kerala - Monsoon 2023\n|\nPDF, Tool: PDFViewer, Size:\n463.15 KB\n|\n15-May-23\nINSAT Product Version Information\n|\nPDF, Tool: PDFViewer, Size:\n1.61 MB\n|\n01-Sep-22\nSFTP Services for Data D",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Satellite Data Archival Centre\nSpace Applications Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "l: PDFViewer, Size:\n763.84 KB\n|\n20-May-24\nOnset over Kerala - Monsoon 2023\n|\nPDF, Tool: PDFViewer, Size:\n463.15 KB\n|\n15-May-23\nINSAT Product Version Information\n|\nPDF, Tool: PDFViewer, Size:\n1.61 MB\n|\n01-Sep-22\nSFTP Services for Data Download\n|\nPDF, Tool: PDFViewer, Size:\n347.33 KB\n|",
+      "source": "pattern"
+    },
+    {
+      "head": "Satellite Data Archival Centre\nSpace Applications Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Kerala",
+      "tail_type": "REGION",
+      "evidence": "l: PDFViewer, Size:\n763.84 KB\n|\n20-May-24\nOnset over Kerala - Monsoon 2023\n|\nPDF, Tool: PDFViewer, Size:\n463.15 KB\n|\n15-May-23\nINSAT Product Version Information\n|\nPDF, Tool: PDFViewer, Size:\n1.61 MB\n|\n01-Sep-22\nSFTP Services for Data Download\n|\nPDF, Tool: PDFViewer, Size:\n347.33 KB\n|\n08-Nov-21\nAmphan, Inundation region due to landfall of Amphan cyclone\n|\nPDF, Tool: PDFViewer, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: A Decade of Service to the Nation\n|\nPDF, Tool: PDFViewer, Size:\n930.83 KB\n|\n22-Apr-16\nDigital Object Identifier (DOI)\n|\nPDF, Tool: PDFViewer, Size:\n131.04 KB\n|\n13-Apr-16\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Satellite Data Archival Centre\nSpace Applications Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Kerala",
+      "tail_type": "REGION",
+      "evidence": "l: PDFViewer, Size:\n763.84 KB\n|\n20-May-24\nOnset over Kerala - Monsoon 2023\n|\nPDF, Tool: PDFViewer, Size:\n463.15 KB\n|\n15-May-23\nINSAT Product Version Information\n|\nPDF, Tool: PDFViewer, Size:\n1.61 MB\n|\n01-Sep-22\nSFTP Services for Data Download\n|\nPDF, Tool: PDFViewer, Size:\n347.33 KB\n|\n08-Nov-21\nAmphan, Inundation region due to landfall of Amphan cyclone\n|\nPDF, Tool: PDFViewer, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: A Decade of Service to the Nation\n|\nPDF, Tool: PDFViewer, Size:\n930.83 KB\n|\n22-Apr-16\nDigital Object Identifier (DOI)\n|\nPDF, Tool: PDFViewer, Size:\n131.04 KB\n|\n13-Apr-16\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Satellite Data Archival Centre\nSpace Applications Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "l: PDFViewer, Size:\n763.84 KB\n|\n20-May-24\nOnset over Kerala - Monsoon 2023\n|\nPDF, Tool: PDFViewer, Size:\n463.15 KB\n|\n15-May-23\nINSAT Product Version Information\n|\nPDF, Tool: PDFViewer, Size:\n1.61 MB\n|\n01-Sep-22\nSFTP Services for Data Download\n|\nPDF, Tool: PDFViewer, Size:\n347.33 KB\n|\n08-Nov-21\nAmphan, Inundation region due to landfall of Amphan cyclone\n|\nPDF, Tool: PDFViewer, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: A Decade of Service to the Nation\n|\nPDF, Tool: PDFViewer, Size:\n930.83 KB\n|\n22-Apr-16\nDigital Object Identifier (DOI)\n|\nPDF, Tool: PDFViewer, Size:\n131.04 KB\n|\n13-Apr-16\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Satellite Data Archival Centre\nSpace Applications Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Amphan",
+      "tail_type": "REGION",
+      "evidence": "l: PDFViewer, Size:\n763.84 KB\n|\n20-May-24\nOnset over Kerala - Monsoon 2023\n|\nPDF, Tool: PDFViewer, Size:\n463.15 KB\n|\n15-May-23\nINSAT Product Version Information\n|\nPDF, Tool: PDFViewer, Size:\n1.61 MB\n|\n01-Sep-22\nSFTP Services for Data Download\n|\nPDF, Tool: PDFViewer, Size:\n347.33 KB\n|\n08-Nov-21\nAmphan, Inundation region due to landfall of Amphan cyclone\n|\nPDF, Tool: PDFViewer, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: A Decade of Service to the Nation\n|\nPDF, Tool: PDFViewer, Size:\n930.83 KB\n|\n22-Apr-16\nDigital Object Identifier (DOI)\n|\nPDF, Tool: PDFViewer, Size:\n131.04 KB\n|\n13-Apr-16\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Satellite Data Archival Centre\nSpace Applications Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "l: PDFViewer, Size:\n763.84 KB\n|\n20-May-24\nOnset over Kerala - Monsoon 2023\n|\nPDF, Tool: PDFViewer, Size:\n463.15 KB\n|\n15-May-23\nINSAT Product Version Information\n|\nPDF, Tool: PDFViewer, Size:\n1.61 MB\n|\n01-Sep-22\nSFTP Services for Data Download\n|\nPDF, Tool: PDFViewer, Size:\n347.33 KB\n|\n08-Nov-21\nAmphan, Inundation region due to landfall of Amphan cyclone\n|\nPDF, Tool: PDFViewer, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: A Decade of Service to the Nation\n|\nPDF, Tool: PDFViewer, Size:\n930.83 KB\n|\n22-Apr-16\nDigital Object Identifier (DOI)\n|\nPDF, Tool: PDFViewer, Size:\n131.04 KB\n|\n13-Apr-16\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Satellite Data Archival Centre\nSpace Applications Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "l: PDFViewer, Size:\n763.84 KB\n|\n20-May-24\nOnset over Kerala - Monsoon 2023\n|\nPDF, Tool: PDFViewer, Size:\n463.15 KB\n|\n15-May-23\nINSAT Product Version Information\n|\nPDF, Tool: PDFViewer, Size:\n1.61 MB\n|\n01-Sep-22\nSFTP Services for Data Download\n|\nPDF, Tool: PDFViewer, Size:\n347.33 KB\n|\n08-Nov-21\nAmphan, Inundation region due to landfall of Amphan cyclone\n|\nPDF, Tool: PDFViewer, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: A Decade of Service to the Nation\n|\nPDF, Tool: PDFViewer, Size:\n930.83 KB\n|\n22-Apr-16\nDigital Object Identifier (DOI)\n|\nPDF, Tool: PDFViewer, Size:\n131.04 KB\n|\n13-Apr-16\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "ISRO",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Kerala",
+      "tail_type": "REGION",
+      "evidence": "a - Monsoon 2023\n|\nPDF, Tool: PDFViewer, Size:\n463.15 KB\n|\n15-May-23\nINSAT Product Version Information\n|\nPDF, Tool: PDFViewer, Size:\n1.61 MB\n|\n01-Sep-22\nSFTP Services for Data Download\n|\nPDF, Tool: PDFViewer, Size:\n347.33 KB\n|\n08-Nov-21\nAmphan, Inundation region due to landfall of Amphan cyclone\n|\nPDF, Tool: PDFViewer, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: A Decade of Service to the Nation\n|\nPDF, Tool: PDFViewer, Size:\n930.83 KB\n|\n22-Apr-16\nDigital Object Identifier (DOI)\n|\nPDF, Tool: PDFViewer, Size:\n131.04 KB\n|\n13-Apr-16\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "ISRO",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Kerala",
+      "tail_type": "REGION",
+      "evidence": "a - Monsoon 2023\n|\nPDF, Tool: PDFViewer, Size:\n463.15 KB\n|\n15-May-23\nINSAT Product Version Information\n|\nPDF, Tool: PDFViewer, Size:\n1.61 MB\n|\n01-Sep-22\nSFTP Services for Data Download\n|\nPDF, Tool: PDFViewer, Size:\n347.33 KB\n|\n08-Nov-21\nAmphan, Inundation region due to landfall of Amphan cyclone\n|\nPDF, Tool: PDFViewer, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: A Decade of Service to the Nation\n|\nPDF, Tool: PDFViewer, Size:\n930.83 KB\n|\n22-Apr-16\nDigital Object Identifier (DOI)\n|\nPDF, Tool: PDFViewer, Size:\n131.04 KB\n|\n13-Apr-16\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "ISRO",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Amphan",
+      "tail_type": "REGION",
+      "evidence": "a - Monsoon 2023\n|\nPDF, Tool: PDFViewer, Size:\n463.15 KB\n|\n15-May-23\nINSAT Product Version Information\n|\nPDF, Tool: PDFViewer, Size:\n1.61 MB\n|\n01-Sep-22\nSFTP Services for Data Download\n|\nPDF, Tool: PDFViewer, Size:\n347.33 KB\n|\n08-Nov-21\nAmphan, Inundation region due to landfall of Amphan cyclone\n|\nPDF, Tool: PDFViewer, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: A Decade of Service to the Nation\n|\nPDF, Tool: PDFViewer, Size:\n930.83 KB\n|\n22-Apr-16\nDigital Object Identifier (DOI)\n|\nPDF, Tool: PDFViewer, Size:\n131.04 KB\n|\n13-Apr-16\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "ISRO",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "a - Monsoon 2023\n|\nPDF, Tool: PDFViewer, Size:\n463.15 KB\n|\n15-May-23\nINSAT Product Version Information\n|\nPDF, Tool: PDFViewer, Size:\n1.61 MB\n|\n01-Sep-22\nSFTP Services for Data Download\n|\nPDF, Tool: PDFViewer, Size:\n347.33 KB\n|\n08-Nov-21\nAmphan, Inundation region due to landfall of Amphan cyclone\n|\nPDF, Tool: PDFViewer, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: A Decade of Service to the Nation\n|\nPDF, Tool: PDFViewer, Size:\n930.83 KB\n|\n22-Apr-16\nDigital Object Identifier (DOI)\n|\nPDF, Tool: PDFViewer, Size:\n131.04 KB\n|\n13-Apr-16\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "ISRO",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "a - Monsoon 2023\n|\nPDF, Tool: PDFViewer, Size:\n463.15 KB\n|\n15-May-23\nINSAT Product Version Information\n|\nPDF, Tool: PDFViewer, Size:\n1.61 MB\n|\n01-Sep-22\nSFTP Services for Data Download\n|\nPDF, Tool: PDFViewer, Size:\n347.33 KB\n|\n08-Nov-21\nAmphan, Inundation region due to landfall of Amphan cyclone\n|\nPDF, Tool: PDFViewer, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: A Decade of Service to the Nation\n|\nPDF, Tool: PDFViewer, Size:\n930.83 KB\n|\n22-Apr-16\nDigital Object Identifier (DOI)\n|\nPDF, Tool: PDFViewer, Size:\n131.04 KB\n|\n13-Apr-16\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Global Ocean Current",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "PDF, Tool: PDFViewer, Size:\n463.15 KB\n|\n15-May-23\nINSAT Product Version Information\n|\nPDF, Tool: PDFViewer, Size:\n1.61 MB\n|\n01-Sep-22\nSFTP Services for Data Download\n|\nPDF, Tool: PDFViewer, Size:\n347.33 KB\n|\n08-Nov-21\nAmphan, Inundation region due to landfall of Amphan cyclone\n|\nPDF, Tool: PDFViewer, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: ",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Access",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "PDF, Tool: PDFViewer, Size:\n463.15 KB\n|\n15-May-23\nINSAT Product Version Information\n|\nPDF, Tool: PDFViewer, Size:\n1.61 MB\n|\n01-Sep-22\nSFTP Services for Data Download\n|\nPDF, Tool: PDFViewer, Size:\n347.33 KB\n|\n08-Nov-21\nAmphan, Inundation region due to landfall of Amphan cyclone\n|\nPDF, Tool: PDFViewer, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: A Decade of ",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Indian Mainland Coastal Product",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "PDF, Tool: PDFViewer, Size:\n463.15 KB\n|\n15-May-23\nINSAT Product Version Information\n|\nPDF, Tool: PDFViewer, Size:\n1.61 MB\n|\n01-Sep-22\nSFTP Services for Data Download\n|\nPDF, Tool: PDFViewer, Size:\n347.33 KB\n|\n08-Nov-21\nAmphan, Inundation region due to landfall of Amphan cyclone\n|\nPDF, Tool: PDFViewer, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: A Decade of Service to the Nation\n|\nPDF, Tool: PDFViewer, Size:\n930.83 KB\n|\n22-Apr-16\nDigital Object Identifier (DOI)\n|\nPDF, Tool: PDFViewer, Size:\n131.04 KB\n|\n13-Apr-16\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Quality",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "PDF, Tool: PDFViewer, Size:\n463.15 KB\n|\n15-May-23\nINSAT Product Version Information\n|\nPDF, Tool: PDFViewer, Size:\n1.61 MB\n|\n01-Sep-22\nSFTP Services for Data Download\n|\nPDF, Tool: PDFViewer, Size:\n347.33 KB\n|\n08-Nov-21\nAmphan, Inundation region due to landfall of Amphan cyclone\n|\nPDF, Tool: PDFViewer, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: A Decade of Service to the Nation\n|\nPDF, Tool: PDFViewer, Size:\n930.83 KB\n|\n22-Apr-16\nDigital Object Identifier (DOI)\n|\nPDF, Tool: PDFViewer, Size:\n131.04 KB\n|\n13-Apr-16\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "Kerala",
+      "tail_type": "REGION",
+      "evidence": "PDF, Tool: PDFViewer, Size:\n463.15 KB\n|\n15-May-23\nINSAT Product Version Information\n|\nPDF, Tool: PDFViewer, Size:\n1.61 MB\n|\n01-Sep-22\nSFTP Services for Data Download\n|\nPDF, Tool: PDFViewer, Size:\n347.33 KB\n|\n08-Nov-21\nAmphan, Inundation region due to landfall of Amphan cyclone\n|\nPDF, Tool: PDFViewer, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: A Decade of Service to the Nation\n|\nPDF, Tool: PDFViewer, Size:\n930.83 KB\n|\n22-Apr-16\nDigital Object Identifier (DOI)\n|\nPDF, Tool: PDFViewer, Size:\n131.04 KB\n|\n13-Apr-16\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "Kerala",
+      "tail_type": "REGION",
+      "evidence": "PDF, Tool: PDFViewer, Size:\n463.15 KB\n|\n15-May-23\nINSAT Product Version Information\n|\nPDF, Tool: PDFViewer, Size:\n1.61 MB\n|\n01-Sep-22\nSFTP Services for Data Download\n|\nPDF, Tool: PDFViewer, Size:\n347.33 KB\n|\n08-Nov-21\nAmphan, Inundation region due to landfall of Amphan cyclone\n|\nPDF, Tool: PDFViewer, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: A Decade of Service to the Nation\n|\nPDF, Tool: PDFViewer, Size:\n930.83 KB\n|\n22-Apr-16\nDigital Object Identifier (DOI)\n|\nPDF, Tool: PDFViewer, Size:\n131.04 KB\n|\n13-Apr-16\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "463.15",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "PDF, Tool: PDFViewer, Size:\n463.15 KB\n|\n15-May-23\nINSAT Product Version Information\n|\nPDF, Tool: PDFViewer, Size:\n1.61 MB\n|\n01-Sep-22\nSFTP Services for Data Download\n|\nPDF, Tool: PDFViewer, Size:\n347.33 KB\n|\n08-Nov-21\nAmphan, Inundation region due to landfall of Amphan cyclone\n|\nPDF, Tool: PDFViewer, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: A Decade of Service to the Nation\n|\nPDF, Tool: PDFViewer, Size:\n930.83 KB\n|\n22-Apr-16\nDigital Object Identifier (DOI)\n|\nPDF, Tool: PDFViewer, Size:\n131.04 KB\n|\n13-Apr-16\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Download",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "PDF, Tool: PDFViewer, Size:\n463.15 KB\n|\n15-May-23\nINSAT Product Version Information\n|\nPDF, Tool: PDFViewer, Size:\n1.61 MB\n|\n01-Sep-22\nSFTP Services for Data Download\n|\nPDF, Tool: PDFViewer, Size:\n347.33 KB\n|\n08-Nov-21\nAmphan, Inundation region due to landfall of Amphan cyclone\n|\nPDF, Tool: PDFViewer, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: A Decade of Service to the Nation\n|\nPDF, Tool: PDFViewer, Size:\n930.83 KB\n|\n22-Apr-16\nDigital Object Identifier (DOI)\n|\nPDF, Tool: PDFViewer, Size:\n131.04 KB\n|\n13-Apr-16\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "347.33",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "PDF, Tool: PDFViewer, Size:\n463.15 KB\n|\n15-May-23\nINSAT Product Version Information\n|\nPDF, Tool: PDFViewer, Size:\n1.61 MB\n|\n01-Sep-22\nSFTP Services for Data Download\n|\nPDF, Tool: PDFViewer, Size:\n347.33 KB\n|\n08-Nov-21\nAmphan, Inundation region due to landfall of Amphan cyclone\n|\nPDF, Tool: PDFViewer, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: A Decade of Service to the Nation\n|\nPDF, Tool: PDFViewer, Size:\n930.83 KB\n|\n22-Apr-16\nDigital Object Identifier (DOI)\n|\nPDF, Tool: PDFViewer, Size:\n131.04 KB\n|\n13-Apr-16\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "Amphan",
+      "tail_type": "REGION",
+      "evidence": "PDF, Tool: PDFViewer, Size:\n463.15 KB\n|\n15-May-23\nINSAT Product Version Information\n|\nPDF, Tool: PDFViewer, Size:\n1.61 MB\n|\n01-Sep-22\nSFTP Services for Data Download\n|\nPDF, Tool: PDFViewer, Size:\n347.33 KB\n|\n08-Nov-21\nAmphan, Inundation region due to landfall of Amphan cyclone\n|\nPDF, Tool: PDFViewer, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: A Decade of Service to the Nation\n|\nPDF, Tool: PDFViewer, Size:\n930.83 KB\n|\n22-Apr-16\nDigital Object Identifier (DOI)\n|\nPDF, Tool: PDFViewer, Size:\n131.04 KB\n|\n13-Apr-16\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "PDF, Tool: PDFViewer, Size:\n463.15 KB\n|\n15-May-23\nINSAT Product Version Information\n|\nPDF, Tool: PDFViewer, Size:\n1.61 MB\n|\n01-Sep-22\nSFTP Services for Data Download\n|\nPDF, Tool: PDFViewer, Size:\n347.33 KB\n|\n08-Nov-21\nAmphan, Inundation region due to landfall of Amphan cyclone\n|\nPDF, Tool: PDFViewer, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: A Decade of Service to the Nation\n|\nPDF, Tool: PDFViewer, Size:\n930.83 KB\n|\n22-Apr-16\nDigital Object Identifier (DOI)\n|\nPDF, Tool: PDFViewer, Size:\n131.04 KB\n|\n13-Apr-16\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "PDF, Tool: PDFViewer, Size:\n463.15 KB\n|\n15-May-23\nINSAT Product Version Information\n|\nPDF, Tool: PDFViewer, Size:\n1.61 MB\n|\n01-Sep-22\nSFTP Services for Data Download\n|\nPDF, Tool: PDFViewer, Size:\n347.33 KB\n|\n08-Nov-21\nAmphan, Inundation region due to landfall of Amphan cyclone\n|\nPDF, Tool: PDFViewer, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: A Decade of Service to the Nation\n|\nPDF, Tool: PDFViewer, Size:\n930.83 KB\n|\n22-Apr-16\nDigital Object Identifier (DOI)\n|\nPDF, Tool: PDFViewer, Size:\n131.04 KB\n|\n13-Apr-16\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic Satellite Data Archival Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic Satellite Data Archival Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "a Data Centre of Space Applications Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic Satellite Data Archival Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "a Data Centre of Space Applications Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "PDF, Tool: PDFViewer, Size:\n463.15 KB\n|\n15-May-23\nINSAT Product Version Information\n|\nPDF, Tool: P",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Indian",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "PDF, Tool: PDFViewer, Size:\n463.15 KB\n|\n15-May-23\nINSAT Product Version Information\n|\nPDF, Tool: PDFViewer, Size:\n1.61 MB\n|\n01-Sep-22\nSFTP Services for Data Dow",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Satellite",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data, Archival",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Global Ocean Current",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": " PDFViewer, Size:\n463.15 KB\n|\n15-May-23\nINSAT Product Version Information\n|\nPDF, Tool: PDFViewer, Size:\n1.61 MB\n|\n01-Sep-22\nSFTP Services for Data Download\n|\nPDF, Tool: PDFViewer, Size:\n347.33 KB\n|\n08-Nov-21\nAmphan, Inundation region due to landfall of Amphan cyclone\n|\nPDF, Tool: PDFViewer, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: ",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Access",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": " PDFViewer, Size:\n463.15 KB\n|\n15-May-23\nINSAT Product Version Information\n|\nPDF, Tool: PDFViewer, Size:\n1.61 MB\n|\n01-Sep-22\nSFTP Services for Data Download\n|\nPDF, Tool: PDFViewer, Size:\n347.33 KB\n|\n08-Nov-21\nAmphan, Inundation region due to landfall of Amphan cyclone\n|\nPDF, Tool: PDFViewer, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: A Decade of ",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Indian Mainland Coastal Product",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": " PDFViewer, Size:\n463.15 KB\n|\n15-May-23\nINSAT Product Version Information\n|\nPDF, Tool: PDFViewer, Size:\n1.61 MB\n|\n01-Sep-22\nSFTP Services for Data Download\n|\nPDF, Tool: PDFViewer, Size:\n347.33 KB\n|\n08-Nov-21\nAmphan, Inundation region due to landfall of Amphan cyclone\n|\nPDF, Tool: PDFViewer, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: A Decade of Service to the Nation\n|\nPDF, Tool: PDFViewer, Size:\n930.83 KB\n|\n22-Apr-16\nDigital Object Identifier (DOI)\n|\nPDF, Tool: PDFViewer, Size:\n131.04 KB\n|\n13-Apr-16\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Quality",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": " PDFViewer, Size:\n463.15 KB\n|\n15-May-23\nINSAT Product Version Information\n|\nPDF, Tool: PDFViewer, Size:\n1.61 MB\n|\n01-Sep-22\nSFTP Services for Data Download\n|\nPDF, Tool: PDFViewer, Size:\n347.33 KB\n|\n08-Nov-21\nAmphan, Inundation region due to landfall of Amphan cyclone\n|\nPDF, Tool: PDFViewer, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: A Decade of Service to the Nation\n|\nPDF, Tool: PDFViewer, Size:\n930.83 KB\n|\n22-Apr-16\nDigital Object Identifier (DOI)\n|\nPDF, Tool: PDFViewer, Size:\n131.04 KB\n|\n13-Apr-16\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "Kerala",
+      "tail_type": "REGION",
+      "evidence": " PDFViewer, Size:\n463.15 KB\n|\n15-May-23\nINSAT Product Version Information\n|\nPDF, Tool: PDFViewer, Size:\n1.61 MB\n|\n01-Sep-22\nSFTP Services for Data Download\n|\nPDF, Tool: PDFViewer, Size:\n347.33 KB\n|\n08-Nov-21\nAmphan, Inundation region due to landfall of Amphan cyclone\n|\nPDF, Tool: PDFViewer, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: A Decade of Service to the Nation\n|\nPDF, Tool: PDFViewer, Size:\n930.83 KB\n|\n22-Apr-16\nDigital Object Identifier (DOI)\n|\nPDF, Tool: PDFViewer, Size:\n131.04 KB\n|\n13-Apr-16\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "Kerala",
+      "tail_type": "REGION",
+      "evidence": " PDFViewer, Size:\n463.15 KB\n|\n15-May-23\nINSAT Product Version Information\n|\nPDF, Tool: PDFViewer, Size:\n1.61 MB\n|\n01-Sep-22\nSFTP Services for Data Download\n|\nPDF, Tool: PDFViewer, Size:\n347.33 KB\n|\n08-Nov-21\nAmphan, Inundation region due to landfall of Amphan cyclone\n|\nPDF, Tool: PDFViewer, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: A Decade of Service to the Nation\n|\nPDF, Tool: PDFViewer, Size:\n930.83 KB\n|\n22-Apr-16\nDigital Object Identifier (DOI)\n|\nPDF, Tool: PDFViewer, Size:\n131.04 KB\n|\n13-Apr-16\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "463.15",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": " PDFViewer, Size:\n463.15 KB\n|\n15-May-23\nINSAT Product Version Information\n|\nPDF, Tool: PDFViewer, Size:\n1.61 MB\n|\n01-Sep-22\nSFTP Services for Data Download\n|\nPDF, Tool: PDFViewer, Size:\n347.33 KB\n|\n08-Nov-21\nAmphan, Inundation region due to landfall of Amphan cyclone\n|\nPDF, Tool: PDFViewer, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: A Decade of Service to the Nation\n|\nPDF, Tool: PDFViewer, Size:\n930.83 KB\n|\n22-Apr-16\nDigital Object Identifier (DOI)\n|\nPDF, Tool: PDFViewer, Size:\n131.04 KB\n|\n13-Apr-16\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Download",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": " PDFViewer, Size:\n463.15 KB\n|\n15-May-23\nINSAT Product Version Information\n|\nPDF, Tool: PDFViewer, Size:\n1.61 MB\n|\n01-Sep-22\nSFTP Services for Data Download\n|\nPDF, Tool: PDFViewer, Size:\n347.33 KB\n|\n08-Nov-21\nAmphan, Inundation region due to landfall of Amphan cyclone\n|\nPDF, Tool: PDFViewer, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: A Decade of Service to the Nation\n|\nPDF, Tool: PDFViewer, Size:\n930.83 KB\n|\n22-Apr-16\nDigital Object Identifier (DOI)\n|\nPDF, Tool: PDFViewer, Size:\n131.04 KB\n|\n13-Apr-16\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "347.33",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": " PDFViewer, Size:\n463.15 KB\n|\n15-May-23\nINSAT Product Version Information\n|\nPDF, Tool: PDFViewer, Size:\n1.61 MB\n|\n01-Sep-22\nSFTP Services for Data Download\n|\nPDF, Tool: PDFViewer, Size:\n347.33 KB\n|\n08-Nov-21\nAmphan, Inundation region due to landfall of Amphan cyclone\n|\nPDF, Tool: PDFViewer, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: A Decade of Service to the Nation\n|\nPDF, Tool: PDFViewer, Size:\n930.83 KB\n|\n22-Apr-16\nDigital Object Identifier (DOI)\n|\nPDF, Tool: PDFViewer, Size:\n131.04 KB\n|\n13-Apr-16\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "Amphan",
+      "tail_type": "REGION",
+      "evidence": " PDFViewer, Size:\n463.15 KB\n|\n15-May-23\nINSAT Product Version Information\n|\nPDF, Tool: PDFViewer, Size:\n1.61 MB\n|\n01-Sep-22\nSFTP Services for Data Download\n|\nPDF, Tool: PDFViewer, Size:\n347.33 KB\n|\n08-Nov-21\nAmphan, Inundation region due to landfall of Amphan cyclone\n|\nPDF, Tool: PDFViewer, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: A Decade of Service to the Nation\n|\nPDF, Tool: PDFViewer, Size:\n930.83 KB\n|\n22-Apr-16\nDigital Object Identifier (DOI)\n|\nPDF, Tool: PDFViewer, Size:\n131.04 KB\n|\n13-Apr-16\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": " PDFViewer, Size:\n463.15 KB\n|\n15-May-23\nINSAT Product Version Information\n|\nPDF, Tool: PDFViewer, Size:\n1.61 MB\n|\n01-Sep-22\nSFTP Services for Data Download\n|\nPDF, Tool: PDFViewer, Size:\n347.33 KB\n|\n08-Nov-21\nAmphan, Inundation region due to landfall of Amphan cyclone\n|\nPDF, Tool: PDFViewer, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: A Decade of Service to the Nation\n|\nPDF, Tool: PDFViewer, Size:\n930.83 KB\n|\n22-Apr-16\nDigital Object Identifier (DOI)\n|\nPDF, Tool: PDFViewer, Size:\n131.04 KB\n|\n13-Apr-16\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": " PDFViewer, Size:\n463.15 KB\n|\n15-May-23\nINSAT Product Version Information\n|\nPDF, Tool: PDFViewer, Size:\n1.61 MB\n|\n01-Sep-22\nSFTP Services for Data Download\n|\nPDF, Tool: PDFViewer, Size:\n347.33 KB\n|\n08-Nov-21\nAmphan, Inundation region due to landfall of Amphan cyclone\n|\nPDF, Tool: PDFViewer, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: A Decade of Service to the Nation\n|\nPDF, Tool: PDFViewer, Size:\n930.83 KB\n|\n22-Apr-16\nDigital Object Identifier (DOI)\n|\nPDF, Tool: PDFViewer, Size:\n131.04 KB\n|\n13-Apr-16\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic Satellite Data Archival Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic Satellite Data Archival Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "a Data Centre of Space Applications Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic Satellite Data Archival Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "a Data Centre of Space Applications Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": " PDFViewer, Size:\n463.15 KB\n|\n15-May-23\nINSAT Product Version Information\n|\nPDF, Tool: P",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Indian",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": " PDFViewer, Size:\n463.15 KB\n|\n15-May-23\nINSAT Product Version Information\n|\nPDF, Tool: PDFViewer, Size:\n1.61 MB\n|\n01-Sep-22\nSFTP Services for Data Dow",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Satellite",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data, Archival",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Global Ocean Current",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "AT Product Version Information\n|\nPDF, Tool: PDFViewer, Size:\n1.61 MB\n|\n01-Sep-22\nSFTP Services for Data Download\n|\nPDF, Tool: PDFViewer, Size:\n347.33 KB\n|\n08-Nov-21\nAmphan, Inundation region due to landfall of Amphan cyclone\n|\nPDF, Tool: PDFViewer, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: ",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Access",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "AT Product Version Information\n|\nPDF, Tool: PDFViewer, Size:\n1.61 MB\n|\n01-Sep-22\nSFTP Services for Data Download\n|\nPDF, Tool: PDFViewer, Size:\n347.33 KB\n|\n08-Nov-21\nAmphan, Inundation region due to landfall of Amphan cyclone\n|\nPDF, Tool: PDFViewer, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: A Decade of ",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Indian Mainland Coastal Product",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "AT Product Version Information\n|\nPDF, Tool: PDFViewer, Size:\n1.61 MB\n|\n01-Sep-22\nSFTP Services for Data Download\n|\nPDF, Tool: PDFViewer, Size:\n347.33 KB\n|\n08-Nov-21\nAmphan, Inundation region due to landfall of Amphan cyclone\n|\nPDF, Tool: PDFViewer, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: A Decade of Service to the Nation\n|\nPDF, Tool: PDFViewer, Size:\n930.83 KB\n|\n22-Apr-16\nDigital Object Identifier (DOI)\n|\nPDF, Tool: PDFViewer, Size:\n131.04 KB\n|\n13-Apr-16\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Quality",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "AT Product Version Information\n|\nPDF, Tool: PDFViewer, Size:\n1.61 MB\n|\n01-Sep-22\nSFTP Services for Data Download\n|\nPDF, Tool: PDFViewer, Size:\n347.33 KB\n|\n08-Nov-21\nAmphan, Inundation region due to landfall of Amphan cyclone\n|\nPDF, Tool: PDFViewer, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: A Decade of Service to the Nation\n|\nPDF, Tool: PDFViewer, Size:\n930.83 KB\n|\n22-Apr-16\nDigital Object Identifier (DOI)\n|\nPDF, Tool: PDFViewer, Size:\n131.04 KB\n|\n13-Apr-16\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "Kerala",
+      "tail_type": "REGION",
+      "evidence": "AT Product Version Information\n|\nPDF, Tool: PDFViewer, Size:\n1.61 MB\n|\n01-Sep-22\nSFTP Services for Data Download\n|\nPDF, Tool: PDFViewer, Size:\n347.33 KB\n|\n08-Nov-21\nAmphan, Inundation region due to landfall of Amphan cyclone\n|\nPDF, Tool: PDFViewer, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: A Decade of Service to the Nation\n|\nPDF, Tool: PDFViewer, Size:\n930.83 KB\n|\n22-Apr-16\nDigital Object Identifier (DOI)\n|\nPDF, Tool: PDFViewer, Size:\n131.04 KB\n|\n13-Apr-16\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "Kerala",
+      "tail_type": "REGION",
+      "evidence": "AT Product Version Information\n|\nPDF, Tool: PDFViewer, Size:\n1.61 MB\n|\n01-Sep-22\nSFTP Services for Data Download\n|\nPDF, Tool: PDFViewer, Size:\n347.33 KB\n|\n08-Nov-21\nAmphan, Inundation region due to landfall of Amphan cyclone\n|\nPDF, Tool: PDFViewer, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: A Decade of Service to the Nation\n|\nPDF, Tool: PDFViewer, Size:\n930.83 KB\n|\n22-Apr-16\nDigital Object Identifier (DOI)\n|\nPDF, Tool: PDFViewer, Size:\n131.04 KB\n|\n13-Apr-16\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "463.15",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "AT Product Version Information\n|\nPDF, Tool: PDFViewer, Size:\n1.61 MB\n|\n01-Sep-22\nSFTP Services for Data Download\n|\nPDF, Tool: PDFViewer, Size:\n347.33 KB\n|\n08-Nov-21\nAmphan, Inundation region due to landfall of Amphan cyclone\n|\nPDF, Tool: PDFViewer, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: A Decade of Service to the Nation\n|\nPDF, Tool: PDFViewer, Size:\n930.83 KB\n|\n22-Apr-16\nDigital Object Identifier (DOI)\n|\nPDF, Tool: PDFViewer, Size:\n131.04 KB\n|\n13-Apr-16\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Download",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "AT Product Version Information\n|\nPDF, Tool: PDFViewer, Size:\n1.61 MB\n|\n01-Sep-22\nSFTP Services for Data Download\n|\nPDF, Tool: PDFViewer, Size:\n347.33 KB\n|\n08-Nov-21\nAmphan, Inundation region due to landfall of Amphan cyclone\n|\nPDF, Tool: PDFViewer, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: A Decade of Service to the Nation\n|\nPDF, Tool: PDFViewer, Size:\n930.83 KB\n|\n22-Apr-16\nDigital Object Identifier (DOI)\n|\nPDF, Tool: PDFViewer, Size:\n131.04 KB\n|\n13-Apr-16\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "347.33",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "AT Product Version Information\n|\nPDF, Tool: PDFViewer, Size:\n1.61 MB\n|\n01-Sep-22\nSFTP Services for Data Download\n|\nPDF, Tool: PDFViewer, Size:\n347.33 KB\n|\n08-Nov-21\nAmphan, Inundation region due to landfall of Amphan cyclone\n|\nPDF, Tool: PDFViewer, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: A Decade of Service to the Nation\n|\nPDF, Tool: PDFViewer, Size:\n930.83 KB\n|\n22-Apr-16\nDigital Object Identifier (DOI)\n|\nPDF, Tool: PDFViewer, Size:\n131.04 KB\n|\n13-Apr-16\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "Amphan",
+      "tail_type": "REGION",
+      "evidence": "AT Product Version Information\n|\nPDF, Tool: PDFViewer, Size:\n1.61 MB\n|\n01-Sep-22\nSFTP Services for Data Download\n|\nPDF, Tool: PDFViewer, Size:\n347.33 KB\n|\n08-Nov-21\nAmphan, Inundation region due to landfall of Amphan cyclone\n|\nPDF, Tool: PDFViewer, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: A Decade of Service to the Nation\n|\nPDF, Tool: PDFViewer, Size:\n930.83 KB\n|\n22-Apr-16\nDigital Object Identifier (DOI)\n|\nPDF, Tool: PDFViewer, Size:\n131.04 KB\n|\n13-Apr-16\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "AT Product Version Information\n|\nPDF, Tool: PDFViewer, Size:\n1.61 MB\n|\n01-Sep-22\nSFTP Services for Data Download\n|\nPDF, Tool: PDFViewer, Size:\n347.33 KB\n|\n08-Nov-21\nAmphan, Inundation region due to landfall of Amphan cyclone\n|\nPDF, Tool: PDFViewer, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: A Decade of Service to the Nation\n|\nPDF, Tool: PDFViewer, Size:\n930.83 KB\n|\n22-Apr-16\nDigital Object Identifier (DOI)\n|\nPDF, Tool: PDFViewer, Size:\n131.04 KB\n|\n13-Apr-16\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "AT Product Version Information\n|\nPDF, Tool: PDFViewer, Size:\n1.61 MB\n|\n01-Sep-22\nSFTP Services for Data Download\n|\nPDF, Tool: PDFViewer, Size:\n347.33 KB\n|\n08-Nov-21\nAmphan, Inundation region due to landfall of Amphan cyclone\n|\nPDF, Tool: PDFViewer, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: A Decade of Service to the Nation\n|\nPDF, Tool: PDFViewer, Size:\n930.83 KB\n|\n22-Apr-16\nDigital Object Identifier (DOI)\n|\nPDF, Tool: PDFViewer, Size:\n131.04 KB\n|\n13-Apr-16\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic Satellite Data Archival Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic Satellite Data Archival Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "a Data Centre of Space Applications Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic Satellite Data Archival Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "a Data Centre of Space Applications Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "AT Product Version Information\n|\nPDF, Tool: P",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Indian",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "AT Product Version Information\n|\nPDF, Tool: PDFViewer, Size:\n1.61 MB\n|\n01-Sep-22\nSFTP Services for Data Dow",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Satellite",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data, Archival",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Global Ocean Current",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "DFViewer, Size:\n1.61 MB\n|\n01-Sep-22\nSFTP Services for Data Download\n|\nPDF, Tool: PDFViewer, Size:\n347.33 KB\n|\n08-Nov-21\nAmphan, Inundation region due to landfall of Amphan cyclone\n|\nPDF, Tool: PDFViewer, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: ",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Access",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "DFViewer, Size:\n1.61 MB\n|\n01-Sep-22\nSFTP Services for Data Download\n|\nPDF, Tool: PDFViewer, Size:\n347.33 KB\n|\n08-Nov-21\nAmphan, Inundation region due to landfall of Amphan cyclone\n|\nPDF, Tool: PDFViewer, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: A Decade of ",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Indian Mainland Coastal Product",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "DFViewer, Size:\n1.61 MB\n|\n01-Sep-22\nSFTP Services for Data Download\n|\nPDF, Tool: PDFViewer, Size:\n347.33 KB\n|\n08-Nov-21\nAmphan, Inundation region due to landfall of Amphan cyclone\n|\nPDF, Tool: PDFViewer, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: A Decade of Service to the Nation\n|\nPDF, Tool: PDFViewer, Size:\n930.83 KB\n|\n22-Apr-16\nDigital Object Identifier (DOI)\n|\nPDF, Tool: PDFViewer, Size:\n131.04 KB\n|\n13-Apr-16\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Quality",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "DFViewer, Size:\n1.61 MB\n|\n01-Sep-22\nSFTP Services for Data Download\n|\nPDF, Tool: PDFViewer, Size:\n347.33 KB\n|\n08-Nov-21\nAmphan, Inundation region due to landfall of Amphan cyclone\n|\nPDF, Tool: PDFViewer, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: A Decade of Service to the Nation\n|\nPDF, Tool: PDFViewer, Size:\n930.83 KB\n|\n22-Apr-16\nDigital Object Identifier (DOI)\n|\nPDF, Tool: PDFViewer, Size:\n131.04 KB\n|\n13-Apr-16\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "Kerala",
+      "tail_type": "REGION",
+      "evidence": "DFViewer, Size:\n1.61 MB\n|\n01-Sep-22\nSFTP Services for Data Download\n|\nPDF, Tool: PDFViewer, Size:\n347.33 KB\n|\n08-Nov-21\nAmphan, Inundation region due to landfall of Amphan cyclone\n|\nPDF, Tool: PDFViewer, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: A Decade of Service to the Nation\n|\nPDF, Tool: PDFViewer, Size:\n930.83 KB\n|\n22-Apr-16\nDigital Object Identifier (DOI)\n|\nPDF, Tool: PDFViewer, Size:\n131.04 KB\n|\n13-Apr-16\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "Kerala",
+      "tail_type": "REGION",
+      "evidence": "DFViewer, Size:\n1.61 MB\n|\n01-Sep-22\nSFTP Services for Data Download\n|\nPDF, Tool: PDFViewer, Size:\n347.33 KB\n|\n08-Nov-21\nAmphan, Inundation region due to landfall of Amphan cyclone\n|\nPDF, Tool: PDFViewer, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: A Decade of Service to the Nation\n|\nPDF, Tool: PDFViewer, Size:\n930.83 KB\n|\n22-Apr-16\nDigital Object Identifier (DOI)\n|\nPDF, Tool: PDFViewer, Size:\n131.04 KB\n|\n13-Apr-16\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "463.15",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "DFViewer, Size:\n1.61 MB\n|\n01-Sep-22\nSFTP Services for Data Download\n|\nPDF, Tool: PDFViewer, Size:\n347.33 KB\n|\n08-Nov-21\nAmphan, Inundation region due to landfall of Amphan cyclone\n|\nPDF, Tool: PDFViewer, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: A Decade of Service to the Nation\n|\nPDF, Tool: PDFViewer, Size:\n930.83 KB\n|\n22-Apr-16\nDigital Object Identifier (DOI)\n|\nPDF, Tool: PDFViewer, Size:\n131.04 KB\n|\n13-Apr-16\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Download",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "DFViewer, Size:\n1.61 MB\n|\n01-Sep-22\nSFTP Services for Data Download\n|\nPDF, Tool: PDFViewer, Size:\n347.33 KB\n|\n08-Nov-21\nAmphan, Inundation region due to landfall of Amphan cyclone\n|\nPDF, Tool: PDFViewer, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: A Decade of Service to the Nation\n|\nPDF, Tool: PDFViewer, Size:\n930.83 KB\n|\n22-Apr-16\nDigital Object Identifier (DOI)\n|\nPDF, Tool: PDFViewer, Size:\n131.04 KB\n|\n13-Apr-16\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "347.33",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "DFViewer, Size:\n1.61 MB\n|\n01-Sep-22\nSFTP Services for Data Download\n|\nPDF, Tool: PDFViewer, Size:\n347.33 KB\n|\n08-Nov-21\nAmphan, Inundation region due to landfall of Amphan cyclone\n|\nPDF, Tool: PDFViewer, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: A Decade of Service to the Nation\n|\nPDF, Tool: PDFViewer, Size:\n930.83 KB\n|\n22-Apr-16\nDigital Object Identifier (DOI)\n|\nPDF, Tool: PDFViewer, Size:\n131.04 KB\n|\n13-Apr-16\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "Amphan",
+      "tail_type": "REGION",
+      "evidence": "DFViewer, Size:\n1.61 MB\n|\n01-Sep-22\nSFTP Services for Data Download\n|\nPDF, Tool: PDFViewer, Size:\n347.33 KB\n|\n08-Nov-21\nAmphan, Inundation region due to landfall of Amphan cyclone\n|\nPDF, Tool: PDFViewer, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: A Decade of Service to the Nation\n|\nPDF, Tool: PDFViewer, Size:\n930.83 KB\n|\n22-Apr-16\nDigital Object Identifier (DOI)\n|\nPDF, Tool: PDFViewer, Size:\n131.04 KB\n|\n13-Apr-16\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "DFViewer, Size:\n1.61 MB\n|\n01-Sep-22\nSFTP Services for Data Download\n|\nPDF, Tool: PDFViewer, Size:\n347.33 KB\n|\n08-Nov-21\nAmphan, Inundation region due to landfall of Amphan cyclone\n|\nPDF, Tool: PDFViewer, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: A Decade of Service to the Nation\n|\nPDF, Tool: PDFViewer, Size:\n930.83 KB\n|\n22-Apr-16\nDigital Object Identifier (DOI)\n|\nPDF, Tool: PDFViewer, Size:\n131.04 KB\n|\n13-Apr-16\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "DFViewer, Size:\n1.61 MB\n|\n01-Sep-22\nSFTP Services for Data Download\n|\nPDF, Tool: PDFViewer, Size:\n347.33 KB\n|\n08-Nov-21\nAmphan, Inundation region due to landfall of Amphan cyclone\n|\nPDF, Tool: PDFViewer, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: A Decade of Service to the Nation\n|\nPDF, Tool: PDFViewer, Size:\n930.83 KB\n|\n22-Apr-16\nDigital Object Identifier (DOI)\n|\nPDF, Tool: PDFViewer, Size:\n131.04 KB\n|\n13-Apr-16\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic Satellite Data Archival Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic Satellite Data Archival Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "a Data Centre of Space Applications Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic Satellite Data Archival Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "a Data Centre of Space Applications Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Indian",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "DFViewer, Size:\n1.61 MB\n|\n01-Sep-22\nSFTP Services for Data Dow",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Satellite",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data, Archival",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCATSAT-1",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "DWR",
+      "head_type": "INSTRUMENT",
+      "type": "MEASURES",
+      "tail": "AWS",
+      "tail_type": "PARAMETER",
+      "evidence": "SFTP Services for Data Download\n|\nPDF, Tool: PDFViewer, Size:\n347.33 KB\n|\n08-Nov-21\nAmphan, Inundation region due to landfall of Amphan cyclone\n|\nPDF, Tool: PDFViewer, Size:\n853.28 K",
+      "source": "pattern"
+    },
+    {
+      "head": "MT-SAPHIR",
+      "head_type": "INSTRUMENT",
+      "type": "MEASURES",
+      "tail": "AWS",
+      "tail_type": "PARAMETER",
+      "evidence": "SFTP Services for Data Download\n|\nPDF, Tool: PDFViewer, Size:\n347.33 KB\n|\n08-Nov-21\nAmphan, Inundation region due to landfall of Amphan cyclone\n|\nPDF, Tool: PDFViewer, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: A Decade of Service to the Nation\n|\nPDF, Tool: PDFViewer, Size:\n930.8",
+      "source": "pattern"
+    },
+    {
+      "head": "DWR",
+      "head_type": "INSTRUMENT",
+      "type": "COVERS",
+      "tail": "Kerala",
+      "tail_type": "REGION",
+      "evidence": "v-21\nAmphan, Inundation region due to landfall of Amphan cyclone\n|\nPDF, Tool: PDFViewer, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: A Decade of Service to the Nation\n|\nPDF, Tool: PDFViewer, Size:\n930.83 KB\n|\n22-Apr-16\nDigital Object Identifier (DOI)\n|\nPDF, Tool: PDFViewer, Size:\n131.04 KB\n|\n13-Apr-16\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "DWR",
+      "head_type": "INSTRUMENT",
+      "type": "COVERS",
+      "tail": "Kerala",
+      "tail_type": "REGION",
+      "evidence": "v-21\nAmphan, Inundation region due to landfall of Amphan cyclone\n|\nPDF, Tool: PDFViewer, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: A Decade of Service to the Nation\n|\nPDF, Tool: PDFViewer, Size:\n930.83 KB\n|\n22-Apr-16\nDigital Object Identifier (DOI)\n|\nPDF, Tool: PDFViewer, Size:\n131.04 KB\n|\n13-Apr-16\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "DWR",
+      "head_type": "INSTRUMENT",
+      "type": "COVERS",
+      "tail": "Amphan",
+      "tail_type": "REGION",
+      "evidence": "v-21\nAmphan, Inundation region due to landfall of Amphan cyclone\n|\nPDF, Tool: PDFViewer, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: A Decade of Service to the Nation\n|\nPDF, Tool: PDFViewer, Size:\n930.83 KB\n|\n22-Apr-16\nDigital Object Identifier (DOI)\n|\nPDF, Tool: PDFViewer, Size:\n131.04 KB\n|\n13-Apr-16\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "DWR",
+      "head_type": "INSTRUMENT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "v-21\nAmphan, Inundation region due to landfall of Amphan cyclone\n|\nPDF, Tool: PDFViewer, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: A Decade of Service to the Nation\n|\nPDF, Tool: PDFViewer, Size:\n930.83 KB\n|\n22-Apr-16\nDigital Object Identifier (DOI)\n|\nPDF, Tool: PDFViewer, Size:\n131.04 KB\n|\n13-Apr-16\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "DWR",
+      "head_type": "INSTRUMENT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "v-21\nAmphan, Inundation region due to landfall of Amphan cyclone\n|\nPDF, Tool: PDFViewer, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: A Decade of Service to the Nation\n|\nPDF, Tool: PDFViewer, Size:\n930.83 KB\n|\n22-Apr-16\nDigital Object Identifier (DOI)\n|\nPDF, Tool: PDFViewer, Size:\n131.04 KB\n|\n13-Apr-16\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Global Ocean Current",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Kerala",
+      "tail_type": "REGION",
+      "evidence": "Amphan, Inundation region due to landfall of Amphan cyclone\n|\nPDF, Tool: PDFViewer, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: A Decade of Service to the Nation\n|\nPDF, Tool: PDFViewer, Size:\n930.83 KB\n|\n22-Apr-16\nDigital Object Identifier (DOI)\n|\nPDF, Tool: PDFViewer, Size:\n131.04 KB\n|\n13-Apr-16\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Global Ocean Current",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Kerala",
+      "tail_type": "REGION",
+      "evidence": "Amphan, Inundation region due to landfall of Amphan cyclone\n|\nPDF, Tool: PDFViewer, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: A Decade of Service to the Nation\n|\nPDF, Tool: PDFViewer, Size:\n930.83 KB\n|\n22-Apr-16\nDigital Object Identifier (DOI)\n|\nPDF, Tool: PDFViewer, Size:\n131.04 KB\n|\n13-Apr-16\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Global Ocean Current",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "Amphan, Inundation region due to landfall of Amphan cyclone\n|\nPDF, Tool: PDFViewer, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: A Decade of Service to the Nation\n|\nPDF, Tool: PDFViewer, Size:\n930.83 KB\n|\n22-Apr-16\nDigital Object Identifier (DOI)\n|\nPDF, Tool: PDFViewer, Size:\n131.04 KB\n|\n13-Apr-16\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Global Ocean Current",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Amphan",
+      "tail_type": "REGION",
+      "evidence": "Amphan, Inundation region due to landfall of Amphan cyclone\n|\nPDF, Tool: PDFViewer, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: A Decade of Service to the Nation\n|\nPDF, Tool: PDFViewer, Size:\n930.83 KB\n|\n22-Apr-16\nDigital Object Identifier (DOI)\n|\nPDF, Tool: PDFViewer, Size:\n131.04 KB\n|\n13-Apr-16\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Global Ocean Current",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "Amphan, Inundation region due to landfall of Amphan cyclone\n|\nPDF, Tool: PDFViewer, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: A Decade of Service to the Nation\n|\nPDF, Tool: PDFViewer, Size:\n930.83 KB\n|\n22-Apr-16\nDigital Object Identifier (DOI)\n|\nPDF, Tool: PDFViewer, Size:\n131.04 KB\n|\n13-Apr-16\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Global Ocean Current",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "Amphan, Inundation region due to landfall of Amphan cyclone\n|\nPDF, Tool: PDFViewer, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: A Decade of Service to the Nation\n|\nPDF, Tool: PDFViewer, Size:\n930.83 KB\n|\n22-Apr-16\nDigital Object Identifier (DOI)\n|\nPDF, Tool: PDFViewer, Size:\n131.04 KB\n|\n13-Apr-16\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Data Access",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Kerala",
+      "tail_type": "REGION",
+      "evidence": "gion due to landfall of Amphan cyclone\n|\nPDF, Tool: PDFViewer, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: A Decade of Service to the Nation\n|\nPDF, Tool: PDFViewer, Size:\n930.83 KB\n|\n22-Apr-16\nDigital Object Identifier (DOI)\n|\nPDF, Tool: PDFViewer, Size:\n131.04 KB\n|\n13-Apr-16\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Data Access",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Kerala",
+      "tail_type": "REGION",
+      "evidence": "gion due to landfall of Amphan cyclone\n|\nPDF, Tool: PDFViewer, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: A Decade of Service to the Nation\n|\nPDF, Tool: PDFViewer, Size:\n930.83 KB\n|\n22-Apr-16\nDigital Object Identifier (DOI)\n|\nPDF, Tool: PDFViewer, Size:\n131.04 KB\n|\n13-Apr-16\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Access",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "gion due to landfall of Amphan cyclone\n|\nPDF, Tool: PDFViewer, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: A Decade of Service to the Nation\n|\nPDF, Tool: PDFViewer, Size:\n930.83 KB\n|\n22-Apr-16\nDigital Object Identifier (DOI)\n|\nPDF, Tool: PDFViewer, Size:\n131.04 KB\n|\n13-Apr-16\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Data Access",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Amphan",
+      "tail_type": "REGION",
+      "evidence": "gion due to landfall of Amphan cyclone\n|\nPDF, Tool: PDFViewer, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: A Decade of Service to the Nation\n|\nPDF, Tool: PDFViewer, Size:\n930.83 KB\n|\n22-Apr-16\nDigital Object Identifier (DOI)\n|\nPDF, Tool: PDFViewer, Size:\n131.04 KB\n|\n13-Apr-16\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Data Access",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "gion due to landfall of Amphan cyclone\n|\nPDF, Tool: PDFViewer, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: A Decade of Service to the Nation\n|\nPDF, Tool: PDFViewer, Size:\n930.83 KB\n|\n22-Apr-16\nDigital Object Identifier (DOI)\n|\nPDF, Tool: PDFViewer, Size:\n131.04 KB\n|\n13-Apr-16\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Data Access",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "gion due to landfall of Amphan cyclone\n|\nPDF, Tool: PDFViewer, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: A Decade of Service to the Nation\n|\nPDF, Tool: PDFViewer, Size:\n930.83 KB\n|\n22-Apr-16\nDigital Object Identifier (DOI)\n|\nPDF, Tool: PDFViewer, Size:\n131.04 KB\n|\n13-Apr-16\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "MT-SAPHIR",
+      "head_type": "INSTRUMENT",
+      "type": "COVERS",
+      "tail": "Kerala",
+      "tail_type": "REGION",
+      "evidence": "er, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: A Decade of Service to the Nation\n|\nPDF, Tool: PDFViewer, Size:\n930.83 KB\n|\n22-Apr-16\nDigital Object Identifier (DOI)\n|\nPDF, Tool: PDFViewer, Size:\n131.04 KB\n|\n13-Apr-16\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "MT-SAPHIR",
+      "head_type": "INSTRUMENT",
+      "type": "COVERS",
+      "tail": "Kerala",
+      "tail_type": "REGION",
+      "evidence": "er, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: A Decade of Service to the Nation\n|\nPDF, Tool: PDFViewer, Size:\n930.83 KB\n|\n22-Apr-16\nDigital Object Identifier (DOI)\n|\nPDF, Tool: PDFViewer, Size:\n131.04 KB\n|\n13-Apr-16\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "MT-SAPHIR",
+      "head_type": "INSTRUMENT",
+      "type": "COVERS",
+      "tail": "Amphan",
+      "tail_type": "REGION",
+      "evidence": "er, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: A Decade of Service to the Nation\n|\nPDF, Tool: PDFViewer, Size:\n930.83 KB\n|\n22-Apr-16\nDigital Object Identifier (DOI)\n|\nPDF, Tool: PDFViewer, Size:\n131.04 KB\n|\n13-Apr-16\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "MT-SAPHIR",
+      "head_type": "INSTRUMENT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "er, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: A Decade of Service to the Nation\n|\nPDF, Tool: PDFViewer, Size:\n930.83 KB\n|\n22-Apr-16\nDigital Object Identifier (DOI)\n|\nPDF, Tool: PDFViewer, Size:\n131.04 KB\n|\n13-Apr-16\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "MT-SAPHIR",
+      "head_type": "INSTRUMENT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "er, Size:\n853.28 KB\n|\n19-May-20\nMOSDAC: A Decade of Service to the Nation\n|\nPDF, Tool: PDFViewer, Size:\n930.83 KB\n|\n22-Apr-16\nDigital Object Identifier (DOI)\n|\nPDF, Tool: PDFViewer, Size:\n131.04 KB\n|\n13-Apr-16\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "ISRO",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Kerala",
+      "tail_type": "REGION",
+      "evidence": "o the Nation\n|\nPDF, Tool: PDFViewer, Size:\n930.83 KB\n|\n22-Apr-16\nDigital Object Identifier (DOI)\n|\nPDF, Tool: PDFViewer, Size:\n131.04 KB\n|\n13-Apr-16\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "ISRO",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Kerala",
+      "tail_type": "REGION",
+      "evidence": "o the Nation\n|\nPDF, Tool: PDFViewer, Size:\n930.83 KB\n|\n22-Apr-16\nDigital Object Identifier (DOI)\n|\nPDF, Tool: PDFViewer, Size:\n131.04 KB\n|\n13-Apr-16\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "ISRO",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Amphan",
+      "tail_type": "REGION",
+      "evidence": "o the Nation\n|\nPDF, Tool: PDFViewer, Size:\n930.83 KB\n|\n22-Apr-16\nDigital Object Identifier (DOI)\n|\nPDF, Tool: PDFViewer, Size:\n131.04 KB\n|\n13-Apr-16\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "ISRO",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "o the Nation\n|\nPDF, Tool: PDFViewer, Size:\n930.83 KB\n|\n22-Apr-16\nDigital Object Identifier (DOI)\n|\nPDF, Tool: PDFViewer, Size:\n131.04 KB\n|\n13-Apr-16\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "ISRO",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "o the Nation\n|\nPDF, Tool: PDFViewer, Size:\n930.83 KB\n|\n22-Apr-16\nDigital Object Identifier (DOI)\n|\nPDF, Tool: PDFViewer, Size:\n131.04 KB\n|\n13-Apr-16\nSearch\nSearch\nFollow Us\nWebsite owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Indian Mainland Coastal Product",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Kerala",
+      "tail_type": "REGION",
+      "evidence": "tained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Indian Mainland Coastal Product",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Kerala",
+      "tail_type": "REGION",
+      "evidence": "tained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Indian Mainland Coastal Product",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "tained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Indian Mainland Coastal Product",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Amphan",
+      "tail_type": "REGION",
+      "evidence": "tained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Indian Mainland Coastal Product",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "tained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Indian Mainland Coastal Product",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "tained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.",
+      "source": "pattern"
+    },
+    {
+      "head": "Data Quality",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Kerala",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Data Quality",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Kerala",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Quality",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Data Quality",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Amphan",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Data Quality",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Data Quality",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "463.15",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Kerala",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "Kerala",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Data Download",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Kerala",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "347.33",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Kerala",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic Satellite Data Archival Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Kerala",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Kerala",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic Satellite Data Archival Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Kerala",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Kerala",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "a Data Centre of Space Applications Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Kerala",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic Satellite Data Archival Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Kerala",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Kerala",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "a Data Centre of Space Applications Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Kerala",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Kerala",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Indian",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Kerala",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Kerala",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Satellite",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Kerala",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Data, Archival",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Kerala",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Data Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Kerala",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "463.15",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Kerala",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "Kerala",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Data Download",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Kerala",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "347.33",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Kerala",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic Satellite Data Archival Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Kerala",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Kerala",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic Satellite Data Archival Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Kerala",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Kerala",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "a Data Centre of Space Applications Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Kerala",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic Satellite Data Archival Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Kerala",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Kerala",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "a Data Centre of Space Applications Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Kerala",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Kerala",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Indian",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Kerala",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Kerala",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Satellite",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Kerala",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Data, Archival",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Kerala",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Data Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Kerala",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "463.15",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "463.15",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Amphan",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "463.15",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "463.15",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Download",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "347.33",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "Amphan",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic Satellite Data Archival Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic Satellite Data Archival Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "a Data Centre of Space Applications Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic Satellite Data Archival Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "a Data Centre of Space Applications Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Indian",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Oceanographic",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Satellite",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data, Archival",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "Data Centre",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Data Download",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Amphan",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Data Download",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Data Download",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "347.33",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Amphan",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "347.33",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "347.33",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic Satellite Data Archival Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Amphan",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Amphan",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic Satellite Data Archival Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Amphan",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Amphan",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "a Data Centre of Space Applications Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Amphan",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic Satellite Data Archival Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Amphan",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Amphan",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "a Data Centre of Space Applications Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Amphan",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Amphan",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Indian",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Amphan",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Amphan",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Satellite",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Amphan",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Data, Archival",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Amphan",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Data Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Amphan",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic Satellite Data Archival Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic Satellite Data Archival Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "a Data Centre of Space Applications Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic Satellite Data Archival Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "a Data Centre of Space Applications Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Indian",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Satellite",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Data, Archival",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Data Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Space Research Organisation",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic Satellite Data Archival Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic Satellite Data Archival Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "a Data Centre of Space Applications Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic Satellite Data Archival Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "a Data Centre of Space Applications Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "MOSDAC",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Indian",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Oceanographic",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Satellite",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Data, Archival",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Data Centre",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "INDIA",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    }
+  ],
+  "stats": {
+    "entity_count": 63,
+    "relation_count": 289
+  }
+}

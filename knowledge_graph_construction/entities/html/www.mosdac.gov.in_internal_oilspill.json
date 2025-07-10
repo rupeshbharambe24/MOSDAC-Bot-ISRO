@@ -1,0 +1,331 @@
+{
+  "source": "R:\\Projects\\MOSDAC Help Bot\\Codes\\data_processing\\processed_output\\html\\www.mosdac.gov.in_internal_oilspill.json",
+  "text_entities": [
+    {
+      "text": "LCS Cores\nOil Spill Trajectory",
+      "label": "DATA_PRODUCT",
+      "start": 115,
+      "end": 145
+    },
+    {
+      "text": "0",
+      "label": "CARDINAL",
+      "start": 173,
+      "end": 174
+    },
+    {
+      "text": "50",
+      "label": "CARDINAL",
+      "start": 175,
+      "end": 177
+    },
+    {
+      "text": "100",
+      "label": "CARDINAL",
+      "start": 178,
+      "end": 181
+    },
+    {
+      "text": "150",
+      "label": "CARDINAL",
+      "start": 182,
+      "end": 185
+    },
+    {
+      "text": "200",
+      "label": "CARDINAL",
+      "start": 186,
+      "end": 189
+    },
+    {
+      "text": "250",
+      "label": "CARDINAL",
+      "start": 190,
+      "end": 193
+    },
+    {
+      "text": "300",
+      "label": "CARDINAL",
+      "start": 194,
+      "end": 197
+    },
+    {
+      "text": "350",
+      "label": "CARDINAL",
+      "start": 198,
+      "end": 201
+    },
+    {
+      "text": "400",
+      "label": "CARDINAL",
+      "start": 202,
+      "end": 205
+    },
+    {
+      "text": "450",
+      "label": "CARDINAL",
+      "start": 206,
+      "end": 209
+    },
+    {
+      "text": "500",
+      "label": "CARDINAL",
+      "start": 210,
+      "end": 213
+    },
+    {
+      "text": "550",
+      "label": "CARDINAL",
+      "start": 214,
+      "end": 217
+    },
+    {
+      "text": "600",
+      "label": "CARDINAL",
+      "start": 218,
+      "end": 221
+    },
+    {
+      "text": "650",
+      "label": "CARDINAL",
+      "start": 222,
+      "end": 225
+    },
+    {
+      "text": "700",
+      "label": "CARDINAL",
+      "start": 226,
+      "end": 229
+    },
+    {
+      "text": "750",
+      "label": "CARDINAL",
+      "start": 230,
+      "end": 233
+    },
+    {
+      "text": "800",
+      "label": "CARDINAL",
+      "start": 234,
+      "end": 237
+    },
+    {
+      "text": "850",
+      "label": "CARDINAL",
+      "start": 238,
+      "end": 241
+    },
+    {
+      "text": "950",
+      "label": "CARDINAL",
+      "start": 246,
+      "end": 249
+    },
+    {
+      "text": "1000",
+      "label": "CARDINAL",
+      "start": 250,
+      "end": 254
+    },
+    {
+      "text": "1500",
+      "label": "CARDINAL",
+      "start": 255,
+      "end": 259
+    },
+    {
+      "text": "2500",
+      "label": "CARDINAL",
+      "start": 265,
+      "end": 269
+    },
+    {
+      "text": "3000",
+      "label": "CARDINAL",
+      "start": 270,
+      "end": 274
+    },
+    {
+      "text": "3500",
+      "label": "CARDINAL",
+      "start": 275,
+      "end": 279
+    },
+    {
+      "text": "4000",
+      "label": "CARDINAL",
+      "start": 280,
+      "end": 284
+    },
+    {
+      "text": "4500",
+      "label": "CARDINAL",
+      "start": 285,
+      "end": 289
+    },
+    {
+      "text": "5000",
+      "label": "CARDINAL",
+      "start": 290,
+      "end": 294
+    },
+    {
+      "text": "6000",
+      "label": "CARDINAL",
+      "start": 295,
+      "end": 299
+    },
+    {
+      "text": "7000",
+      "label": "CARDINAL",
+      "start": 300,
+      "end": 304
+    },
+    {
+      "text": "8000",
+      "label": "CARDINAL",
+      "start": 305,
+      "end": 309
+    },
+    {
+      "text": "9000",
+      "label": "CARDINAL",
+      "start": 310,
+      "end": 314
+    },
+    {
+      "text": "10000",
+      "label": "CARDINAL",
+      "start": 315,
+      "end": 320
+    },
+    {
+      "text": "sec",
+      "label": "ORG",
+      "start": 325,
+      "end": 328
+    },
+    {
+      "text": "Developed & Maintained",
+      "label": "ORG",
+      "start": 1750,
+      "end": 1772
+    },
+    {
+      "text": "DWD/SAC/ISRO",
+      "label": "DATA_PRODUCT",
+      "start": 1777,
+      "end": 1789
+    },
+    {
+      "text": "E.U. Copernicus Marine Service Information",
+      "label": "DATA_PRODUCT",
+      "start": 1962,
+      "end": 2004
+    },
+    {
+      "text": "Indian Space Research",
+      "label": "REGION",
+      "start": 2081,
+      "end": 2102
+    },
+    {
+      "text": "NRSC",
+      "label": "STATION",
+      "start": 2145,
+      "end": 2149
+    },
+    {
+      "text": "www.nrsc.gov.in",
+      "label": "REGION",
+      "start": 2161,
+      "end": 2176
+    },
+    {
+      "text": "Cartodem",
+      "label": "ORG",
+      "start": 2180,
+      "end": 2188
+    },
+    {
+      "text": "Mosaic",
+      "label": "PRODUCT",
+      "start": 2200,
+      "end": 2206
+    },
+    {
+      "text": "Bhuvan",
+      "label": "ORG",
+      "start": 2208,
+      "end": 2214
+    },
+    {
+      "text": "NRSC",
+      "label": "ORG",
+      "start": 2216,
+      "end": 2220
+    },
+    {
+      "text": "www.nrsc.gov.in",
+      "label": "REGION",
+      "start": 2232,
+      "end": 2247
+    },
+    {
+      "text": "OpenStreetMap",
+      "label": "REGION",
+      "start": 2251,
+      "end": 2264
+    },
+    {
+      "text": "LLC",
+      "label": "ORG",
+      "start": 2363,
+      "end": 2366
+    },
+    {
+      "text": "Indian Space Research Organisation",
+      "label": "DATA_PRODUCT",
+      "start": 2393,
+      "end": 2427
+    },
+    {
+      "text": "ISRO",
+      "label": "STATION",
+      "start": 2429,
+      "end": 2433
+    },
+    {
+      "text": "India",
+      "label": "REGION",
+      "start": 2437,
+      "end": 2442
+    },
+    {
+      "text": "Basins/ State/ District Boundaries",
+      "label": "REGION",
+      "start": 2449,
+      "end": 2483
+    },
+    {
+      "text": "India Meteorological Department",
+      "label": "ORG",
+      "start": 2507,
+      "end": 2538
+    },
+    {
+      "text": "Delhi",
+      "label": "REGION",
+      "start": 2540,
+      "end": 2545
+    }
+  ],
+  "metadata_entities": [
+    {
+      "text": "317EFB",
+      "label": "MONEY",
+      "start": 1,
+      "end": 7
+    }
+  ]
+}

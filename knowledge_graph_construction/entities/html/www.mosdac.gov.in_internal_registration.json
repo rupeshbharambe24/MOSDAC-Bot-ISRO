@@ -1,0 +1,1237 @@
+{
+  "source": "R:\\Projects\\MOSDAC Help Bot\\Codes\\data_processing\\processed_output\\html\\www.mosdac.gov.in_internal_registration.json",
+  "text_entities": [
+    {
+      "text": "MOSDAC",
+      "label": "ORG",
+      "start": 11,
+      "end": 17
+    },
+    {
+      "text": "#Min",
+      "label": "MONEY",
+      "start": 48,
+      "end": 52
+    },
+    {
+      "text": "at least one",
+      "label": "CARDINAL",
+      "start": 196,
+      "end": 208
+    },
+    {
+      "text": "one",
+      "label": "CARDINAL",
+      "start": 217,
+      "end": 220
+    },
+    {
+      "text": "one",
+      "label": "CARDINAL",
+      "start": 232,
+      "end": 235
+    },
+    {
+      "text": "one",
+      "label": "CARDINAL",
+      "start": 272,
+      "end": 275
+    },
+    {
+      "text": "First",
+      "label": "ORDINAL",
+      "start": 347,
+      "end": 352
+    },
+    {
+      "text": "India",
+      "label": "REGION",
+      "start": 434,
+      "end": 439
+    },
+    {
+      "text": "Afghanistan",
+      "label": "REGION",
+      "start": 440,
+      "end": 451
+    },
+    {
+      "text": "Albania",
+      "label": "REGION",
+      "start": 452,
+      "end": 459
+    },
+    {
+      "text": "Algeria",
+      "label": "REGION",
+      "start": 460,
+      "end": 467
+    },
+    {
+      "text": "Andorra",
+      "label": "REGION",
+      "start": 468,
+      "end": 475
+    },
+    {
+      "text": "Angola",
+      "label": "REGION",
+      "start": 476,
+      "end": 482
+    },
+    {
+      "text": "Antigua",
+      "label": "REGION",
+      "start": 483,
+      "end": 490
+    },
+    {
+      "text": "Barbuda",
+      "label": "REGION",
+      "start": 495,
+      "end": 502
+    },
+    {
+      "text": "Argentina",
+      "label": "REGION",
+      "start": 503,
+      "end": 512
+    },
+    {
+      "text": "Armenia",
+      "label": "REGION",
+      "start": 513,
+      "end": 520
+    },
+    {
+      "text": "Australia",
+      "label": "REGION",
+      "start": 521,
+      "end": 530
+    },
+    {
+      "text": "Austria",
+      "label": "REGION",
+      "start": 531,
+      "end": 538
+    },
+    {
+      "text": "Azerbaijan",
+      "label": "REGION",
+      "start": 539,
+      "end": 549
+    },
+    {
+      "text": "Bahamas",
+      "label": "REGION",
+      "start": 550,
+      "end": 557
+    },
+    {
+      "text": "Bahrain",
+      "label": "REGION",
+      "start": 558,
+      "end": 565
+    },
+    {
+      "text": "Bangladesh",
+      "label": "REGION",
+      "start": 566,
+      "end": 576
+    },
+    {
+      "text": "Barbados",
+      "label": "REGION",
+      "start": 577,
+      "end": 585
+    },
+    {
+      "text": "Belarus",
+      "label": "REGION",
+      "start": 586,
+      "end": 593
+    },
+    {
+      "text": "Belgium",
+      "label": "REGION",
+      "start": 594,
+      "end": 601
+    },
+    {
+      "text": "Belize",
+      "label": "REGION",
+      "start": 602,
+      "end": 608
+    },
+    {
+      "text": "Benin",
+      "label": "REGION",
+      "start": 609,
+      "end": 614
+    },
+    {
+      "text": "Bhutan",
+      "label": "REGION",
+      "start": 615,
+      "end": 621
+    },
+    {
+      "text": "Bolivia",
+      "label": "REGION",
+      "start": 622,
+      "end": 629
+    },
+    {
+      "text": "Bosnia",
+      "label": "REGION",
+      "start": 630,
+      "end": 636
+    },
+    {
+      "text": "Botswana",
+      "label": "REGION",
+      "start": 669,
+      "end": 677
+    },
+    {
+      "text": "Brazil",
+      "label": "REGION",
+      "start": 678,
+      "end": 684
+    },
+    {
+      "text": "Brunei",
+      "label": "REGION",
+      "start": 685,
+      "end": 691
+    },
+    {
+      "text": "Bulgaria",
+      "label": "REGION",
+      "start": 692,
+      "end": 700
+    },
+    {
+      "text": "Burkina Faso",
+      "label": "REGION",
+      "start": 701,
+      "end": 713
+    },
+    {
+      "text": "Burundi",
+      "label": "REGION",
+      "start": 714,
+      "end": 721
+    },
+    {
+      "text": "Cambodia",
+      "label": "REGION",
+      "start": 722,
+      "end": 730
+    },
+    {
+      "text": "Cameroon",
+      "label": "REGION",
+      "start": 731,
+      "end": 739
+    },
+    {
+      "text": "Canada",
+      "label": "REGION",
+      "start": 740,
+      "end": 746
+    },
+    {
+      "text": "Cape Verde",
+      "label": "REGION",
+      "start": 747,
+      "end": 757
+    },
+    {
+      "text": "Chad",
+      "label": "REGION",
+      "start": 799,
+      "end": 803
+    },
+    {
+      "text": "Chile",
+      "label": "REGION",
+      "start": 804,
+      "end": 809
+    },
+    {
+      "text": "China",
+      "label": "REGION",
+      "start": 810,
+      "end": 815
+    },
+    {
+      "text": "Colombia",
+      "label": "REGION",
+      "start": 816,
+      "end": 824
+    },
+    {
+      "text": "Comoros",
+      "label": "REGION",
+      "start": 825,
+      "end": 832
+    },
+    {
+      "text": "Congo",
+      "label": "REGION",
+      "start": 833,
+      "end": 838
+    },
+    {
+      "text": "Brazzaville",
+      "label": "REGION",
+      "start": 840,
+      "end": 851
+    },
+    {
+      "text": "Congo",
+      "label": "REGION",
+      "start": 853,
+      "end": 858
+    },
+    {
+      "text": "Costa Rica",
+      "label": "REGION",
+      "start": 903,
+      "end": 913
+    },
+    {
+      "text": "Côte d'Ivoire",
+      "label": "REGION",
+      "start": 914,
+      "end": 927
+    },
+    {
+      "text": "Croatia",
+      "label": "REGION",
+      "start": 928,
+      "end": 935
+    },
+    {
+      "text": "Cuba",
+      "label": "REGION",
+      "start": 936,
+      "end": 940
+    },
+    {
+      "text": "Cyprus",
+      "label": "REGION",
+      "start": 941,
+      "end": 947
+    },
+    {
+      "text": "Czech Republic",
+      "label": "REGION",
+      "start": 948,
+      "end": 962
+    },
+    {
+      "text": "Denmark",
+      "label": "REGION",
+      "start": 963,
+      "end": 970
+    },
+    {
+      "text": "Djibouti",
+      "label": "REGION",
+      "start": 971,
+      "end": 979
+    },
+    {
+      "text": "Dominica",
+      "label": "REGION",
+      "start": 980,
+      "end": 988
+    },
+    {
+      "text": "Dominican Republic",
+      "label": "REGION",
+      "start": 989,
+      "end": 1007
+    },
+    {
+      "text": "Timor Timur",
+      "label": "REGION",
+      "start": 1036,
+      "end": 1047
+    },
+    {
+      "text": "Ecuador",
+      "label": "REGION",
+      "start": 1049,
+      "end": 1056
+    },
+    {
+      "text": "Egypt",
+      "label": "REGION",
+      "start": 1057,
+      "end": 1062
+    },
+    {
+      "text": "El Salvador",
+      "label": "REGION",
+      "start": 1063,
+      "end": 1074
+    },
+    {
+      "text": "Equatorial Guinea",
+      "label": "REGION",
+      "start": 1075,
+      "end": 1092
+    },
+    {
+      "text": "Eritrea",
+      "label": "REGION",
+      "start": 1093,
+      "end": 1100
+    },
+    {
+      "text": "Estonia",
+      "label": "REGION",
+      "start": 1101,
+      "end": 1108
+    },
+    {
+      "text": "Ethiopia",
+      "label": "REGION",
+      "start": 1109,
+      "end": 1117
+    },
+    {
+      "text": "Fiji",
+      "label": "REGION",
+      "start": 1118,
+      "end": 1122
+    },
+    {
+      "text": "Finland",
+      "label": "REGION",
+      "start": 1123,
+      "end": 1130
+    },
+    {
+      "text": "France",
+      "label": "REGION",
+      "start": 1131,
+      "end": 1137
+    },
+    {
+      "text": "Gabon\nGambia",
+      "label": "REGION",
+      "start": 1138,
+      "end": 1150
+    },
+    {
+      "text": "Georgia",
+      "label": "REGION",
+      "start": 1156,
+      "end": 1163
+    },
+    {
+      "text": "Germany",
+      "label": "REGION",
+      "start": 1164,
+      "end": 1171
+    },
+    {
+      "text": "Ghana",
+      "label": "REGION",
+      "start": 1172,
+      "end": 1177
+    },
+    {
+      "text": "Greece",
+      "label": "REGION",
+      "start": 1178,
+      "end": 1184
+    },
+    {
+      "text": "Grenada",
+      "label": "REGION",
+      "start": 1185,
+      "end": 1192
+    },
+    {
+      "text": "Guatemala\nGuinea",
+      "label": "REGION",
+      "start": 1193,
+      "end": 1209
+    },
+    {
+      "text": "Guyana",
+      "label": "REGION",
+      "start": 1224,
+      "end": 1230
+    },
+    {
+      "text": "Haiti",
+      "label": "REGION",
+      "start": 1231,
+      "end": 1236
+    },
+    {
+      "text": "Honduras",
+      "label": "REGION",
+      "start": 1237,
+      "end": 1245
+    },
+    {
+      "text": "Hungary",
+      "label": "REGION",
+      "start": 1246,
+      "end": 1253
+    },
+    {
+      "text": "Iceland",
+      "label": "REGION",
+      "start": 1254,
+      "end": 1261
+    },
+    {
+      "text": "Indonesia",
+      "label": "REGION",
+      "start": 1262,
+      "end": 1271
+    },
+    {
+      "text": "Iran",
+      "label": "REGION",
+      "start": 1272,
+      "end": 1276
+    },
+    {
+      "text": "Iraq",
+      "label": "REGION",
+      "start": 1277,
+      "end": 1281
+    },
+    {
+      "text": "Ireland",
+      "label": "REGION",
+      "start": 1282,
+      "end": 1289
+    },
+    {
+      "text": "Israel",
+      "label": "REGION",
+      "start": 1290,
+      "end": 1296
+    },
+    {
+      "text": "Italy",
+      "label": "REGION",
+      "start": 1297,
+      "end": 1302
+    },
+    {
+      "text": "Jamaica",
+      "label": "REGION",
+      "start": 1303,
+      "end": 1310
+    },
+    {
+      "text": "Japan",
+      "label": "REGION",
+      "start": 1311,
+      "end": 1316
+    },
+    {
+      "text": "Jordan",
+      "label": "REGION",
+      "start": 1317,
+      "end": 1323
+    },
+    {
+      "text": "Kazakhstan",
+      "label": "REGION",
+      "start": 1324,
+      "end": 1334
+    },
+    {
+      "text": "Kenya",
+      "label": "REGION",
+      "start": 1335,
+      "end": 1340
+    },
+    {
+      "text": "Kiribati",
+      "label": "REGION",
+      "start": 1341,
+      "end": 1349
+    },
+    {
+      "text": "Korea",
+      "label": "REGION",
+      "start": 1350,
+      "end": 1355
+    },
+    {
+      "text": "North\nKorea",
+      "label": "REGION",
+      "start": 1357,
+      "end": 1368
+    },
+    {
+      "text": "South\n",
+      "label": "REGION",
+      "start": 1370,
+      "end": 1376
+    },
+    {
+      "text": "Kuwait",
+      "label": "REGION",
+      "start": 1376,
+      "end": 1382
+    },
+    {
+      "text": "Kyrgyzstan",
+      "label": "REGION",
+      "start": 1383,
+      "end": 1393
+    },
+    {
+      "text": "Laos",
+      "label": "REGION",
+      "start": 1394,
+      "end": 1398
+    },
+    {
+      "text": "Latvia",
+      "label": "REGION",
+      "start": 1399,
+      "end": 1405
+    },
+    {
+      "text": "Lebanon",
+      "label": "REGION",
+      "start": 1406,
+      "end": 1413
+    },
+    {
+      "text": "Lesotho",
+      "label": "REGION",
+      "start": 1414,
+      "end": 1421
+    },
+    {
+      "text": "Liberia",
+      "label": "REGION",
+      "start": 1422,
+      "end": 1429
+    },
+    {
+      "text": "Libya",
+      "label": "REGION",
+      "start": 1430,
+      "end": 1435
+    },
+    {
+      "text": "Liechtenstein",
+      "label": "REGION",
+      "start": 1436,
+      "end": 1449
+    },
+    {
+      "text": "Lithuania",
+      "label": "REGION",
+      "start": 1450,
+      "end": 1459
+    },
+    {
+      "text": "Luxembourg",
+      "label": "REGION",
+      "start": 1460,
+      "end": 1470
+    },
+    {
+      "text": "Macedonia",
+      "label": "REGION",
+      "start": 1471,
+      "end": 1480
+    },
+    {
+      "text": "Yugoslav Republic",
+      "label": "REGION",
+      "start": 1505,
+      "end": 1522
+    },
+    {
+      "text": "Madagascar",
+      "label": "REGION",
+      "start": 1526,
+      "end": 1536
+    },
+    {
+      "text": "Malawi",
+      "label": "REGION",
+      "start": 1537,
+      "end": 1543
+    },
+    {
+      "text": "Malaysia",
+      "label": "REGION",
+      "start": 1544,
+      "end": 1552
+    },
+    {
+      "text": "Maldives",
+      "label": "REGION",
+      "start": 1553,
+      "end": 1561
+    },
+    {
+      "text": "Mali",
+      "label": "REGION",
+      "start": 1562,
+      "end": 1566
+    },
+    {
+      "text": "Malta",
+      "label": "REGION",
+      "start": 1567,
+      "end": 1572
+    },
+    {
+      "text": "Marshall Islands",
+      "label": "REGION",
+      "start": 1573,
+      "end": 1589
+    },
+    {
+      "text": "Mauritania",
+      "label": "REGION",
+      "start": 1590,
+      "end": 1600
+    },
+    {
+      "text": "Mauritius",
+      "label": "REGION",
+      "start": 1601,
+      "end": 1610
+    },
+    {
+      "text": "Mexico",
+      "label": "REGION",
+      "start": 1611,
+      "end": 1617
+    },
+    {
+      "text": "Micronesia",
+      "label": "REGION",
+      "start": 1618,
+      "end": 1628
+    },
+    {
+      "text": "Federated States",
+      "label": "REGION",
+      "start": 1646,
+      "end": 1662
+    },
+    {
+      "text": "Moldova",
+      "label": "REGION",
+      "start": 1666,
+      "end": 1673
+    },
+    {
+      "text": "Monaco",
+      "label": "REGION",
+      "start": 1674,
+      "end": 1680
+    },
+    {
+      "text": "Mongolia",
+      "label": "REGION",
+      "start": 1681,
+      "end": 1689
+    },
+    {
+      "text": "Morocco",
+      "label": "REGION",
+      "start": 1690,
+      "end": 1697
+    },
+    {
+      "text": "Mozambique",
+      "label": "REGION",
+      "start": 1698,
+      "end": 1708
+    },
+    {
+      "text": "Myanmar",
+      "label": "REGION",
+      "start": 1709,
+      "end": 1716
+    },
+    {
+      "text": "Namibia",
+      "label": "REGION",
+      "start": 1717,
+      "end": 1724
+    },
+    {
+      "text": "Nauru",
+      "label": "REGION",
+      "start": 1725,
+      "end": 1730
+    },
+    {
+      "text": "Nepal",
+      "label": "REGION",
+      "start": 1731,
+      "end": 1736
+    },
+    {
+      "text": "Netherlands",
+      "label": "REGION",
+      "start": 1737,
+      "end": 1748
+    },
+    {
+      "text": "New Zealand",
+      "label": "REGION",
+      "start": 1749,
+      "end": 1760
+    },
+    {
+      "text": "Nicaragua",
+      "label": "REGION",
+      "start": 1761,
+      "end": 1770
+    },
+    {
+      "text": "Niger",
+      "label": "REGION",
+      "start": 1771,
+      "end": 1776
+    },
+    {
+      "text": "Nigeria",
+      "label": "REGION",
+      "start": 1777,
+      "end": 1784
+    },
+    {
+      "text": "Norway",
+      "label": "REGION",
+      "start": 1785,
+      "end": 1791
+    },
+    {
+      "text": "Oman",
+      "label": "REGION",
+      "start": 1792,
+      "end": 1796
+    },
+    {
+      "text": "Pakistan",
+      "label": "REGION",
+      "start": 1797,
+      "end": 1805
+    },
+    {
+      "text": "Palau",
+      "label": "REGION",
+      "start": 1806,
+      "end": 1811
+    },
+    {
+      "text": "Panama",
+      "label": "REGION",
+      "start": 1812,
+      "end": 1818
+    },
+    {
+      "text": "New Guinea",
+      "label": "REGION",
+      "start": 1825,
+      "end": 1835
+    },
+    {
+      "text": "Paraguay",
+      "label": "REGION",
+      "start": 1836,
+      "end": 1844
+    },
+    {
+      "text": "Peru",
+      "label": "REGION",
+      "start": 1845,
+      "end": 1849
+    },
+    {
+      "text": "Philippines",
+      "label": "REGION",
+      "start": 1850,
+      "end": 1861
+    },
+    {
+      "text": "Poland",
+      "label": "REGION",
+      "start": 1862,
+      "end": 1868
+    },
+    {
+      "text": "Portugal",
+      "label": "REGION",
+      "start": 1869,
+      "end": 1877
+    },
+    {
+      "text": "Qatar",
+      "label": "REGION",
+      "start": 1878,
+      "end": 1883
+    },
+    {
+      "text": "Romania",
+      "label": "REGION",
+      "start": 1884,
+      "end": 1891
+    },
+    {
+      "text": "Russia",
+      "label": "REGION",
+      "start": 1892,
+      "end": 1898
+    },
+    {
+      "text": "Rwanda",
+      "label": "REGION",
+      "start": 1899,
+      "end": 1905
+    },
+    {
+      "text": "Nevis",
+      "label": "NORP",
+      "start": 1938,
+      "end": 1943
+    },
+    {
+      "text": "The Grenadines\nSamoa",
+      "label": "REGION",
+      "start": 1990,
+      "end": 2010
+    },
+    {
+      "text": "San Marino",
+      "label": "REGION",
+      "start": 2011,
+      "end": 2021
+    },
+    {
+      "text": "Saudi Arabia",
+      "label": "REGION",
+      "start": 2060,
+      "end": 2072
+    },
+    {
+      "text": "Senegal",
+      "label": "REGION",
+      "start": 2073,
+      "end": 2080
+    },
+    {
+      "text": "Serbia",
+      "label": "REGION",
+      "start": 2081,
+      "end": 2087
+    },
+    {
+      "text": "Montenegro",
+      "label": "REGION",
+      "start": 2108,
+      "end": 2118
+    },
+    {
+      "text": "Seychelles",
+      "label": "REGION",
+      "start": 2119,
+      "end": 2129
+    },
+    {
+      "text": "Sierra Leone",
+      "label": "REGION",
+      "start": 2130,
+      "end": 2142
+    },
+    {
+      "text": "Singapore",
+      "label": "REGION",
+      "start": 2143,
+      "end": 2152
+    },
+    {
+      "text": "Slovakia",
+      "label": "REGION",
+      "start": 2153,
+      "end": 2161
+    },
+    {
+      "text": "Slovenia",
+      "label": "REGION",
+      "start": 2162,
+      "end": 2170
+    },
+    {
+      "text": "Solomon Islands",
+      "label": "REGION",
+      "start": 2171,
+      "end": 2186
+    },
+    {
+      "text": "Somalia",
+      "label": "REGION",
+      "start": 2187,
+      "end": 2194
+    },
+    {
+      "text": "South Africa",
+      "label": "REGION",
+      "start": 2195,
+      "end": 2207
+    },
+    {
+      "text": "Spain",
+      "label": "REGION",
+      "start": 2208,
+      "end": 2213
+    },
+    {
+      "text": "Sri Lanka",
+      "label": "REGION",
+      "start": 2214,
+      "end": 2223
+    },
+    {
+      "text": "Sudan",
+      "label": "REGION",
+      "start": 2224,
+      "end": 2229
+    },
+    {
+      "text": "Suriname",
+      "label": "REGION",
+      "start": 2230,
+      "end": 2238
+    },
+    {
+      "text": "Swaziland",
+      "label": "REGION",
+      "start": 2239,
+      "end": 2248
+    },
+    {
+      "text": "Sweden",
+      "label": "REGION",
+      "start": 2249,
+      "end": 2255
+    },
+    {
+      "text": "Switzerland",
+      "label": "REGION",
+      "start": 2256,
+      "end": 2267
+    },
+    {
+      "text": "Syria",
+      "label": "REGION",
+      "start": 2268,
+      "end": 2273
+    },
+    {
+      "text": "Taiwan",
+      "label": "REGION",
+      "start": 2274,
+      "end": 2280
+    },
+    {
+      "text": "Tajikistan",
+      "label": "REGION",
+      "start": 2281,
+      "end": 2291
+    },
+    {
+      "text": "Tanzania",
+      "label": "REGION",
+      "start": 2292,
+      "end": 2300
+    },
+    {
+      "text": "Thailand",
+      "label": "REGION",
+      "start": 2301,
+      "end": 2309
+    },
+    {
+      "text": "Togo",
+      "label": "REGION",
+      "start": 2310,
+      "end": 2314
+    },
+    {
+      "text": "Tonga",
+      "label": "REGION",
+      "start": 2315,
+      "end": 2320
+    },
+    {
+      "text": "Trinidad",
+      "label": "REGION",
+      "start": 2321,
+      "end": 2329
+    },
+    {
+      "text": "Tobago",
+      "label": "REGION",
+      "start": 2334,
+      "end": 2340
+    },
+    {
+      "text": "Tunisia",
+      "label": "REGION",
+      "start": 2341,
+      "end": 2348
+    },
+    {
+      "text": "Turkey",
+      "label": "REGION",
+      "start": 2349,
+      "end": 2355
+    },
+    {
+      "text": "Turkmenistan",
+      "label": "REGION",
+      "start": 2356,
+      "end": 2368
+    },
+    {
+      "text": "Tuvalu",
+      "label": "REGION",
+      "start": 2369,
+      "end": 2375
+    },
+    {
+      "text": "Uganda",
+      "label": "REGION",
+      "start": 2376,
+      "end": 2382
+    },
+    {
+      "text": "Ukraine",
+      "label": "REGION",
+      "start": 2383,
+      "end": 2390
+    },
+    {
+      "text": "United Kingdom\n",
+      "label": "REGION",
+      "start": 2412,
+      "end": 2427
+    },
+    {
+      "text": "United States",
+      "label": "REGION",
+      "start": 2427,
+      "end": 2440
+    },
+    {
+      "text": "Uruguay",
+      "label": "REGION",
+      "start": 2441,
+      "end": 2448
+    },
+    {
+      "text": "Uzbekistan",
+      "label": "REGION",
+      "start": 2449,
+      "end": 2459
+    },
+    {
+      "text": "Vanuatu",
+      "label": "REGION",
+      "start": 2460,
+      "end": 2467
+    },
+    {
+      "text": "Vatican City",
+      "label": "REGION",
+      "start": 2468,
+      "end": 2480
+    },
+    {
+      "text": "Venezuela",
+      "label": "REGION",
+      "start": 2481,
+      "end": 2490
+    },
+    {
+      "text": "Vietnam",
+      "label": "REGION",
+      "start": 2491,
+      "end": 2498
+    },
+    {
+      "text": "Western Sahara",
+      "label": "REGION",
+      "start": 2499,
+      "end": 2513
+    },
+    {
+      "text": "Yemen",
+      "label": "REGION",
+      "start": 2514,
+      "end": 2519
+    },
+    {
+      "text": "Zambia",
+      "label": "REGION",
+      "start": 2520,
+      "end": 2526
+    },
+    {
+      "text": "Zimbabwe",
+      "label": "REGION",
+      "start": 2527,
+      "end": 2535
+    },
+    {
+      "text": "Land Line",
+      "label": "ORG",
+      "start": 2606,
+      "end": 2615
+    },
+    {
+      "text": "the Terms and Conditions of the",
+      "label": "ORG",
+      "start": 2703,
+      "end": 2734
+    },
+    {
+      "text": "MOSDAC",
+      "label": "REGION",
+      "start": 2735,
+      "end": 2741
+    }
+  ],
+  "metadata_entities": [
+    {
+      "text": "MOSDAC",
+      "label": "DATA_PRODUCT",
+      "start": 0,
+      "end": 6
+    },
+    {
+      "text": "MOSDAC",
+      "label": "DATA_PRODUCT",
+      "start": 20,
+      "end": 26
+    }
+  ]
+}

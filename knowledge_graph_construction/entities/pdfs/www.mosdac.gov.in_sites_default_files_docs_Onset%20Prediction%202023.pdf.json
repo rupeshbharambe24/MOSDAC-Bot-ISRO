@@ -1,0 +1,229 @@
+{
+  "source": "R:\\Projects\\MOSDAC Help Bot\\Codes\\data_processing\\processed_output\\pdfs\\www.mosdac.gov.in_sites_default_files_docs_Onset%20Prediction%202023.pdf.json",
+  "text_entities": [
+    {
+      "text": "Study of Monsoon Onset",
+      "label": "ORG",
+      "start": 0,
+      "end": 22
+    },
+    {
+      "text": "Kerala",
+      "label": "DATA_PRODUCT",
+      "start": 28,
+      "end": 34
+    },
+    {
+      "text": "2023",
+      "label": "DATE",
+      "start": 42,
+      "end": 46
+    },
+    {
+      "text": "TPW",
+      "label": "DATA_PRODUCT",
+      "start": 84,
+      "end": 87
+    },
+    {
+      "text": "50",
+      "label": "CARDINAL",
+      "start": 97,
+      "end": 99
+    },
+    {
+      "text": "May 2023",
+      "label": "DATE",
+      "start": 119,
+      "end": 127
+    },
+    {
+      "text": "29",
+      "label": "CARDINAL",
+      "start": 149,
+      "end": 151
+    },
+    {
+      "text": "May 2023",
+      "label": "DATE",
+      "start": 152,
+      "end": 160
+    },
+    {
+      "text": "18 days",
+      "label": "DATE",
+      "start": 168,
+      "end": 175
+    },
+    {
+      "text": "TPW",
+      "label": "DATA_PRODUCT",
+      "start": 189,
+      "end": 192
+    },
+    {
+      "text": "MJO",
+      "label": "PARAMETER",
+      "start": 216,
+      "end": 219
+    },
+    {
+      "text": "Equatorial Indian Ocean",
+      "label": "REGION",
+      "start": 225,
+      "end": 248
+    },
+    {
+      "text": "2023",
+      "label": "CARDINAL",
+      "start": 268,
+      "end": 272
+    },
+    {
+      "text": "Pentad Wind",
+      "label": "ORG",
+      "start": 273,
+      "end": 284
+    },
+    {
+      "text": "850",
+      "label": "CARDINAL",
+      "start": 288,
+      "end": 291
+    },
+    {
+      "text": "hPa",
+      "label": "MONEY",
+      "start": 292,
+      "end": 295
+    },
+    {
+      "text": "pre-monsoon month",
+      "label": "DATE",
+      "start": 303,
+      "end": 320
+    },
+    {
+      "text": "2023",
+      "label": "CARDINAL",
+      "start": 324,
+      "end": 328
+    },
+    {
+      "text": "TPW",
+      "label": "DATA_PRODUCT",
+      "start": 422,
+      "end": 425
+    },
+    {
+      "text": "TPW",
+      "label": "DATA_PRODUCT",
+      "start": 459,
+      "end": 462
+    },
+    {
+      "text": "the Arabian Sea",
+      "label": "REGION",
+      "start": 468,
+      "end": 483
+    },
+    {
+      "text": "50",
+      "label": "CARDINAL",
+      "start": 485,
+      "end": 487
+    },
+    {
+      "text": "0°N:10°",
+      "label": "CARDINAL",
+      "start": 496,
+      "end": 503
+    },
+    {
+      "text": "18 days",
+      "label": "DATE",
+      "start": 518,
+      "end": 525
+    },
+    {
+      "text": "Kerala",
+      "label": "REGION",
+      "start": 544,
+      "end": 550
+    },
+    {
+      "text": "MJO",
+      "label": "PARAMETER",
+      "start": 554,
+      "end": 557
+    },
+    {
+      "text": "Indian Ocean",
+      "label": "REGION",
+      "start": 605,
+      "end": 617
+    },
+    {
+      "text": "Arabian",
+      "label": "NORP",
+      "start": 697,
+      "end": 704
+    },
+    {
+      "text": "Indian",
+      "label": "NORP",
+      "start": 714,
+      "end": 720
+    },
+    {
+      "text": "TPW",
+      "label": "DATA_PRODUCT",
+      "start": 756,
+      "end": 759
+    },
+    {
+      "text": "2021",
+      "label": "DATE",
+      "start": 856,
+      "end": 860
+    },
+    {
+      "text": "29 May 2023",
+      "label": "DATE",
+      "start": 940,
+      "end": 951
+    },
+    {
+      "text": "Bay of Bengal",
+      "label": "REGION",
+      "start": 1009,
+      "end": 1022
+    },
+    {
+      "text": "another couple of days",
+      "label": "DATE",
+      "start": 1067,
+      "end": 1089
+    }
+  ],
+  "metadata_entities": [
+    {
+      "text": "PowerPoint Presentation",
+      "label": "PRODUCT",
+      "start": 0,
+      "end": 23
+    },
+    {
+      "text": "SKDas",
+      "label": "ORG",
+      "start": 0,
+      "end": 5
+    },
+    {
+      "text": "4",
+      "label": "CARDINAL",
+      "start": 0,
+      "end": 1
+    }
+  ]
+}

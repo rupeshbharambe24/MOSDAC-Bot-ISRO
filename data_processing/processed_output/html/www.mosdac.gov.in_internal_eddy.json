@@ -1,0 +1,17 @@
+{
+  "source_url": "https://www.mosdac.gov.in/internal/eddy",
+  "content_type": "text/html",
+  "text": "{{appName}}\n{{start_date |date:'yyyy-MM-dd'}} To {{end_date |date:'yyyy-MM-dd' }}\n*Data Available from Jan-1993 to Dec-2024\nStart date\nEnd date\nSelect Eddy Type:\nCyclonic\nAnti-Cyclonic\nBoth\nSubmit\nAnimation\nSelect Eddy ID:\nClose\nAnimation\nPlay\nReplay\nLegends\nEddy for more detail:\nEddy Detection and Tracking\nDeveloped & Maintained By: DWD/SAC | Overlay Layers Source: NRDB | Ports data source: http://msi.ngs.mil\nCredits for following information/layers/data used in this website is dually acknowledged\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t* Bhuvan Layer: NRSC, Hyderabd (www.nrsc.gov.in)\n* OpenStreetMap: @OpenStreetMap Contributors (www.openstreetmap.org/copyright)\n* Satellite Data Layers : Indian Space Research Organisation (ISRO)\n* True Marble: Unearthed Outdoors, LLC\n* India River Basins/ State/ District Boundaries and World Coastlines : India Meteorological Department, Delhi (www.imd.gov.in)\nCredits for following information/layers/data used in this website is dually acknowledged:\n* Input altimeter currents data: Near Real Time data provided by E.U. Copernicus Marine Service Information;\nhttps://doi.org/10.48670/moi-00149\nClose",
+  "cleaned_text": null,
+  "language": null,
+  "metadata": {
+    "theme-color": "#317EFB",
+    "description": "Author: Mosdac, Illustrator: Satellite Images, Category: Scientific Spatial Data",
+    "viewport": "initial-scale=1.0, user-scalable=yes, width=device-width"
+  },
+  "tables": [],
+  "figures": [],
+  "visual_data": [],
+  "document_type": null,
+  "keywords": []
+}

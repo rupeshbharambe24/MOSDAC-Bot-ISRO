@@ -1,0 +1,343 @@
+{
+  "source": "R:\\Projects\\MOSDAC Help Bot\\Codes\\data_processing\\processed_output\\pdfs\\www.mosdac.gov.in_sites_default_files_docs_Onset%20Prediction%202024.pdf.json",
+  "entities": [
+    {
+      "text": "Study of Monsoon Onset",
+      "label": "ORG",
+      "start": 0,
+      "end": 22,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "Kerala",
+      "label": "DATA_PRODUCT",
+      "start": 28,
+      "end": 34,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "2024",
+      "label": "DATE",
+      "start": 42,
+      "end": 46,
+      "mosdac_type": "DATE"
+    },
+    {
+      "text": "TPW",
+      "label": "DATA_PRODUCT",
+      "start": 84,
+      "end": 87,
+      "mosdac_type": "PARAMETER"
+    },
+    {
+      "text": "50",
+      "label": "CARDINAL",
+      "start": 97,
+      "end": 99,
+      "mosdac_type": "CARDINAL"
+    },
+    {
+      "text": "May 2024",
+      "label": "DATA_PRODUCT",
+      "start": 110,
+      "end": 118,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "0°N:10",
+      "label": "QUANTITY",
+      "start": 119,
+      "end": 125,
+      "mosdac_type": "REGION"
+    },
+    {
+      "text": "03 June 2024",
+      "label": "DATE",
+      "start": 149,
+      "end": 161,
+      "mosdac_type": "DATE"
+    },
+    {
+      "text": "18 days",
+      "label": "DATE",
+      "start": 169,
+      "end": 176,
+      "mosdac_type": "DATE"
+    },
+    {
+      "text": "TPW",
+      "label": "DATA_PRODUCT",
+      "start": 190,
+      "end": 193,
+      "mosdac_type": "PARAMETER"
+    },
+    {
+      "text": "Pentad Wind",
+      "label": "ORG",
+      "start": 204,
+      "end": 215,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "850",
+      "label": "CARDINAL",
+      "start": 219,
+      "end": 222,
+      "mosdac_type": "CARDINAL"
+    },
+    {
+      "text": "hPa",
+      "label": "MONEY",
+      "start": 223,
+      "end": 226,
+      "mosdac_type": "MONEY"
+    },
+    {
+      "text": "pre-monsoon month",
+      "label": "DATE",
+      "start": 234,
+      "end": 251,
+      "mosdac_type": "DATE"
+    },
+    {
+      "text": "2024",
+      "label": "DATE",
+      "start": 255,
+      "end": 259,
+      "mosdac_type": "DATE"
+    },
+    {
+      "text": "TPW",
+      "label": "DATA_PRODUCT",
+      "start": 354,
+      "end": 357,
+      "mosdac_type": "PARAMETER"
+    },
+    {
+      "text": "TPW",
+      "label": "DATA_PRODUCT",
+      "start": 391,
+      "end": 394,
+      "mosdac_type": "PARAMETER"
+    },
+    {
+      "text": "the Arabian Sea",
+      "label": "REGION",
+      "start": 400,
+      "end": 415,
+      "mosdac_type": "REGION"
+    },
+    {
+      "text": "50",
+      "label": "CARDINAL",
+      "start": 417,
+      "end": 419,
+      "mosdac_type": "CARDINAL"
+    },
+    {
+      "text": "0°N:10°",
+      "label": "CARDINAL",
+      "start": 428,
+      "end": 435,
+      "mosdac_type": "REGION"
+    },
+    {
+      "text": "18 days",
+      "label": "DATE",
+      "start": 450,
+      "end": 457,
+      "mosdac_type": "DATE"
+    },
+    {
+      "text": "Kerala",
+      "label": "REGION",
+      "start": 476,
+      "end": 482,
+      "mosdac_type": "REGION"
+    },
+    {
+      "text": "MJO",
+      "label": "PARAMETER",
+      "start": 486,
+      "end": 489,
+      "mosdac_type": "PARAMETER"
+    },
+    {
+      "text": "Indian Ocean",
+      "label": "REGION",
+      "start": 537,
+      "end": 549,
+      "mosdac_type": "REGION"
+    },
+    {
+      "text": "Arabian",
+      "label": "NORP",
+      "start": 629,
+      "end": 636,
+      "mosdac_type": "NORP"
+    },
+    {
+      "text": "Indian",
+      "label": "NORP",
+      "start": 646,
+      "end": 652,
+      "mosdac_type": "NORP"
+    },
+    {
+      "text": "TPW",
+      "label": "DATA_PRODUCT",
+      "start": 688,
+      "end": 691,
+      "mosdac_type": "PARAMETER"
+    },
+    {
+      "text": "03 June 2024",
+      "label": "DATE",
+      "start": 779,
+      "end": 791,
+      "mosdac_type": "DATE"
+    },
+    {
+      "text": "Bay of Bengal",
+      "label": "REGION",
+      "start": 893,
+      "end": 906,
+      "mosdac_type": "REGION"
+    },
+    {
+      "text": "PowerPoint Presentation",
+      "label": "PRODUCT",
+      "start": 0,
+      "end": 23,
+      "mosdac_type": "PRODUCT"
+    },
+    {
+      "text": "SKDas",
+      "label": "ORG",
+      "start": 0,
+      "end": 5,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "3",
+      "label": "CARDINAL",
+      "start": 0,
+      "end": 1,
+      "mosdac_type": "CARDINAL"
+    }
+  ],
+  "relations": [
+    {
+      "head": "Kerala",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "0°N:10",
+      "tail_type": "REGION",
+      "evidence": "The monsoon wind (wind reversal over equator and strong westerly wind) over Arabian\nSea into Indian landmass started after the peak of TPW observed.\n",
+      "source": "pattern"
+    },
+    {
+      "head": "Kerala",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "the Arabian Sea",
+      "tail_type": "REGION",
+      "evidence": "The monsoon wind (wind reversal over equator and strong westerly wind) over Arabian\nSea into Indian landmass started after the peak of TPW observed.\n",
+      "source": "pattern"
+    },
+    {
+      "head": "Kerala",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "0°N:10°",
+      "tail_type": "REGION",
+      "evidence": "The monsoon wind (wind reversal over equator and strong westerly wind) over Arabian\nSea into Indian landmass started after the peak of TPW observed.\n",
+      "source": "pattern"
+    },
+    {
+      "head": "Kerala",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Kerala",
+      "tail_type": "REGION",
+      "evidence": "The monsoon wind (wind reversal over equator and strong westerly wind) over Arabian\nSea into Indian landmass started after the peak of TPW observed.\n",
+      "source": "pattern"
+    },
+    {
+      "head": "Kerala",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Ocean",
+      "tail_type": "REGION",
+      "evidence": "The monsoon wind (wind reversal over equator and strong westerly wind) over Arabian\nSea into Indian landmass started after the peak of TPW observed.\n",
+      "source": "pattern"
+    },
+    {
+      "head": "Kerala",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Bay of Bengal",
+      "tail_type": "REGION",
+      "evidence": "The monsoon wind (wind reversal over equator and strong westerly wind) over Arabian\nSea into Indian landmass started after the peak of TPW observed.\n",
+      "source": "pattern"
+    },
+    {
+      "head": "May 2024",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "0°N:10",
+      "tail_type": "REGION",
+      "evidence": "erly wind) over Arabian\nSea into Indian landmass started after the peak of TPW observed.\n",
+      "source": "pattern"
+    },
+    {
+      "head": "May 2024",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "the Arabian Sea",
+      "tail_type": "REGION",
+      "evidence": "erly wind) over Arabian\nSea into Indian landmass started after the peak of TPW observed.\n",
+      "source": "pattern"
+    },
+    {
+      "head": "May 2024",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "0°N:10°",
+      "tail_type": "REGION",
+      "evidence": "erly wind) over Arabian\nSea into Indian landmass started after the peak of TPW observed.\n",
+      "source": "pattern"
+    },
+    {
+      "head": "May 2024",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Kerala",
+      "tail_type": "REGION",
+      "evidence": "erly wind) over Arabian\nSea into Indian landmass started after the peak of TPW observed.\n",
+      "source": "pattern"
+    },
+    {
+      "head": "May 2024",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Ocean",
+      "tail_type": "REGION",
+      "evidence": "erly wind) over Arabian\nSea into Indian landmass started after the peak of TPW observed.\n",
+      "source": "pattern"
+    },
+    {
+      "head": "May 2024",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Bay of Bengal",
+      "tail_type": "REGION",
+      "evidence": "erly wind) over Arabian\nSea into Indian landmass started after the peak of TPW observed.\n",
+      "source": "pattern"
+    }
+  ],
+  "stats": {
+    "entity_count": 32,
+    "relation_count": 12
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "source_url": "https://www.mosdac.gov.in/internal/heat-cold-wave",
+  "content_type": "text/html",
+  "text": "{{appNameDisplay}}\n{{map.getLayers().getArray()[1].getLayers().getArray()[map.getLayers().getArray()[1].getLayers().getArray().length-1].values_.title}}\n{{slider.value}}\n{{timezone}}\n{{generalMessage.infoMsg.noLegends.message1}}\nLegends",
+  "metadata": {
+    "viewport": "initial-scale=1.0, user-scalable=yes, width=device-width"
+  }
+}

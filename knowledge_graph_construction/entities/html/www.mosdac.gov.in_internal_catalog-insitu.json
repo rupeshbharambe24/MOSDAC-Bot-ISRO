@@ -1,0 +1,24 @@
+{
+  "source": "R:\\Projects\\MOSDAC Help Bot\\Codes\\data_processing\\processed_output\\html\\www.mosdac.gov.in_internal_catalog-insitu.json",
+  "text_entities": [
+    {
+      "text": "AWS",
+      "label": "DATA_PRODUCT",
+      "start": 35,
+      "end": 38
+    },
+    {
+      "text": "सूची",
+      "label": "PERSON",
+      "start": 47,
+      "end": 51
+    },
+    {
+      "text": "AWS",
+      "label": "DATA_PRODUCT",
+      "start": 60,
+      "end": 63
+    }
+  ],
+  "metadata_entities": []
+}

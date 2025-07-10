@@ -1,0 +1,73 @@
+{
+  "source": "R:\\Projects\\MOSDAC Help Bot\\Codes\\data_processing\\processed_output\\html\\www.mosdac.gov.in_internal_monsoon.json",
+  "entities": [
+    {
+      "text": "Year",
+      "label": "DATE",
+      "start": 70,
+      "end": 74,
+      "mosdac_type": "DATE"
+    },
+    {
+      "text": "NCAR NCEP",
+      "label": "PERSON",
+      "start": 463,
+      "end": 472,
+      "mosdac_type": "PERSON"
+    },
+    {
+      "text": "the Community Atmosphere \t\t\t\t\t\t\t\t\t\t\tModel",
+      "label": "DATA_PRODUCT",
+      "start": 514,
+      "end": 555,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "NCAR",
+      "label": "ORG",
+      "start": 687,
+      "end": 691,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "NCEP",
+      "label": "ORG",
+      "start": 693,
+      "end": 697,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "the Community Atmosphere Model",
+      "label": "DATA_PRODUCT",
+      "start": 739,
+      "end": 769,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "DWD/SAC/ISRO",
+      "label": "DATA_PRODUCT",
+      "start": 859,
+      "end": 871,
+      "mosdac_type": "STATION"
+    },
+    {
+      "text": "Census 2011",
+      "label": "DATA_PRODUCT",
+      "start": 908,
+      "end": 919,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "317EFB",
+      "label": "MONEY",
+      "start": 1,
+      "end": 7,
+      "mosdac_type": "MONEY"
+    }
+  ],
+  "relations": [],
+  "stats": {
+    "entity_count": 9,
+    "relation_count": 0
+  }
+}

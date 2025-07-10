@@ -1,0 +1,12 @@
+{
+  "source": "R:\\Projects\\MOSDAC Help Bot\\Codes\\data_processing\\processed_output\\html\\www.mosdac.gov.in_internal_aws.json",
+  "text_entities": [
+    {
+      "text": "AWS",
+      "label": "DATA_PRODUCT",
+      "start": 0,
+      "end": 3
+    }
+  ],
+  "metadata_entities": []
+}

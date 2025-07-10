@@ -1,0 +1,8 @@
+{
+  "source_url": "https://www.mosdac.gov.in/internal/catalog-insitu",
+  "content_type": "text/html",
+  "text": "In-situ Catalog\nA-\nA\nA+\nयथास्थिति (AWS) उत्पाद सूची\nInsitu (AWS) Catalog\nX\nSr.No\nStation Name\nState\nStation ID\nStation Key\nLatitude\nLongitude\nStart Date\nEnd Date\nProcessing Status\nTemporal Resolution\n{{$index + 1}}\n{{allproduct.name}}\n{{allproduct.state}}\n{{allproduct.id}}\n{{allproduct.key}}\n{{allproduct.latres}}\n{{allproduct.longres}}\n{{allproduct.startdate}}\n{{allproduct.enddate}}\n{{allproduct.actv}}\n{{allproduct.actv}}\n{{allproduct.frequency}}",
+  "metadata": {
+    "viewport": "width=device-width, initial-scale=1"
+  }
+}

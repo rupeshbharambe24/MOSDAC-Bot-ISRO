@@ -1,0 +1,505 @@
+{
+  "source": "R:\\Projects\\MOSDAC Help Bot\\Codes\\data_processing\\processed_output\\html\\www.mosdac.gov.in_insat-3dr.json",
+  "text_entities": [
+    {
+      "text": "INSAT-3DR",
+      "label": "DATA_PRODUCT",
+      "start": 0,
+      "end": 9
+    },
+    {
+      "text": "Meteorological & Oceanographic Satellite Data Archival Centre\nSkip",
+      "label": "DATA_PRODUCT",
+      "start": 12,
+      "end": 78
+    },
+    {
+      "text": "English",
+      "label": "DATA_PRODUCT",
+      "start": 116,
+      "end": 123
+    },
+    {
+      "text": "Satellite Data Archival Centre\nSpace Applications Centre",
+      "label": "DATA_PRODUCT",
+      "start": 155,
+      "end": 211
+    },
+    {
+      "text": "ISRO",
+      "label": "ORG",
+      "start": 213,
+      "end": 217
+    },
+    {
+      "text": "INSAT-3DR",
+      "label": "SATELLITE",
+      "start": 232,
+      "end": 241
+    },
+    {
+      "text": "INSAT-3D",
+      "label": "SATELLITE",
+      "start": 242,
+      "end": 250
+    },
+    {
+      "text": "SARAL",
+      "label": "SATELLITE",
+      "start": 285,
+      "end": 290
+    },
+    {
+      "text": "SCATSAT-1",
+      "label": "SATELLITE",
+      "start": 330,
+      "end": 339
+    },
+    {
+      "text": "AWS",
+      "label": "DATA_PRODUCT",
+      "start": 366,
+      "end": 369
+    },
+    {
+      "text": "RADAR",
+      "label": "ORG",
+      "start": 438,
+      "end": 443
+    },
+    {
+      "text": "DWR",
+      "label": "ORG",
+      "start": 445,
+      "end": 448
+    },
+    {
+      "text": "Global Ocean Current",
+      "label": "DATA_PRODUCT",
+      "start": 450,
+      "end": 470
+    },
+    {
+      "text": "Data Access",
+      "label": "DATA_PRODUCT",
+      "start": 471,
+      "end": 482
+    },
+    {
+      "text": "MT-SAPHIR",
+      "label": "DATA_PRODUCT",
+      "start": 530,
+      "end": 539
+    },
+    {
+      "text": "ISRO",
+      "label": "STATION",
+      "start": 591,
+      "end": 595
+    },
+    {
+      "text": "Indian Mainland Coastal Product",
+      "label": "DATA_PRODUCT",
+      "start": 786,
+      "end": 817
+    },
+    {
+      "text": "Renewable Energy\nCal-Val",
+      "label": "ORG",
+      "start": 902,
+      "end": 926
+    },
+    {
+      "text": "RSS Feeds",
+      "label": "ORG",
+      "start": 936,
+      "end": 945
+    },
+    {
+      "text": "Data Quality",
+      "label": "DATA_PRODUCT",
+      "start": 993,
+      "end": 1005
+    },
+    {
+      "text": "INSAT-3DR",
+      "label": "SATELLITE",
+      "start": 1072,
+      "end": 1081
+    },
+    {
+      "text": "INSAT-3DR",
+      "label": "SATELLITE",
+      "start": 1082,
+      "end": 1091
+    },
+    {
+      "text": "INSAT-3DR",
+      "label": "SATELLITE",
+      "start": 1092,
+      "end": 1101
+    },
+    {
+      "text": "INSAT-3D",
+      "label": "DATA_PRODUCT",
+      "start": 1118,
+      "end": 1126
+    },
+    {
+      "text": "Sensors",
+      "label": "DATA_PRODUCT",
+      "start": 1139,
+      "end": 1146
+    },
+    {
+      "text": "INSAT",
+      "label": "ORG",
+      "start": 1161,
+      "end": 1166
+    },
+    {
+      "text": "the Indian National Satellite System",
+      "label": "DATA_PRODUCT",
+      "start": 1170,
+      "end": 1206
+    },
+    {
+      "text": "Geo",
+      "label": "PRODUCT",
+      "start": 1235,
+      "end": 1238
+    },
+    {
+      "text": "ISRO",
+      "label": "ORG",
+      "start": 1273,
+      "end": 1277
+    },
+    {
+      "text": "India",
+      "label": "REGION",
+      "start": 1371,
+      "end": 1376
+    },
+    {
+      "text": "1983",
+      "label": "DATE",
+      "start": 1394,
+      "end": 1398
+    },
+    {
+      "text": "INSAT",
+      "label": "ORG",
+      "start": 1400,
+      "end": 1405
+    },
+    {
+      "text": "the Asia Pacific Region",
+      "label": "REGION",
+      "start": 1454,
+      "end": 1477
+    },
+    {
+      "text": "Master Control Facilities",
+      "label": "ORG",
+      "start": 1524,
+      "end": 1549
+    },
+    {
+      "text": "Hassan",
+      "label": "REGION",
+      "start": 1564,
+      "end": 1570
+    },
+    {
+      "text": "Bhopal",
+      "label": "REGION",
+      "start": 1575,
+      "end": 1581
+    },
+    {
+      "text": "INSAT-3DR",
+      "label": "SATELLITE",
+      "start": 1583,
+      "end": 1592
+    },
+    {
+      "text": "INSAT3DR",
+      "label": "ORG",
+      "start": 1830,
+      "end": 1838
+    },
+    {
+      "text": "earth",
+      "label": "REGION",
+      "start": 1857,
+      "end": 1862
+    },
+    {
+      "text": "Broadcast Satellite Services",
+      "label": "DATA_PRODUCT",
+      "start": 1957,
+      "end": 1985
+    },
+    {
+      "text": "BSS",
+      "label": "ORG",
+      "start": 1987,
+      "end": 1990
+    },
+    {
+      "text": "two",
+      "label": "CARDINAL",
+      "start": 2000,
+      "end": 2003
+    },
+    {
+      "text": "Space Applications Centre",
+      "label": "ORG",
+      "start": 2086,
+      "end": 2111
+    },
+    {
+      "text": "Bopal Campus",
+      "label": "PERSON",
+      "start": 2113,
+      "end": 2125
+    },
+    {
+      "text": "Ahmedabad",
+      "label": "DATA_PRODUCT",
+      "start": 2127,
+      "end": 2136
+    },
+    {
+      "text": "India",
+      "label": "REGION",
+      "start": 2138,
+      "end": 2143
+    },
+    {
+      "text": "INSAT-3DR",
+      "label": "DATA_PRODUCT",
+      "start": 2163,
+      "end": 2172
+    },
+    {
+      "text": "four",
+      "label": "CARDINAL",
+      "start": 2204,
+      "end": 2208
+    },
+    {
+      "text": "Data Reception",
+      "label": "DATA_PRODUCT",
+      "start": 2256,
+      "end": 2270
+    },
+    {
+      "text": "L0",
+      "label": "CARDINAL",
+      "start": 2305,
+      "end": 2307
+    },
+    {
+      "text": "Data Processing",
+      "label": "DATA_PRODUCT",
+      "start": 2315,
+      "end": 2330
+    },
+    {
+      "text": "L0",
+      "label": "CARDINAL",
+      "start": 2354,
+      "end": 2356
+    },
+    {
+      "text": "Geo",
+      "label": "PRODUCT",
+      "start": 2405,
+      "end": 2408
+    },
+    {
+      "text": "74",
+      "label": "CARDINAL",
+      "start": 2482,
+      "end": 2484
+    },
+    {
+      "text": "East Longitude",
+      "label": "REGION",
+      "start": 2487,
+      "end": 2501
+    },
+    {
+      "text": "MOSDAC",
+      "label": "ORG",
+      "start": 2566,
+      "end": 2572
+    },
+    {
+      "text": "Space Applications Centre",
+      "label": "ORG",
+      "start": 2574,
+      "end": 2599
+    },
+    {
+      "text": "Indian Space Research Organisation",
+      "label": "REGION",
+      "start": 2601,
+      "end": 2635
+    },
+    {
+      "text": "Govt",
+      "label": "ORG",
+      "start": 2637,
+      "end": 2641
+    },
+    {
+      "text": "INDIA",
+      "label": "REGION",
+      "start": 2646,
+      "end": 2651
+    }
+  ],
+  "metadata_entities": [
+    {
+      "text": "Oceanographic Satellite Data Archival Centre",
+      "label": "DATA_PRODUCT",
+      "start": 19,
+      "end": 63
+    },
+    {
+      "text": "MOSDAC",
+      "label": "DATA_PRODUCT",
+      "start": 65,
+      "end": 71
+    },
+    {
+      "text": "INSAT-3DR",
+      "label": "SATELLITE",
+      "start": 0,
+      "end": 9
+    },
+    {
+      "text": "INSAT-3D",
+      "label": "DATA_PRODUCT",
+      "start": 26,
+      "end": 34
+    },
+    {
+      "text": "Sensors",
+      "label": "DATA_PRODUCT",
+      "start": 47,
+      "end": 54
+    },
+    {
+      "text": "INSAT",
+      "label": "ORG",
+      "start": 69,
+      "end": 74
+    },
+    {
+      "text": "the Indian National Satellite System",
+      "label": "DATA_PRODUCT",
+      "start": 78,
+      "end": 114
+    },
+    {
+      "text": "Geo",
+      "label": "PRODUCT",
+      "start": 143,
+      "end": 146
+    },
+    {
+      "text": "ISRO",
+      "label": "ORG",
+      "start": 181,
+      "end": 185
+    },
+    {
+      "text": "India",
+      "label": "REGION",
+      "start": 279,
+      "end": 284
+    },
+    {
+      "text": "1983",
+      "label": "DATE",
+      "start": 302,
+      "end": 306
+    },
+    {
+      "text": "INSAT",
+      "label": "ORG",
+      "start": 308,
+      "end": 313
+    },
+    {
+      "text": "the Asia Pacific",
+      "label": "REGION",
+      "start": 362,
+      "end": 378
+    },
+    {
+      "text": "Oceanographic Satellite Data Archival Centre",
+      "label": "DATA_PRODUCT",
+      "start": 19,
+      "end": 63
+    },
+    {
+      "text": "MOSDAC",
+      "label": "DATA_PRODUCT",
+      "start": 65,
+      "end": 71
+    },
+    {
+      "text": "a Data Centre of Space Applications Centre",
+      "label": "DATA_PRODUCT",
+      "start": 76,
+      "end": 118
+    },
+    {
+      "text": "MOSDAC",
+      "label": "DATA_PRODUCT",
+      "start": 212,
+      "end": 218
+    },
+    {
+      "text": "Indian",
+      "label": "DATA_PRODUCT",
+      "start": 274,
+      "end": 280
+    },
+    {
+      "text": "Oceanographic",
+      "label": "DATA_PRODUCT",
+      "start": 16,
+      "end": 29
+    },
+    {
+      "text": "Satellite",
+      "label": "DATA_PRODUCT",
+      "start": 31,
+      "end": 40
+    },
+    {
+      "text": "Data, Archival",
+      "label": "DATA_PRODUCT",
+      "start": 42,
+      "end": 56
+    },
+    {
+      "text": "Data Centre",
+      "label": "DATA_PRODUCT",
+      "start": 58,
+      "end": 69
+    },
+    {
+      "text": "MOSDAC",
+      "label": "ORG",
+      "start": 0,
+      "end": 6
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "source": "R:\\Projects\\MOSDAC Help Bot\\Codes\\data_processing\\processed_output\\html\\www.mosdac.gov.in_gallery_index.html__prod_3SIMG_%2A_L1B_STD_IR1_V%2A.jpg.json",
+  "entities": [
+    {
+      "text": "MOSDAC Gallery",
+      "label": "DATA_PRODUCT",
+      "start": 0,
+      "end": 14,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "AutoLoadmsg",
+      "label": "DATA_PRODUCT",
+      "start": 74,
+      "end": 85,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "AutoLoad",
+      "label": "DATA_PRODUCT",
+      "start": 88,
+      "end": 96,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "8",
+      "label": "CARDINAL",
+      "start": 127,
+      "end": 128,
+      "mosdac_type": "CARDINAL"
+    },
+    {
+      "text": "16",
+      "label": "CARDINAL",
+      "start": 136,
+      "end": 138,
+      "mosdac_type": "CARDINAL"
+    },
+    {
+      "text": "24",
+      "label": "CARDINAL",
+      "start": 146,
+      "end": 148,
+      "mosdac_type": "CARDINAL"
+    },
+    {
+      "text": "32",
+      "label": "CARDINAL",
+      "start": 156,
+      "end": 158,
+      "mosdac_type": "CARDINAL"
+    },
+    {
+      "text": "48",
+      "label": "CARDINAL",
+      "start": 166,
+      "end": 168,
+      "mosdac_type": "CARDINAL"
+    },
+    {
+      "text": "60",
+      "label": "CARDINAL",
+      "start": 176,
+      "end": 178,
+      "mosdac_type": "CARDINAL"
+    },
+    {
+      "text": "120",
+      "label": "CARDINAL",
+      "start": 186,
+      "end": 189,
+      "mosdac_type": "CARDINAL"
+    },
+    {
+      "text": "MOSDAC Gallery",
+      "label": "ORG",
+      "start": 0,
+      "end": 14,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "MOSDAC Gallery",
+      "label": "ORG",
+      "start": 0,
+      "end": 14,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "MOSDAC Gallery",
+      "label": "ORG",
+      "start": 0,
+      "end": 14,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "INSAT-3D",
+      "label": "SATELLITE",
+      "start": 15,
+      "end": 23,
+      "mosdac_type": "SATELLITE"
+    },
+    {
+      "text": "INSAT-3DR",
+      "label": "SATELLITE",
+      "start": 24,
+      "end": 33,
+      "mosdac_type": "SATELLITE"
+    },
+    {
+      "text": "SARAL",
+      "label": "SATELLITE",
+      "start": 74,
+      "end": 79,
+      "mosdac_type": "SATELLITE"
+    }
+  ],
+  "relations": [
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC Gallery",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "\n+\n-\n«\n▹\n‖\n»\nLatest\n8 Frames\n16 Frames\n24 Frames\n32 Frames\n48 Frames\n60 ",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC Gallery",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "\n+\n-\n«\n▹\n‖\n»\nLatest\n8 Frames\n16 Frames\n24 Frames\n32 Frames\n48 Frames\n60 Frames\n120",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "MOSDAC Gallery",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "\n+\n-\n«\n▹\n‖\n»\nLatest\n8 Frames\n16 Frames\n24 Frames\n32 Frames\n48 Frames\n60 Frames\n120 Frames\n«\n»\nLoading...",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "AutoLoadmsg",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "rames\n16 Frames\n24 Frames\n32 Frames\n48 Frames\n60 ",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "AutoLoadmsg",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "rames\n16 Frames\n24 Frames\n32 Frames\n48 Frames\n60 Frames\n120",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "AutoLoadmsg",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "rames\n16 Frames\n24 Frames\n32 Frames\n48 Frames\n60 Frames\n120 Frames\n«\n»\nLoading...",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3D",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "AutoLoad",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "s\n24 Frames\n32 Frames\n48 Frames\n60 ",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT-3DR",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "AutoLoad",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "s\n24 Frames\n32 Frames\n48 Frames\n60 Frames\n120",
+      "source": "pattern"
+    },
+    {
+      "head": "SARAL",
+      "head_type": "SATELLITE",
+      "type": "PROVIDES",
+      "tail": "AutoLoad",
+      "tail_type": "DATA_PRODUCT",
+      "evidence": "s\n24 Frames\n32 Frames\n48 Frames\n60 Frames\n120 Frames\n«\n»\nLoading...",
+      "source": "pattern"
+    }
+  ],
+  "stats": {
+    "entity_count": 16,
+    "relation_count": 9
+  }
+}

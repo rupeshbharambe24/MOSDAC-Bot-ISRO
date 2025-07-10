@@ -1,0 +1,337 @@
+{
+  "source": "R:\\Projects\\MOSDAC Help Bot\\Codes\\data_processing\\processed_output\\html\\www.mosdac.gov.in_terms-conditions.json",
+  "text_entities": [
+    {
+      "text": "Terms & Conditions",
+      "label": "DATA_PRODUCT",
+      "start": 0,
+      "end": 18
+    },
+    {
+      "text": "Satellite Data Archival Centre\nSkip",
+      "label": "DATA_PRODUCT",
+      "start": 52,
+      "end": 87
+    },
+    {
+      "text": "English",
+      "label": "DATA_PRODUCT",
+      "start": 125,
+      "end": 132
+    },
+    {
+      "text": "Satellite Data Archival Centre\nSpace Applications Centre",
+      "label": "DATA_PRODUCT",
+      "start": 164,
+      "end": 220
+    },
+    {
+      "text": "ISRO",
+      "label": "ORG",
+      "start": 222,
+      "end": 226
+    },
+    {
+      "text": "INSAT-3DR",
+      "label": "SATELLITE",
+      "start": 241,
+      "end": 250
+    },
+    {
+      "text": "INSAT-3D",
+      "label": "SATELLITE",
+      "start": 251,
+      "end": 259
+    },
+    {
+      "text": "SARAL",
+      "label": "SATELLITE",
+      "start": 294,
+      "end": 299
+    },
+    {
+      "text": "SCATSAT-1",
+      "label": "SATELLITE",
+      "start": 339,
+      "end": 348
+    },
+    {
+      "text": "AWS",
+      "label": "DATA_PRODUCT",
+      "start": 375,
+      "end": 378
+    },
+    {
+      "text": "RADAR",
+      "label": "ORG",
+      "start": 447,
+      "end": 452
+    },
+    {
+      "text": "DWR",
+      "label": "ORG",
+      "start": 454,
+      "end": 457
+    },
+    {
+      "text": "Global Ocean Current",
+      "label": "DATA_PRODUCT",
+      "start": 459,
+      "end": 479
+    },
+    {
+      "text": "Data Access",
+      "label": "DATA_PRODUCT",
+      "start": 480,
+      "end": 491
+    },
+    {
+      "text": "MT-SAPHIR",
+      "label": "DATA_PRODUCT",
+      "start": 539,
+      "end": 548
+    },
+    {
+      "text": "ISRO",
+      "label": "STATION",
+      "start": 600,
+      "end": 604
+    },
+    {
+      "text": "Indian Mainland Coastal Product",
+      "label": "DATA_PRODUCT",
+      "start": 795,
+      "end": 826
+    },
+    {
+      "text": "Renewable Energy\nCal-Val",
+      "label": "ORG",
+      "start": 911,
+      "end": 935
+    },
+    {
+      "text": "RSS Feeds",
+      "label": "ORG",
+      "start": 945,
+      "end": 954
+    },
+    {
+      "text": "Data Quality",
+      "label": "DATA_PRODUCT",
+      "start": 1002,
+      "end": 1014
+    },
+    {
+      "text": "Space Applications Centre",
+      "label": "ORG",
+      "start": 1162,
+      "end": 1187
+    },
+    {
+      "text": "Indian Space Research Organisation",
+      "label": "REGION",
+      "start": 1189,
+      "end": 1223
+    },
+    {
+      "text": "Department of Space, Government of India",
+      "label": "ORG",
+      "start": 1225,
+      "end": 1265
+    },
+    {
+      "text": "MOSDAC",
+      "label": "ORG",
+      "start": 1483,
+      "end": 1489
+    },
+    {
+      "text": "the Indian Laws",
+      "label": "DATA_PRODUCT",
+      "start": 1832,
+      "end": 1847
+    },
+    {
+      "text": "India",
+      "label": "REGION",
+      "start": 1966,
+      "end": 1971
+    },
+    {
+      "text": "MOSDAC",
+      "label": "ORG",
+      "start": 2041,
+      "end": 2047
+    },
+    {
+      "text": "MOSDAC",
+      "label": "ORG",
+      "start": 2060,
+      "end": 2066
+    },
+    {
+      "text": "MOSDAC",
+      "label": "ORG",
+      "start": 2238,
+      "end": 2244
+    },
+    {
+      "text": "the Terms & Conditions",
+      "label": "ORG",
+      "start": 2298,
+      "end": 2320
+    },
+    {
+      "text": "MOSDAC",
+      "label": "ORG",
+      "start": 2358,
+      "end": 2364
+    },
+    {
+      "text": "MOSDAC",
+      "label": "ORG",
+      "start": 2436,
+      "end": 2442
+    },
+    {
+      "text": "MOSDAC",
+      "label": "ORG",
+      "start": 2611,
+      "end": 2617
+    },
+    {
+      "text": "Indian Government Web Guidelines",
+      "label": "ORG",
+      "start": 2670,
+      "end": 2702
+    },
+    {
+      "text": "MOSDAC",
+      "label": "ORG",
+      "start": 2767,
+      "end": 2773
+    },
+    {
+      "text": "Space Applications Centre",
+      "label": "ORG",
+      "start": 2775,
+      "end": 2800
+    },
+    {
+      "text": "Indian Space Research Organisation",
+      "label": "REGION",
+      "start": 2802,
+      "end": 2836
+    },
+    {
+      "text": "Govt",
+      "label": "ORG",
+      "start": 2838,
+      "end": 2842
+    },
+    {
+      "text": "INDIA",
+      "label": "REGION",
+      "start": 2847,
+      "end": 2852
+    }
+  ],
+  "metadata_entities": [
+    {
+      "text": "Oceanographic Satellite Data Archival Centre",
+      "label": "DATA_PRODUCT",
+      "start": 19,
+      "end": 63
+    },
+    {
+      "text": "MOSDAC",
+      "label": "DATA_PRODUCT",
+      "start": 65,
+      "end": 71
+    },
+    {
+      "text": "Space Applications Centre",
+      "label": "ORG",
+      "start": 54,
+      "end": 79
+    },
+    {
+      "text": "Indian Space Research Organisation",
+      "label": "REGION",
+      "start": 81,
+      "end": 115
+    },
+    {
+      "text": "Department of Space, Government of India",
+      "label": "ORG",
+      "start": 117,
+      "end": 157
+    },
+    {
+      "text": "MOSDAC",
+      "label": "ORG",
+      "start": 373,
+      "end": 379
+    },
+    {
+      "text": "Oceanographic Satellite Data Archival Centre",
+      "label": "DATA_PRODUCT",
+      "start": 19,
+      "end": 63
+    },
+    {
+      "text": "MOSDAC",
+      "label": "DATA_PRODUCT",
+      "start": 65,
+      "end": 71
+    },
+    {
+      "text": "a Data Centre of Space Applications Centre",
+      "label": "DATA_PRODUCT",
+      "start": 76,
+      "end": 118
+    },
+    {
+      "text": "MOSDAC",
+      "label": "DATA_PRODUCT",
+      "start": 212,
+      "end": 218
+    },
+    {
+      "text": "Indian",
+      "label": "DATA_PRODUCT",
+      "start": 274,
+      "end": 280
+    },
+    {
+      "text": "Oceanographic",
+      "label": "DATA_PRODUCT",
+      "start": 16,
+      "end": 29
+    },
+    {
+      "text": "Satellite",
+      "label": "DATA_PRODUCT",
+      "start": 31,
+      "end": 40
+    },
+    {
+      "text": "Data, Archival",
+      "label": "DATA_PRODUCT",
+      "start": 42,
+      "end": 56
+    },
+    {
+      "text": "Data Centre",
+      "label": "DATA_PRODUCT",
+      "start": 58,
+      "end": 69
+    },
+    {
+      "text": "MOSDAC",
+      "label": "ORG",
+      "start": 0,
+      "end": 6
+    }
+  ]
+}

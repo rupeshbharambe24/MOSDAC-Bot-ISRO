@@ -1,0 +1,199 @@
+{
+  "source": "R:\\Projects\\MOSDAC Help Bot\\Codes\\data_processing\\processed_output\\pdfs\\www.mosdac.gov.in_sites_default_files_docs_Onset%20Prediction%202024.pdf.json",
+  "text_entities": [
+    {
+      "text": "Study of Monsoon Onset",
+      "label": "ORG",
+      "start": 0,
+      "end": 22
+    },
+    {
+      "text": "Kerala",
+      "label": "DATA_PRODUCT",
+      "start": 28,
+      "end": 34
+    },
+    {
+      "text": "2024",
+      "label": "DATE",
+      "start": 42,
+      "end": 46
+    },
+    {
+      "text": "TPW",
+      "label": "DATA_PRODUCT",
+      "start": 84,
+      "end": 87
+    },
+    {
+      "text": "50",
+      "label": "CARDINAL",
+      "start": 97,
+      "end": 99
+    },
+    {
+      "text": "May 2024",
+      "label": "DATA_PRODUCT",
+      "start": 110,
+      "end": 118
+    },
+    {
+      "text": "0°N:10",
+      "label": "QUANTITY",
+      "start": 119,
+      "end": 125
+    },
+    {
+      "text": "03 June 2024",
+      "label": "DATE",
+      "start": 149,
+      "end": 161
+    },
+    {
+      "text": "18 days",
+      "label": "DATE",
+      "start": 169,
+      "end": 176
+    },
+    {
+      "text": "TPW",
+      "label": "DATA_PRODUCT",
+      "start": 190,
+      "end": 193
+    },
+    {
+      "text": "Pentad Wind",
+      "label": "ORG",
+      "start": 204,
+      "end": 215
+    },
+    {
+      "text": "850",
+      "label": "CARDINAL",
+      "start": 219,
+      "end": 222
+    },
+    {
+      "text": "hPa",
+      "label": "MONEY",
+      "start": 223,
+      "end": 226
+    },
+    {
+      "text": "pre-monsoon month",
+      "label": "DATE",
+      "start": 234,
+      "end": 251
+    },
+    {
+      "text": "2024",
+      "label": "DATE",
+      "start": 255,
+      "end": 259
+    },
+    {
+      "text": "TPW",
+      "label": "DATA_PRODUCT",
+      "start": 354,
+      "end": 357
+    },
+    {
+      "text": "TPW",
+      "label": "DATA_PRODUCT",
+      "start": 391,
+      "end": 394
+    },
+    {
+      "text": "the Arabian Sea",
+      "label": "REGION",
+      "start": 400,
+      "end": 415
+    },
+    {
+      "text": "50",
+      "label": "CARDINAL",
+      "start": 417,
+      "end": 419
+    },
+    {
+      "text": "0°N:10°",
+      "label": "CARDINAL",
+      "start": 428,
+      "end": 435
+    },
+    {
+      "text": "18 days",
+      "label": "DATE",
+      "start": 450,
+      "end": 457
+    },
+    {
+      "text": "Kerala",
+      "label": "REGION",
+      "start": 476,
+      "end": 482
+    },
+    {
+      "text": "MJO",
+      "label": "PARAMETER",
+      "start": 486,
+      "end": 489
+    },
+    {
+      "text": "Indian Ocean",
+      "label": "REGION",
+      "start": 537,
+      "end": 549
+    },
+    {
+      "text": "Arabian",
+      "label": "NORP",
+      "start": 629,
+      "end": 636
+    },
+    {
+      "text": "Indian",
+      "label": "NORP",
+      "start": 646,
+      "end": 652
+    },
+    {
+      "text": "TPW",
+      "label": "DATA_PRODUCT",
+      "start": 688,
+      "end": 691
+    },
+    {
+      "text": "03 June 2024",
+      "label": "DATE",
+      "start": 779,
+      "end": 791
+    },
+    {
+      "text": "Bay of Bengal",
+      "label": "REGION",
+      "start": 893,
+      "end": 906
+    }
+  ],
+  "metadata_entities": [
+    {
+      "text": "PowerPoint Presentation",
+      "label": "PRODUCT",
+      "start": 0,
+      "end": 23
+    },
+    {
+      "text": "SKDas",
+      "label": "ORG",
+      "start": 0,
+      "end": 5
+    },
+    {
+      "text": "3",
+      "label": "CARDINAL",
+      "start": 0,
+      "end": 1
+    }
+  ]
+}

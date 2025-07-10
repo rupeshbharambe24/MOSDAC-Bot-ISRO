@@ -1,0 +1,418 @@
+{
+  "source": "R:\\Projects\\MOSDAC Help Bot\\Codes\\data_processing\\processed_output\\html\\www.mosdac.gov.in_internal_nowcast-heavyrain.json",
+  "entities": [
+    {
+      "text": "HeavyRain Alerts",
+      "label": "ORG",
+      "start": 20,
+      "end": 36,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "HeavyRain Alerts",
+      "label": "ORG",
+      "start": 56,
+      "end": 72,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "ALERTS",
+      "label": "LAW",
+      "start": 275,
+      "end": 281,
+      "mosdac_type": "LAW"
+    },
+    {
+      "text": "The Space Applications Centre",
+      "label": "ORG",
+      "start": 423,
+      "end": 452,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "INSAT",
+      "label": "ORG",
+      "start": 530,
+      "end": 535,
+      "mosdac_type": "SATELLITE"
+    },
+    {
+      "text": "MOSDAC",
+      "label": "ORG",
+      "start": 603,
+      "end": 609,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "www.mosdac.gov.in",
+      "label": "PERSON",
+      "start": 622,
+      "end": 639,
+      "mosdac_type": "PERSON"
+    },
+    {
+      "text": "MOSDAC",
+      "label": "ORG",
+      "start": 744,
+      "end": 750,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "Western Himalayan",
+      "label": "REGION",
+      "start": 755,
+      "end": 772,
+      "mosdac_type": "REGION"
+    },
+    {
+      "text": "Nowcasting of ExTreme",
+      "label": "ORG",
+      "start": 805,
+      "end": 826,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "NETRA",
+      "label": "ORG",
+      "start": 855,
+      "end": 860,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "Western Himalayan",
+      "label": "REGION",
+      "start": 905,
+      "end": 922,
+      "mosdac_type": "REGION"
+    },
+    {
+      "text": "every half hourly",
+      "label": "TIME",
+      "start": 943,
+      "end": 960,
+      "mosdac_type": "TIME"
+    },
+    {
+      "text": "0.1x0.1-degree",
+      "label": "QUANTITY",
+      "start": 970,
+      "end": 984,
+      "mosdac_type": "QUANTITY"
+    },
+    {
+      "text": "Heavyrain",
+      "label": "PERSON",
+      "start": 1015,
+      "end": 1024,
+      "mosdac_type": "PERSON"
+    },
+    {
+      "text": "Nowcast Alerts",
+      "label": "WORK_OF_ART",
+      "start": 1040,
+      "end": 1054,
+      "mosdac_type": "WORK_OF_ART"
+    },
+    {
+      "text": "SAC/ISRO/MOSDAC",
+      "label": "DATA_PRODUCT",
+      "start": 1413,
+      "end": 1428,
+      "mosdac_type": "STATION"
+    },
+    {
+      "text": "Developed & Maintained",
+      "label": "ORG",
+      "start": 2389,
+      "end": 2411,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "DWD/SAC/ISRO",
+      "label": "DATA_PRODUCT",
+      "start": 2416,
+      "end": 2428,
+      "mosdac_type": "STATION"
+    },
+    {
+      "text": "NRSC",
+      "label": "STATION",
+      "start": 2713,
+      "end": 2717,
+      "mosdac_type": "STATION"
+    },
+    {
+      "text": "LLC",
+      "label": "ORG",
+      "start": 3214,
+      "end": 3217,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "India",
+      "label": "REGION",
+      "start": 3397,
+      "end": 3402,
+      "mosdac_type": "REGION"
+    },
+    {
+      "text": "Basins/ State/ District Boundaries",
+      "label": "REGION",
+      "start": 3409,
+      "end": 3443,
+      "mosdac_type": "REGION"
+    },
+    {
+      "text": "Meteorological Department",
+      "label": "STATION",
+      "start": 3473,
+      "end": 3498,
+      "mosdac_type": "STATION"
+    },
+    {
+      "text": "Delhi",
+      "label": "REGION",
+      "start": 3500,
+      "end": 3505,
+      "mosdac_type": "REGION"
+    },
+    {
+      "text": "317EFB",
+      "label": "MONEY",
+      "start": 1,
+      "end": 7,
+      "mosdac_type": "MONEY"
+    }
+  ],
+  "relations": [
+    {
+      "head": "INSAT",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "Western Himalayan",
+      "tail_type": "REGION",
+      "evidence": "                          * Nowcast Data : AOSG/SAC\n* Forecast Data: AOSG/SAC\nClose\nClose",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "Western Himalayan",
+      "tail_type": "REGION",
+      "evidence": "                          * Nowcast Data : AOSG/SAC\n* Forecast Data: AOSG/SAC\nClose\nClose",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "India",
+      "tail_type": "REGION",
+      "evidence": "                          * Nowcast Data : AOSG/SAC\n* Forecast Data: AOSG/SAC\nClose\nClose",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "Basins/ State/ District Boundaries",
+      "tail_type": "REGION",
+      "evidence": "                          * Nowcast Data : AOSG/SAC\n* Forecast Data: AOSG/SAC\nClose\nClose",
+      "source": "pattern"
+    },
+    {
+      "head": "INSAT",
+      "head_type": "SATELLITE",
+      "type": "COVERS",
+      "tail": "Delhi",
+      "tail_type": "REGION",
+      "evidence": "                          * Nowcast Data : AOSG/SAC\n* Forecast Data: AOSG/SAC\nClose\nClose",
+      "source": "pattern"
+    },
+    {
+      "head": "SAC/ISRO/MOSDAC",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Western Himalayan",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "DWD/SAC/ISRO",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Western Himalayan",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "NRSC",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Western Himalayan",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Meteorological Department",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Western Himalayan",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SAC/ISRO/MOSDAC",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Western Himalayan",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "DWD/SAC/ISRO",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Western Himalayan",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "NRSC",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Western Himalayan",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Meteorological Department",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Western Himalayan",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SAC/ISRO/MOSDAC",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "India",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SAC/ISRO/MOSDAC",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Basins/ State/ District Boundaries",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SAC/ISRO/MOSDAC",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Delhi",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "DWD/SAC/ISRO",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "India",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "DWD/SAC/ISRO",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Basins/ State/ District Boundaries",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "DWD/SAC/ISRO",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Delhi",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "NRSC",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "India",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "NRSC",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Basins/ State/ District Boundaries",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "NRSC",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Delhi",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Meteorological Department",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "India",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Meteorological Department",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Basins/ State/ District Boundaries",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Meteorological Department",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Delhi",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    }
+  ],
+  "stats": {
+    "entity_count": 26,
+    "relation_count": 25
+  }
+}

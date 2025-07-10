@@ -1,0 +1,597 @@
+{
+  "source": "R:\\Projects\\MOSDAC Help Bot\\Codes\\data_processing\\processed_output\\html\\www.mosdac.gov.in_internal_cyclone.json",
+  "entities": [
+    {
+      "text": "datetimeGmt",
+      "label": "DATE",
+      "start": 59,
+      "end": 70,
+      "mosdac_type": "DATE"
+    },
+    {
+      "text": "Year",
+      "label": "DATE",
+      "start": 73,
+      "end": 77,
+      "mosdac_type": "DATE"
+    },
+    {
+      "text": "SCAT",
+      "label": "INSTRUMENT",
+      "start": 419,
+      "end": 423,
+      "mosdac_type": "INSTRUMENT"
+    },
+    {
+      "text": "SCORPIO",
+      "label": "DATA_PRODUCT",
+      "start": 497,
+      "end": 504,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "Indian Ocean",
+      "label": "DATA_PRODUCT",
+      "start": 572,
+      "end": 584,
+      "mosdac_type": "REGION"
+    },
+    {
+      "text": "Cyclone Information System",
+      "label": "PRODUCT",
+      "start": 604,
+      "end": 630,
+      "mosdac_type": "PRODUCT"
+    },
+    {
+      "text": "the North Indian Ocean",
+      "label": "REGION",
+      "start": 807,
+      "end": 829,
+      "mosdac_type": "REGION"
+    },
+    {
+      "text": "Space Applications Centre",
+      "label": "FAC",
+      "start": 847,
+      "end": 872,
+      "mosdac_type": "FAC"
+    },
+    {
+      "text": "ISRO",
+      "label": "STATION",
+      "start": 874,
+      "end": 878,
+      "mosdac_type": "STATION"
+    },
+    {
+      "text": "SCORPIO",
+      "label": "PRODUCT",
+      "start": 1240,
+      "end": 1247,
+      "mosdac_type": "PRODUCT"
+    },
+    {
+      "text": "SAC/ISRO/MOSDAC",
+      "label": "DATA_PRODUCT",
+      "start": 1373,
+      "end": 1388,
+      "mosdac_type": "STATION"
+    },
+    {
+      "text": "Developed & Maintained",
+      "label": "ORG",
+      "start": 2349,
+      "end": 2371,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "DWD/SAC/ISRO",
+      "label": "DATA_PRODUCT",
+      "start": 2376,
+      "end": 2388,
+      "mosdac_type": "STATION"
+    },
+    {
+      "text": "NRSC",
+      "label": "STATION",
+      "start": 2496,
+      "end": 2500,
+      "mosdac_type": "STATION"
+    },
+    {
+      "text": "www.nrsc.gov.in",
+      "label": "REGION",
+      "start": 2512,
+      "end": 2527,
+      "mosdac_type": "STATION"
+    },
+    {
+      "text": "OpenStreetMap",
+      "label": "REGION",
+      "start": 2531,
+      "end": 2544,
+      "mosdac_type": "REGION"
+    },
+    {
+      "text": "LLC",
+      "label": "ORG",
+      "start": 2643,
+      "end": 2646,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "India",
+      "label": "REGION",
+      "start": 2649,
+      "end": 2654,
+      "mosdac_type": "REGION"
+    },
+    {
+      "text": "Basins/ State/ District Boundaries",
+      "label": "REGION",
+      "start": 2661,
+      "end": 2695,
+      "mosdac_type": "REGION"
+    },
+    {
+      "text": "Meteorological Department",
+      "label": "DATA_PRODUCT",
+      "start": 2725,
+      "end": 2750,
+      "mosdac_type": "DATA_PRODUCT"
+    },
+    {
+      "text": "Delhi",
+      "label": "REGION",
+      "start": 2752,
+      "end": 2757,
+      "mosdac_type": "REGION"
+    },
+    {
+      "text": "317EFB",
+      "label": "MONEY",
+      "start": 1,
+      "end": 7,
+      "mosdac_type": "MONEY"
+    }
+  ],
+  "relations": [
+    {
+      "head": "SCAT",
+      "head_type": "INSTRUMENT",
+      "type": "COVERS",
+      "tail": "Indian Ocean",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCAT",
+      "head_type": "INSTRUMENT",
+      "type": "COVERS",
+      "tail": "the North Indian Ocean",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCAT",
+      "head_type": "INSTRUMENT",
+      "type": "COVERS",
+      "tail": "OpenStreetMap",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCAT",
+      "head_type": "INSTRUMENT",
+      "type": "COVERS",
+      "tail": "India",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCAT",
+      "head_type": "INSTRUMENT",
+      "type": "COVERS",
+      "tail": "Basins/ State/ District Boundaries",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCAT",
+      "head_type": "INSTRUMENT",
+      "type": "COVERS",
+      "tail": "Delhi",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCORPIO",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Ocean",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCORPIO",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "the North Indian Ocean",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCORPIO",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "OpenStreetMap",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCORPIO",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "India",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCORPIO",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Basins/ State/ District Boundaries",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SCORPIO",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Delhi",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "ISRO",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Indian Ocean",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SAC/ISRO/MOSDAC",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Indian Ocean",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "DWD/SAC/ISRO",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Indian Ocean",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "NRSC",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Indian Ocean",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "www.nrsc.gov.in",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Indian Ocean",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Meteorological Department",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Indian Ocean",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "ISRO",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "the North Indian Ocean",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SAC/ISRO/MOSDAC",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "the North Indian Ocean",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "DWD/SAC/ISRO",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "the North Indian Ocean",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "NRSC",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "the North Indian Ocean",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "www.nrsc.gov.in",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "the North Indian Ocean",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Meteorological Department",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "the North Indian Ocean",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "ISRO",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "OpenStreetMap",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "ISRO",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "India",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "ISRO",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Basins/ State/ District Boundaries",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "ISRO",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Delhi",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SAC/ISRO/MOSDAC",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "OpenStreetMap",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SAC/ISRO/MOSDAC",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "India",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SAC/ISRO/MOSDAC",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Basins/ State/ District Boundaries",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "SAC/ISRO/MOSDAC",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Delhi",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "DWD/SAC/ISRO",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "OpenStreetMap",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "DWD/SAC/ISRO",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "India",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "DWD/SAC/ISRO",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Basins/ State/ District Boundaries",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "DWD/SAC/ISRO",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Delhi",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "NRSC",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "OpenStreetMap",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "NRSC",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "India",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "NRSC",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Basins/ State/ District Boundaries",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "NRSC",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Delhi",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "www.nrsc.gov.in",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "OpenStreetMap",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "www.nrsc.gov.in",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "India",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "www.nrsc.gov.in",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Basins/ State/ District Boundaries",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "www.nrsc.gov.in",
+      "head_type": "STATION",
+      "type": "LOCATED_IN",
+      "tail": "Delhi",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Meteorological Department",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "OpenStreetMap",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Meteorological Department",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "India",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Meteorological Department",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Basins/ State/ District Boundaries",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    },
+    {
+      "head": "Meteorological Department",
+      "head_type": "DATA_PRODUCT",
+      "type": "COVERS",
+      "tail": "Delhi",
+      "tail_type": "REGION",
+      "evidence": "",
+      "source": "pattern"
+    }
+  ],
+  "stats": {
+    "entity_count": 22,
+    "relation_count": 48
+  }
+}

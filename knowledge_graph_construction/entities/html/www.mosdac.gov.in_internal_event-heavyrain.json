@@ -1,0 +1,61 @@
+{
+  "source": "R:\\Projects\\MOSDAC Help Bot\\Codes\\data_processing\\processed_output\\html\\www.mosdac.gov.in_internal_event-heavyrain.json",
+  "text_entities": [
+    {
+      "text": "Rainfall",
+      "label": "DATA_PRODUCT",
+      "start": 20,
+      "end": 28
+    },
+    {
+      "text": "ISRO      Developed & Maintained",
+      "label": "ORG",
+      "start": 848,
+      "end": 880
+    },
+    {
+      "text": "DWD",
+      "label": "ORG",
+      "start": 885,
+      "end": 888
+    },
+    {
+      "text": "LLC",
+      "label": "ORG",
+      "start": 1132,
+      "end": 1135
+    },
+    {
+      "text": "India",
+      "label": "REGION",
+      "start": 1138,
+      "end": 1143
+    },
+    {
+      "text": "Basins/ State/ District Boundaries",
+      "label": "REGION",
+      "start": 1150,
+      "end": 1184
+    },
+    {
+      "text": "Meteorological Department",
+      "label": "STATION",
+      "start": 1214,
+      "end": 1239
+    },
+    {
+      "text": "Delhi",
+      "label": "REGION",
+      "start": 1241,
+      "end": 1246
+    }
+  ],
+  "metadata_entities": [
+    {
+      "text": "317EFB",
+      "label": "MONEY",
+      "start": 1,
+      "end": 7
+    }
+  ]
+}

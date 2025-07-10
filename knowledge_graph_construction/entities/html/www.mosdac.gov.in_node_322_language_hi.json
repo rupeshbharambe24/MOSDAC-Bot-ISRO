@@ -1,0 +1,421 @@
+{
+  "source": "R:\\Projects\\MOSDAC Help Bot\\Codes\\data_processing\\processed_output\\html\\www.mosdac.gov.in_node_322_language_hi.json",
+  "text_entities": [
+    {
+      "text": "3डीआर",
+      "label": "CARDINAL",
+      "start": 6,
+      "end": 11
+    },
+    {
+      "text": "मुख्य",
+      "label": "ORG",
+      "start": 76,
+      "end": 81
+    },
+    {
+      "text": "English",
+      "label": "LANGUAGE",
+      "start": 122,
+      "end": 129
+    },
+    {
+      "text": "इसरो\nहोम",
+      "label": "REGION",
+      "start": 215,
+      "end": 223
+    },
+    {
+      "text": "इनसैट-3डीआर",
+      "label": "ORG",
+      "start": 229,
+      "end": 240
+    },
+    {
+      "text": "3डी",
+      "label": "CARDINAL",
+      "start": 517,
+      "end": 520
+    },
+    {
+      "text": "इसरो वर्षा",
+      "label": "ORG",
+      "start": 621,
+      "end": 631
+    },
+    {
+      "text": "ऊर्जा\nभारतीय",
+      "label": "LAW",
+      "start": 798,
+      "end": 810
+    },
+    {
+      "text": "समुद्री बर्फ",
+      "label": "NORP",
+      "start": 874,
+      "end": 886
+    },
+    {
+      "text": "होने की प्रायिकता",
+      "label": "ORG",
+      "start": 895,
+      "end": 912
+    },
+    {
+      "text": "अंशांकन",
+      "label": "ORG",
+      "start": 953,
+      "end": 960
+    },
+    {
+      "text": "संबंधित",
+      "label": "ORG",
+      "start": 971,
+      "end": 978
+    },
+    {
+      "text": "हैं",
+      "label": "CARDINAL",
+      "start": 1034,
+      "end": 1037
+    },
+    {
+      "text": "3डीआर",
+      "label": "CARDINAL",
+      "start": 1075,
+      "end": 1080
+    },
+    {
+      "text": "मामले",
+      "label": "REGION",
+      "start": 1117,
+      "end": 1122
+    },
+    {
+      "text": "या इंडियन नेशनल सैटेलाइट सिस्टम",
+      "label": "ORG",
+      "start": 1155,
+      "end": 1186
+    },
+    {
+      "text": "प्रसारण",
+      "label": "REGION",
+      "start": 1206,
+      "end": 1213
+    },
+    {
+      "text": "इसरो द्वारा",
+      "label": "ORG",
+      "start": 1274,
+      "end": 1285
+    },
+    {
+      "text": "प्रमोचित",
+      "label": "ORG",
+      "start": 1286,
+      "end": 1294
+    },
+    {
+      "text": "भू-स्थिर",
+      "label": "ORG",
+      "start": 1309,
+      "end": 1317
+    },
+    {
+      "text": "1983",
+      "label": "DATE",
+      "start": 1346,
+      "end": 1350
+    },
+    {
+      "text": "मुख्य",
+      "label": "ORG",
+      "start": 1484,
+      "end": 1489
+    },
+    {
+      "text": "ध्वनित्र",
+      "label": "REGION",
+      "start": 1630,
+      "end": 1638
+    },
+    {
+      "text": "मिशन का",
+      "label": "ORG",
+      "start": 1648,
+      "end": 1655
+    },
+    {
+      "text": "मुख्य",
+      "label": "ORG",
+      "start": 1656,
+      "end": 1661
+    },
+    {
+      "text": "जीवन",
+      "label": "CARDINAL",
+      "start": 1671,
+      "end": 1675
+    },
+    {
+      "text": "पर्यावरण",
+      "label": "DATE",
+      "start": 1719,
+      "end": 1727
+    },
+    {
+      "text": "इनसैट3डीआर",
+      "label": "ORG",
+      "start": 1769,
+      "end": 1779
+    },
+    {
+      "text": "रहा है",
+      "label": "ORG",
+      "start": 1828,
+      "end": 1834
+    },
+    {
+      "text": "डेटा",
+      "label": "ORG",
+      "start": 1838,
+      "end": 1842
+    },
+    {
+      "text": "प्रसार",
+      "label": "PRODUCT",
+      "start": 1843,
+      "end": 1849
+    },
+    {
+      "text": "माध्यम",
+      "label": "PERSON",
+      "start": 1904,
+      "end": 1910
+    },
+    {
+      "text": "प्रणाली अंतरिक्ष उपयोग",
+      "label": "ORG",
+      "start": 1989,
+      "end": 2011
+    },
+    {
+      "text": "इनसैट-3डीआर",
+      "label": "ORG",
+      "start": 2069,
+      "end": 2080
+    },
+    {
+      "text": "डेटा",
+      "label": "ORG",
+      "start": 2081,
+      "end": 2085
+    },
+    {
+      "text": "प्रसंस्करण मोटे तौर पर चार",
+      "label": "ORG",
+      "start": 2089,
+      "end": 2115
+    },
+    {
+      "text": "प्रणाली",
+      "label": "ORG",
+      "start": 2181,
+      "end": 2188
+    },
+    {
+      "text": "2.कच्चा",
+      "label": "ORG",
+      "start": 2189,
+      "end": 2196
+    },
+    {
+      "text": "L0",
+      "label": "CARDINAL",
+      "start": 2203,
+      "end": 2205
+    },
+    {
+      "text": "डीआर",
+      "label": "ORG",
+      "start": 2248,
+      "end": 2252
+    },
+    {
+      "text": "प्रणाली",
+      "label": "ORG",
+      "start": 2254,
+      "end": 2261
+    },
+    {
+      "text": "डेटा",
+      "label": "ORG",
+      "start": 2267,
+      "end": 2271
+    },
+    {
+      "text": "संसाधित",
+      "label": "ORG",
+      "start": 2275,
+      "end": 2282
+    },
+    {
+      "text": "डेटा प्रसंस्करण",
+      "label": "ORG",
+      "start": 2326,
+      "end": 2341
+    },
+    {
+      "text": "प्रणाली",
+      "label": "ORG",
+      "start": 2349,
+      "end": 2356
+    },
+    {
+      "text": "प्रणाली",
+      "label": "ORG",
+      "start": 2407,
+      "end": 2414
+    },
+    {
+      "text": "74°",
+      "label": "CARDINAL",
+      "start": 2418,
+      "end": 2421
+    },
+    {
+      "text": "English",
+      "label": "LANGUAGE",
+      "start": 2449,
+      "end": 2456
+    },
+    {
+      "text": "अंतरिक्ष",
+      "label": "REGION",
+      "start": 2492,
+      "end": 2500
+    },
+    {
+      "text": "इसरो,",
+      "label": "REGION",
+      "start": 2515,
+      "end": 2520
+    }
+  ],
+  "metadata_entities": [
+    {
+      "text": "Oceanographic Satellite Data Archival Centre",
+      "label": "DATA_PRODUCT",
+      "start": 19,
+      "end": 63
+    },
+    {
+      "text": "MOSDAC",
+      "label": "DATA_PRODUCT",
+      "start": 65,
+      "end": 71
+    },
+    {
+      "text": "मामले",
+      "label": "REGION",
+      "start": 36,
+      "end": 41
+    },
+    {
+      "text": "है।इनसैट या इंडियन नेशनल सैटेलाइट सिस्टम",
+      "label": "EVENT",
+      "start": 64,
+      "end": 104
+    },
+    {
+      "text": "प्रसारण",
+      "label": "REGION",
+      "start": 124,
+      "end": 131
+    },
+    {
+      "text": "इसरो द्वारा",
+      "label": "ORG",
+      "start": 192,
+      "end": 203
+    },
+    {
+      "text": "प्रमोचित",
+      "label": "ORG",
+      "start": 204,
+      "end": 212
+    },
+    {
+      "text": "भू-स्थिर",
+      "label": "ORG",
+      "start": 227,
+      "end": 235
+    },
+    {
+      "text": "1983",
+      "label": "DATE",
+      "start": 264,
+      "end": 268
+    },
+    {
+      "text": "Oceanographic Satellite Data Archival Centre",
+      "label": "DATA_PRODUCT",
+      "start": 19,
+      "end": 63
+    },
+    {
+      "text": "MOSDAC",
+      "label": "DATA_PRODUCT",
+      "start": 65,
+      "end": 71
+    },
+    {
+      "text": "a Data Centre of Space Applications Centre",
+      "label": "DATA_PRODUCT",
+      "start": 76,
+      "end": 118
+    },
+    {
+      "text": "MOSDAC",
+      "label": "DATA_PRODUCT",
+      "start": 212,
+      "end": 218
+    },
+    {
+      "text": "Indian",
+      "label": "DATA_PRODUCT",
+      "start": 274,
+      "end": 280
+    },
+    {
+      "text": "Oceanographic",
+      "label": "DATA_PRODUCT",
+      "start": 16,
+      "end": 29
+    },
+    {
+      "text": "Satellite",
+      "label": "DATA_PRODUCT",
+      "start": 31,
+      "end": 40
+    },
+    {
+      "text": "Data, Archival",
+      "label": "DATA_PRODUCT",
+      "start": 42,
+      "end": 56
+    },
+    {
+      "text": "Data Centre",
+      "label": "DATA_PRODUCT",
+      "start": 58,
+      "end": 69
+    },
+    {
+      "text": "MOSDAC",
+      "label": "ORG",
+      "start": 0,
+      "end": 6
+    }
+  ]
+}

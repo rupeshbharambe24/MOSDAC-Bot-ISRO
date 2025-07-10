@@ -1,0 +1,8 @@
+{
+  "source_url": "https://www.mosdac.gov.in/internal/soil-wetness",
+  "content_type": "text/html",
+  "text": "{{appNameDisplay}}\n{{startEndDateStr}}\nTime Series\nLongitude :\nLatitude   :\nStart Date:\nEnd Date:\nSubmit\n{{timezone}}\n{{generalMessage.infoMsg.noLegends.message1}}\nClose\nLegends",
+  "metadata": {
+    "viewport": "initial-scale=1.0, user-scalable=yes, width=device-width"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "source_url": "https://www.mosdac.gov.in/internal/catalog-radar",
+  "content_type": "text/html",
+  "text": "Radar Catalog\nA-\nA\nA+\nराडार उत्पाद सूची\nRADAR Catalog\nX\nSr.No\nProduct /\nAcq Calendar\nProduct Description\nProcessing Level\nTemporal Resolution\nStart Date\nEnd Date\nProcessing Status\nDOI\n{{$index + 1}}\n{{allproduct.name}}\n{{allproduct.description}}\n{{allproduct.processlevel}}\n{{allproduct.frequency  | uppercase}}\n{{allproduct.startdate}}\n{{allproduct.enddate}}\n{{allproduct.actv}}\n{{allproduct.actv}}\n{{allproduct.techdoc}}",
+  "metadata": {
+    "viewport": "width=device-width, initial-scale=1"
+  }
+}

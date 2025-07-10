@@ -1,0 +1,73 @@
+{
+  "source": "R:\\Projects\\MOSDAC Help Bot\\Codes\\data_processing\\processed_output\\html\\www.mosdac.gov.in_internal_logout.json",
+  "entities": [
+    {
+      "text": "MOSDAC",
+      "label": "ORG",
+      "start": 0,
+      "end": 6,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "MOSDAC Single-Sign",
+      "label": "ORG",
+      "start": 66,
+      "end": 84,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "अंतरिक्ष",
+      "label": "REGION",
+      "start": 103,
+      "end": 111,
+      "mosdac_type": "REGION"
+    },
+    {
+      "text": "इसरो,",
+      "label": "REGION",
+      "start": 126,
+      "end": 131,
+      "mosdac_type": "REGION"
+    },
+    {
+      "text": "MOSDAC",
+      "label": "ORG",
+      "start": 193,
+      "end": 199,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "Space Applications Centre",
+      "label": "ORG",
+      "start": 201,
+      "end": 226,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "Indian Space Research Organisation",
+      "label": "REGION",
+      "start": 228,
+      "end": 262,
+      "mosdac_type": "REGION"
+    },
+    {
+      "text": "Govt",
+      "label": "ORG",
+      "start": 264,
+      "end": 268,
+      "mosdac_type": "ORG"
+    },
+    {
+      "text": "INDIA",
+      "label": "REGION",
+      "start": 273,
+      "end": 278,
+      "mosdac_type": "REGION"
+    }
+  ],
+  "relations": [],
+  "stats": {
+    "entity_count": 9,
+    "relation_count": 0
+  }
+}

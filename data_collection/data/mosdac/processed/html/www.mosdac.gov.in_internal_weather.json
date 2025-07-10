@@ -1,0 +1,8 @@
+{
+  "source_url": "https://www.mosdac.gov.in/internal/weather",
+  "content_type": "text/html",
+  "text": "Weather Forecast",
+  "metadata": {
+    "viewport": "width=device-width, initial-scale=1.0"
+  }
+}

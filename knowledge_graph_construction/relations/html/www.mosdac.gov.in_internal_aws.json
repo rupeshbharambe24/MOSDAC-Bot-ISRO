@@ -1,0 +1,17 @@
+{
+  "source": "R:\\Projects\\MOSDAC Help Bot\\Codes\\data_processing\\processed_output\\html\\www.mosdac.gov.in_internal_aws.json",
+  "entities": [
+    {
+      "text": "AWS",
+      "label": "DATA_PRODUCT",
+      "start": 0,
+      "end": 3,
+      "mosdac_type": "PARAMETER"
+    }
+  ],
+  "relations": [],
+  "stats": {
+    "entity_count": 1,
+    "relation_count": 0
+  }
+}
