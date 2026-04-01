@@ -1,70 +1,141 @@
-# 🚀 ISRO SatQuery
+# ISRO SatQuery — MOSDAC Help Bot
 
-**A Knowledge Graph + LLM Powered Conversational Assistant for Satellite Data Querying**  
-🔗 Website & Demo: [ISRO SatQuery](https://www.mosdac.gov.in/)
+An AI-powered Help Bot for querying ISRO's satellite data hosted on the [MOSDAC portal](https://www.mosdac.gov.in). Uses a Knowledge Graph (Neo4j) + RAG (Retrieval-Augmented Generation) architecture with FAISS vector search and a local Mistral-7B LLM.
 
-![MOSDAC Logo](https://www.mosdac.gov.in/assets/images/logo.png)
+## Architecture
 
----
+```
+User → React Frontend (Vite + shadcn/ui)
+         ↓ /api/query
+       FastAPI Server (api_server.py)
+         ↓
+       Hybrid Retriever
+         ├── FAISS Vector Store (sentence-transformers embeddings)
+         └── Neo4j Knowledge Graph (satellites, instruments, parameters)
+         ↓
+       Mistral-7B Local LLM (llama.cpp, GGUF quantized)
+         ↓
+       Response + Sources
+```
 
-## 📚 Table of Contents
+**Data Pipeline:**
+```
+MOSDAC Website → Web Crawler → Document Processor (PDF/DOCX/HTML)
+  → Text Processing (OCR, Hindi, normalization)
+  → Entity Extraction (spaCy) → Relationship Extraction (BERT + patterns)
+  → Knowledge Graph (Neo4j) → Graph Cleaning (classifier)
+```
 
-- [🔍 Project Overview](#-project-overview)
-- [🧠 Backend Architecture](#-backend-architecture)
-- [🛰️ Knowledge Graph Construction](#-knowledge-graph-construction)
-- [🧪 Retrieval-Augmented Generation (RAG) Pipeline](#-retrieval-augmented-generation-rag-pipeline)
-- [🧩 API Server & Endpoints](#-api-server--endpoints)
-- [⚙️ Installation](#️-installation)
-- [🔧 Configuration](#-configuration)
-- [🚀 Usage Guide](#-usage-guide)
-- [🧪 Testing](#-testing)
-- [☁️ Deployment](#-deployment)
-- [💻 Frontend Interface](#-frontend-interface)
-- [🤝 Contributing](#-contributing)
-- [📝 License](#-license)
+## Project Structure
 
----
+```
+├── api_server.py                    # FastAPI backend (POST /query, GET /health)
+├── data_collection/                 # Web crawler and document processing
+│   ├── config.py                    # Crawler configuration
+│   ├── crawler.py                   # Recursive MOSDAC web crawler
+│   ├── document_processing.py       # PDF/DOCX/HTML text extraction
+│   ├── main.py                      # Crawler entry point
+│   └── storage.py                   # SQLite storage handler
+├── data_processing/                 # Text processing pipeline
+│   ├── main.py                      # Pipeline orchestrator
+│   ├── schemas.py                   # Pydantic document model
+│   └── processors/
+│       ├── text_normalizer.py       # Encoding, dates, acronyms, whitespace
+│       ├── language_handler.py      # Language detection + Hindi transliteration
+│       ├── metadata_enricher.py     # Document type + keyword extraction (spaCy)
+│       └── ocr_cleaner.py           # Hindi OCR artifact cleaning
+├── knowledge_graph_construction/    # Neo4j graph building
+│   ├── entity_extractor.py          # spaCy NER for satellites, instruments, etc.
+│   ├── relationship_extractor.py    # BERT + pattern-based relation extraction
+│   ├── graph_builder.py             # Neo4j graph construction (py2neo)
+│   ├── graph_cleaner.py             # BERT classifier to validate relationships
+│   ├── query_interface.py           # Simple graph query API
+│   ├── data_collector.py            # Training data generator for classifier
+│   └── training_data.py             # Auto-generated training examples
+├── rag_pipeline/                    # Retrieval-Augmented Generation
+│   ├── config.py                    # Model paths, Neo4j credentials, thresholds
+│   ├── retriever.py                 # Hybrid retriever (vector + graph)
+│   ├── vector_store.py              # FAISS index with cosine similarity
+│   ├── generator.py                 # Mistral-7B response generation (llama.cpp)
+│   ├── graph_connector.py           # Neo4j Cypher queries for RAG
+│   ├── app.py                       # CLI / interactive bot entry point
+│   └── models/
+│       └── model-download.py        # Script to download Mistral-7B GGUF
+├── frontend/                        # React + TypeScript + Vite + shadcn/ui
+│   └── src/
+│       ├── pages/                   # Dashboard, QueryInterface, SatelliteCatalog
+│       └── components/              # Chat UI, sidebar, globe visualization
+├── requirements.txt
+├── setup.py
+├── .env.example
+└── .gitignore
+```
 
-## 🔍 Project Overview
+## Prerequisites
 
-**ISRO SatQuery** is an AI-based Help Bot system designed to simplify access to ISRO's scientific and satellite datasets hosted on the [MOSDAC portal](https://www.mosdac.gov.in). The platform allows users to interact through natural language and get instant, precise answers about satellite missions, instruments, parameters, geospatial data, and more.
+- **Python 3.10+**
+- **Neo4j 5.x** — running on `bolt://localhost:7687`
+- **Node.js 18+** — for the frontend
+- **System packages:**
+  - `poppler-utils` (for PDF processing)
+  - `tesseract-ocr` (for Hindi OCR, optional)
 
-### 🔑 Key Features
+## Quick Start
 
-- 🚀 LLM + Graph-powered hybrid answering
-- 🧠 Knowledge Graph built from PDFs, DOCX, XLSX, and website content
-- 🌐 Geospatial query support
-- ⚙️ Local or remote model inference (e.g., Mistral, Phi-3)
-- 💡 Modular and scalable architecture
+```bash
+# 1. Clone and setup
+git clone https://github.com/rupeshbharambe24/ISRO-SatQuery.git
+cd ISRO-SatQuery
 
----
+# 2. Create virtual environment
+python -m venv venv
+source venv/bin/activate  # or venv\Scripts\activate on Windows
 
-## 🧠 Backend Architecture
+# 3. Install dependencies
+pip install -r requirements.txt
+python -m spacy download en_core_web_lg
+python -m spacy download en_core_web_sm
 
-```mermaid
-graph TD
-    A[User Query] --> B[API Server]
-    B --> C[Hybrid Retriever]
-    C --> D[Neo4j Graph DB]
-    C --> E[Vector Store - FAISS / ChromaDB]
-    D --> F[Graph Results]
-    E --> G[Vector Results]
-    F --> H[LLM-based Answer Generator]
-    G --> H
-    H --> I[Final Response - Text / Voice]
-````
+# 4. Configure environment
+cp .env.example .env
+# Edit .env with your Neo4j credentials
 
----
+# 5. Download the LLM model (~4GB)
+python rag_pipeline/models/model-download.py
 
-## 🛰️ Knowledge Graph Construction
+# 6. Start Neo4j, then run the API server
+uvicorn api_server:app --reload --port 8000
 
-### 📐 Graph Schema (Neo4j)
+# 7. Start the frontend (in a separate terminal)
+cd frontend
+npm install
+npm run dev
+```
+
+The frontend runs at `http://localhost:8080` and proxies API calls to the FastAPI backend at port 8000.
+
+## API Endpoints
+
+| Method | Endpoint  | Description                |
+|--------|-----------|----------------------------|
+| POST   | `/query`  | Process a natural language query |
+| GET    | `/health` | Health check               |
+
+### Example
+
+```bash
+curl -X POST http://localhost:8000/query \
+     -H "Content-Type: application/json" \
+     -d '{"message": "Which satellite provides SST data for India?"}'
+```
+
+## Knowledge Graph Schema (Neo4j)
 
 ```cypher
-(:SATELLITE {name, launch_date})
-(:INSTRUMENT {name, type})
-(:DATA_PRODUCT {name, resolution})
-(:PARAMETER {name, unit})
+(:SATELLITE {name, source})
+(:INSTRUMENT {name, source})
+(:DATA_PRODUCT {name, source})
+(:PARAMETER {name})
 (:REGION {name, lat, lon})
 
 (:SATELLITE)-[:HAS_INSTRUMENT]->(:INSTRUMENT)
@@ -73,243 +144,60 @@ graph TD
 (:DATA_PRODUCT)-[:COVERS]->(:REGION)
 ```
 
-### 🔧 Graph Components
-
-| File                        | Purpose                               |
-| --------------------------- | ------------------------------------- |
-| `graph_builder.py`          | Constructs the full graph in Neo4j    |
-| `entity_extractor.py`       | Named Entity Recognition using spaCy  |
-| `relationship_extractor.py` | BERT-based relationship mapping       |
-| `geo_utils.py`              | Geospatial parsing and region tagging |
-
-### 🧾 Sample Output
-
-```json
-{
-  "text": "INSAT-3D carries VHRR and SAPHIR instruments",
-  "entities": [
-    {"text": "INSAT-3D", "label": "SATELLITE"},
-    {"text": "VHRR", "label": "INSTRUMENT"},
-    {"text": "SAPHIR", "label": "INSTRUMENT"}
-  ],
-  "relations": [
-    {"head": "INSAT-3D", "tail": "VHRR", "type": "HAS_INSTRUMENT"},
-    {"head": "INSAT-3D", "tail": "SAPHIR", "type": "HAS_INSTRUMENT"}
-  ]
-}
-```
-
----
-
-## 🧪 Retrieval-Augmented Generation (RAG) Pipeline
-
-### 📥 Retriever (`retriever.py`)
-
-* Vector-based semantic retrieval using `all-mpnet-base-v2`
-* Graph-based Cypher query generation
-* Entity linking from user queries
-
-### 🤖 Generator (`generator.py`)
-
-* Uses **Mistral 7B** or **Phi-3** via GGUF/HuggingFace
-* Formats answers with citations and confidence scores
-
-### 📦 Vector Store (`vector_store.py`)
-
-* Embedding generation via `SentenceTransformers`
-* FAISS/ChromaDB for indexing and retrieval
-* Supports batch document ingestion
-
----
-
-## 🧩 API Server & Endpoints
-
-Built using **FastAPI** for async web serving.
-
-### 🚀 Endpoints
-
-| Method | Endpoint      | Description                       |
-| ------ | ------------- | --------------------------------- |
-| POST   | `/query`      | Query answering interface         |
-| GET    | `/stats`      | Basic knowledge graph statistics  |
-| GET    | `/satellites` | Returns list of parsed satellites |
-
-### 🔁 Sample Request
-
-```bash
-curl -X POST http://localhost:8000/query \
-     -H "Content-Type: application/json" \
-     -d '{"question":"Which satellite provides SST data for India?"}'
-```
-
----
-
-## ⚙️ Installation
-
-### ✅ Prerequisites
-
-* Python 3.9+
-* Neo4j 5.x (with Bloom plugin)
-* CUDA-compatible GPU (for local LLM inference)
-
-### 🧰 Steps
-
-```bash
-# Clone repository
-git clone https://github.com/<your-org>/ISRO-SatQuery.git
-cd ISRO-SatQuery
-
-# Set up virtual environment
-python -m venv venv
-source venv/bin/activate  # or venv\Scripts\activate on Windows
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Download models
-python download_models.py
-```
-
----
-
-## 🔧 Configuration
-
-Create a `.env` file in the root directory:
-
-```ini
-NEO4J_URI=bolt://localhost:7687
-NEO4J_USER=neo4j
-NEO4J_PASSWORD=your_password
-
-EMBEDDING_MODEL=all-mpnet-base-v2
-LLM_MODEL=mistral-7b-instruct-v0.1.Q4_K_M.gguf
-```
-
----
-
-## 🚀 Usage Guide
-
-### 🛠️ Build the Knowledge Graph
-
-```bash
-python build_graph.py --entities ./data/entities --relations ./data/relations
-```
-
-### 🧠 Run the API Server
-
-```bash
-uvicorn api_server:app --reload
-```
-
-### 📡 Sample Python Query
-
-```python
-from client import SatQueryClient
-
-client = SatQueryClient()
-response = client.query("List all instruments on INSAT-3D")
-print(response)
-```
-
----
-
-## 🧪 Testing
-
-Run the test suite and check coverage:
-
-```bash
-pytest tests/ --cov=.
-```
-
-### ✔️ Tests Cover
-
-* Entity & relation extraction
-* Graph structure validation
-* API behavior & edge cases
-* LLM answer formatting
-
----
-
-## ☁️ Deployment
-
-### 🐳 Docker
-
-```bash
-docker-compose up -d
-```
-
-### ☸️ Kubernetes
-
-```bash
-kubectl apply -f k8s/
-```
-
----
-
-## 💻 Frontend Interface
-
-> The ISRO SatQuery frontend provides an intuitive chat interface for interacting with the satellite knowledge system.
-
-### 🌐 Core Features
-
-* Conversational UI with chat memory
-* Answer explanation with source links and confidence
-* Prebuilt query templates
-* Fully mobile-responsive design
-* Accessibility compliant (WCAG 2.1)
-
-### 🛠️ Tech Stack
-
-* **React.js + TypeScript**
-* **Tailwind CSS + ShadCN UI**
-* **Context API** for state management
-* **Axios** for backend integration
-* **Vite** for fast build setup
-
-### 🔗 API Integration
-
-* `POST /query` – LLM question answering
-* `GET /satellites` – Lists available data
-* Optional JWT authentication layer
-
-### 🧱 UI Components
-
-* Chat bubbles + loading animation
-* Source/reference panel
-* Suggested queries
-* Feedback (👍 / 👎)
-
-### 📱 Mobile Features
-
-* Touch-friendly controls
-* Offline-first mode with service workers
-* Low-bandwidth optimization
-
----
-
-## 🤝 Contributing
-
-We welcome community contributions! 🚀
-
-```bash
-# Fork the repo
-# Create your branch
-git checkout -b feature/awesome-feature
-
-# Commit your changes
-git commit -am "Added awesome feature"
-
-# Push and create PR
-git push origin feature/awesome-feature
-```
-
----
-
-## 📝 License
-
-This project is licensed under the **GNU General Public License v3.0**.
-See the [LICENSE](./LICENSE) file for details.
-
----
-
-> © 2025 — Team SentinelX | Hackathon Finalist | ISRO SatQuery 🌍🛰️
+## Pipeline Steps
+
+1. **Data Collection** — `python data_collection/main.py` crawls MOSDAC and extracts text from HTML/PDF/DOCX
+2. **Data Processing** — `python -m data_processing.main` normalizes text, detects language, extracts keywords
+3. **Entity Extraction** — `python knowledge_graph_construction/entity_extractor.py` extracts satellites, instruments, parameters
+4. **Relationship Extraction** — `python knowledge_graph_construction/relationship_extractor.py` finds relations between entities
+5. **Graph Construction** — `python knowledge_graph_construction/graph_builder.py` builds the Neo4j knowledge graph
+6. **Query** — `uvicorn api_server:app` serves the API, or `python rag_pipeline/app.py` for CLI mode
+
+## Tech Stack
+
+| Component | Technology |
+|-----------|-----------|
+| Backend API | FastAPI + Uvicorn |
+| Knowledge Graph | Neo4j (py2neo + neo4j driver) |
+| Vector Search | FAISS + sentence-transformers |
+| Local LLM | Mistral-7B via llama-cpp-python |
+| NLP | spaCy, Transformers (BERT) |
+| Frontend | React 18 + TypeScript + Vite |
+| UI Components | shadcn/ui + Tailwind CSS |
+| Data Extraction | pdfplumber, python-docx, BeautifulSoup |
+
+## Configuration
+
+All configuration is via environment variables (see `.env.example`):
+
+| Variable | Description | Default |
+|----------|-------------|---------|
+| `NEO4J_URI` | Neo4j connection URI | `bolt://localhost:7687` |
+| `NEO4J_USER` | Neo4j username | `neo4j` |
+| `NEO4J_PASSWORD` | Neo4j password | (required) |
+| `N_GPU_LAYERS` | GPU layers for LLM | `0` (CPU only) |
+| `POPPLER_PATH` | Path to poppler binaries | system default |
+
+## Status
+
+**Working:**
+- Chat interface with real backend integration
+- Web crawler for MOSDAC portal
+- Document processing (PDF, DOCX, HTML)
+- Text normalization and Hindi OCR cleaning
+- Entity extraction (spaCy)
+- Knowledge graph construction (Neo4j)
+- Hybrid retrieval (vector + graph)
+- Local LLM response generation
+- Sidebar templates → chat integration
+
+**In Progress:**
+- Dashboard and catalog API integration (currently using sample data)
+- BERT relationship classifier fine-tuning
+- Training data quality improvement
+
+## Author
+
+**Rupesh Bharambe** — [GitHub](https://github.com/rupeshbharambe24)
+
+Built for ISRO's MOSDAC portal as part of the SentinelX team project.

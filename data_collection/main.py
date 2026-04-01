@@ -6,6 +6,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 def main():
+    Config.setup_dirs()
     logger.info("Starting MOSDAC data extraction")
     crawler = MosdacCrawler()
     pdf_urls = [

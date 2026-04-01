@@ -1,9 +1,16 @@
+import os
 from py2neo import Graph
 from typing import List, Dict
+from dotenv import load_dotenv
+
+load_dotenv()
 
 class MOSDACQueryEngine:
     def __init__(self):
-        self.graph = Graph("bolt://localhost:7687", auth=("neo4j", "mosdacisro"))
+        self.graph = Graph(
+            os.getenv("NEO4J_URI", "bolt://localhost:7687"),
+            auth=(os.getenv("NEO4J_USER", "neo4j"), os.getenv("NEO4J_PASSWORD", ""))
+        )
 
     def query_satellite_products(self, satellite_name: str) -> List[Dict]:
         """Get all data products provided by a satellite"""

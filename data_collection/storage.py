@@ -74,4 +74,4 @@ class StorageHandler:
             logger.error(f"Error storing content {url}: {str(e)}")
 
 # Initialize database on import
-StorageHandler.init_db()
+# StorageHandler.init_db()  # Disabled: call explicitly to avoid side-effects on import

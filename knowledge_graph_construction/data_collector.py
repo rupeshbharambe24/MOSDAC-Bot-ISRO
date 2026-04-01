@@ -3,13 +3,16 @@ import random
 from neo4j import GraphDatabase
 from tqdm import tqdm
 from datetime import datetime
+from dotenv import load_dotenv
+
+load_dotenv()
 
 class TrainingDataGenerator:
     def __init__(self):
         # Configure your Neo4j connection here
-        self.uri = "bolt://localhost:7687"
-        self.user = "neo4j"  # Default username
-        self.password = "mosdacisro"  # Change to your actual password
+        self.uri = os.getenv("NEO4J_URI", "bolt://localhost:7687")
+        self.user = os.getenv("NEO4J_USER", "neo4j")
+        self.password = os.getenv("NEO4J_PASSWORD", "")
         self.driver = None
         self._connect()
         

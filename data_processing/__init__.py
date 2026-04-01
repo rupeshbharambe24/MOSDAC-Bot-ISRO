@@ -10,7 +10,7 @@ from .processors.language_handler import LanguageHandler
 from .processors.metadata_enricher import MetadataEnricher
 from .processors.ocr_cleaner import HindiOCRCleaner
 from .schemas import Document
-from .main import DataProcessingPipeline
+from .main import DataProcessor
 
 __version__ = "0.1.0"
 __all__ = [
@@ -19,7 +19,7 @@ __all__ = [
     'MetadataEnricher',
     'HindiOCRCleaner',
     'Document',
-    'DataProcessingPipeline'
+    'DataProcessor'
 ]
 
 # Package-level initialization
@@ -31,4 +31,4 @@ def init_package():
     except OSError:
         raise ImportError("English language model for spaCy not found. Run: python -m spacy download en_core_web_sm")
 
-init_package()
+# init_package()  # Disabled: let callers initialize explicitly

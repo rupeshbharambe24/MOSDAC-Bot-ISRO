@@ -1,3 +1,5 @@
+import re
+
 class HindiOCRCleaner:
     def __init__(self):
         self.hindi_replacements = {

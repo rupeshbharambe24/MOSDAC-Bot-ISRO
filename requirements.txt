@@ -1,30 +1,58 @@
+# Web Crawling & Scraping
 beautifulsoup4==4.12.2
 requests==2.31.0
+tldextract==3.4.4
+
+# PDF & Document Processing
 pdfminer.six==20221105
 python-docx==0.8.11
-openpyxl==3.1.2
-pandas==2.0.3
-PyPDF2==3.0.1
-tldextract==3.4.4
-sqlalchemy==2.0.19
-python-slugify==8.0.1
 pdfplumber==0.10.3
 pdf2image==1.16.3
 pytesseract==0.3.10
-pillow==10.1.0
-poppler-utils  # Note: This needs to be installed separately on system
-opencv-python-headless==4.9.0.80
+PyPDF2==3.0.1
+# NOTE: poppler-utils must be installed at the system level:
+#   Ubuntu/Debian: sudo apt-get install poppler-utils
+#   macOS: brew install poppler
+#   Windows: download from https://github.com/oschwartz10612/poppler-windows/releases
+
+# Data & Image Processing
+pandas==2.0.3
 numpy==1.26.4
-spacy 
-transformers 
-torch 
-py2neo 
-tqdm
-neo4j==5.12.0
+pillow==10.1.0
+opencv-python-headless==4.9.0.80
+
+# NLP & ML
+spacy==3.7.4
+transformers==4.37.2
+torch>=2.1.0
 sentence-transformers==2.2.2
+
+# Knowledge Graph
+py2neo==2021.2.4
+neo4j==5.12.0
+
+# Vector Store
 faiss-cpu==1.7.4
-openai==0.28.0
+
+# LLM (local inference)
+llama-cpp-python==0.2.55
+
+# API Server
+fastapi==0.109.0
+uvicorn==0.27.0
 python-dotenv==1.0.0
-numpy==1.24.3
+pydantic>=2.0.0
+
+# Geo
+geopy==2.4.1
+
+# Utilities
 tqdm==4.66.1
-#python -m spacy download en_core_web_lg
+python-slugify==8.0.1
+sqlalchemy==2.0.19
+langdetect==1.0.9
+indic-transliteration==2.3.36
+
+# NLP model (run after install):
+# python -m spacy download en_core_web_lg
+# python -m spacy download en_core_web_sm

@@ -2,7 +2,7 @@ import os
 from pathlib import Path
 
 class Config:
-    POPPLER_PATH = r'C:\Program Files\poppler-24.08.0\Library\bin'
+    POPPLER_PATH = os.getenv("POPPLER_PATH", r'C:\Program Files\poppler-24.08.0\Library\bin')
     HINDI_OCR_DPI = 600
     HINDI_OCR_PREPROCESS = True
     
@@ -30,4 +30,4 @@ class Config:
         os.makedirs(cls.PROCESSED_DIR / 'html', exist_ok=True)
         os.makedirs(cls.PROCESSED_DIR / 'other', exist_ok=True)
 
-Config.setup_dirs()
+# Config.setup_dirs()  # Disabled: call explicitly in main() to avoid side-effects on import

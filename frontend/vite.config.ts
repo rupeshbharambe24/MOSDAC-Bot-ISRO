@@ -13,7 +13,6 @@ export default defineConfig(({ mode }) => ({
         target: 'http://localhost:8000',
         rewrite: (path) => path.replace(/^\/api/, '') // Remove /api prefix
       },
-      '/pages/api': 'http://localhost:8080' // Keep Next.js-style API
     }
   },
   plugins: [

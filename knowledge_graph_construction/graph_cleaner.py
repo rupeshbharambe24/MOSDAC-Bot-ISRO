@@ -15,6 +15,9 @@ from neo4j.exceptions import (
     AuthError,
     Neo4jError
 )
+from dotenv import load_dotenv
+
+load_dotenv()
 
 class Neo4jConnectionManager:
     """Handles all Neo4j connection operations with retry logic"""
@@ -61,8 +64,8 @@ class Neo4jConnectionManager:
 class GraphCleaner:
     def __init__(self):
         # Configuration
-        self.neo4j_uri = "bolt://localhost:7687"
-        self.neo4j_auth = ("neo4j", "mosdacisro")
+        self.neo4j_uri = os.getenv("NEO4J_URI", "bolt://localhost:7687")
+        self.neo4j_auth = (os.getenv("NEO4J_USER", "neo4j"), os.getenv("NEO4J_PASSWORD", ""))
         self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
         
         # Initialize components
