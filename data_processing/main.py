@@ -92,7 +92,7 @@ class DataProcessor:
             # Save the processed data
             output_path.parent.mkdir(parents=True, exist_ok=True)
             with open(output_path, "w", encoding="utf-8") as f:
-                json.dump(document.dict(), f, indent=2, ensure_ascii=False)
+                json.dump(document.model_dump(), f, indent=2, ensure_ascii=False)
 
             logger.info(f"Processed: {input_path.name} -> {output_path.name}")
 
@@ -116,8 +116,10 @@ def process_all_files(input_dir: Path, output_dir: Path):
 
 
 if __name__ == "__main__":
-    INPUT_BASE = Path("../data_collection/data/mosdac/processed")
-    OUTPUT_BASE = Path("./processed_output")
+    # Resolve paths relative to this file's location, not CWD
+    _HERE = Path(__file__).parent
+    INPUT_BASE = (_HERE / ".." / "data_collection" / "data" / "mosdac" / "processed").resolve()
+    OUTPUT_BASE = (_HERE / "processed_output").resolve()
 
     print(f"Input directory: {INPUT_BASE.absolute()}")
     print(f"Output directory: {OUTPUT_BASE.absolute()}")
