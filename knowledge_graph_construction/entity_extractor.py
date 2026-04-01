@@ -177,8 +177,9 @@ class EntityExtractor:
 
 if __name__ == "__main__":
     extractor = EntityExtractor()
-    input_dir = Path(r"R:\Projects\MOSDAC Help Bot\Codes\data_processing\processed_output")
-    output_dir = Path("entities")
+    _HERE = Path(__file__).parent
+    input_dir = (_HERE / ".." / "data_processing" / "processed_output").resolve()
+    output_dir = _HERE / "entities"
     
     # Verify input directory exists
     if not input_dir.exists():
