@@ -89,11 +89,12 @@ class GraphConnector:
                 MATCH (n)
                 WHERE n.name IS NOT NULL AND (n.name CONTAINS $keyword OR $keyword CONTAINS n.name)
                 OPTIONAL MATCH (n)-[r]->(m)
+                WITH n, COLLECT(DISTINCT {name: m.name, type: labels(m)[0], rel: type(r)})[..5] AS related
                 RETURN {
                     name: n.name,
                     type: labels(n)[0],
                     source: n.source,
-                    related: COLLECT(DISTINCT {name: m.name, type: labels(m)[0], rel: type(r)})[..5]
+                    related: related
                 } AS result
                 LIMIT 10
             """, keyword=keyword)
