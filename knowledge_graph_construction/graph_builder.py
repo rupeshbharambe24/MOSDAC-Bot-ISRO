@@ -134,29 +134,28 @@ class KnowledgeGraphBuilder:
                     self._geocode_cache[location_name] = coords
                     return coords
 
-            # Rate limit: wait at least 1.5s between Nominatim API calls
-            elapsed = time.time() - self._last_geocode_time
-            if elapsed < 1.5:
-                time.sleep(1.5 - elapsed)
+            # Skip Nominatim API — use hardcoded well-known Indian locations
+            KNOWN_LOCATIONS = {
+                "India": {"lat": 20.5937, "lon": 78.9629},
+                "Kerala": {"lat": 10.8505, "lon": 76.2711},
+                "Gujarat": {"lat": 22.2587, "lon": 71.1924},
+                "Himalayas": {"lat": 28.5983, "lon": 83.9311},
+                "Mumbai": {"lat": 19.0760, "lon": 72.8777},
+                "Delhi": {"lat": 28.7041, "lon": 77.1025},
+                "Chennai": {"lat": 13.0827, "lon": 80.2707},
+                "Ahmedabad": {"lat": 23.0225, "lon": 72.5714},
+                "South Asia": {"lat": 20.0, "lon": 78.0},
+            }
+            for known_name, coords in KNOWN_LOCATIONS.items():
+                if known_name.lower() in location_name.lower():
+                    result = {**coords}
+                    self._geocode_cache[location_name] = result
+                    return result
 
-            location = self.geolocator.geocode(location_name, timeout=10)
-            self._last_geocode_time = time.time()
-
-            if location:
-                result = {"lat": location.latitude, "lon": location.longitude}
-                self._geocode_cache[location_name] = result
-                return result
-
+            # Unknown location — skip rather than hit rate-limited API
             self._geocode_cache[location_name] = None
             return None
 
-        except GeocoderTimedOut:
-            if _retries < 3:
-                time.sleep(2)
-                return self._get_coordinates(location_name, _retries=_retries + 1)
-            logger.warning(f"Geocoder timed out for '{location_name}' after 3 retries")
-            self._geocode_cache[location_name] = None
-            return None
         except Exception as e:
             logger.debug(f"Geocoding failed for '{location_name}': {e}")
             self._geocode_cache[location_name] = None
