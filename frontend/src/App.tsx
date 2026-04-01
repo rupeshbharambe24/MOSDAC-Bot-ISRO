@@ -1,112 +1,86 @@
-
-import React, { useState } from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import React, { useState, useCallback } from 'react';
+import { BrowserRouter, Routes, Route, useNavigate } from 'react-router-dom';
 import { Toaster } from "@/components/ui/toaster";
-import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 
+import ErrorBoundary from '@/components/ErrorBoundary';
 import Header from '@/components/layout/Header';
 import Sidebar from '@/components/layout/Sidebar';
 import Dashboard from '@/pages/Dashboard';
 import QueryInterface from '@/pages/QueryInterface';
 import SatelliteCatalog from '@/pages/SatelliteCatalog';
 import Index from '@/pages/Index';
+import NotFound from '@/pages/NotFound';
 import { QueryTemplate } from '@/types/satellite';
 
 const queryClient = new QueryClient();
 
-const App = () => {
+const AppLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
+  const navigate = useNavigate();
   const [sidebarOpen, setSidebarOpen] = useState(true);
   const [isDarkMode, setIsDarkMode] = useState(true);
-  const [savedQueries] = useState<QueryTemplate[]>([]);
 
-  const toggleSidebar = () => setSidebarOpen(!sidebarOpen);
+  const toggleSidebar = () => setSidebarOpen(prev => !prev);
   const toggleTheme = () => {
-    setIsDarkMode(!isDarkMode);
+    setIsDarkMode(prev => !prev);
     document.documentElement.classList.toggle('light');
   };
 
-  const handleTemplateSelect = (template: QueryTemplate) => {
-    console.log('Selected template:', template);
-    // This will be handled by the chat interface directly
-  };
+  const handleTemplateSelect = useCallback((template: QueryTemplate) => {
+    navigate('/query', { state: { initialQuery: template.query } });
+  }, [navigate]);
 
-  const handleNewQuery = () => {
-    // Clear chat state - this will be handled by the QueryInterface component
-    console.log('New query initiated');
-  };
+  const handleNewQuery = useCallback(() => {
+    navigate('/query', { state: { clearChat: true } });
+  }, [navigate]);
 
   return (
-    <QueryClientProvider client={queryClient}>
-      <TooltipProvider>
-        <div className={`min-h-screen bg-background ${isDarkMode ? 'dark' : 'light'}`}>
+    <div className={`min-h-screen bg-background ${isDarkMode ? 'dark' : 'light'}`}>
+      <div className="flex flex-col h-screen">
+        <Header
+          onToggleSidebar={toggleSidebar}
+          isDarkMode={isDarkMode}
+          onToggleTheme={toggleTheme}
+        />
+        <div className="flex flex-1 overflow-hidden">
+          <Sidebar
+            isOpen={sidebarOpen}
+            onTemplateSelect={handleTemplateSelect}
+            onNewQuery={handleNewQuery}
+            savedQueries={[]}
+          />
+          {children}
+        </div>
+      </div>
+    </div>
+  );
+};
+
+const App = () => {
+  return (
+    <ErrorBoundary>
+      <QueryClientProvider client={queryClient}>
+        <TooltipProvider>
           <BrowserRouter>
             <Routes>
-              {/* Landing page route */}
               <Route path="/" element={<Index />} />
-              
-              {/* App routes with sidebar */}
-              <Route path="/*" element={
-                <div className="flex flex-col h-screen">
-                  <Header 
-                    onToggleSidebar={toggleSidebar}
-                    isDarkMode={isDarkMode}
-                    onToggleTheme={toggleTheme}
-                  />
-                  
-                  <div className="flex flex-1 overflow-hidden">
-                    <Routes>
-                      <Route path="/dashboard" element={
-                        <>
-                          <Sidebar 
-                            isOpen={sidebarOpen}
-                            onTemplateSelect={handleTemplateSelect}
-                            onNewQuery={handleNewQuery}
-                            savedQueries={savedQueries}
-                          />
-                          <main className="flex-1 overflow-y-auto p-6">
-                            <Dashboard />
-                          </main>
-                        </>
-                      } />
-                      <Route path="/query" element={
-                        <>
-                          <Sidebar 
-                            isOpen={sidebarOpen}
-                            onTemplateSelect={handleTemplateSelect}
-                            onNewQuery={handleNewQuery}
-                            savedQueries={savedQueries}
-                          />
-                          <main className="flex-1 overflow-hidden">
-                            <QueryInterface />
-                          </main>
-                        </>
-                      } />
-                      <Route path="/catalog" element={
-                        <>
-                          <Sidebar 
-                            isOpen={sidebarOpen}
-                            onTemplateSelect={handleTemplateSelect}
-                            onNewQuery={handleNewQuery}
-                            savedQueries={savedQueries}
-                          />
-                          <main className="flex-1 overflow-y-auto p-6">
-                            <SatelliteCatalog />
-                          </main>
-                        </>
-                      } />
-                    </Routes>
-                  </div>
-                </div>
+              <Route path="/dashboard" element={
+                <AppLayout><main className="flex-1 overflow-y-auto p-6"><Dashboard /></main></AppLayout>
               } />
+              <Route path="/query" element={
+                <AppLayout><main className="flex-1 overflow-hidden"><QueryInterface /></main></AppLayout>
+              } />
+              <Route path="/catalog" element={
+                <AppLayout><main className="flex-1 overflow-y-auto p-6"><SatelliteCatalog /></main></AppLayout>
+              } />
+              <Route path="*" element={<NotFound />} />
             </Routes>
           </BrowserRouter>
-        </div>
-        <Toaster />
-        <Sonner />
-      </TooltipProvider>
-    </QueryClientProvider>
+          <Toaster />
+        </TooltipProvider>
+      </QueryClientProvider>
+    </ErrorBoundary>
   );
 };
 
