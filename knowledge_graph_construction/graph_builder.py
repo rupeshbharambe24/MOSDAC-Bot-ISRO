@@ -78,6 +78,8 @@ class KnowledgeGraphBuilder:
         self.password = password
         self.graph = self._connect_to_neo4j()
         self.geolocator = Nominatim(user_agent="mosdac_geo_enricher")
+        self._last_geocode_time = 0.0  # Rate limit tracker
+        self._geocode_cache = {}  # Cache to avoid repeat lookups
 
     def _connect_to_neo4j(self) -> Graph:
         """Establish connection to Neo4j with error handling"""
@@ -105,33 +107,59 @@ class KnowledgeGraphBuilder:
             raise
 
     def _get_coordinates(self, location_name: str, _retries: int = 0) -> dict:
-        """Convert location names to coordinates using geopy"""
-        try:
-            # Handle MOSDAC-specific patterns first
-            if "Arabian Sea" in location_name:
-                return {"lat": 14.5133, "lon": 65.0369, "type": "marine"}
-            elif "Bay of Bengal" in location_name:
-                return {"lat": 15.0000, "lon": 88.0000, "type": "marine"}
+        """Convert location names to coordinates using geopy with rate limiting"""
+        # Check cache first
+        if location_name in self._geocode_cache:
+            return self._geocode_cache[location_name]
 
-            # Handle coordinate patterns
+        try:
+            # Handle MOSDAC-specific patterns first (no API call needed)
+            if "Arabian Sea" in location_name:
+                result = {"lat": 14.5133, "lon": 65.0369, "type": "marine"}
+                self._geocode_cache[location_name] = result
+                return result
+            elif "Bay of Bengal" in location_name:
+                result = {"lat": 15.0000, "lon": 88.0000, "type": "marine"}
+                self._geocode_cache[location_name] = result
+                return result
+            elif "Indian Ocean" in location_name:
+                result = {"lat": -10.0, "lon": 76.0, "type": "marine"}
+                self._geocode_cache[location_name] = result
+                return result
+
+            # Handle coordinate patterns (no API call needed)
             if re.search(r"\d+°[NSEW]", location_name):
                 coords = GeoCoordinateParser.parse_coordinate(location_name)
                 if coords:
+                    self._geocode_cache[location_name] = coords
                     return coords
 
-            # Fall back to geopy for other locations
+            # Rate limit: wait at least 1.5s between Nominatim API calls
+            elapsed = time.time() - self._last_geocode_time
+            if elapsed < 1.5:
+                time.sleep(1.5 - elapsed)
+
             location = self.geolocator.geocode(location_name, timeout=10)
+            self._last_geocode_time = time.time()
+
             if location:
-                return {"lat": location.latitude, "lon": location.longitude}
+                result = {"lat": location.latitude, "lon": location.longitude}
+                self._geocode_cache[location_name] = result
+                return result
+
+            self._geocode_cache[location_name] = None
             return None
 
         except GeocoderTimedOut:
             if _retries < 3:
-                time.sleep(1)
+                time.sleep(2)
                 return self._get_coordinates(location_name, _retries=_retries + 1)
             logger.warning(f"Geocoder timed out for '{location_name}' after 3 retries")
+            self._geocode_cache[location_name] = None
             return None
-        except Exception:
+        except Exception as e:
+            logger.debug(f"Geocoding failed for '{location_name}': {e}")
+            self._geocode_cache[location_name] = None
             return None
 
     def _ensure_label_consistency(self, entity: Dict) -> str:
