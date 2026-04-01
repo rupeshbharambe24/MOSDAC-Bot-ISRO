@@ -22,10 +22,10 @@ pillow==10.1.0
 opencv-python-headless==4.9.0.80
 
 # NLP & ML
-spacy==3.7.4
-transformers==4.37.2
+spacy>=3.7.4
+transformers>=4.37.2
 torch>=2.1.0
-sentence-transformers==2.2.2
+sentence-transformers>=5.0.0
 
 # Knowledge Graph
 py2neo==2021.2.4
