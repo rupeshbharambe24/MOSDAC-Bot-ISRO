@@ -12,10 +12,18 @@ class Config:
         os.getenv("NEO4J_PASSWORD", ""),
     )
 
-    # Model Configuration
+    # LLM Configuration
+    # Priority: Groq API (fast, high quality) → Local Mistral (offline fallback)
+    GROQ_API_KEY = os.getenv("GROQ_API_KEY", "")
+    GROQ_MODEL = os.getenv("GROQ_MODEL", "llama-3.3-70b-versatile")
+
+    # Local model fallback
     EMBEDDING_MODEL = "sentence-transformers/all-mpnet-base-v2"
     BASE_DIR = Path(__file__).parent.parent
-    LLM_MODEL = str(BASE_DIR / "rag_pipeline" / "models" / "mistral-7b-instruct-v0.1.Q4_K_M.gguf")  # Quantized model
+    LLM_MODEL = str(BASE_DIR / "rag_pipeline" / "models" / "mistral-7b-instruct-v0.1.Q4_K_M.gguf")
+
+    # Crawled data path (for document indexing)
+    CRAWLED_DATA_DIR = str(BASE_DIR / "data_collection" / "data" / "mosdac" / "processed")
 
     # Vector Store
     VECTOR_STORE_PATH = str(BASE_DIR / "vector_store" / "faiss.index")
@@ -23,6 +31,4 @@ class Config:
 
     # Retrieval Parameters
     TOP_K = 5
-    # Cosine similarity threshold (0 to 1). With normalized vectors + IndexFlatIP,
-    # 1.0 = identical, 0 = orthogonal. 0.3 is a reasonable starting threshold.
     SIMILARITY_THRESHOLD = 0.3

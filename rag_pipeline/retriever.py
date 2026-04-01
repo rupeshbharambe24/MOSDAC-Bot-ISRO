@@ -1,4 +1,6 @@
 from typing import List, Dict, Any
+from pathlib import Path
+import json
 from rag_pipeline.graph_connector import GraphConnector
 from rag_pipeline.vector_store import VectorStore
 from rag_pipeline.config import Config
@@ -111,12 +113,52 @@ class HybridRetriever:
         except Exception as e:
             logger.warning(f"Failed to index parameters: {e}")
 
+        # Index crawled web pages for general knowledge queries
+        crawled_docs = self._load_crawled_documents()
+        docs.extend(crawled_docs)
+
         self.documents = docs
         if docs:
             self.vector_store.add_documents(docs)
-            logger.info(f"Total indexed: {len(docs)} documents")
+            logger.info(f"Total indexed: {len(docs)} documents ({len(docs) - len(crawled_docs)} graph + {len(crawled_docs)} crawled)")
         else:
-            logger.warning("No documents found in knowledge graph to index.")
+            logger.warning("No documents found to index.")
+
+    def _load_crawled_documents(self) -> List[Dict]:
+        """Load crawled HTML/PDF documents for vector search."""
+        crawled_dir = Path(Config.CRAWLED_DATA_DIR)
+        if not crawled_dir.exists():
+            logger.warning(f"Crawled data dir not found: {crawled_dir}")
+            return []
+
+        docs = []
+        for json_file in crawled_dir.rglob("*.json"):
+            try:
+                with open(json_file, "r", encoding="utf-8") as f:
+                    data = json.load(f)
+
+                text = data.get("text", "")
+                if not text or len(text) < 50:
+                    continue
+
+                # Truncate very long pages to keep embeddings meaningful
+                if len(text) > 2000:
+                    text = text[:2000]
+
+                source_url = data.get("source_url", str(json_file.stem))
+                docs.append({
+                    "id": f"crawled_{json_file.stem}",
+                    "text": text,
+                    "type": "crawled_page",
+                    "source_url": source_url,
+                    "content_type": data.get("content_type", "html"),
+                })
+            except Exception as e:
+                logger.debug(f"Skipping {json_file.name}: {e}")
+                continue
+
+        logger.info(f"Loaded {len(docs)} crawled documents for indexing")
+        return docs
 
     def retrieve(self, query: str) -> List[Dict[str, Any]]:
         """Hybrid retrieval combining vector similarity and graph pattern matching."""
