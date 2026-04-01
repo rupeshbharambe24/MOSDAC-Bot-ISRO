@@ -82,12 +82,12 @@ class GraphConnector:
             """, parameter=parameter)
             return [record["result"] for record in result]
 
-    def search_all(self, query: str) -> List[Dict[str, Any]]:
+    def search_all(self, keyword: str) -> List[Dict[str, Any]]:
         """Broad search across all node types by name."""
         with self.driver.session() as session:
             result = session.run("""
                 MATCH (n)
-                WHERE n.name IS NOT NULL AND (n.name CONTAINS $query OR $query CONTAINS n.name)
+                WHERE n.name IS NOT NULL AND (n.name CONTAINS $keyword OR $keyword CONTAINS n.name)
                 OPTIONAL MATCH (n)-[r]->(m)
                 RETURN {
                     name: n.name,
@@ -96,7 +96,7 @@ class GraphConnector:
                     related: COLLECT(DISTINCT {name: m.name, type: labels(m)[0], rel: type(r)})[..5]
                 } AS result
                 LIMIT 10
-            """, query=query)
+            """, keyword=keyword)
             return [record["result"] for record in result]
 
     def close(self):
