@@ -1,5 +1,6 @@
 import json
 import logging
+from pathlib import Path
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import StreamingResponse
@@ -146,6 +147,27 @@ async def stream_query(query: QueryRequest):
     except Exception as e:
         logger.exception(f"Error streaming query: {message}")
         raise HTTPException(status_code=500, detail="Streaming failed.")
+
+
+@app.post("/feedback")
+async def submit_feedback(feedback: dict):
+    """Store user feedback on bot responses."""
+    import datetime
+    feedback_file = Path(__file__).parent / "feedback.jsonl"
+    entry = {
+        "timestamp": datetime.datetime.now().isoformat(),
+        "message_id": feedback.get("messageId", ""),
+        "query": feedback.get("query", ""),
+        "response": feedback.get("response", "")[:500],
+        "type": feedback.get("type", ""),  # "up" or "down"
+    }
+    try:
+        with open(feedback_file, "a", encoding="utf-8") as f:
+            f.write(json.dumps(entry) + "\n")
+        logger.info(f"Feedback saved: {entry['type']} for message {entry['message_id']}")
+    except Exception as e:
+        logger.warning(f"Failed to save feedback: {e}")
+    return {"status": "ok"}
 
 
 @app.get("/health")

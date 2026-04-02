@@ -148,7 +148,18 @@ const QueryInterface: React.FC = () => {
   };
 
   const handleFeedback = (messageId: string, type: 'up' | 'down') => {
-    console.log('Feedback:', messageId, type);
+    const msg = messages.find(m => m.id === messageId);
+    const prevMsg = messages[messages.indexOf(msg!) - 1];
+    fetch('/api/feedback', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        messageId,
+        query: prevMsg?.content || '',
+        response: msg?.content || '',
+        type,
+      }),
+    }).catch(() => {});
   };
 
   return (

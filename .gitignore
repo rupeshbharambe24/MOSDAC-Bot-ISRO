@@ -39,6 +39,9 @@ processed_output/
 entities/
 relations/
 
+# Feedback data
+feedback.jsonl
+
 # SQLite databases
 *.db
 *.sqlite3
