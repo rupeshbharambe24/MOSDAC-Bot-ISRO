@@ -64,11 +64,7 @@ class ResponseGenerator:
 
         history_str = ""
         if history:
-            history_str = (
-                "Previous conversation:\n"
-                + "\n".join(history)
-                + "\n\n"
-            )
+            history_str = self._summarize_history(history)
 
         system_prompt = (
             "You are a helpful assistant for MOSDAC (Meteorological and Oceanographic "
@@ -116,6 +112,35 @@ class ResponseGenerator:
                 return self._generate_local(system_prompt, user_prompt)
             return f"Error generating response: {e}"
 
+    def _summarize_history(self, history: List[str]) -> str:
+        """Summarize conversation history to save context window space."""
+        if not history:
+            return ""
+        # For short histories (<=4 messages / 2 turns), include as-is
+        if len(history) <= 4:
+            return "Previous conversation:\n" + "\n".join(history) + "\n\n"
+
+        # For longer histories, summarize with Groq if available
+        if self._groq_client:
+            try:
+                conv = "\n".join(history)
+                resp = self._groq_client.chat.completions.create(
+                    model=Config.GROQ_MODEL,
+                    messages=[
+                        {"role": "system", "content": "Summarize this conversation in 2-3 sentences, preserving key topics, satellite names, and data products discussed."},
+                        {"role": "user", "content": conv},
+                    ],
+                    max_tokens=150,
+                    temperature=0.1,
+                )
+                summary = resp.choices[0].message.content.strip()
+                return f"Conversation summary: {summary}\n\n"
+            except Exception as e:
+                logger.debug(f"History summarization failed: {e}")
+
+        # Fallback: just use last 4 messages
+        return "Recent conversation:\n" + "\n".join(history[-4:]) + "\n\n"
+
     def stream_response(
         self, query: str, context: List[Dict], history: List[str] = None
     ):
@@ -129,7 +154,7 @@ class ResponseGenerator:
         )
         history_str = ""
         if history:
-            history_str = "Previous conversation:\n" + "\n".join(history) + "\n\n"
+            history_str = self._summarize_history(history)
 
         system_prompt = (
             "You are a helpful assistant for MOSDAC (Meteorological and Oceanographic "
