@@ -42,6 +42,13 @@ logger.info("Indexing documents from knowledge graph...")
 retriever.index_documents()
 logger.info("Indexing complete.")
 
+# Count indexed documents by type
+type_counts = {}
+for d in retriever.documents:
+    t = d.get("type", "unknown")
+    type_counts[t] = type_counts.get(t, 0) + 1
+logger.info(f"Index breakdown: {type_counts}")
+
 
 class HistoryMessage(BaseModel):
     content: str

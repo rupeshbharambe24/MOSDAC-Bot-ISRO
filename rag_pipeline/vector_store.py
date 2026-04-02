@@ -23,13 +23,15 @@ class VectorStore:
         return faiss.IndexFlatIP(Config.EMBEDDING_DIM)
 
     def add_documents(self, documents: List[Dict[str, Any]]):
-        """Add documents to vector store. Skips if documents are already indexed."""
+        """Add documents to vector store. Re-indexes if document count changed."""
+        if self.index.ntotal > 0 and self.index.ntotal == len(documents):
+            logger.info(f"Vector index up to date ({self.index.ntotal} vectors).")
+            return
         if self.index.ntotal > 0:
             logger.info(
-                f"Vector index already contains {self.index.ntotal} vectors, skipping re-index. "
-                "Delete the index file to force re-indexing."
+                f"Document count changed ({self.index.ntotal} → {len(documents)}), re-indexing..."
             )
-            return
+            self.index = faiss.IndexFlatIP(Config.EMBEDDING_DIM)
 
         texts = [doc.get("text", "") for doc in documents]
         if not texts:
