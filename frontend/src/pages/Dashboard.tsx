@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import StatsCards from '@/components/dashboard/StatsCards';
 import SatelliteGlobe from '@/components/globe/SatelliteGlobe';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import { Skeleton } from '@/components/ui/skeleton';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import {
@@ -114,9 +115,20 @@ const Dashboard: React.FC = () => {
       </div>
 
       {loading ? (
-        <div className="flex items-center justify-center py-8">
-          <Loader2 className="h-6 w-6 animate-spin text-primary mr-2" />
-          <span className="text-muted-foreground">Loading stats...</span>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          {[...Array(4)].map((_, i) => (
+            <Card key={i}>
+              <CardHeader className="flex flex-row items-center justify-between pb-2">
+                <Skeleton className="h-4 w-24" />
+                <Skeleton className="h-8 w-8 rounded-lg" />
+              </CardHeader>
+              <CardContent>
+                <Skeleton className="h-8 w-16 mb-2" />
+                <Skeleton className="h-3 w-20 mb-2" />
+                <Skeleton className="h-5 w-32" />
+              </CardContent>
+            </Card>
+          ))}
         </div>
       ) : (
         <StatsCards stats={stats} />
