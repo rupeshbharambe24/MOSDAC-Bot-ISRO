@@ -116,6 +116,54 @@ class ResponseGenerator:
                 return self._generate_local(system_prompt, user_prompt)
             return f"Error generating response: {e}"
 
+    def stream_response(
+        self, query: str, context: List[Dict], history: List[str] = None
+    ):
+        """Stream response tokens via Groq API. Yields text chunks."""
+        if not context:
+            yield "I couldn't find relevant information in the knowledge base."
+            return
+
+        context_str = "\n".join(
+            f"- {self._format_doc(doc)}" for doc in context[: Config.TOP_K]
+        )
+        history_str = ""
+        if history:
+            history_str = "Previous conversation:\n" + "\n".join(history) + "\n\n"
+
+        system_prompt = (
+            "You are a helpful assistant for MOSDAC (Meteorological and Oceanographic "
+            "Satellite Data Archival Centre), ISRO's satellite data portal. "
+            "Answer the user's question using the provided context. "
+            "Be specific and cite satellite names, instruments, and data products when relevant. "
+            "If you don't know something, say so honestly."
+        )
+        user_prompt = f"{history_str}Question: {query}\n\nContext:\n{context_str}"
+
+        if not self._groq_client:
+            # Fallback: non-streaming local generation
+            yield self._generate_local(system_prompt, user_prompt) if self._local_llm else "LLM not configured."
+            return
+
+        try:
+            stream = self._groq_client.chat.completions.create(
+                model=Config.GROQ_MODEL,
+                messages=[
+                    {"role": "system", "content": system_prompt},
+                    {"role": "user", "content": user_prompt},
+                ],
+                max_tokens=1024,
+                temperature=0.2,
+                stream=True,
+            )
+            for chunk in stream:
+                delta = chunk.choices[0].delta
+                if delta.content:
+                    yield delta.content
+        except Exception as e:
+            logger.error(f"Groq streaming error: {e}")
+            yield self.generate_response(query, context, history)
+
     def _generate_local(self, system_prompt: str, user_prompt: str) -> str:
         """Generate via local Mistral model."""
         prompt = (

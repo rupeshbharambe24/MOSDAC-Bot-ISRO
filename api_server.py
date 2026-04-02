@@ -1,6 +1,8 @@
+import json
 import logging
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import StreamingResponse
 from pydantic import BaseModel
 from rag_pipeline.generator import ResponseGenerator
 from rag_pipeline.retriever import HybridRetriever
@@ -80,28 +82,7 @@ async def process_query(query: QueryRequest):
         # Generate response
         response = generator.generate_response(message, context, conv_history)
 
-        # Format sources from actual retrieved data
-        sources = []
-        for doc in context[:3]:
-            doc_type = doc.get("type", "")
-            if doc_type == "curated":
-                satellite = doc.get("category", "MOSDAC").title()
-                dataset = doc.get("text", "")[:80] + "..."
-            elif doc_type == "crawled_page":
-                satellite = "MOSDAC Portal"
-                dataset = doc.get("source_url", "").replace("https://www.mosdac.gov.in/", "").replace("-", " ").title() or "Web Page"
-            else:
-                satellite = doc.get("satellite", "Unknown")
-                dataset = doc.get("product", doc.get("name", "Dataset"))
-
-            sources.append(
-                {
-                    "satellite": satellite,
-                    "dataset": dataset,
-                    "timeRange": "Available",
-                    "url": doc.get("source_url", "https://mosdac.gov.in"),
-                }
-            )
+        sources = _format_sources(context)
 
         return {"response": response, "sources": sources}
 
@@ -111,6 +92,60 @@ async def process_query(query: QueryRequest):
             status_code=500,
             detail="An error occurred while processing your query. Please try again.",
         )
+
+
+def _format_sources(context):
+    """Format context docs into source objects."""
+    sources = []
+    for doc in context[:3]:
+        doc_type = doc.get("type", "")
+        if doc_type == "curated":
+            satellite = doc.get("category", "MOSDAC").title()
+            dataset = doc.get("text", "")[:80] + "..."
+        elif doc_type == "crawled_page":
+            satellite = "MOSDAC Portal"
+            dataset = doc.get("source_url", "").replace("https://www.mosdac.gov.in/", "").replace("-", " ").title() or "Web Page"
+        else:
+            satellite = doc.get("satellite", "Unknown")
+            dataset = doc.get("product", doc.get("name", "Dataset"))
+        sources.append({
+            "satellite": satellite,
+            "dataset": dataset,
+            "timeRange": "Available",
+            "url": doc.get("source_url", "https://mosdac.gov.in"),
+        })
+    return sources
+
+
+@app.post("/query/stream")
+async def stream_query(query: QueryRequest):
+    """SSE streaming endpoint for real-time response generation."""
+    message = query.message.strip()
+    if not message:
+        raise HTTPException(status_code=400, detail="Message cannot be empty.")
+
+    try:
+        context = retriever.retrieve(message)
+        conv_history = []
+        for h in query.history[-6:]:
+            role = "Assistant" if h.isBot else "User"
+            conv_history.append(f"{role}: {h.content}")
+
+        sources = _format_sources(context)
+
+        def event_stream():
+            # Send sources first
+            yield f"data: {json.dumps({'type': 'sources', 'sources': sources})}\n\n"
+            # Stream text tokens
+            for token in generator.stream_response(message, context, conv_history):
+                yield f"data: {json.dumps({'type': 'token', 'content': token})}\n\n"
+            # Signal completion
+            yield f"data: {json.dumps({'type': 'done'})}\n\n"
+
+        return StreamingResponse(event_stream(), media_type="text/event-stream")
+    except Exception as e:
+        logger.exception(f"Error streaming query: {message}")
+        raise HTTPException(status_code=500, detail="Streaming failed.")
 
 
 @app.get("/health")

@@ -80,45 +80,64 @@ const QueryInterface: React.FC = () => {
       timestamp: new Date()
     };
 
+    const botId = (Date.now() + 1).toString();
     setMessages(prev => [...prev, userMessage]);
     setIsLoading(true);
 
+    // Add placeholder bot message for streaming
+    setMessages(prev => [...prev, {
+      id: botId, content: '', isBot: true, timestamp: new Date(), sources: []
+    }]);
+
     try {
-      const response = await fetch('/api/query', {
+      const response = await fetch('/api/query/stream', {
         method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
+        headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           message,
           history: messages.slice(-6).map(m => ({ content: m.content, isBot: m.isBot })),
         }),
       });
 
-      if (!response.ok) {
-        throw new Error(`Request failed with status ${response.status}`);
+      if (!response.ok) throw new Error(`Request failed with status ${response.status}`);
+
+      const reader = response.body?.getReader();
+      const decoder = new TextDecoder();
+      if (!reader) throw new Error('No response body');
+
+      let buffer = '';
+      while (true) {
+        const { done, value } = await reader.read();
+        if (done) break;
+
+        buffer += decoder.decode(value, { stream: true });
+        const lines = buffer.split('\n');
+        buffer = lines.pop() || '';
+
+        for (const line of lines) {
+          if (!line.startsWith('data: ')) continue;
+          try {
+            const event = JSON.parse(line.slice(6));
+            if (event.type === 'sources') {
+              setMessages(prev => prev.map(m =>
+                m.id === botId ? { ...m, sources: event.sources } : m
+              ));
+            } else if (event.type === 'token') {
+              setMessages(prev => prev.map(m =>
+                m.id === botId ? { ...m, content: m.content + event.content } : m
+              ));
+            }
+          } catch { /* skip malformed lines */ }
+        }
       }
-
-      const data = await response.json();
-
-      const botResponse: Message = {
-        id: (Date.now() + 1).toString(),
-        content: data.response,
-        isBot: true,
-        timestamp: new Date(),
-        sources: data.sources || []
-      };
-
-      setMessages(prev => [...prev, botResponse]);
     } catch (error) {
       console.error('API call failed:', error);
-      const errorMessage: Message = {
-        id: (Date.now() + 1).toString(),
-        content: error instanceof Error ? error.message : 'Request failed',
-        isBot: true,
-        timestamp: new Date()
-      };
-      setMessages(prev => [...prev, errorMessage]);
+      // If streaming failed, update the placeholder with error
+      setMessages(prev => prev.map(m =>
+        m.id === botId
+          ? { ...m, content: error instanceof Error ? error.message : 'Request failed' }
+          : m
+      ));
     } finally {
       setIsLoading(false);
     }
