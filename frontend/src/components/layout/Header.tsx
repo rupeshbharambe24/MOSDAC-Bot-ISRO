@@ -20,7 +20,7 @@ const Header: React.FC<HeaderProps> = ({ onToggleSidebar, isDarkMode, onToggleTh
             variant="ghost"
             size="icon"
             onClick={onToggleSidebar}
-            className="lg:hidden"
+            aria-label="Toggle sidebar"
           >
             <Menu className="h-5 w-5" />
           </Button>

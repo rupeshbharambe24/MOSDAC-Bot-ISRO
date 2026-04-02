@@ -18,7 +18,7 @@ const queryClient = new QueryClient();
 
 const AppLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const navigate = useNavigate();
-  const [sidebarOpen, setSidebarOpen] = useState(true);
+  const [sidebarOpen, setSidebarOpen] = useState(false);
   const [isDarkMode, setIsDarkMode] = useState(true);
 
   const toggleSidebar = () => setSidebarOpen(prev => !prev);
@@ -29,10 +29,12 @@ const AppLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
 
   const handleTemplateSelect = useCallback((template: QueryTemplate) => {
     navigate('/query', { state: { initialQuery: template.query } });
+    setSidebarOpen(false); // Close sidebar on mobile after selection
   }, [navigate]);
 
   const handleNewQuery = useCallback(() => {
     navigate('/query', { state: { clearChat: true } });
+    setSidebarOpen(false);
   }, [navigate]);
 
   return (
@@ -43,13 +45,30 @@ const AppLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
           isDarkMode={isDarkMode}
           onToggleTheme={toggleTheme}
         />
-        <div className="flex flex-1 overflow-hidden">
-          <Sidebar
-            isOpen={sidebarOpen}
-            onTemplateSelect={handleTemplateSelect}
-            onNewQuery={handleNewQuery}
-            savedQueries={[]}
-          />
+        <div className="flex flex-1 overflow-hidden relative">
+          {/* Desktop sidebar */}
+          <div className="hidden lg:block">
+            <Sidebar
+              isOpen={true}
+              onTemplateSelect={handleTemplateSelect}
+              onNewQuery={handleNewQuery}
+              savedQueries={[]}
+            />
+          </div>
+          {/* Mobile sidebar overlay */}
+          {sidebarOpen && (
+            <>
+              <div className="fixed inset-0 bg-black/50 z-40 lg:hidden" onClick={() => setSidebarOpen(false)} />
+              <div className="fixed left-0 top-16 bottom-0 z-50 lg:hidden">
+                <Sidebar
+                  isOpen={true}
+                  onTemplateSelect={handleTemplateSelect}
+                  onNewQuery={handleNewQuery}
+                  savedQueries={[]}
+                />
+              </div>
+            </>
+          )}
           {children}
         </div>
       </div>
