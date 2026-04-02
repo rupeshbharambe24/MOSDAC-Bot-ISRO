@@ -76,11 +76,22 @@ async def process_query(query: QueryRequest):
         # Format sources from actual retrieved data
         sources = []
         for doc in context[:3]:
+            doc_type = doc.get("type", "")
+            if doc_type == "curated":
+                satellite = doc.get("category", "MOSDAC").title()
+                dataset = doc.get("text", "")[:80] + "..."
+            elif doc_type == "crawled_page":
+                satellite = "MOSDAC Portal"
+                dataset = doc.get("source_url", "").replace("https://www.mosdac.gov.in/", "").replace("-", " ").title() or "Web Page"
+            else:
+                satellite = doc.get("satellite", "Unknown")
+                dataset = doc.get("product", doc.get("name", "Dataset"))
+
             sources.append(
                 {
-                    "satellite": doc.get("satellite", "Unknown"),
-                    "dataset": doc.get("product", doc.get("type", "Dataset")),
-                    "timeRange": doc.get("timeRange", "Available"),
+                    "satellite": satellite,
+                    "dataset": dataset,
+                    "timeRange": "Available",
                     "url": doc.get("source_url", "https://mosdac.gov.in"),
                 }
             )

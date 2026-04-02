@@ -147,6 +147,9 @@ class ResponseGenerator:
                 base += f" covering {regions}"
             return base
 
+        elif doc_type == "curated":
+            return doc.get("text", "")[:500]
+
         elif doc_type == "crawled_page":
             return f"[{doc.get('source_url', 'MOSDAC')}] {doc.get('text', '')[:300]}"
 

@@ -113,52 +113,120 @@ class HybridRetriever:
         except Exception as e:
             logger.warning(f"Failed to index parameters: {e}")
 
+        # Index curated knowledge base (highest quality, added first)
+        curated_docs = self._load_curated_knowledge()
+        docs.extend(curated_docs)
+
         # Index crawled web pages for general knowledge queries
         crawled_docs = self._load_crawled_documents()
         docs.extend(crawled_docs)
 
         self.documents = docs
+        graph_count = len(docs) - len(crawled_docs) - len(curated_docs)
         if docs:
             self.vector_store.add_documents(docs)
-            logger.info(f"Total indexed: {len(docs)} documents ({len(docs) - len(crawled_docs)} graph + {len(crawled_docs)} crawled)")
+            logger.info(
+                f"Total indexed: {len(docs)} documents "
+                f"({graph_count} graph + {len(curated_docs)} curated + {len(crawled_docs)} crawled)"
+            )
         else:
             logger.warning("No documents found to index.")
 
-    def _load_crawled_documents(self) -> List[Dict]:
-        """Load crawled HTML/PDF documents for vector search."""
-        crawled_dir = Path(Config.CRAWLED_DATA_DIR)
-        if not crawled_dir.exists():
-            logger.warning(f"Crawled data dir not found: {crawled_dir}")
+    def _load_curated_knowledge(self) -> List[Dict]:
+        """Load hand-curated MOSDAC knowledge base."""
+        kb_path = Path(__file__).parent / "mosdac_knowledge.json"
+        if not kb_path.exists():
+            logger.warning("Curated knowledge base not found")
+            return []
+        try:
+            with open(kb_path, "r", encoding="utf-8") as f:
+                docs = json.load(f)
+            logger.info(f"Loaded {len(docs)} curated knowledge entries")
+            return docs
+        except Exception as e:
+            logger.warning(f"Failed to load curated knowledge: {e}")
             return []
 
-        docs = []
-        for json_file in crawled_dir.rglob("*.json"):
-            try:
-                with open(json_file, "r", encoding="utf-8") as f:
-                    data = json.load(f)
+    def _load_crawled_documents(self) -> List[Dict]:
+        """Load crawled documents with proper text chunking.
 
-                text = data.get("text", "")
-                if not text or len(text) < 50:
+        Loads from both raw crawled dir and processed output dir,
+        deduplicating by source_url (preferring processed versions).
+        Long documents are split into ~800-char chunks with ~100-char overlap.
+        """
+        base_dir = Path(Config.BASE_DIR)
+        raw_dir = base_dir / "data_collection" / "data" / "mosdac" / "processed"
+        processed_dir = base_dir / "data_processing" / "processed_output"
+
+        # Collect JSON files keyed by source_url (processed overwrites raw)
+        source_map: Dict[str, Dict] = {}
+        for data_dir in [raw_dir, processed_dir]:
+            if not data_dir.exists():
+                continue
+            for json_file in data_dir.rglob("*.json"):
+                try:
+                    with open(json_file, "r", encoding="utf-8") as f:
+                        data = json.load(f)
+                    text = data.get("text", "")
+                    if not text or len(text) < 50:
+                        continue
+                    source_url = data.get("source_url", str(json_file.stem))
+                    source_map[source_url] = {
+                        "text": text,
+                        "source_url": source_url,
+                        "content_type": data.get("content_type", "html"),
+                        "stem": json_file.stem,
+                    }
+                except Exception:
                     continue
 
-                # Truncate very long pages to keep embeddings meaningful
-                if len(text) > 2000:
-                    text = text[:2000]
-
-                source_url = data.get("source_url", str(json_file.stem))
+        # Chunk documents
+        docs = []
+        page_count = 0
+        for entry in source_map.values():
+            page_count += 1
+            chunks = self._chunk_text(entry["text"], chunk_size=800, overlap=100)
+            for i, chunk in enumerate(chunks):
                 docs.append({
-                    "id": f"crawled_{json_file.stem}",
-                    "text": text,
+                    "id": f"crawled_{entry['stem']}_c{i}",
+                    "text": chunk,
                     "type": "crawled_page",
-                    "source_url": source_url,
-                    "content_type": data.get("content_type", "html"),
+                    "source_url": entry["source_url"],
+                    "content_type": entry["content_type"],
+                    "chunk_index": i,
                 })
-            except Exception as e:
-                logger.debug(f"Skipping {json_file.name}: {e}")
-                continue
 
-        logger.info(f"Loaded {len(docs)} crawled documents for indexing")
+        logger.info(f"Loaded {len(docs)} chunks from {page_count} crawled pages")
         return docs
+
+    @staticmethod
+    def _chunk_text(text: str, chunk_size: int = 800, overlap: int = 100) -> List[str]:
+        """Split text into chunks on sentence boundaries with overlap."""
+        text = text.strip()
+        if not text:
+            return []
+        if len(text) <= chunk_size:
+            return [text]
+
+        sentences = re.split(r'(?<=\. )|(?<=\n)', text)
+        sentences = [s for s in sentences if s]
+
+        chunks: List[str] = []
+        current = ""
+        for sentence in sentences:
+            if current and len(current) + len(sentence) > chunk_size:
+                chunks.append(current.strip())
+                # Start next chunk with overlap
+                tail = current[-overlap:] if len(current) >= overlap else current
+                space = tail.find(" ")
+                if space != -1:
+                    tail = tail[space + 1:]
+                current = tail + sentence
+            else:
+                current += sentence
+        if current.strip():
+            chunks.append(current.strip())
+        return chunks
 
     def retrieve(self, query: str) -> List[Dict[str, Any]]:
         """Hybrid retrieval combining vector similarity and graph pattern matching."""

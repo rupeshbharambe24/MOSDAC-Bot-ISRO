@@ -1,0 +1,163 @@
+[
+  {
+    "id": "curated_about_mosdac",
+    "text": "MOSDAC stands for Meteorological and Oceanographic Satellite Data Archival Centre. It is a facility of the Space Applications Centre (SAC), Indian Space Research Organisation (ISRO), located in Ahmedabad, India. MOSDAC serves as the principal data repository for meteorological, oceanographic, and environmental satellite data acquired from Indian and international satellite missions. The portal at https://www.mosdac.gov.in provides free access to satellite data products, real-time weather imagery, cyclone tracking tools, ocean monitoring services, and scientific datasets. MOSDAC supports research, weather forecasting, disaster management, and environmental monitoring across India and the Indian Ocean region.",
+    "type": "curated",
+    "category": "about",
+    "source_url": "https://www.mosdac.gov.in/about-us"
+  },
+  {
+    "id": "curated_about_services",
+    "text": "MOSDAC provides several key services: (1) Data Archive and Distribution — satellite data products from INSAT-3D, INSAT-3DR, INSAT-3DS, Kalpana-1, SCATSAT-1, Megha-Tropiques, SARAL/AltiKa, Oceansat-2, and Oceansat-3 missions. (2) Real-time Weather Monitoring — live satellite imagery and derived weather products updated every 15-30 minutes. (3) Cyclone Tracking — automated cyclone detection and tracking over the Indian Ocean. (4) Ocean Monitoring — sea surface temperature, ocean currents, wave height, and ocean color products. (5) Forecast Services — heavy rainfall nowcasting, monsoon monitoring, heat/cold wave alerts. (6) Decision Support Tools — VARSHA (rainfall), VAYU (wind), ocean energy assessment, and agricultural weather services. (7) In-situ Data — ground-based AWS (Automatic Weather Station) and oceanographic buoy data.",
+    "type": "curated",
+    "category": "about",
+    "source_url": "https://www.mosdac.gov.in"
+  },
+  {
+    "id": "curated_about_access",
+    "text": "To access MOSDAC data, users can visit https://www.mosdac.gov.in. Anonymous users can browse and view near real-time satellite imagery and some derived products. To download data products and access the full archive, users must register by filling out the SignUp form on the portal. After registration, an approval email is sent. Registered users can order satellite data products, access archived datasets, and use data download tools. Near real-time data is available within 30 minutes of satellite observation. Archived data can be searched by satellite, product type, date range, and geographic region. Data is available in standard formats including HDF5, NetCDF, GeoTIFF, and JPEG. SFTP-based bulk download is also available for registered users.",
+    "type": "curated",
+    "category": "about",
+    "source_url": "https://www.mosdac.gov.in/help"
+  },
+  {
+    "id": "curated_sat_insat3d",
+    "text": "INSAT-3D is an Indian geostationary meteorological satellite launched on July 26, 2013, positioned at 82 degrees East longitude. It carries three main payloads: (1) Imager — a 6-channel imaging radiometer with visible, shortwave IR, mid-wave IR, water vapor, and two thermal IR channels for cloud imaging, sea surface temperature, and vegetation monitoring. (2) Sounder — a 19-channel infrared sounder for atmospheric temperature and humidity profiling at different pressure levels. (3) Data Collection System (DCS) — for collecting data from ground-based platforms like automatic weather stations. Key data products include: cloud motion vectors, sea surface temperature (SST), outgoing longwave radiation (OLR), quantitative precipitation estimation (QPE), total precipitable water (TPW), upper tropospheric humidity, fog detection, snow cover, and fire detection.",
+    "type": "curated",
+    "category": "satellite",
+    "source_url": "https://www.mosdac.gov.in/insat-3d"
+  },
+  {
+    "id": "curated_sat_insat3dr",
+    "text": "INSAT-3DR is an advanced meteorological satellite launched on September 8, 2016, positioned at 74 degrees East longitude in geostationary orbit. It is identical in design to INSAT-3D and carries the same payloads: a 6-channel Imager, a 19-channel Sounder, and a Data Collection System. Additionally, INSAT-3DR includes a Search and Rescue (SAR) transponder for receiving and relaying distress signals. Being positioned at a different longitude than INSAT-3D, the two satellites together provide enhanced coverage of the Indian subcontinent and surrounding oceans. INSAT-3DR provides the same data products as INSAT-3D: sea surface temperature, outgoing longwave radiation, quantitative precipitation estimation, atmospheric temperature and humidity profiles, cloud motion vectors, fog detection, fire detection, and snow cover mapping. Data is available every 15 to 30 minutes.",
+    "type": "curated",
+    "category": "satellite",
+    "source_url": "https://www.mosdac.gov.in/insat-3dr"
+  },
+  {
+    "id": "curated_sat_insat3ds",
+    "text": "INSAT-3DS is the latest in the INSAT-3D series, launched on February 17, 2024. It is a follow-on mission to INSAT-3D and INSAT-3DR, carrying an enhanced 6-channel Imager, 19-channel Sounder, Data Collection System, and Search and Rescue payload. INSAT-3DS provides continuity of meteorological observations and services, ensuring uninterrupted availability of weather data products for India Meteorological Department (IMD) and other agencies. The satellite supplements the existing INSAT-3D and INSAT-3DR constellation for improved weather forecasting, cyclone monitoring, and disaster management support.",
+    "type": "curated",
+    "category": "satellite",
+    "source_url": "https://www.mosdac.gov.in/insat-3ds"
+  },
+  {
+    "id": "curated_sat_kalpana1",
+    "text": "Kalpana-1, named after astronaut Kalpana Chawla, is an Indian geostationary meteorological satellite launched on September 12, 2002. It carries a Very High Resolution Radiometer (VHRR) with visible, thermal IR, and water vapor channels. Kalpana-1 provides continuous weather monitoring including cloud imagery, cyclone tracking, and water vapor distribution over the Indian region. Despite being one of the older ISRO weather satellites, it continues to provide valuable data for weather forecasting and cyclone warning services operated by the India Meteorological Department.",
+    "type": "curated",
+    "category": "satellite",
+    "source_url": "https://www.mosdac.gov.in/kalpana-1"
+  },
+  {
+    "id": "curated_sat_insat3a",
+    "text": "INSAT-3A is a multipurpose geostationary satellite launched on April 10, 2003. It carries meteorological payloads including a Very High Resolution Radiometer (VHRR) and a CCD camera for high-resolution imaging. INSAT-3A provides weather monitoring, cyclone tracking, and communication services. Its VHRR instrument captures images in visible, thermal infrared, and water vapor channels for cloud pattern analysis and weather forecasting.",
+    "type": "curated",
+    "category": "satellite",
+    "source_url": "https://www.mosdac.gov.in/insat-3a"
+  },
+  {
+    "id": "curated_sat_scatsat1",
+    "text": "SCATSAT-1 is an Indian polar-orbiting satellite launched on September 26, 2016, dedicated to ocean wind measurement. It carries a Ku-band pencil beam scatterometer that measures ocean surface wind speed and direction. SCATSAT-1 provides global ocean wind vector data that is critical for weather forecasting, cyclone prediction, and understanding ocean-atmosphere interactions. The scatterometer operates at 13.515 GHz and provides wind data at 25 km and 50 km spatial resolution. SCATSAT-1 data products include ocean wind vectors, wind speed, and soil moisture over land surfaces. The satellite follows a sun-synchronous polar orbit at 720 km altitude, providing global coverage every 2 days.",
+    "type": "curated",
+    "category": "satellite",
+    "source_url": "https://www.mosdac.gov.in/scatsat-1"
+  },
+  {
+    "id": "curated_sat_meghatropiques",
+    "text": "Megha-Tropiques is a joint Indo-French satellite mission launched on October 12, 2011, dedicated to studying the tropical atmosphere's water cycle. It carries four instruments: (1) MADRAS — a multi-frequency scanning microwave radiometer for rain and cloud measurements, (2) SAPHIR — a microwave humidity sounder with 6 channels for atmospheric humidity profiling, (3) ScaRaB — a scanner for radiation budget measurements (outgoing longwave and shortwave radiation), and (4) ROSA — a GPS radio occultation instrument for temperature and humidity profiling. Megha-Tropiques orbits at 20-degree inclination providing frequent sampling of tropical regions, making it especially valuable for monsoon and tropical cyclone studies.",
+    "type": "curated",
+    "category": "satellite",
+    "source_url": "https://www.mosdac.gov.in/megha-tropiques"
+  },
+  {
+    "id": "curated_sat_saral",
+    "text": "SARAL (Satellite with ARgos and ALtiKa) is a joint Indo-French satellite mission launched on February 25, 2013, carrying the AltiKa altimeter — the first Ka-band radar altimeter in space. AltiKa operates at 35.75 GHz, providing higher spatial resolution and better performance over coastal areas, ice, and inland waters compared to conventional Ku-band altimeters. SARAL/AltiKa data products include: sea surface height, significant wave height, ocean circulation patterns, wind speed, inland water level monitoring, ice sheet topography, and rain rate. The satellite follows a sun-synchronous orbit at 800 km altitude, repeating its ground track every 35 days.",
+    "type": "curated",
+    "category": "satellite",
+    "source_url": "https://www.mosdac.gov.in/saral-altika"
+  },
+  {
+    "id": "curated_sat_oceansat2",
+    "text": "Oceansat-2 is an Indian ocean observation satellite launched on September 23, 2009. It carries two main instruments: (1) Ocean Colour Monitor (OCM-2) — an 8-band multi-spectral camera operating in visible and near-infrared wavelengths for measuring ocean color, chlorophyll concentration, suspended sediments, and phytoplankton blooms. (2) Ku-band pencil beam scatterometer — for measuring ocean surface wind speed and direction. Oceansat-2 follows a sun-synchronous polar orbit at 720 km altitude, providing global ocean data for marine biology, fisheries, coastal zone management, and weather forecasting.",
+    "type": "curated",
+    "category": "satellite",
+    "source_url": "https://www.mosdac.gov.in/oceansat-2"
+  },
+  {
+    "id": "curated_sat_oceansat3",
+    "text": "Oceansat-3 (also known as EOS-06) is an advanced Indian ocean observation satellite launched on November 26, 2022. It carries three payloads: (1) Ocean Color Monitor-3 (OCM-3) — an improved 13-band multi-spectral camera for ocean color, chlorophyll, and marine pollution monitoring. (2) Sea Surface Temperature Monitor (SSTM) — for accurate sea surface temperature measurement. (3) Ku-band scatterometer (SCAT-3) — for ocean wind vector measurement. Oceansat-3 provides enhanced capabilities compared to Oceansat-2 with more spectral bands, better spatial resolution, and the addition of a dedicated SST instrument.",
+    "type": "curated",
+    "category": "satellite",
+    "source_url": "https://www.mosdac.gov.in/oceansat-3"
+  },
+  {
+    "id": "curated_product_sst",
+    "text": "Sea Surface Temperature (SST) data is available from multiple ISRO satellites on MOSDAC. INSAT-3D and INSAT-3DR provide SST from their thermal infrared Imager channels at approximately 4 km spatial resolution, available every 30 minutes over the Indian Ocean region. Oceansat-3 provides SST from its dedicated Sea Surface Temperature Monitor (SSTM) instrument. SARAL/AltiKa can also derive SST indirectly. SST data is critical for weather forecasting, cyclone intensity prediction, monsoon studies, fisheries management, and understanding ocean-atmosphere coupling. MOSDAC provides SST products in near real-time and archived formats.",
+    "type": "curated",
+    "category": "data_product",
+    "source_url": "https://www.mosdac.gov.in"
+  },
+  {
+    "id": "curated_product_olr",
+    "text": "Outgoing Longwave Radiation (OLR) is a measure of Earth's thermal radiation emitted to space, derived from INSAT-3D and INSAT-3DR thermal infrared channels. Low OLR values indicate deep convective clouds (heavy rainfall areas) while high values indicate clear sky conditions. OLR data from MOSDAC is used for monitoring tropical convection, monsoon activity, and identifying active and break phases of the Indian monsoon. OLR products are available at half-hourly intervals for the Indian region and surrounding oceans.",
+    "type": "curated",
+    "category": "data_product",
+    "source_url": "https://www.mosdac.gov.in"
+  },
+  {
+    "id": "curated_product_rainfall",
+    "text": "Rainfall estimation products are available from several sources on MOSDAC. Quantitative Precipitation Estimation (QPE) is derived from INSAT-3D and INSAT-3DR using multi-spectral infrared techniques. GSMaP-ISRO provides merged satellite-gauge rainfall products combining microwave and infrared data from multiple satellites. Megha-Tropiques SAPHIR provides tropical rainfall profiles. MOSDAC also provides IMD's gridded rainfall datasets. These products support flood forecasting, agricultural planning, water resource management, and monsoon monitoring. Rainfall products are available at various temporal resolutions from half-hourly to daily accumulations.",
+    "type": "curated",
+    "category": "data_product",
+    "source_url": "https://www.mosdac.gov.in/gsmap-isro-rain"
+  },
+  {
+    "id": "curated_product_wind",
+    "text": "Ocean surface wind data is one of the key products available from MOSDAC. SCATSAT-1 provides global ocean wind vectors (speed and direction) at 25 km and 50 km resolution using its Ku-band scatterometer, with complete global coverage every 2 days. Oceansat-2 also provided wind data from its scatterometer. Oceansat-3's SCAT-3 instrument continues wind observations. Wind data is essential for cyclone tracking, marine weather forecasting, ship routing, offshore operations, and understanding ocean circulation. Near real-time wind products are available within 3 hours of satellite observation.",
+    "type": "curated",
+    "category": "data_product",
+    "source_url": "https://www.mosdac.gov.in/scatsat-1"
+  },
+  {
+    "id": "curated_product_altimetry",
+    "text": "Ocean altimetry products from SARAL/AltiKa on MOSDAC include sea surface height anomaly, significant wave height, and wind speed derived from the Ka-band altimeter. These products are used for studying ocean circulation, mesoscale eddies, tsunami propagation, coastal processes, and monitoring inland water levels (rivers, lakes, reservoirs). SARAL/AltiKa's Ka-band frequency provides better spatial resolution over coastal and inland waters compared to traditional Ku-band altimeters. Global ocean current products are also derived by combining altimetry data with ocean models.",
+    "type": "curated",
+    "category": "data_product",
+    "source_url": "https://www.mosdac.gov.in/saral-altika"
+  },
+  {
+    "id": "curated_product_ocean_color",
+    "text": "Ocean color products from MOSDAC are derived from the Ocean Colour Monitor (OCM) instruments on Oceansat-2 and Oceansat-3. These products include chlorophyll-a concentration, suspended sediment concentration, diffuse attenuation coefficient, and normalized water-leaving radiance. Ocean color data is essential for monitoring phytoplankton blooms, coastal water quality, potential fishing zones, coral reef health, and marine pollution. Oceansat-3's OCM-3 provides enhanced capability with 13 spectral bands compared to OCM-2's 8 bands.",
+    "type": "curated",
+    "category": "data_product",
+    "source_url": "https://www.mosdac.gov.in/indian-mainland-coastal-product"
+  },
+  {
+    "id": "curated_faq_what_is_mosdac",
+    "text": "Question: What is MOSDAC? Answer: MOSDAC stands for Meteorological and Oceanographic Satellite Data Archival Centre. It is an ISRO data portal operated by the Space Applications Centre which provides satellite data through its web-based service at https://mosdac.gov.in. MOSDAC archives and distributes data from ISRO's meteorological and oceanographic satellite missions including INSAT-3D, INSAT-3DR, INSAT-3DS, Kalpana-1, SCATSAT-1, Megha-Tropiques, SARAL/AltiKa, Oceansat-2, and Oceansat-3.",
+    "type": "curated",
+    "category": "faq",
+    "source_url": "https://www.mosdac.gov.in/faq-page"
+  },
+  {
+    "id": "curated_faq_registration",
+    "text": "Question: How to register on MOSDAC? Answer: Visit https://www.mosdac.gov.in and click on the SignUp form. Fill in your details including name, email, organization, and purpose of data use, then submit. You will receive an approval notification via email. Once approved, you can log in and access the full data archive, order satellite data products, and download datasets. Anonymous users can browse the portal and view near real-time imagery but cannot download data products.",
+    "type": "curated",
+    "category": "faq",
+    "source_url": "https://www.mosdac.gov.in/faq-page"
+  },
+  {
+    "id": "curated_faq_datasets",
+    "text": "Question: What datasets are available on MOSDAC? Answer: MOSDAC provides a wide range of satellite datasets including: (1) Weather products — cloud imagery, temperature profiles, humidity profiles, rainfall estimates, fog detection, fire detection from INSAT-3D/3DR/3DS. (2) Ocean products — sea surface temperature, ocean currents, wave height, ocean color, chlorophyll from Oceansat and SARAL. (3) Wind products — ocean wind speed and direction from SCATSAT-1. (4) Climate products — outgoing longwave radiation, total precipitable water. (5) In-situ data — Automatic Weather Station data and ocean buoy observations. (6) Forecast products — heavy rainfall nowcast, cyclone alerts, monsoon monitoring. Data is available in HDF5, NetCDF, GeoTIFF, and JPEG formats.",
+    "type": "curated",
+    "category": "faq",
+    "source_url": "https://www.mosdac.gov.in/faq-page"
+  },
+  {
+    "id": "curated_faq_download",
+    "text": "Question: How to download data from MOSDAC? Answer: After registering and logging in to https://www.mosdac.gov.in, you can search for data by selecting the satellite, product type, date range, and geographic region of interest. Use the data ordering interface to add products to your cart and submit the order. Near real-time data is available for immediate download within 30 minutes of observation. Archived data orders are processed and download links are sent via email. For bulk downloads, MOSDAC also provides SFTP access to registered users.",
+    "type": "curated",
+    "category": "faq",
+    "source_url": "https://www.mosdac.gov.in/faq-page"
+  }
+]
