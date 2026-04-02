@@ -229,10 +229,13 @@ class HybridRetriever:
         return chunks
 
     def retrieve(self, query: str) -> List[Dict[str, Any]]:
-        """Hybrid retrieval combining vector similarity and graph pattern matching."""
+        """Hybrid retrieval combining vector similarity, keyword match, and graph."""
         logger.info(f"Query: {query}")
 
-        # Vector search
+        # 1. Direct keyword match on curated knowledge (highest priority)
+        curated_matches = self._keyword_match_curated(query)
+
+        # 2. Vector search
         expanded_query = self._expand_query(query)
         vector_indices = self.vector_store.search(expanded_query, k=Config.VECTOR_K)
         vector_results = [
@@ -242,13 +245,37 @@ class HybridRetriever:
         ]
         logger.info(f"Vector search returned {len(vector_results)} results")
 
-        # Graph search
+        # 3. Graph search
         graph_results = self._graph_search(query)
         logger.info(f"Graph search returned {len(graph_results)} results")
 
-        # Combine and rank
-        combined = self._combine_results(vector_results, graph_results)
+        # Combine: curated keyword matches first, then vector+graph
+        combined = self._combine_results(
+            curated_matches + vector_results, graph_results
+        )
         return combined[: Config.TOP_K]
+
+    def _keyword_match_curated(self, query: str) -> List[Dict]:
+        """Direct keyword matching against curated knowledge base."""
+        query_lower = query.lower()
+        matches = []
+        for doc in self.documents:
+            if doc.get("type") != "curated":
+                continue
+            text_lower = doc.get("text", "").lower()
+            doc_id = doc.get("id", "").lower()
+            # Check if any significant query word appears in the curated text
+            query_words = [w for w in query_lower.split() if len(w) > 3]
+            hit_count = sum(1 for w in query_words if w in text_lower or w in doc_id)
+            if hit_count >= 1:
+                doc_copy = dict(doc)
+                doc_copy["_keyword_hits"] = hit_count
+                matches.append(doc_copy)
+        # Sort by number of keyword hits (most relevant first)
+        matches.sort(key=lambda x: x.get("_keyword_hits", 0), reverse=True)
+        if matches:
+            logger.info(f"Curated keyword match: {len(matches)} hits")
+        return matches[:3]  # Top 3 curated matches
 
     def _expand_query(self, query: str) -> str:
         """Expand query with synonyms."""
