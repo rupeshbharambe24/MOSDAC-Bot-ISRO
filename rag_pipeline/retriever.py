@@ -306,22 +306,29 @@ class HybridRetriever:
         return ""
 
     def _combine_results(self, vector_results: List, graph_results: List) -> List:
-        """Combine and deduplicate results with priority to graph matches."""
+        """Combine and deduplicate results. Curated > crawled > graph."""
         seen = set()
         combined = []
+
+        # Score by source quality: curated > crawled pages > graph data
+        for res in vector_results:
+            identifier = res.get("id") or res.get("name") or str(res)
+            if identifier not in seen:
+                seen.add(identifier)
+                doc_type = res.get("type", "")
+                if doc_type == "curated":
+                    res["score"] = 1.5  # Highest priority
+                elif doc_type == "crawled_page":
+                    res["score"] = 0.9
+                else:
+                    res["score"] = 0.7
+                combined.append(res)
 
         for res in graph_results:
             identifier = res.get("id") or res.get("name") or str(res)
             if identifier not in seen:
                 seen.add(identifier)
-                res["score"] = 1.0
-                combined.append(res)
-
-        for res in vector_results:
-            identifier = res.get("id") or res.get("name") or str(res)
-            if identifier not in seen:
-                seen.add(identifier)
-                res["score"] = 0.7
+                res["score"] = 0.6  # Graph data (noisy) gets lower priority
                 combined.append(res)
 
         return sorted(combined, key=lambda x: x.get("score", 0), reverse=True)
