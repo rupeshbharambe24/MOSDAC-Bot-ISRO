@@ -234,7 +234,7 @@ class HybridRetriever:
 
         # Vector search
         expanded_query = self._expand_query(query)
-        vector_indices = self.vector_store.search(expanded_query)
+        vector_indices = self.vector_store.search(expanded_query, k=Config.VECTOR_K)
         vector_results = [
             self.documents[idx]
             for idx in vector_indices
@@ -253,15 +253,20 @@ class HybridRetriever:
     def _expand_query(self, query: str) -> str:
         """Expand query with synonyms."""
         expansions = {
-            "sst": ["sea surface temperature", "ocean temperature"],
-            "tpw": ["total precipitable water", "water vapor"],
-            "olr": ["outgoing longwave radiation"],
-            "mosdac": ["MOSDAC satellite data meteorological oceanographic"],
-            "india": ["Indian region", "South Asia"],
+            "sst": ["sea surface temperature", "ocean temperature", "thermal infrared"],
+            "tpw": ["total precipitable water", "water vapor", "humidity"],
+            "olr": ["outgoing longwave radiation", "thermal radiation", "earth energy"],
+            "qpe": ["quantitative precipitation estimation", "rainfall"],
+            "mosdac": ["MOSDAC satellite data meteorological oceanographic archival centre ISRO"],
+            "india": ["Indian region", "South Asia", "Indian Ocean"],
             "data": ["dataset", "product", "observation"],
-            "cyclone": ["tropical cyclone", "hurricane", "storm"],
-            "wind": ["wind speed", "wind vectors", "ocean wind"],
-            "rain": ["rainfall", "precipitation"],
+            "cyclone": ["tropical cyclone", "hurricane", "storm", "weather"],
+            "wind": ["wind speed", "wind vectors", "ocean wind", "scatterometer"],
+            "rain": ["rainfall", "precipitation", "monsoon"],
+            "oceansat": ["ocean color monitor", "ocean observation", "chlorophyll"],
+            "altimetry": ["sea surface height", "wave height", "altika", "saral"],
+            "register": ["signup", "registration", "account", "access data"],
+            "instrument": ["payload", "sensor", "imager", "sounder"],
         }
         expanded = query.lower()
         for term, synonyms in expansions.items():

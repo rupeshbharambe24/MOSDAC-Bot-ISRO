@@ -30,5 +30,6 @@ class Config:
     EMBEDDING_DIM = 768
 
     # Retrieval Parameters
-    TOP_K = 5
-    SIMILARITY_THRESHOLD = 0.3
+    TOP_K = 5          # Final results returned to LLM
+    VECTOR_K = 15      # Candidates fetched from vector search (before re-ranking)
+    SIMILARITY_THRESHOLD = 0.2
