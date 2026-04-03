@@ -41,8 +41,9 @@ processed_output/
 entities/
 relations/
 
-# Feedback data
+# Generated runtime data
 feedback.jsonl
+eval_results.json
 
 # SQLite databases
 *.db

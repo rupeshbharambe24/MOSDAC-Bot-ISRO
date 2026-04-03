@@ -1,7 +1,7 @@
 import json
 import logging
 from pathlib import Path
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, BackgroundTasks
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import StreamingResponse
 from pydantic import BaseModel
@@ -240,7 +240,7 @@ async def admin_eval_results():
 
 
 @app.post("/admin/eval/run")
-async def admin_run_eval(background_tasks):
+async def admin_run_eval(background_tasks: BackgroundTasks):
     """Trigger a background eval run. Results appear in /admin/eval when done."""
     import subprocess, sys
     eval_script = Path(__file__).parent / "tests" / "eval_suite.py"
