@@ -6,7 +6,7 @@ An AI-powered Help Bot for querying ISRO's satellite data hosted on the [MOSDAC 
 
 ```
 User → React Frontend (Vite + shadcn/ui)
-         ↓ /api/query
+         ↓ /api/query/stream (SSE)
        FastAPI Server
          ↓
        Hybrid Retriever
@@ -16,7 +16,7 @@ User → React Frontend (Vite + shadcn/ui)
          ↓
        LLM (Groq API: Llama 3.3 70B → local Mistral-7B fallback)
          ↓
-       Response + Sources
+       Streaming Response + Sources
 ```
 
 **Data Pipeline:**
@@ -24,46 +24,60 @@ User → React Frontend (Vite + shadcn/ui)
 MOSDAC Website → Web Crawler → Document Processor (PDF/DOCX/HTML)
   → Text Processing (OCR, Hindi, normalization)
   → Entity Extraction (spaCy) → Relationship Extraction (BERT + patterns)
-  → Knowledge Graph (Neo4j)
+  → BERT Relation Classifier (fine-tuned, F1 ≈ 0.92)
+  → Knowledge Graph (Neo4j)  →  FAISS Vector Index
 ```
 
 ## Project Structure
 
 ```
-├── api_server.py                    # FastAPI backend (4 endpoints)
+├── api_server.py                    # FastAPI backend + admin endpoints
 ├── data_collection/                 # Web crawler and document processing
-│   ├── config.py                    # Crawler configuration
+│   ├── config.py
 │   ├── crawler.py                   # Recursive MOSDAC web crawler
 │   ├── document_processing.py       # PDF/DOCX/HTML text extraction
-│   ├── main.py                      # Crawler entry point
-│   └── storage.py                   # SQLite storage handler
+│   ├── main.py
+│   └── storage.py
 ├── data_processing/                 # Text processing pipeline
-│   ├── main.py                      # Pipeline orchestrator (calls all processors)
-│   ├── schemas.py                   # Pydantic document model
+│   ├── main.py
+│   ├── schemas.py
 │   └── processors/
-│       ├── text_normalizer.py       # Encoding, dates, acronyms, whitespace
-│       ├── language_handler.py      # Language detection + Hindi transliteration
-│       ├── metadata_enricher.py     # Document type + keyword extraction (spaCy)
-│       └── ocr_cleaner.py           # Hindi OCR artifact cleaning
+│       ├── text_normalizer.py
+│       ├── language_handler.py
+│       ├── metadata_enricher.py
+│       └── ocr_cleaner.py
 ├── knowledge_graph_construction/    # Neo4j graph building
-│   ├── entity_extractor.py          # spaCy NER for satellites, instruments, etc.
-│   ├── relationship_extractor.py    # BERT + pattern-based relation extraction
-│   ├── graph_builder.py             # Neo4j graph construction (py2neo)
-│   ├── graph_cleaner.py             # BERT classifier to validate relationships
-│   └── query_interface.py           # Simple graph query API
+│   ├── entity_extractor.py
+│   ├── relationship_extractor.py
+│   ├── graph_builder.py
+│   ├── graph_cleaner.py
+│   ├── train_classifier.py          # Fine-tune BERT relation classifier
+│   ├── rebuild_graph.py             # Re-validate and clean graph edges
+│   ├── restore_parameters.py        # Recreate PARAMETER nodes + edges
+│   ├── training_data_curated.json   # 342 curated training examples
+│   └── query_interface.py
 ├── rag_pipeline/                    # Retrieval-Augmented Generation
-│   ├── config.py                    # All configuration (Neo4j, LLM, paths)
-│   ├── retriever.py                 # Hybrid retriever (vector + graph + crawled docs)
+│   ├── config.py
+│   ├── retriever.py                 # Hybrid retriever (vector + graph + crawled)
 │   ├── vector_store.py              # FAISS index with cosine similarity
 │   ├── generator.py                 # Groq API + local Mistral-7B fallback
-│   ├── graph_connector.py           # Neo4j Cypher queries for RAG
-│   ├── app.py                       # CLI / interactive bot entry point
+│   ├── graph_connector.py
 │   └── models/
-│       └── model-download.py        # Script to download Mistral-7B GGUF
+│       └── model-download.py
+├── tests/
+│   └── eval_suite.py                # 38-test evaluation suite (4 metric categories)
 ├── frontend/                        # React + TypeScript + Vite + shadcn/ui
 │   └── src/
-│       ├── pages/                   # Dashboard, QueryInterface, SatelliteCatalog, Index
-│       └── components/              # Chat UI, sidebar, globe, error boundary
+│       ├── pages/
+│       │   ├── QueryInterface.tsx   # Chat + streaming + PDF export
+│       │   ├── Dashboard.tsx        # Live KG stats
+│       │   ├── SatelliteCatalog.tsx # Search, filter, JSON export
+│       │   └── AdminDashboard.tsx   # Feedback analytics + eval metrics
+│       └── components/
+│           ├── query/
+│           │   ├── ChatMessage.tsx  # Markdown, coverage map toggle
+│           │   └── CoverageMap.tsx  # Leaflet geospatial map (14 regions)
+│           └── layout/
 ├── requirements.txt
 ├── setup.py
 ├── .env.example
@@ -130,49 +144,66 @@ python relationship_extractor.py
 
 # 5. Build Neo4j graph
 python graph_builder.py && cd ..
+
+# 6. (Optional) Fine-tune BERT classifier and rebuild clean graph
+cd knowledge_graph_construction
+python train_classifier.py --epochs 15
+python rebuild_graph.py --execute
+python restore_parameters.py
 ```
 
 ## API Endpoints
 
-| Method | Endpoint      | Description                          |
-|--------|---------------|--------------------------------------|
-| POST   | `/query`      | Natural language query with conversation history |
-| GET    | `/health`     | Health check                         |
-| GET    | `/satellites` | List all satellites from knowledge graph |
-| GET    | `/stats`      | Knowledge graph statistics           |
+| Method | Endpoint              | Description |
+|--------|-----------------------|-------------|
+| POST   | `/query`              | Natural language query (full response) |
+| POST   | `/query/stream`       | SSE streaming response |
+| POST   | `/feedback`           | Store thumbs up/down feedback |
+| GET    | `/health`             | Health check |
+| GET    | `/satellites`         | List all satellites from knowledge graph |
+| GET    | `/stats`              | Knowledge graph statistics |
+| GET    | `/admin/feedback`     | Feedback analytics (counts, daily trend, recent log) |
+| GET    | `/admin/eval`         | Latest evaluation metrics results |
+| POST   | `/admin/eval/run`     | Trigger background evaluation run |
 
 ### Example
 
 ```bash
 curl -X POST http://localhost:8001/query \
      -H "Content-Type: application/json" \
-     -d '{"message": "What is MOSDAC?", "history": []}'
+     -d '{"message": "What data does INSAT-3D provide?", "history": []}'
 ```
 
 ## Knowledge Graph Schema (Neo4j)
 
 ```cypher
 (:SATELLITE {name, source})
+(:INSTRUMENT {name})
 (:DATA_PRODUCT {name, source})
 (:PARAMETER {name})
 (:REGION {name, lat, lon})
 
 (:SATELLITE)-[:PROVIDES]->(:DATA_PRODUCT)
-(:DATA_PRODUCT)-[:MEASURES]->(:PARAMETER)
+(:SATELLITE)-[:HAS_INSTRUMENT]->(:INSTRUMENT)
+(:INSTRUMENT)-[:MEASURES]->(:PARAMETER)
 (:DATA_PRODUCT)-[:COVERS]->(:REGION)
 ```
+
+**Cleaned graph stats (post-classifier):** 12 satellites · 154 products · 13 parameters · 123 regions · 828 indexed documents
 
 ## Tech Stack
 
 | Component | Technology |
-|-----------|-----------|
-| **LLM** | Groq API (Llama 3.3 70B) with local Mistral-7B fallback |
-| **Backend API** | FastAPI + Uvicorn |
+|-----------|------------|
+| **LLM** | Groq API (Llama 3.3 70B) + local Mistral-7B fallback |
+| **Backend API** | FastAPI + Uvicorn (SSE streaming) |
 | **Knowledge Graph** | Neo4j (py2neo + neo4j driver) |
 | **Vector Search** | FAISS (cosine similarity) + sentence-transformers |
-| **NLP** | spaCy, Transformers (BERT) |
+| **NLP / ML** | spaCy, HuggingFace Transformers (BERT fine-tuned) |
 | **Frontend** | React 18 + TypeScript + Vite |
-| **UI Components** | shadcn/ui + Tailwind CSS |
+| **UI Components** | shadcn/ui + Tailwind CSS + Recharts |
+| **Maps** | Leaflet.js (vanilla, no react-leaflet) |
+| **PDF Export** | jsPDF |
 | **Data Extraction** | pdfplumber, python-docx, BeautifulSoup |
 
 ## Configuration
@@ -187,19 +218,19 @@ All configuration via environment variables (see `.env.example`):
 | `GROQ_API_KEY` | Groq API key for LLM | (recommended) |
 | `GROQ_MODEL` | Groq model name | `llama-3.3-70b-versatile` |
 | `N_GPU_LAYERS` | GPU layers for local LLM fallback | `0` |
-| `POPPLER_PATH` | Path to poppler binaries | system default |
 
 ## Features
 
-- **Chat interface** with conversation history persistence (localStorage)
-- **Multi-turn conversation** — sends last 6 messages as context to LLM
-- **Hybrid retrieval** — combines vector similarity search with knowledge graph queries
-- **Crawled document indexing** — 131 MOSDAC web pages indexed for general knowledge queries
-- **Dashboard** with live stats from knowledge graph (with fallback defaults)
-- **Satellite catalog** with search, filtering, and JSON export
-- **Sidebar quick templates** that auto-send queries to the chat
-- **Dark/light mode** toggle
-- **Error boundary** for crash recovery
+- **Streaming chat** with SSE — tokens appear in real time as LLM generates
+- **Conversation history** persistence (localStorage, last 6 messages sent as context)
+- **Hybrid retrieval** — curated KB → vector similarity → graph Cypher → keyword fallback
+- **Geospatial coverage map** — Leaflet map with 14 MOSDAC regions; auto-detected from bot response; 3 tile styles (Dark / Satellite / Light)
+- **Export chat as PDF** — branded A4 layout with source citations, page numbers
+- **Admin dashboard** (`/admin`) — Feedback tab (thumbs up/down analytics, 7-day trend chart, recent log) + Eval Metrics tab (overall score, radar chart, per-test detail)
+- **Evaluation suite** (`tests/eval_suite.py`) — 38 tests across entity extraction, query expansion, retrieval quality, response quality; run offline or against live API
+- **Fine-tuned BERT relation classifier** (F1 ≈ 0.92) used to validate and clean all graph edges
+- **Dashboard** with live KG stats · **Satellite catalog** with search + JSON export
+- **Dark/light mode** · **Error boundary** · **Mobile-responsive sidebar**
 - **Sub-second responses** via Groq API
 
 ## Sample Queries
@@ -207,21 +238,35 @@ All configuration via environment variables (see `.env.example`):
 ```
 What is MOSDAC?
 What data products does INSAT-3DR provide?
-Which satellites provide rainfall data?
-What is sea surface temperature data?
+Which satellites provide rainfall data for the Bay of Bengal?
+Tell me about sea surface temperature products
 How do I access data from MOSDAC?
-Tell me about SCATSAT-1
+Track cyclone formation using SCATSAT-1
 ```
+
+## Running the Evaluation Suite
+
+```bash
+# Full suite (requires API server running on port 8001)
+python tests/eval_suite.py
+
+# Offline mode — entity extraction and query expansion only
+python tests/eval_suite.py --offline
+
+# Custom API URL
+python tests/eval_suite.py --api-url http://localhost:8001
+```
+
+Results are saved to `eval_results.json` and visible in the Admin Dashboard → Eval Metrics tab.
 
 ## Known Limitations
 
-- Knowledge graph entity quality depends on BERT relationship extractor (not yet fine-tuned on domain data)
-- Some graph nodes contain noisy entity names from automated extraction
-- Hindi language support is basic (blank spaCy model + pattern matching)
+- Hindi language support is basic (pattern matching only)
 - No authentication — designed for local/demo use
+- Knowledge graph quality depends on automated entity extraction (some noisy names remain)
 
 ## Author
 
 **Rupesh Bharambe** — [GitHub](https://github.com/rupeshbharambe24)
 
-Built for ISRO's MOSDAC portal as part of the SentinelX team project.
+Built as part of **ISRO's Bharatiya Antariksh Hackathon 2025**.
