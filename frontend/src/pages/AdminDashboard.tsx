@@ -558,7 +558,7 @@ const PipelineTab: React.FC = () => {
               disabled={running}
               className="bg-muted rounded px-1.5 py-0.5 text-sm border border-input"
             >
-              {[1,2,3,4,5,6,7].map(n => (
+              {[1,2,3,4,5,6,7,8].map(n => (
                 <option key={n} value={n}>{n}</option>
               ))}
             </select>

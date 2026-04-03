@@ -1,12 +1,12 @@
 """
 SatSage — Automation Pipeline
-One-click: scrape → process → graph → train → reindex
+One-click: scrape → process → entities → relationships → graph → train → reindex
 Writes step-by-step progress to pipeline_status.json (polled by the API).
 
 Usage:
     python pipeline.py                    # run all steps
     python pipeline.py --from-step 4     # resume from a specific step
-    python pipeline.py --skip-train      # skip slow BERT training
+    python pipeline.py --skip-train      # skip slow BERT training (step 6)
 """
 
 import argparse
@@ -18,6 +18,8 @@ from pathlib import Path
 
 BASE = Path(__file__).parent
 STATUS_FILE = BASE / "pipeline_status.json"
+
+KG_DIR = str(BASE / "knowledge_graph_construction")
 
 STEPS = [
     {
@@ -38,38 +40,46 @@ STEPS = [
     },
     {
         "id": 3,
-        "name": "Build Knowledge Graph",
-        "desc": "Extract entities + relationships, populate Neo4j",
-        "cmd": [sys.executable, "-m", "knowledge_graph_construction.graph_builder"],
-        "cwd": str(BASE),
+        "name": "Extract Entities",
+        "desc": "Detect satellites, instruments, parameters, regions using NER",
+        "cmd": [sys.executable, "entity_extractor.py"],
+        "cwd": KG_DIR,
         "timeout": 600,
     },
     {
         "id": 4,
-        "name": "Generate Training Data",
-        "desc": "Query Neo4j to create positive/negative training examples",
-        "cmd": [sys.executable, "-m", "knowledge_graph_construction.training_data"],
-        "cwd": str(BASE),
-        "timeout": 180,
-    },
-    {
-        "id": 5,
-        "name": "Train Relationship Classifier",
-        "desc": "Fine-tune BERT on entity-relationship pairs (slow — ~10-30 min)",
-        "cmd": [sys.executable, "train_classifier.py"],
-        "cwd": str(BASE / "knowledge_graph_construction"),
-        "timeout": 3600,
-    },
-    {
-        "id": 6,
-        "name": "Rebuild & Clean Graph",
-        "desc": "Re-validate relationships with trained classifier, remove noise",
-        "cmd": [sys.executable, "rebuild_graph.py", "--execute"],
-        "cwd": str(BASE / "knowledge_graph_construction"),
+        "name": "Extract Relationships",
+        "desc": "Identify PROVIDES / MEASURES / COVERS relationships between entities",
+        "cmd": [sys.executable, "relationship_extractor.py"],
+        "cwd": KG_DIR,
         "timeout": 600,
     },
     {
+        "id": 5,
+        "name": "Build Knowledge Graph",
+        "desc": "Populate Neo4j from extracted entities and relationships",
+        "cmd": [sys.executable, "graph_builder.py"],
+        "cwd": KG_DIR,
+        "timeout": 600,
+    },
+    {
+        "id": 6,
+        "name": "Train Relationship Classifier",
+        "desc": "Fine-tune BERT on entity-relationship pairs (slow — ~10-30 min)",
+        "cmd": [sys.executable, "train_classifier.py"],
+        "cwd": KG_DIR,
+        "timeout": 3600,
+    },
+    {
         "id": 7,
+        "name": "Rebuild & Clean Graph",
+        "desc": "Re-validate relationships with trained classifier, remove noise",
+        "cmd": [sys.executable, "rebuild_graph.py", "--execute"],
+        "cwd": KG_DIR,
+        "timeout": 600,
+    },
+    {
+        "id": 8,
         "name": "Reindex FAISS Embeddings",
         "desc": "Re-embed all documents and rebuild the vector search index",
         "cmd": [
@@ -115,7 +125,7 @@ def _make_initial_status(skip_ids: set) -> dict:
 
 
 def run_pipeline(from_step: int = 1, skip_train: bool = False):
-    skip_ids = {5} if skip_train else set()
+    skip_ids = {6} if skip_train else set()
     skip_ids |= {s["id"] for s in STEPS if s["id"] < from_step}
 
     status = _make_initial_status(skip_ids)
