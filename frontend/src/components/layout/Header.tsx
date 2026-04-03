@@ -68,9 +68,9 @@ const Header: React.FC<HeaderProps> = ({ onToggleSidebar, isDarkMode, onToggleTh
           </Button>
 
           <div className="flex items-center gap-3">
-            <div className="relative">
-              <Satellite className="h-8 w-8 text-primary satellite-orbit" />
-              <div className="absolute inset-0 bg-primary/20 rounded-full animate-ping" />
+            <div className="relative flex items-center justify-center w-9 h-9 bg-gradient-to-br from-primary to-secondary rounded-xl shadow-md flex-shrink-0">
+              <Satellite className="h-5 w-5 text-white satellite-orbit" />
+              <div className="absolute inset-0 rounded-xl bg-primary/30 animate-ping" />
             </div>
             <div>
               <h1 className="text-lg font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
@@ -159,12 +159,6 @@ const Header: React.FC<HeaderProps> = ({ onToggleSidebar, isDarkMode, onToggleTh
             {isDarkMode ? <Sun className="h-5 w-5" /> : <Moon className="h-5 w-5" />}
           </Button>
 
-          <div className="hidden sm:flex items-center gap-2 ml-4 pl-4 border-l">
-            <div className="h-8 w-8 bg-gradient-to-br from-primary to-secondary rounded-full flex items-center justify-center text-white text-sm font-bold">
-              IS
-            </div>
-            <span className="text-sm font-medium">ISRO Portal</span>
-          </div>
         </div>
       </div>
     </header>
