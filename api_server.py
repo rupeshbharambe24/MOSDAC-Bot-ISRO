@@ -1,5 +1,7 @@
 import json
 import logging
+import subprocess
+import sys
 from pathlib import Path
 from fastapi import FastAPI, HTTPException, BackgroundTasks
 from fastapi.middleware.cors import CORSMiddleware
@@ -318,6 +320,48 @@ async def admin_feedback():
         "daily": list(daily.values()),
         "top_disliked": [{"query": q, "count": c} for q, c in top_disliked],
         "recent": recent,
+    }
+
+
+@app.get("/admin/pipeline/status")
+async def pipeline_status():
+    """Return current pipeline_status.json — polled by the frontend."""
+    status_file = Path(__file__).parent / "pipeline_status.json"
+    if not status_file.exists():
+        return {"available": False, "running": False, "steps": []}
+    try:
+        data = json.loads(status_file.read_text(encoding="utf-8"))
+        data["available"] = True
+        return data
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to read pipeline status: {e}")
+
+
+@app.post("/admin/pipeline/run")
+async def pipeline_run(background_tasks: BackgroundTasks, from_step: int = 1, skip_train: bool = False):
+    """Start the full automation pipeline as a background task."""
+    pipeline_script = Path(__file__).parent / "pipeline.py"
+    if not pipeline_script.exists():
+        raise HTTPException(status_code=404, detail="pipeline.py not found")
+
+    def _run():
+        try:
+            cmd = [sys.executable, str(pipeline_script), f"--from-step={from_step}"]
+            if skip_train:
+                cmd.append("--skip-train")
+            subprocess.run(
+                cmd,
+                cwd=str(Path(__file__).parent),
+                timeout=7200,  # 2-hour max
+                capture_output=True,
+            )
+        except Exception as e:
+            logger.error(f"Pipeline run failed: {e}")
+
+    background_tasks.add_task(_run)
+    return {
+        "status": "started",
+        "message": "Pipeline running in background. Poll GET /admin/pipeline/status for progress.",
     }
 
 

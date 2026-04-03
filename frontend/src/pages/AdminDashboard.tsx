@@ -6,8 +6,9 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import {
   ThumbsUp, ThumbsDown, MessageSquare, TrendingDown,
   RefreshCw, FlaskConical, CheckCircle2, XCircle, Clock,
-  Play,
+  Play, Workflow, Loader2, ChevronDown, ChevronUp, SkipForward,
 } from 'lucide-react';
+import { Progress } from '@/components/ui/progress';
 import { Button } from '@/components/ui/button';
 import {
   BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Legend,
@@ -445,6 +446,225 @@ const EvalTab: React.FC = () => {
 };
 
 // ════════════════════════════════════════════════════════════════════════════
+// PIPELINE TAB
+// ════════════════════════════════════════════════════════════════════════════
+interface PipelineStep {
+  id: number; name: string; desc: string;
+  status: 'pending' | 'running' | 'done' | 'error' | 'skipped';
+  started_at: string | null; finished_at: string | null; log: string;
+}
+interface PipelineStatus {
+  available: boolean; running: boolean;
+  started_at: string | null; finished_at: string | null;
+  steps: PipelineStep[];
+}
+
+const STEP_ICONS: Record<PipelineStep['status'], React.ReactNode> = {
+  pending: <Clock className="h-4 w-4 text-muted-foreground" />,
+  running: <Loader2 className="h-4 w-4 text-blue-500 animate-spin" />,
+  done:    <CheckCircle2 className="h-4 w-4 text-green-500" />,
+  error:   <XCircle className="h-4 w-4 text-red-500" />,
+  skipped: <SkipForward className="h-4 w-4 text-muted-foreground" />,
+};
+const STEP_COLORS: Record<PipelineStep['status'], string> = {
+  pending: 'border-muted',
+  running: 'border-blue-500 bg-blue-500/5',
+  done:    'border-green-500 bg-green-500/5',
+  error:   'border-red-500 bg-red-500/5',
+  skipped: 'border-muted bg-muted/30',
+};
+
+function elapsed(a: string | null, b: string | null): string {
+  if (!a) return '';
+  const ms = new Date(b ?? new Date()).getTime() - new Date(a).getTime();
+  const s = Math.round(ms / 1000);
+  return s < 60 ? `${s}s` : `${Math.floor(s / 60)}m ${s % 60}s`;
+}
+
+const PipelineTab: React.FC = () => {
+  const [status, setStatus] = useState<PipelineStatus | null>(null);
+  const [running, setRunning] = useState(false);
+  const [skipTrain, setSkipTrain] = useState(false);
+  const [fromStep, setFromStep] = useState(1);
+  const [expanded, setExpanded] = useState<number | null>(null);
+  const [error, setError] = useState<string | null>(null);
+
+  const fetchStatus = useCallback(async () => {
+    try {
+      const res = await fetch('/api/admin/pipeline/status');
+      if (!res.ok) return;
+      const d: PipelineStatus = await res.json();
+      setStatus(d);
+      setRunning(d.running ?? false);
+    } catch { /* ignore */ }
+  }, []);
+
+  useEffect(() => { fetchStatus(); }, [fetchStatus]);
+
+  // Poll every 3s while pipeline is running
+  useEffect(() => {
+    if (!running) return;
+    const id = setInterval(fetchStatus, 3000);
+    return () => clearInterval(id);
+  }, [running, fetchStatus]);
+
+  const startPipeline = async () => {
+    setError(null);
+    setRunning(true);
+    try {
+      const res = await fetch(
+        `/api/admin/pipeline/run?from_step=${fromStep}&skip_train=${skipTrain}`,
+        { method: 'POST' }
+      );
+      if (!res.ok) { setError(`HTTP ${res.status}`); setRunning(false); return; }
+      // give the server 1s to write the initial status file, then start polling
+      setTimeout(fetchStatus, 1000);
+    } catch (e) {
+      setError(e instanceof Error ? e.message : 'Failed to start');
+      setRunning(false);
+    }
+  };
+
+  const steps = status?.steps ?? [];
+  const doneCount = steps.filter(s => s.status === 'done').length;
+  const totalActive = steps.filter(s => s.status !== 'skipped').length;
+  const progressPct = totalActive ? Math.round((doneCount / totalActive) * 100) : 0;
+
+  return (
+    <div className="space-y-5">
+      {/* Header controls */}
+      <div className="flex flex-wrap items-center justify-between gap-3">
+        <div>
+          <p className="text-sm text-muted-foreground">
+            Full data pipeline: scrape → process → graph → train → reindex
+          </p>
+        </div>
+        <div className="flex flex-wrap items-center gap-3">
+          <label className="flex items-center gap-1.5 text-sm cursor-pointer select-none">
+            <input
+              type="checkbox"
+              checked={skipTrain}
+              onChange={e => setSkipTrain(e.target.checked)}
+              className="rounded"
+              disabled={running}
+            />
+            Skip BERT training
+          </label>
+          <div className="flex items-center gap-1.5 text-sm">
+            <span className="text-muted-foreground">From step</span>
+            <select
+              value={fromStep}
+              onChange={e => setFromStep(Number(e.target.value))}
+              disabled={running}
+              className="bg-muted rounded px-1.5 py-0.5 text-sm border border-input"
+            >
+              {[1,2,3,4,5,6,7].map(n => (
+                <option key={n} value={n}>{n}</option>
+              ))}
+            </select>
+          </div>
+          <Button size="sm" onClick={startPipeline} disabled={running}>
+            {running
+              ? <><Loader2 className="h-3.5 w-3.5 mr-1 animate-spin" />Running…</>
+              : <><Play className="h-3.5 w-3.5 mr-1" />Run Pipeline</>
+            }
+          </Button>
+          <Button variant="outline" size="sm" onClick={fetchStatus}>
+            <RefreshCw className="h-3.5 w-3.5" />
+          </Button>
+        </div>
+      </div>
+
+      {error && <p className="text-sm text-destructive">{error}</p>}
+
+      {/* Progress bar */}
+      {status?.available && (
+        <div className="space-y-1">
+          <div className="flex justify-between text-xs text-muted-foreground">
+            <span>{doneCount}/{totalActive} steps complete</span>
+            {status.started_at && (
+              <span>
+                {running ? `Running — ${elapsed(status.started_at, null)}` : `Finished in ${elapsed(status.started_at, status.finished_at)}`}
+              </span>
+            )}
+          </div>
+          <Progress value={progressPct} className="h-1.5" />
+        </div>
+      )}
+
+      {/* Step cards */}
+      {!status?.available && !running && (
+        <Card>
+          <CardContent className="py-16 text-center">
+            <Workflow className="h-10 w-10 text-muted-foreground mx-auto mb-3" />
+            <p className="text-sm text-muted-foreground">No pipeline run yet.</p>
+            <p className="text-xs text-muted-foreground mt-1">
+              Click <strong>Run Pipeline</strong> to start the full automation.
+            </p>
+          </CardContent>
+        </Card>
+      )}
+
+      {steps.length > 0 && (
+        <div className="space-y-2">
+          {steps.map(step => (
+            <Card key={step.id} className={`border ${STEP_COLORS[step.status]} transition-colors`}>
+              <CardContent className="p-4">
+                <div
+                  className="flex items-center gap-3 cursor-pointer"
+                  onClick={() => setExpanded(expanded === step.id ? null : step.id)}
+                >
+                  {STEP_ICONS[step.status]}
+                  <div className="flex-1 min-w-0">
+                    <div className="flex items-center gap-2">
+                      <span className="text-xs text-muted-foreground font-mono">#{step.id}</span>
+                      <span className="text-sm font-medium">{step.name}</span>
+                      <Badge
+                        variant={
+                          step.status === 'done' ? 'default' :
+                          step.status === 'error' ? 'destructive' :
+                          step.status === 'running' ? 'secondary' : 'outline'
+                        }
+                        className="text-[10px] py-0"
+                      >
+                        {step.status}
+                      </Badge>
+                    </div>
+                    <p className="text-xs text-muted-foreground mt-0.5 truncate">{step.desc}</p>
+                  </div>
+                  <div className="flex items-center gap-2 shrink-0">
+                    {(step.started_at && (step.status === 'done' || step.status === 'error')) && (
+                      <span className="text-xs text-muted-foreground">
+                        {elapsed(step.started_at, step.finished_at)}
+                      </span>
+                    )}
+                    {step.status === 'running' && step.started_at && (
+                      <span className="text-xs text-blue-500">
+                        {elapsed(step.started_at, null)}
+                      </span>
+                    )}
+                    {step.log
+                      ? (expanded === step.id ? <ChevronUp className="h-4 w-4 text-muted-foreground" /> : <ChevronDown className="h-4 w-4 text-muted-foreground" />)
+                      : null
+                    }
+                  </div>
+                </div>
+
+                {expanded === step.id && step.log && (
+                  <pre className="mt-3 p-3 bg-muted rounded text-xs font-mono whitespace-pre-wrap break-all max-h-48 overflow-y-auto">
+                    {step.log}
+                  </pre>
+                )}
+              </CardContent>
+            </Card>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+};
+
+// ════════════════════════════════════════════════════════════════════════════
 // SHARED HELPERS
 // ════════════════════════════════════════════════════════════════════════════
 const Spinner: React.FC<{ label: string }> = ({ label }) => (
@@ -492,7 +712,7 @@ const AdminDashboard: React.FC = () => (
   <div className="space-y-4">
     <div>
       <h2 className="text-2xl font-bold">Admin Dashboard</h2>
-      <p className="text-sm text-muted-foreground">Feedback analytics and pipeline evaluation</p>
+      <p className="text-sm text-muted-foreground">Feedback analytics, evaluation metrics, and pipeline automation</p>
     </div>
 
     <Tabs defaultValue="feedback">
@@ -503,6 +723,9 @@ const AdminDashboard: React.FC = () => (
         <TabsTrigger value="eval" className="flex items-center gap-1.5">
           <FlaskConical className="h-3.5 w-3.5" />Eval Metrics
         </TabsTrigger>
+        <TabsTrigger value="pipeline" className="flex items-center gap-1.5">
+          <Workflow className="h-3.5 w-3.5" />Pipeline
+        </TabsTrigger>
       </TabsList>
 
       <TabsContent value="feedback" className="mt-4">
@@ -510,6 +733,9 @@ const AdminDashboard: React.FC = () => (
       </TabsContent>
       <TabsContent value="eval" className="mt-4">
         <EvalTab />
+      </TabsContent>
+      <TabsContent value="pipeline" className="mt-4">
+        <PipelineTab />
       </TabsContent>
     </Tabs>
   </div>
