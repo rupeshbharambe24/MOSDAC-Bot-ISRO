@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useMemo, useState } from 'react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
@@ -9,7 +9,11 @@ import {
   ThumbsDown,
   Copy,
   ExternalLink,
+  Map,
+  ChevronDown,
+  ChevronUp,
 } from 'lucide-react';
+import CoverageMap, { detectRegions } from './CoverageMap';
 
 interface MessageSource {
   satellite: string;
@@ -102,6 +106,13 @@ const ChatMessage: React.FC<ChatMessageProps> = ({
   onFeedback,
   isLoading,
 }) => {
+  const [mapOpen, setMapOpen] = useState(false);
+
+  const detectedRegions = useMemo(
+    () => (isBot && !isLoading && content ? detectRegions(content) : []),
+    [isBot, isLoading, content]
+  );
+
   const handleCopy = () => {
     navigator.clipboard.writeText(content);
   };
@@ -152,6 +163,31 @@ const ChatMessage: React.FC<ChatMessageProps> = ({
                           </div>
                         ))}
                       </div>
+                    </div>
+                  )}
+
+                  {!isLoading && detectedRegions.length > 0 && (
+                    <div className="mt-4 pt-4 border-t">
+                      <Button
+                        variant="ghost"
+                        size="sm"
+                        className="w-full flex items-center justify-between text-xs text-muted-foreground hover:text-foreground"
+                        onClick={() => setMapOpen(o => !o)}
+                      >
+                        <span className="flex items-center gap-1.5">
+                          <Map className="h-3.5 w-3.5" />
+                          Coverage Map
+                          <span className="text-primary font-medium">
+                            ({detectedRegions.map(r => r.name).join(', ')})
+                          </span>
+                        </span>
+                        {mapOpen ? <ChevronUp className="h-3.5 w-3.5" /> : <ChevronDown className="h-3.5 w-3.5" />}
+                      </Button>
+                      {mapOpen && (
+                        <div className="mt-2">
+                          <CoverageMap regions={detectedRegions} />
+                        </div>
+                      )}
                     </div>
                   )}
 

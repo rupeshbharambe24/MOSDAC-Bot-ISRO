@@ -1,0 +1,11 @@
+{
+  "base_model": "bert-base-uncased",
+  "training_data": "training_data_curated.json",
+  "train_size": 273,
+  "val_size": 69,
+  "epochs_trained": 6,
+  "best_f1": 0.9152542372881356,
+  "best_accuracy": 0.927536231884058,
+  "best_precision": 0.9,
+  "best_recall": 0.9310344827586207
+}
