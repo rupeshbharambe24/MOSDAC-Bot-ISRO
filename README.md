@@ -64,6 +64,7 @@ MOSDAC Website → Web Crawler → Document Processor (PDF/DOCX/HTML)
 │   ├── graph_connector.py
 │   └── models/
 │       └── model-download.py
+├── pipeline.py                      # One-click automation pipeline (8 steps)
 ├── tests/
 │   └── eval_suite.py                # 38-test evaluation suite (4 metric categories)
 ├── frontend/                        # React + TypeScript + Vite + shadcn/ui
@@ -72,7 +73,7 @@ MOSDAC Website → Web Crawler → Document Processor (PDF/DOCX/HTML)
 │       │   ├── QueryInterface.tsx   # Chat + streaming + PDF export
 │       │   ├── Dashboard.tsx        # Live KG stats
 │       │   ├── SatelliteCatalog.tsx # Search, filter, JSON export
-│       │   └── AdminDashboard.tsx   # Feedback analytics + eval metrics
+│       │   └── AdminDashboard.tsx   # Feedback analytics + eval metrics + pipeline
 │       └── components/
 │           ├── query/
 │           │   ├── ChatMessage.tsx  # Markdown, coverage map toggle
@@ -127,29 +128,45 @@ Open **http://localhost:8080** and start querying.
 
 ## Data Pipeline (first-time setup)
 
-Run these in order to build the knowledge graph:
+### Option A — One-click automation (recommended)
 
 ```bash
-# 1. Crawl MOSDAC website
+# Run the full 8-step pipeline (Neo4j must be running)
+python pipeline.py
+
+# Skip BERT training (quick reindex after new data)
+python pipeline.py --skip-train
+
+# Resume from a specific step (e.g. after a failure)
+python pipeline.py --from-step 3
+```
+
+The pipeline writes live progress to `pipeline_status.json`, visible in the **Admin Dashboard → Pipeline tab**.
+
+| Step | Script | Output |
+|------|--------|--------|
+| 1 | `data_collection/main.py` | Raw docs |
+| 2 | `data_processing/main.py` | Cleaned JSON |
+| 3 | `entity_extractor.py` | `entities/` dir |
+| 4 | `relationship_extractor.py` | `relations/` dir |
+| 5 | `graph_builder.py` | Neo4j populated |
+| 6 | `train_classifier.py` | Trained BERT model |
+| 7 | `rebuild_graph.py --execute` | Clean graph |
+| 8 | FAISS reindex | Updated vector index |
+
+### Option B — Manual step-by-step
+
+```bash
 cd data_collection && python main.py && cd ..
-
-# 2. Process crawled data
 python -m data_processing.main
-
-# 3. Extract entities
-cd knowledge_graph_construction && python entity_extractor.py
-
-# 4. Extract relationships
-python relationship_extractor.py
-
-# 5. Build Neo4j graph
-python graph_builder.py && cd ..
-
-# 6. (Optional) Fine-tune BERT classifier and rebuild clean graph
 cd knowledge_graph_construction
+python entity_extractor.py
+python relationship_extractor.py
+python graph_builder.py
 python train_classifier.py --epochs 15
 python rebuild_graph.py --execute
 python restore_parameters.py
+cd ..
 ```
 
 ## API Endpoints
@@ -165,6 +182,8 @@ python restore_parameters.py
 | GET    | `/admin/feedback`     | Feedback analytics (counts, daily trend, recent log) |
 | GET    | `/admin/eval`         | Latest evaluation metrics results |
 | POST   | `/admin/eval/run`     | Trigger background evaluation run |
+| GET    | `/admin/pipeline/status` | Live pipeline step progress |
+| POST   | `/admin/pipeline/run` | Trigger full automation pipeline |
 
 ### Example
 
@@ -226,7 +245,8 @@ All configuration via environment variables (see `.env.example`):
 - **Hybrid retrieval** — curated KB → vector similarity → graph Cypher → keyword fallback
 - **Geospatial coverage map** — Leaflet map with 14 MOSDAC regions; auto-detected from bot response; 3 tile styles (Dark / Satellite / Light)
 - **Export chat as PDF** — branded A4 layout with source citations, page numbers
-- **Admin dashboard** (`/admin`) — Feedback tab (thumbs up/down analytics, 7-day trend chart, recent log) + Eval Metrics tab (overall score, radar chart, per-test detail)
+- **Admin dashboard** (`/admin`) — three tabs: Feedback (thumbs up/down analytics, 7-day trend chart, recent log) · Eval Metrics (overall score, radar chart, per-test detail) · Pipeline (live step progress, run/resume/skip controls)
+- **One-click automation pipeline** (`pipeline.py`) — 8-step orchestrator: scrape → process → entity extraction → relationship extraction → graph build → BERT train → graph clean → FAISS reindex; supports `--skip-train` and `--from-step N`
 - **Evaluation suite** (`tests/eval_suite.py`) — 38 tests across entity extraction, query expansion, retrieval quality, response quality; run offline or against live API
 - **Fine-tuned BERT relation classifier** (F1 ≈ 0.92) used to validate and clean all graph edges
 - **Dashboard** with live KG stats · **Satellite catalog** with search + JSON export
