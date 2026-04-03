@@ -19,11 +19,17 @@ const sampleQueries = [
 const ChatWelcome: React.FC<ChatWelcomeProps> = ({ onTemplateSelect }) => {
   return (
     <div className="flex flex-col items-center justify-center h-full text-center space-y-6 p-8">
-      <div className="relative">
-        <div className="w-20 h-20 bg-gradient-to-br from-primary to-secondary rounded-full flex items-center justify-center">
+      <div className="relative w-52 h-52 flex items-center justify-center">
+        <div className="w-20 h-20 bg-gradient-to-br from-primary to-secondary rounded-full flex items-center justify-center z-10 relative">
           <Satellite className="h-10 w-10 text-white" />
         </div>
-        <div className="absolute inset-0 bg-primary/20 rounded-full animate-ping" />
+        <div className="absolute w-20 h-20 bg-primary/20 rounded-full animate-ping" />
+        <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+          <Satellite className="h-4 w-4 text-primary orbit-sm" style={{ animationDelay: '-3s' }} />
+        </div>
+        <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+          <Satellite className="h-3 w-3 text-secondary/70 orbit-md" style={{ animationDelay: '-9s' }} />
+        </div>
       </div>
       
       <div className="space-y-3">

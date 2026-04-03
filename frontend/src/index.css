@@ -111,13 +111,28 @@
 }
 
 @keyframes orbit {
-  0% {
-    transform: rotate(0deg) translateX(100px) rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg) translateX(100px) rotate(-360deg);
-  }
+  0% { transform: rotate(0deg) translateX(100px) rotate(0deg); }
+  100% { transform: rotate(360deg) translateX(100px) rotate(-360deg); }
 }
+
+@keyframes orbit-sm {
+  0% { transform: rotate(0deg) translateX(65px) rotate(0deg); }
+  100% { transform: rotate(360deg) translateX(65px) rotate(-360deg); }
+}
+
+@keyframes orbit-md {
+  0% { transform: rotate(0deg) translateX(105px) rotate(0deg); }
+  100% { transform: rotate(360deg) translateX(105px) rotate(-360deg); }
+}
+
+@keyframes orbit-lg {
+  0% { transform: rotate(0deg) translateX(150px) rotate(0deg); }
+  100% { transform: rotate(360deg) translateX(150px) rotate(-360deg); }
+}
+
+.orbit-sm { animation: orbit-sm 10s linear infinite; }
+.orbit-md { animation: orbit-md 18s linear infinite; }
+.orbit-lg { animation: orbit-lg 28s linear infinite; }
 
 @keyframes pulse-glow {
   0%, 100% {

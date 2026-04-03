@@ -95,6 +95,13 @@ const Dashboard: React.FC = () => {
   return (
     <div className="space-y-6">
       <div className="relative overflow-hidden rounded-lg bg-gradient-to-r from-primary via-primary to-secondary p-8 text-white">
+        {/* Decorative orbiting satellites */}
+        <div className="absolute top-1/2 right-16 -translate-y-1/2 flex items-center justify-center pointer-events-none opacity-40">
+          <Satellite className="h-4 w-4 text-white orbit-sm" style={{ animationDelay: '-2s' }} />
+        </div>
+        <div className="absolute top-1/2 right-16 -translate-y-1/2 flex items-center justify-center pointer-events-none opacity-25">
+          <Satellite className="h-3 w-3 text-white orbit-md" style={{ animationDelay: '-7s' }} />
+        </div>
         <div className="relative z-10">
           <h1 className="text-3xl font-bold mb-2">Welcome to SatSage</h1>
           <p className="text-xl opacity-90 mb-6">

@@ -67,11 +67,22 @@ const Index = () => {
       <div className="container mx-auto px-4 py-16">
         {/* Hero Section */}
         <div className="text-center mb-16">
-          <div className="relative inline-block mb-6">
-            <div className="w-24 h-24 bg-gradient-to-br from-primary to-secondary rounded-full flex items-center justify-center mx-auto">
+          <div className="relative w-80 h-80 mx-auto flex items-center justify-center mb-6">
+            {/* Center logo */}
+            <div className="w-24 h-24 bg-gradient-to-br from-primary to-secondary rounded-full flex items-center justify-center z-10 relative">
               <Satellite className="h-12 w-12 text-white" />
             </div>
-            <div className="absolute inset-0 bg-primary/20 rounded-full animate-ping" />
+            <div className="absolute w-24 h-24 bg-primary/20 rounded-full animate-ping" />
+            {/* Orbiting satellites */}
+            <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+              <Satellite className="h-5 w-5 text-primary orbit-sm" style={{ animationDelay: '0s' }} />
+            </div>
+            <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+              <Satellite className="h-4 w-4 text-secondary/80 orbit-md" style={{ animationDelay: '-6s' }} />
+            </div>
+            <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+              <Satellite className="h-3 w-3 text-primary/60 orbit-lg" style={{ animationDelay: '-14s' }} />
+            </div>
           </div>
           
           <h1 className="text-5xl md:text-6xl font-bold mb-6">
