@@ -1,0 +1,424 @@
+{
+  "timestamp": "2026-04-02T20:49:39.938254",
+  "mode": "DRY RUN",
+  "model": "models/mosdac_relation_classifier",
+  "before_stats": {
+    "SATELLITE": 14,
+    "DATA_PRODUCT": 414,
+    "REGION": 336,
+    "INSTRUMENT": 4,
+    "PARAMETER": 6,
+    "STATION": 3,
+    "PROVIDES": 929,
+    "COVERS": 5861,
+    "MEASURES": 341,
+    "LOCATED_IN": 137,
+    "HAS": 0
+  },
+  "valid_count": 284,
+  "invalid_count": 645,
+  "invalid_samples": [
+    {
+      "head": "SARAL/",
+      "tail": "OST-ST Meeting"
+    },
+    {
+      "head": "SARAL/",
+      "tail": "Goddard Space Flight Center"
+    },
+    {
+      "head": "SARAL/",
+      "tail": "Greenbelt"
+    },
+    {
+      "head": "SARAL/",
+      "tail": "Products Handbook"
+    },
+    {
+      "head": "SARAL/",
+      "tail": "December 9, 2013\nRemya"
+    },
+    {
+      "head": "SARAL/",
+      "tail": "G. S. Michael"
+    },
+    {
+      "head": "SARAL/",
+      "tail": "Geophysical Product"
+    },
+    {
+      "head": "SARAL/",
+      "tail": "Indian Mainland Region"
+    },
+    {
+      "head": "SARAL/",
+      "tail": "Data Gap"
+    },
+    {
+      "head": "SARAL/",
+      "tail": "October"
+    },
+    {
+      "head": "SARAL/",
+      "tail": "Aditya Chaudhary"
+    },
+    {
+      "head": "SARAL/",
+      "tail": "S-IGDR"
+    },
+    {
+      "head": "SARAL/",
+      "tail": "English"
+    },
+    {
+      "head": "SARAL/",
+      "tail": "Satellite Data Archival Centre\nSpace Applications Centre"
+    },
+    {
+      "head": "SARAL/",
+      "tail": "Data Access"
+    },
+    {
+      "head": "SARAL/",
+      "tail": "Data Quality"
+    },
+    {
+      "head": "SARAL/",
+      "tail": "Oceanographic Satellite Data Archival Centre"
+    },
+    {
+      "head": "SARAL/",
+      "tail": "MOSDAC"
+    },
+    {
+      "head": "SARAL/",
+      "tail": "Space Applications Centre"
+    },
+    {
+      "head": "SARAL/",
+      "tail": "a Data Centre of Space Applications Centre"
+    },
+    {
+      "head": "SARAL/",
+      "tail": "Indian"
+    },
+    {
+      "head": "SARAL/",
+      "tail": "Satellite Data Archival Centre\nSkip"
+    },
+    {
+      "head": "SARAL/",
+      "tail": "the Science Products"
+    },
+    {
+      "head": "SARAL/",
+      "tail": "Data Version"
+    },
+    {
+      "head": "SARAL/",
+      "tail": "MetaData\nSr."
+    },
+    {
+      "head": "SARAL/",
+      "tail": "Spatial Resolution"
+    },
+    {
+      "head": "SARAL/",
+      "tail": "Satellite"
+    },
+    {
+      "head": "SARAL/",
+      "tail": "Altimeter"
+    },
+    {
+      "head": "SARAL/",
+      "tail": "25 February 2013"
+    },
+    {
+      "head": "SARAL/",
+      "tail": "up to 50 km"
+    },
+    {
+      "head": "SARAL/",
+      "tail": "March 2013 through July 2016"
+    },
+    {
+      "head": "SARAL/",
+      "tail": "Altimeter Sensor-Interim"
+    },
+    {
+      "head": "SARAL/",
+      "tail": "SSH"
+    },
+    {
+      "head": "SARAL/",
+      "tail": "Genetic Algorithm &quot"
+    },
+    {
+      "head": "SARAL/",
+      "tail": "40 Hz"
+    },
+    {
+      "head": "SARAL/",
+      "tail": "lanczos"
+    },
+    {
+      "head": "SARAL/",
+      "tail": "Coastal"
+    },
+    {
+      "head": "SARAL/",
+      "tail": "SALP-MU-P-"
+    },
+    {
+      "head": "SARAL/",
+      "tail": "J. \u2013 Y. Tourneret"
+    },
+    {
+      "head": "SARAL/",
+      "tail": "P. Thibaut"
+    },
+    {
+      "head": "SARAL/",
+      "tail": "F. Boy"
+    },
+    {
+      "head": "SARAL/",
+      "tail": "PISTACH"
+    },
+    {
+      "head": "SARAL-Altika",
+      "tail": "Data Gap"
+    },
+    {
+      "head": "SARAL-Altika",
+      "tail": "Inland Water Height | Meteorological & Oceanographic Satellite Data Archival Centre"
+    },
+    {
+      "head": "SARAL-Altika",
+      "tail": "35.75 GHz"
+    },
+    {
+      "head": "SARAL-Altika",
+      "tail": "Brahmaputra"
+    },
+    {
+      "head": "SARAL-Altika",
+      "tail": "Altimeter Interim Geophysical Data Record"
+    },
+    {
+      "head": "SARAL-Altika",
+      "tail": "Geophysical Data Record"
+    },
+    {
+      "head": "SARAL-Altika",
+      "tail": "Chauhan"
+    },
+    {
+      "head": "SARAL-Altika",
+      "tail": "GPS Field"
+    }
+  ],
+  "valid_samples": [
+    {
+      "head": "SARAL/",
+      "tail": "Wind Wave Power"
+    },
+    {
+      "head": "SARAL/",
+      "tail": "Global Ocean Current"
+    },
+    {
+      "head": "SARAL/",
+      "tail": "Indian Mainland Coastal Product"
+    },
+    {
+      "head": "SARAL/",
+      "tail": "Sea Surface Height"
+    },
+    {
+      "head": "SARAL/",
+      "tail": "Marine Geodesy"
+    },
+    {
+      "head": "SARAL/",
+      "tail": "Hydrology Altimetry"
+    },
+    {
+      "head": "SARAL-Altika",
+      "tail": "Inland Water Height"
+    },
+    {
+      "head": "SARAL-Altika",
+      "tail": "Water Level Retrieval"
+    },
+    {
+      "head": "SARAL-Altika",
+      "tail": "Brahmaputra River"
+    },
+    {
+      "head": "SARAL-Altika",
+      "tail": "Eastern India"
+    },
+    {
+      "head": "SARAL-Altika",
+      "tail": "Global Ocean Current"
+    },
+    {
+      "head": "SARAL-Altika",
+      "tail": "Indian Mainland Coastal Product"
+    },
+    {
+      "head": "SARAL-Altika",
+      "tail": "Altimeter"
+    },
+    {
+      "head": "SARAL-Altika",
+      "tail": "Marine Geodesy"
+    },
+    {
+      "head": "INSAT-3A",
+      "tail": "Data Relay Transponder"
+    },
+    {
+      "head": "INSAT-3A",
+      "tail": "Global Ocean Current"
+    },
+    {
+      "head": "INSAT-3A",
+      "tail": "Indian Mainland Coastal Product"
+    },
+    {
+      "head": "INSAT-3A",
+      "tail": "MOSDAC"
+    },
+    {
+      "head": "INSAT-3DR",
+      "tail": "Greenbelt"
+    },
+    {
+      "head": "INSAT-3DR",
+      "tail": "Geophysical Product"
+    },
+    {
+      "head": "INSAT-3DR",
+      "tail": "Wind Wave Power"
+    },
+    {
+      "head": "INSAT-3DR",
+      "tail": "S-IGDR"
+    },
+    {
+      "head": "INSAT-3DR",
+      "tail": "Inland Water Height"
+    },
+    {
+      "head": "INSAT-3DR",
+      "tail": "Brahmaputra"
+    },
+    {
+      "head": "INSAT-3DR",
+      "tail": "Altimeter Interim Geophysical Data Record"
+    },
+    {
+      "head": "INSAT-3DR",
+      "tail": "Geophysical Data Record"
+    },
+    {
+      "head": "INSAT-3DR",
+      "tail": "Water Level Retrieval"
+    },
+    {
+      "head": "INSAT-3DR",
+      "tail": "Brahmaputra River"
+    },
+    {
+      "head": "INSAT-3DR",
+      "tail": "GPS Field"
+    },
+    {
+      "head": "INSAT-3DR",
+      "tail": "D Gangulay"
+    },
+    {
+      "head": "INSAT-3DR",
+      "tail": "Data Relay Transponder"
+    },
+    {
+      "head": "INSAT-3DR",
+      "tail": "Data Reception"
+    },
+    {
+      "head": "INSAT-3DR",
+      "tail": "Data Processing"
+    },
+    {
+      "head": "INSAT-3DR",
+      "tail": "Satellite Aided Search & Rescue"
+    },
+    {
+      "head": "INSAT-3DR",
+      "tail": "IMAGER"
+    },
+    {
+      "head": "INSAT-3DR",
+      "tail": "SOUNDER\nData Relay Transponder"
+    },
+    {
+      "head": "INSAT-3DR",
+      "tail": "Satellite Aided Search and Rescue"
+    },
+    {
+      "head": "INSAT-3DR",
+      "tail": "Outgoing Longwave Radiation"
+    },
+    {
+      "head": "INSAT-3DR",
+      "tail": "Imager"
+    },
+    {
+      "head": "INSAT-3DR",
+      "tail": "SOUNDERData Relay Transponder"
+    },
+    {
+      "head": "INSAT-3DR",
+      "tail": "Aided Search and Rescue"
+    },
+    {
+      "head": "INSAT-3DR",
+      "tail": "Search & Rescue Payload"
+    },
+    {
+      "head": "INSAT-3DR",
+      "tail": "Sensors"
+    },
+    {
+      "head": "INSAT-3DR",
+      "tail": "the Indian National Satellite System"
+    },
+    {
+      "head": "INSAT-3DR",
+      "tail": "Satellite Data Products and Information"
+    },
+    {
+      "head": "INSAT-3DR",
+      "tail": "Meteorological Data Utilisation Centre"
+    },
+    {
+      "head": "INSAT-3DR",
+      "tail": "METEOSAT8 Cloud Properties\nMETEOSAT8 Cloud Properties"
+    },
+    {
+      "head": "INSAT-3DR",
+      "tail": "Cloud Phase"
+    },
+    {
+      "head": "INSAT-3DR",
+      "tail": "Cloud Thickness"
+    },
+    {
+      "head": "INSAT-3DR",
+      "tail": "Cloud Properties Products"
+    }
+  ]
+}

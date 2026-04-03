@@ -1,0 +1,798 @@
+{
+  "timestamp": "2026-04-02T21:10:41.472359",
+  "mode": "DRY RUN",
+  "model": "models/mosdac_relation_classifier",
+  "before_stats": {
+    "SATELLITE": 14,
+    "DATA_PRODUCT": 414,
+    "REGION": 336,
+    "INSTRUMENT": 4,
+    "PARAMETER": 6,
+    "STATION": 3,
+    "PROVIDES": 284,
+    "COVERS": 5861,
+    "MEASURES": 341,
+    "LOCATED_IN": 137,
+    "HAS": 0
+  },
+  "relationship_cleanup": {
+    "PROVIDES": {
+      "valid": 210,
+      "invalid": 74,
+      "invalid_samples": [
+        {
+          "head": "SARAL/",
+          "tail": "Indian Mainland Coastal Product"
+        },
+        {
+          "head": "SARAL-Altika",
+          "tail": "Brahmaputra River"
+        },
+        {
+          "head": "INSAT-3A",
+          "tail": "MOSDAC"
+        },
+        {
+          "head": "INSAT-3DR",
+          "tail": "Geophysical Product"
+        },
+        {
+          "head": "INSAT-3DR",
+          "tail": "Brahmaputra"
+        },
+        {
+          "head": "INSAT-3DR",
+          "tail": "Altimeter Interim Geophysical Data Record"
+        },
+        {
+          "head": "INSAT-3DR",
+          "tail": "D Gangulay"
+        },
+        {
+          "head": "INSAT-3DR",
+          "tail": "IMAGER"
+        },
+        {
+          "head": "INSAT-3DR",
+          "tail": "Imager"
+        },
+        {
+          "head": "INSAT-3DR",
+          "tail": "METEOSAT8 Cloud Properties\nMETEOSAT8 Cloud Properties"
+        },
+        {
+          "head": "INSAT-3DR",
+          "tail": "TRMM VIRS"
+        },
+        {
+          "head": "INSAT-3DR",
+          "tail": "Aqua MODIS"
+        },
+        {
+          "head": "INSAT-3DR",
+          "tail": "M8\nSensorId"
+        },
+        {
+          "head": "INSAT-3DR",
+          "tail": "Geophys"
+        },
+        {
+          "head": "INSAT-3DR",
+          "tail": "S. Calmant"
+        },
+        {
+          "head": "INSAT-3DR",
+          "tail": "RSS Feeds"
+        },
+        {
+          "head": "INSAT-3DR",
+          "tail": "Mobile Apps"
+        },
+        {
+          "head": "INSAT-3DR",
+          "tail": "ARGOS Data Collecting System"
+        },
+        {
+          "head": "INSAT-3DR",
+          "tail": "Polar Stereographic"
+        },
+        {
+          "head": "INSAT-3DR",
+          "tail": "mosaic"
+        },
+        {
+          "head": "INSAT-3DR",
+          "tail": "Derivation Techniques"
+        },
+        {
+          "head": "INSAT-3DR",
+          "tail": "Sasmita Chaurasia"
+        },
+        {
+          "head": "INSAT-3DR",
+          "tail": "MB\nAtmospheric Correction Model"
+        },
+        {
+          "head": "INSAT-3DR",
+          "tail": "Indian National Center for Ocean Information Services"
+        },
+        {
+          "head": "INSAT-3DR",
+          "tail": "MOSDAC"
+        },
+        {
+          "head": "INSAT-3DR",
+          "tail": "the Science Products"
+        },
+        {
+          "head": "INSAT-3DR",
+          "tail": "Climatol"
+        },
+        {
+          "head": "INSAT-3DR",
+          "tail": "Oceanographic Satellite Data Archival Center"
+        },
+        {
+          "head": "INSAT-3DR",
+          "tail": "AVISO/DUACS"
+        },
+        {
+          "head": "INSAT-3DR",
+          "tail": "Sikhakolli"
+        }
+      ],
+      "valid_samples": [
+        {
+          "head": "SARAL/",
+          "tail": "Wind Wave Power"
+        },
+        {
+          "head": "SARAL/",
+          "tail": "Global Ocean Current"
+        },
+        {
+          "head": "SARAL/",
+          "tail": "Sea Surface Height"
+        },
+        {
+          "head": "SARAL/",
+          "tail": "Marine Geodesy"
+        },
+        {
+          "head": "SARAL/",
+          "tail": "Hydrology Altimetry"
+        },
+        {
+          "head": "SARAL-Altika",
+          "tail": "Inland Water Height"
+        },
+        {
+          "head": "SARAL-Altika",
+          "tail": "Water Level Retrieval"
+        },
+        {
+          "head": "SARAL-Altika",
+          "tail": "Eastern India"
+        },
+        {
+          "head": "SARAL-Altika",
+          "tail": "Global Ocean Current"
+        },
+        {
+          "head": "SARAL-Altika",
+          "tail": "Indian Mainland Coastal Product"
+        },
+        {
+          "head": "SARAL-Altika",
+          "tail": "Altimeter"
+        },
+        {
+          "head": "SARAL-Altika",
+          "tail": "Marine Geodesy"
+        },
+        {
+          "head": "INSAT-3A",
+          "tail": "Data Relay Transponder"
+        },
+        {
+          "head": "INSAT-3A",
+          "tail": "Global Ocean Current"
+        },
+        {
+          "head": "INSAT-3A",
+          "tail": "Indian Mainland Coastal Product"
+        },
+        {
+          "head": "INSAT-3DR",
+          "tail": "Greenbelt"
+        },
+        {
+          "head": "INSAT-3DR",
+          "tail": "Wind Wave Power"
+        },
+        {
+          "head": "INSAT-3DR",
+          "tail": "S-IGDR"
+        },
+        {
+          "head": "INSAT-3DR",
+          "tail": "Inland Water Height"
+        },
+        {
+          "head": "INSAT-3DR",
+          "tail": "Geophysical Data Record"
+        },
+        {
+          "head": "INSAT-3DR",
+          "tail": "Water Level Retrieval"
+        },
+        {
+          "head": "INSAT-3DR",
+          "tail": "Brahmaputra River"
+        },
+        {
+          "head": "INSAT-3DR",
+          "tail": "GPS Field"
+        },
+        {
+          "head": "INSAT-3DR",
+          "tail": "Data Relay Transponder"
+        },
+        {
+          "head": "INSAT-3DR",
+          "tail": "Data Reception"
+        },
+        {
+          "head": "INSAT-3DR",
+          "tail": "Data Processing"
+        },
+        {
+          "head": "INSAT-3DR",
+          "tail": "Satellite Aided Search & Rescue"
+        },
+        {
+          "head": "INSAT-3DR",
+          "tail": "SOUNDER\nData Relay Transponder"
+        },
+        {
+          "head": "INSAT-3DR",
+          "tail": "Satellite Aided Search and Rescue"
+        },
+        {
+          "head": "INSAT-3DR",
+          "tail": "Outgoing Longwave Radiation"
+        }
+      ]
+    },
+    "COVERS": {
+      "valid": 3068,
+      "invalid": 2793,
+      "invalid_samples": [
+        {
+          "head": "OST-ST Meeting",
+          "tail": "Seattle"
+        },
+        {
+          "head": "OST-ST Meeting",
+          "tail": "WA"
+        },
+        {
+          "head": "OST-ST Meeting",
+          "tail": "MD"
+        },
+        {
+          "head": "OST-ST Meeting",
+          "tail": "K.S."
+        },
+        {
+          "head": "OST-ST Meeting",
+          "tail": "MLE4"
+        },
+        {
+          "head": "OST-ST Meeting",
+          "tail": "Indian Space Research Organisation"
+        },
+        {
+          "head": "OST-ST Meeting",
+          "tail": "Ahmedabad"
+        },
+        {
+          "head": "OST-ST Meeting",
+          "tail": "Chelton"
+        },
+        {
+          "head": "OST-ST Meeting",
+          "tail": "Bayes Decision Rule"
+        },
+        {
+          "head": "OST-ST Meeting",
+          "tail": "Perth"
+        },
+        {
+          "head": "Goddard Space Flight Center",
+          "tail": "WA"
+        },
+        {
+          "head": "Goddard Space Flight Center",
+          "tail": "MD"
+        },
+        {
+          "head": "Goddard Space Flight Center",
+          "tail": "K.S."
+        },
+        {
+          "head": "Goddard Space Flight Center",
+          "tail": "MLE4"
+        },
+        {
+          "head": "Goddard Space Flight Center",
+          "tail": "Indian Space Research Organisation"
+        },
+        {
+          "head": "Goddard Space Flight Center",
+          "tail": "Ahmedabad"
+        },
+        {
+          "head": "Goddard Space Flight Center",
+          "tail": "Gujarat"
+        },
+        {
+          "head": "Goddard Space Flight Center",
+          "tail": "Chelton"
+        },
+        {
+          "head": "Goddard Space Flight Center",
+          "tail": "Bayes Decision Rule"
+        },
+        {
+          "head": "Goddard Space Flight Center",
+          "tail": "Perth"
+        },
+        {
+          "head": "Greenbelt",
+          "tail": "WA"
+        },
+        {
+          "head": "Greenbelt",
+          "tail": "MD"
+        },
+        {
+          "head": "Greenbelt",
+          "tail": "K.S."
+        },
+        {
+          "head": "Greenbelt",
+          "tail": "MLE4"
+        },
+        {
+          "head": "Greenbelt",
+          "tail": "Indian Space Research Organisation"
+        },
+        {
+          "head": "Greenbelt",
+          "tail": "Chelton"
+        },
+        {
+          "head": "Greenbelt",
+          "tail": "Bayes Decision Rule"
+        },
+        {
+          "head": "Products Handbook",
+          "tail": "Seattle"
+        },
+        {
+          "head": "Products Handbook",
+          "tail": "WA"
+        },
+        {
+          "head": "Products Handbook",
+          "tail": "MD"
+        }
+      ],
+      "valid_samples": [
+        {
+          "head": "OST-ST Meeting",
+          "tail": "Coastal Altimetry"
+        },
+        {
+          "head": "OST-ST Meeting",
+          "tail": "Indian Coastal Region"
+        },
+        {
+          "head": "OST-ST Meeting",
+          "tail": "Indian Ocean"
+        },
+        {
+          "head": "OST-ST Meeting",
+          "tail": "India"
+        },
+        {
+          "head": "OST-ST Meeting",
+          "tail": "INDIA"
+        },
+        {
+          "head": "OST-ST Meeting",
+          "tail": "Gujarat"
+        },
+        {
+          "head": "OST-ST Meeting",
+          "tail": "Australia"
+        },
+        {
+          "head": "Goddard Space Flight Center",
+          "tail": "Seattle"
+        },
+        {
+          "head": "Goddard Space Flight Center",
+          "tail": "Coastal Altimetry"
+        },
+        {
+          "head": "Goddard Space Flight Center",
+          "tail": "Indian Coastal Region"
+        },
+        {
+          "head": "Goddard Space Flight Center",
+          "tail": "Indian Ocean"
+        },
+        {
+          "head": "Goddard Space Flight Center",
+          "tail": "India"
+        },
+        {
+          "head": "Goddard Space Flight Center",
+          "tail": "INDIA"
+        },
+        {
+          "head": "Goddard Space Flight Center",
+          "tail": "Australia"
+        },
+        {
+          "head": "Greenbelt",
+          "tail": "Seattle"
+        },
+        {
+          "head": "Greenbelt",
+          "tail": "Coastal Altimetry"
+        },
+        {
+          "head": "Greenbelt",
+          "tail": "Indian Coastal Region"
+        },
+        {
+          "head": "Greenbelt",
+          "tail": "Indian Ocean"
+        },
+        {
+          "head": "Greenbelt",
+          "tail": "India"
+        },
+        {
+          "head": "Greenbelt",
+          "tail": "INDIA"
+        },
+        {
+          "head": "Greenbelt",
+          "tail": "Ahmedabad"
+        },
+        {
+          "head": "Greenbelt",
+          "tail": "Gujarat"
+        },
+        {
+          "head": "Greenbelt",
+          "tail": "Australia"
+        },
+        {
+          "head": "Greenbelt",
+          "tail": "Perth"
+        },
+        {
+          "head": "Products Handbook",
+          "tail": "Coastal Altimetry"
+        },
+        {
+          "head": "Products Handbook",
+          "tail": "Indian Coastal Region"
+        },
+        {
+          "head": "Products Handbook",
+          "tail": "Indian Ocean"
+        },
+        {
+          "head": "Products Handbook",
+          "tail": "India"
+        },
+        {
+          "head": "Products Handbook",
+          "tail": "INDIA"
+        },
+        {
+          "head": "Products Handbook",
+          "tail": "Gujarat"
+        }
+      ]
+    },
+    "MEASURES": {
+      "valid": 316,
+      "invalid": 25,
+      "invalid_samples": [
+        {
+          "head": "G. S. Michael",
+          "tail": "Humidity"
+        },
+        {
+          "head": "May 14, 2018\n4",
+          "tail": "Humidity"
+        },
+        {
+          "head": "1611\u20131626",
+          "tail": "Humidity"
+        },
+        {
+          "head": "January 01 1993 to December 31",
+          "tail": "Humidity"
+        },
+        {
+          "head": "Responsible Party\nJishad M",
+          "tail": "Humidity"
+        },
+        {
+          "head": "| Meteorological & Oceanographic Satellite Data Archival Centre\nSkip",
+          "tail": "Humidity"
+        },
+        {
+          "head": "July 20, 2015\n4",
+          "tail": "Humidity"
+        },
+        {
+          "head": "RSS Feed | Meteorological & Oceanographic Satellite Data Archival Centre\nSkip",
+          "tail": "Humidity"
+        },
+        {
+          "head": "January 1st to December 31st",
+          "tail": "Humidity"
+        },
+        {
+          "head": "2008-2014\n15",
+          "tail": "Humidity"
+        },
+        {
+          "head": "The Website Privacy Policy",
+          "tail": "Humidity"
+        },
+        {
+          "head": "English",
+          "tail": "Humidity"
+        },
+        {
+          "head": "May, 2018\n4",
+          "tail": "Humidity"
+        },
+        {
+          "head": "Us | Meteorological & Oceanographic Satellite Data Archival Centre\nSkip",
+          "tail": "Humidity"
+        },
+        {
+          "head": "455\u2013466",
+          "tail": "Humidity"
+        },
+        {
+          "head": "MetaData\nSr.",
+          "tail": "Humidity"
+        },
+        {
+          "head": "Data Access Policy | Meteorological & Oceanographic Satellite Data Archival Centre\nSkip",
+          "tail": "Humidity"
+        },
+        {
+          "head": "NRT Access\nAnonymous",
+          "tail": "Humidity"
+        },
+        {
+          "head": "Access ProfileDatasetsLatencyRegistered General",
+          "tail": "Humidity"
+        },
+        {
+          "head": "Data Quality | Meteorological & Oceanographic Satellite Data Archival Centre\nSkip",
+          "tail": "Humidity"
+        },
+        {
+          "head": "2017-04-06 15:31",
+          "tail": "Humidity"
+        },
+        {
+          "head": "Anonymous",
+          "tail": "Humidity"
+        },
+        {
+          "head": "1 year \u2013 March 2013 to February 2014",
+          "tail": "Humidity"
+        },
+        {
+          "head": "Imageshow | Meteorological & Oceanographic Satellite Data Archival Centre\nSkip",
+          "tail": "Humidity"
+        },
+        {
+          "head": "up to 50 km",
+          "tail": "Humidity"
+        }
+      ],
+      "valid_samples": [
+        {
+          "head": "OST-ST Meeting",
+          "tail": "Humidity"
+        },
+        {
+          "head": "Goddard Space Flight Center",
+          "tail": "Humidity"
+        },
+        {
+          "head": "Greenbelt",
+          "tail": "Humidity"
+        },
+        {
+          "head": "Products Handbook",
+          "tail": "Humidity"
+        },
+        {
+          "head": "December 9, 2013\nRemya",
+          "tail": "Humidity"
+        },
+        {
+          "head": "Geophysical Product",
+          "tail": "Humidity"
+        },
+        {
+          "head": "Indian Mainland Region",
+          "tail": "Humidity"
+        },
+        {
+          "head": "Data Gap",
+          "tail": "Humidity"
+        },
+        {
+          "head": "October",
+          "tail": "Humidity"
+        },
+        {
+          "head": "Wind Wave Power",
+          "tail": "Humidity"
+        },
+        {
+          "head": "Aditya Chaudhary",
+          "tail": "Humidity"
+        },
+        {
+          "head": "S-IGDR",
+          "tail": "Humidity"
+        },
+        {
+          "head": "Inland Water Height | Meteorological & Oceanographic Satellite Data Archival Centre",
+          "tail": "Humidity"
+        },
+        {
+          "head": "Inland Water Height",
+          "tail": "Humidity"
+        },
+        {
+          "head": "35.75 GHz",
+          "tail": "Humidity"
+        },
+        {
+          "head": "Brahmaputra",
+          "tail": "Humidity"
+        },
+        {
+          "head": "Altimeter Interim Geophysical Data Record",
+          "tail": "Humidity"
+        },
+        {
+          "head": "Geophysical Data Record",
+          "tail": "Humidity"
+        },
+        {
+          "head": "Water Level Retrieval",
+          "tail": "Humidity"
+        },
+        {
+          "head": "Brahmaputra River",
+          "tail": "Humidity"
+        },
+        {
+          "head": "Eastern India",
+          "tail": "Humidity"
+        },
+        {
+          "head": "Chauhan",
+          "tail": "Humidity"
+        },
+        {
+          "head": "GPS Field",
+          "tail": "Humidity"
+        },
+        {
+          "head": "March 05, 2015",
+          "tail": "Humidity"
+        },
+        {
+          "head": "D Gangulay",
+          "tail": "Humidity"
+        },
+        {
+          "head": "1 km",
+          "tail": "Humidity"
+        },
+        {
+          "head": "Data Relay Transponder",
+          "tail": "Humidity"
+        },
+        {
+          "head": "Data Reception",
+          "tail": "Humidity"
+        },
+        {
+          "head": "Data Processing",
+          "tail": "Humidity"
+        },
+        {
+          "head": "Sounder, Imager",
+          "tail": "Humidity"
+        }
+      ]
+    }
+  },
+  "orphan_nodes": {
+    "DATA_PRODUCT": [
+      "the Indian Ocean",
+      "Handbook SARAL",
+      "Indian Space Research",
+      "SARAL-Altika",
+      "Western Himalayan",
+      "the Community Atmosphere Model",
+      "2013-11-09",
+      "2015-01-02",
+      "Indian National Satellite System)-3A",
+      "Indian National Satellite System)-3D | Meteorological & Oceanographic Satellite Data Archival Centre\nSkip",
+      "www.mosdac.gov.in",
+      "Indian National Satellite System)-3D",
+      "Indian National Satellite System)-3DR Introduction",
+      "Indian National Satellite System)-3DR",
+      "OLR",
+      "Indian National Satellite System)-3DR Objectives",
+      "Indian National Satellite System)-3D Imager",
+      "Indian National Satellite System)-3D Sounder",
+      "Indian National Satellite System)-3DR SpaceCraft | Meteorological & Oceanographic Satellite Data Archival Centre\nSkip",
+      "INSAT-3D"
+    ],
+    "REGION": [
+      "Altimeter-Derived Ocean Wave Period Using Genetic Algorithm, &quot",
+      "www.nrsc.gov.in",
+      "Timor",
+      "Saint Kitts",
+      "Saint Lucia\nSaint\n Vincent",
+      "nAna",
+      "DeTA",
+      "keMd\u093ea",
+      "skaiTasaiTa -1",
+      "u\u0930pAda",
+      "mukhya",
+      "moTe \u0930au\u093ea",
+      "Oceansat-2",
+      "Oceansat-1(IRS-P4",
+      "Earth Observing Satellite EOS-06(Oceansat-3",
+      "fl",
+      "ISRO (Indian Space Research Organisation",
+      "MOSDAC Single",
+      "JGR Oceans",
+      "kumarj@sac.isro.gov.in"
+    ],
+    "PARAMETER": [
+      "MJO",
+      "SWH",
+      "Wind Speed",
+      "Cyclone"
+    ]
+  },
+  "total_invalid_relationships": 2892,
+  "total_orphan_nodes": 93
+}

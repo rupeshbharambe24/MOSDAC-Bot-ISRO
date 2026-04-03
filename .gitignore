@@ -29,6 +29,8 @@ bot-env/
 *.h5
 *.pkl
 rag_pipeline/models/*.gguf
+knowledge_graph_construction/models/
+knowledge_graph_construction/models/**
 
 # Vector store
 vector_store/
