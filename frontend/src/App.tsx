@@ -19,7 +19,7 @@ const queryClient = new QueryClient();
 
 const AppLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const navigate = useNavigate();
-  const [sidebarOpen, setSidebarOpen] = useState(false);
+  const [sidebarOpen, setSidebarOpen] = useState(true);
   const [isDarkMode, setIsDarkMode] = useState(true);
 
   const toggleSidebar = () => setSidebarOpen(prev => !prev);
@@ -47,15 +47,17 @@ const AppLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
           onToggleTheme={toggleTheme}
         />
         <div className="flex flex-1 overflow-hidden relative">
-          {/* Desktop sidebar */}
-          <div className="hidden lg:block">
-            <Sidebar
-              isOpen={true}
-              onTemplateSelect={handleTemplateSelect}
-              onNewQuery={handleNewQuery}
-              savedQueries={[]}
-            />
-          </div>
+          {/* Desktop sidebar — toggled by hamburger */}
+          {sidebarOpen && (
+            <div className="hidden lg:block">
+              <Sidebar
+                isOpen={true}
+                onTemplateSelect={handleTemplateSelect}
+                onNewQuery={handleNewQuery}
+                savedQueries={[]}
+              />
+            </div>
+          )}
           {/* Mobile sidebar overlay */}
           {sidebarOpen && (
             <>
