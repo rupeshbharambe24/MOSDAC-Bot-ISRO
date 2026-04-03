@@ -2,10 +2,11 @@ import React, { useState, useRef, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { Button } from '@/components/ui/button';
-import { Trash2 } from 'lucide-react';
+import { Trash2, Download } from 'lucide-react';
 import ChatInput from '@/components/query/ChatInput';
 import ChatMessage from '@/components/query/ChatMessage';
 import ChatWelcome from '@/components/query/ChatWelcome';
+import jsPDF from 'jspdf';
 
 interface Message {
   id: string;
@@ -147,6 +148,104 @@ const QueryInterface: React.FC = () => {
     handleSendMessage(template);
   };
 
+  const handleExportPDF = () => {
+    const doc = new jsPDF({ unit: 'pt', format: 'a4' });
+    const pageW = doc.internal.pageSize.getWidth();
+    const margin = 40;
+    const maxW = pageW - margin * 2;
+    let y = margin;
+
+    const addPage = () => {
+      doc.addPage();
+      y = margin;
+    };
+
+    const checkY = (needed: number) => {
+      if (y + needed > doc.internal.pageSize.getHeight() - margin) addPage();
+    };
+
+    // Header
+    doc.setFillColor(15, 23, 42);
+    doc.rect(0, 0, pageW, 56, 'F');
+    doc.setTextColor(255, 255, 255);
+    doc.setFontSize(18);
+    doc.setFont('helvetica', 'bold');
+    doc.text('MOSDAC Help Bot — Chat Export', margin, 36);
+    doc.setFontSize(9);
+    doc.setFont('helvetica', 'normal');
+    doc.setTextColor(180, 200, 220);
+    doc.text(new Date().toLocaleString(), pageW - margin, 36, { align: 'right' });
+    y = 72;
+
+    const completedMessages = messages.filter(m => m.content.trim());
+
+    completedMessages.forEach((msg, idx) => {
+      const label = msg.isBot ? 'MOSDAC Bot' : 'You';
+      const time = msg.timestamp.toLocaleTimeString();
+      const isBot = msg.isBot;
+
+      checkY(32);
+
+      // Label row
+      doc.setFontSize(8);
+      doc.setFont('helvetica', 'bold');
+      doc.setTextColor(isBot ? 56 : 99, isBot ? 189 : 102, isBot ? 248 : 241);
+      doc.text(`${label}  ·  ${time}`, margin, y);
+      y += 14;
+
+      // Message body
+      doc.setFont('helvetica', 'normal');
+      doc.setFontSize(10);
+      doc.setTextColor(30, 30, 30);
+
+      // Strip markdown bold markers for plain text
+      const plainText = msg.content.replace(/\*\*([^*]+)\*\*/g, '$1');
+      const lines = doc.splitTextToSize(plainText, maxW);
+      lines.forEach((line: string) => {
+        checkY(14);
+        doc.text(line, margin, y);
+        y += 14;
+      });
+
+      // Sources
+      if (isBot && msg.sources && msg.sources.length > 0) {
+        checkY(14);
+        doc.setFontSize(8);
+        doc.setTextColor(120, 120, 140);
+        doc.setFont('helvetica', 'italic');
+        const srcText = 'Sources: ' + msg.sources.map(s => `${s.satellite} — ${s.dataset.slice(0, 60)}`).join(' | ');
+        const srcLines = doc.splitTextToSize(srcText, maxW);
+        srcLines.forEach((line: string) => {
+          checkY(12);
+          doc.text(line, margin, y);
+          y += 12;
+        });
+      }
+
+      // Separator (except last)
+      if (idx < completedMessages.length - 1) {
+        y += 6;
+        checkY(2);
+        doc.setDrawColor(220, 220, 230);
+        doc.line(margin, y, pageW - margin, y);
+        y += 10;
+      }
+    });
+
+    // Footer on last page
+    const totalPages = (doc as any).internal.getNumberOfPages();
+    for (let p = 1; p <= totalPages; p++) {
+      doc.setPage(p);
+      doc.setFontSize(8);
+      doc.setTextColor(160, 160, 170);
+      doc.setFont('helvetica', 'normal');
+      doc.text(`MOSDAC Help Bot  ·  mosdac.gov.in  ·  Page ${p} of ${totalPages}`, pageW / 2, doc.internal.pageSize.getHeight() - 20, { align: 'center' });
+    }
+
+    const filename = `mosdac-chat-${new Date().toISOString().slice(0, 10)}.pdf`;
+    doc.save(filename);
+  };
+
   const handleFeedback = (messageId: string, type: 'up' | 'down') => {
     const msg = messages.find(m => m.id === messageId);
     const prevMsg = messages[messages.indexOf(msg!) - 1];
@@ -173,10 +272,16 @@ const QueryInterface: React.FC = () => {
               <>
                 <div className="flex items-center justify-between mb-4">
                   <span className="text-xs text-muted-foreground">{messages.length} messages</span>
-                  <Button variant="ghost" size="sm" onClick={() => setMessages([])}>
-                    <Trash2 className="h-3 w-3 mr-1" />
-                    Clear History
-                  </Button>
+                  <div className="flex items-center gap-1">
+                    <Button variant="ghost" size="sm" onClick={handleExportPDF}>
+                      <Download className="h-3 w-3 mr-1" />
+                      Export PDF
+                    </Button>
+                    <Button variant="ghost" size="sm" onClick={() => setMessages([])}>
+                      <Trash2 className="h-3 w-3 mr-1" />
+                      Clear History
+                    </Button>
+                  </div>
                 </div>
                 {messages.map((message) => (
                   <ChatMessage
