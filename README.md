@@ -1,4 +1,4 @@
-# ISRO SatQuery — MOSDAC Help Bot
+# SatSage — AI Satellite Data Query Assistant
 
 An AI-powered Help Bot for querying ISRO's satellite data hosted on the [MOSDAC portal](https://www.mosdac.gov.in). Uses a **Knowledge Graph (Neo4j) + RAG (Retrieval-Augmented Generation)** architecture with FAISS vector search and LLM-powered response generation.
 

@@ -1,11 +1,11 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="isro-satquery",
+    name="satsage",
     version="0.1.0",
-    description="AI-powered Help Bot for ISRO's MOSDAC satellite data portal",
+    description="AI-powered satellite data query assistant for ISRO's MOSDAC portal",
     author="Rupesh Bharambe",
-    url="https://github.com/rupeshbharambe24/ISRO-SatQuery",
+    url="https://github.com/rupeshbharambe24/MOSDAC-Bot-ISRO",
     packages=find_packages(),
     python_requires=">=3.10",
     install_requires=[

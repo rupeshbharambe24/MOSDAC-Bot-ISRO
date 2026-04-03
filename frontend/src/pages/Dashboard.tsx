@@ -96,7 +96,7 @@ const Dashboard: React.FC = () => {
     <div className="space-y-6">
       <div className="relative overflow-hidden rounded-lg bg-gradient-to-r from-primary via-primary to-secondary p-8 text-white">
         <div className="relative z-10">
-          <h1 className="text-3xl font-bold mb-2">Welcome to ISRO SatQuery</h1>
+          <h1 className="text-3xl font-bold mb-2">Welcome to SatSage</h1>
           <p className="text-xl opacity-90 mb-6">
             Intelligent satellite data analysis and Earth observation insights
           </p>

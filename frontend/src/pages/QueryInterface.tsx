@@ -170,7 +170,7 @@ const QueryInterface: React.FC = () => {
     doc.setTextColor(255, 255, 255);
     doc.setFontSize(18);
     doc.setFont('helvetica', 'bold');
-    doc.text('MOSDAC Help Bot — Chat Export', margin, 36);
+    doc.text('SatSage — Chat Export', margin, 36);
     doc.setFontSize(9);
     doc.setFont('helvetica', 'normal');
     doc.setTextColor(180, 200, 220);
@@ -239,7 +239,7 @@ const QueryInterface: React.FC = () => {
       doc.setFontSize(8);
       doc.setTextColor(160, 160, 170);
       doc.setFont('helvetica', 'normal');
-      doc.text(`MOSDAC Help Bot  ·  mosdac.gov.in  ·  Page ${p} of ${totalPages}`, pageW / 2, doc.internal.pageSize.getHeight() - 20, { align: 'center' });
+      doc.text(`SatSage  ·  mosdac.gov.in  ·  Page ${p} of ${totalPages}`, pageW / 2, doc.internal.pageSize.getHeight() - 20, { align: 'center' });
     }
 
     const filename = `mosdac-chat-${new Date().toISOString().slice(0, 10)}.pdf`;

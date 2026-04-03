@@ -28,7 +28,7 @@ const ChatWelcome: React.FC<ChatWelcomeProps> = ({ onTemplateSelect }) => {
       
       <div className="space-y-3">
         <h2 className="text-2xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-          Welcome to ISRO SatQuery
+          Welcome to SatSage
         </h2>
         <p className="text-muted-foreground max-w-md">
           Ask me anything about satellite data, Earth observations, or space missions. 

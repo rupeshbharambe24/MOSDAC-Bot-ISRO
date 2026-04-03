@@ -76,7 +76,7 @@ const Index = () => {
           
           <h1 className="text-5xl md:text-6xl font-bold mb-6">
             <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-              ISRO SatQuery
+              SatSage
             </span>
           </h1>
           

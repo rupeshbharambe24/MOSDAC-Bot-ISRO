@@ -74,7 +74,7 @@ const Header: React.FC<HeaderProps> = ({ onToggleSidebar, isDarkMode, onToggleTh
             </div>
             <div>
               <h1 className="text-lg font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-                ISRO SatQuery
+                SatSage
               </h1>
               <p className="text-xs text-muted-foreground">Satellite Data Intelligence</p>
             </div>

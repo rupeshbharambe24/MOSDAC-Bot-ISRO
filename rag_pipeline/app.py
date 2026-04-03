@@ -11,7 +11,7 @@ class MOSDACBot:
 
     def _initialize(self):
         """Initialize the retriever"""
-        print("Initializing MOSDAC Help Bot...")
+        print("Initializing SatSage...")
         self.retriever.index_documents()
         print("Knowledge graph and vector store ready!")
 
@@ -28,7 +28,7 @@ class MOSDACBot:
         return response
 
 def main():
-    parser = argparse.ArgumentParser(description="MOSDAC Help Bot")
+    parser = argparse.ArgumentParser(description="SatSage")
     parser.add_argument("--query", help="Direct query to process")
     args = parser.parse_args()
 
@@ -37,7 +37,7 @@ def main():
     if args.query:
         print(bot.query(args.query))
     else:
-        print("\nMOSDAC Help Bot - Interactive Mode")
+        print("\nSatSage - Interactive Mode")
         print("Type 'exit' to quit\n")
         while True:
             try:

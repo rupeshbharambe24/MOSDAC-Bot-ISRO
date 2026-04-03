@@ -15,8 +15,8 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 app = FastAPI(
-    title="MOSDAC Help Bot API",
-    description="Backend for MOSDAC satellite data query system",
+    title="SatSage API",
+    description="Backend for SatSage — satellite data query system",
     version="0.1.0",
 )
 

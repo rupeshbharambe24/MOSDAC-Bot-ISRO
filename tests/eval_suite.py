@@ -1,5 +1,5 @@
 """
-MOSDAC Help Bot — Evaluation Suite
+SatSage — Evaluation Suite
 ====================================
 Evaluates four pipeline components without requiring the full ML stack:
 
@@ -279,7 +279,7 @@ def eval_response_quality(api_url: str) -> Dict:
 
 def run(api_url: str = "http://localhost:8001", offline: bool = False) -> Dict:
     print("=" * 60)
-    print("MOSDAC Help Bot - Evaluation Suite")
+    print("SatSage - Evaluation Suite")
     print("=" * 60)
     started = time.time()
 
