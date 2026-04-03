@@ -5,7 +5,7 @@ setup(
     version="0.1.0",
     description="AI-powered satellite data query assistant for ISRO's MOSDAC portal",
     author="Rupesh Bharambe",
-    url="https://github.com/rupeshbharambe24/MOSDAC-Bot-ISRO",
+    url="https://github.com/rupeshbharambe24/SatSage",
     packages=find_packages(),
     python_requires=">=3.10",
     install_requires=[

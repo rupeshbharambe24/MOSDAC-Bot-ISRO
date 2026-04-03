@@ -99,8 +99,8 @@ MOSDAC Website → Web Crawler → Document Processor (PDF/DOCX/HTML)
 
 ```bash
 # 1. Clone and setup
-git clone https://github.com/rupeshbharambe24/MOSDAC-Bot-ISRO.git
-cd MOSDAC-Bot-ISRO
+git clone https://github.com/rupeshbharambe24/SatSage.git
+cd SatSage
 
 # 2. Create virtual environment
 python -m venv venv
