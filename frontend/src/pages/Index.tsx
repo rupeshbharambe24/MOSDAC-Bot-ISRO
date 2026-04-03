@@ -68,11 +68,11 @@ const Index = () => {
         {/* Hero Section */}
         <div className="text-center mb-16">
           <div className="relative w-80 h-80 mx-auto flex items-center justify-center mb-6">
-            {/* Center logo */}
-            <div className="w-24 h-24 bg-gradient-to-br from-primary to-secondary rounded-full flex items-center justify-center z-10 relative">
-              <Satellite className="h-12 w-12 text-white" />
+            {/* Center Earth */}
+            <div className="w-24 h-24 bg-gradient-to-br from-blue-500 via-blue-400 to-green-500 rounded-full flex items-center justify-center z-10 relative shadow-xl">
+              <Globe className="h-12 w-12 text-white" />
             </div>
-            <div className="absolute w-24 h-24 bg-primary/20 rounded-full animate-ping" />
+            <div className="absolute w-24 h-24 bg-blue-400/20 rounded-full animate-ping" />
             {/* Orbiting satellites */}
             <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
               <Satellite className="h-7 w-7 text-primary orbit-sm" style={{ animationDelay: '0s' }} />

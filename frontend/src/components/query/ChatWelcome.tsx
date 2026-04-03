@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Badge } from '@/components/ui/badge';
-import { Satellite } from 'lucide-react';
+import { Satellite, Globe } from 'lucide-react';
 
 interface ChatWelcomeProps {
   onTemplateSelect: (template: string) => void;
@@ -20,8 +20,8 @@ const ChatWelcome: React.FC<ChatWelcomeProps> = ({ onTemplateSelect }) => {
   return (
     <div className="flex flex-col items-center justify-center h-full text-center space-y-6 p-8">
       <div className="relative w-52 h-52 flex items-center justify-center">
-        <div className="w-20 h-20 bg-gradient-to-br from-primary to-secondary rounded-full flex items-center justify-center z-10 relative">
-          <Satellite className="h-10 w-10 text-white" />
+        <div className="w-20 h-20 bg-gradient-to-br from-blue-500 via-blue-400 to-green-500 rounded-full flex items-center justify-center z-10 relative shadow-lg">
+          <Globe className="h-10 w-10 text-white" />
         </div>
         <div className="absolute w-20 h-20 bg-primary/20 rounded-full animate-ping" />
         <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
