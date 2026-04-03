@@ -68,9 +68,9 @@ const Header: React.FC<HeaderProps> = ({ onToggleSidebar, isDarkMode, onToggleTh
           </Button>
 
           <div className="flex items-center gap-3">
-            <div className="relative flex items-center justify-center w-9 h-9 bg-gradient-to-br from-primary to-secondary rounded-xl shadow-md flex-shrink-0">
-              <Satellite className="h-5 w-5 text-white satellite-orbit" />
-              <div className="absolute inset-0 rounded-xl bg-primary/30 animate-ping" />
+            <div className="relative">
+              <Satellite className="h-10 w-10 text-primary satellite-orbit" />
+              <div className="absolute inset-0 bg-primary/20 rounded-full animate-ping" />
             </div>
             <div>
               <h1 className="text-lg font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
