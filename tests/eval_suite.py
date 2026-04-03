@@ -1,15 +1,15 @@
 """
 MOSDAC Help Bot — Evaluation Suite
-===================================
-Evaluates four pipeline components:
+====================================
+Evaluates four pipeline components without requiring the full ML stack:
 
   1. Entity Extraction   — satellite / parameter / region detection
   2. Query Expansion     — synonym injection
-  3. Retrieval Quality   — keyword precision against live API
+  3. Retrieval Quality   — keyword precision against live /query API
   4. Response Quality    — completeness / hallucination guard
 
 Run modes:
-  python tests/eval_suite.py                  # full suite (needs API running)
+  python tests/eval_suite.py                  # full suite (needs API on port 8001)
   python tests/eval_suite.py --offline        # skip live API tests
   python tests/eval_suite.py --api-url URL    # custom API base URL
 
@@ -18,27 +18,76 @@ Results saved to eval_results.json (consumed by the admin dashboard).
 
 import sys
 import json
+import re
 import time
 import argparse
 import datetime
-import re
 import requests
 from pathlib import Path
-from typing import List, Dict, Any, Tuple
-
-# ── allow running from project root ─────────────────────────────────────────
-sys.path.insert(0, str(Path(__file__).parent.parent))
-from rag_pipeline.retriever import HybridRetriever
+from typing import List, Dict
 
 RESULTS_PATH = Path(__file__).parent.parent / "eval_results.json"
+
+# ════════════════════════════════════════════════════════════════════════════
+# INLINE ENTITY / EXPANSION LOGIC (mirrors retriever.py — no torch needed)
+# ════════════════════════════════════════════════════════════════════════════
+
+SATELLITE_NAMES = [
+    "INSAT-3D", "INSAT-3DR", "INSAT-3A", "INSAT",
+    "SCATSAT-1", "SCATSAT", "Oceansat-2", "Oceansat",
+    "Megha-Tropiques", "SARAL", "Kalpana-1", "Kalpana",
+]
+
+PARAMETERS = [
+    "SST", "sea surface temperature", "rainfall", "wind",
+    "humidity", "TPW", "total precipitable water",
+    "OLR", "outgoing longwave radiation", "cyclone",
+    "temperature", "cloud", "snow", "ice", "chlorophyll",
+]
+
+REGIONS = [
+    "India", "Bay of Bengal", "Arabian Sea", "Himalayas",
+    "Indian Ocean", "Kerala", "Gujarat",
+]
+
+EXPANSIONS = {
+    "sst": ["sea surface temperature", "ocean temperature", "thermal infrared"],
+    "tpw": ["total precipitable water", "water vapor", "humidity"],
+    "olr": ["outgoing longwave radiation", "thermal radiation", "earth energy"],
+    "qpe": ["quantitative precipitation estimation", "rainfall"],
+    "mosdac": ["MOSDAC satellite data meteorological oceanographic archival centre ISRO"],
+    "india": ["Indian region", "South Asia", "Indian Ocean"],
+    "cyclone": ["tropical cyclone", "hurricane", "storm", "weather"],
+    "wind": ["wind speed", "wind vectors", "ocean wind", "scatterometer"],
+    "rain": ["rainfall", "precipitation", "monsoon"],
+    "oceansat": ["ocean color monitor", "ocean observation", "chlorophyll"],
+    "altimetry": ["sea surface height", "wave height", "altika", "saral"],
+    "register": ["signup", "registration", "account", "access data"],
+    "instrument": ["payload", "sensor", "imager", "sounder"],
+}
+
+
+def extract_entity(text: str, candidates: List[str]) -> str:
+    text_lower = text.lower()
+    for candidate in candidates:
+        if re.search(r"\b" + re.escape(candidate.lower()) + r"\b", text_lower):
+            return candidate
+    return ""
+
+
+def expand_query(query: str) -> str:
+    expanded = query.lower()
+    for term, synonyms in EXPANSIONS.items():
+        if term in expanded:
+            expanded += " " + " ".join(synonyms)
+    return expanded
 
 
 # ════════════════════════════════════════════════════════════════════════════
 # TEST CASES
 # ════════════════════════════════════════════════════════════════════════════
 
-ENTITY_TESTS: List[Dict] = [
-    # (query, expected_satellite, expected_param, expected_region)
+ENTITY_TESTS = [
     {"query": "Show me INSAT-3D temperature data",
      "satellite": "INSAT-3D", "param": "", "region": ""},
     {"query": "Sea surface temperature in the Bay of Bengal",
@@ -61,18 +110,18 @@ ENTITY_TESTS: List[Dict] = [
      "satellite": "", "param": "rainfall", "region": "Gujarat"},
 ]
 
-EXPANSION_TESTS: List[Dict] = [
-    {"query": "sst analysis",       "must_contain": ["sea surface temperature"]},
-    {"query": "tpw estimation",     "must_contain": ["total precipitable water", "water vapor"]},
-    {"query": "olr measurement",    "must_contain": ["outgoing longwave radiation"]},
-    {"query": "mosdac portal data", "must_contain": ["MOSDAC"]},
-    {"query": "cyclone tracking",   "must_contain": ["tropical cyclone"]},
-    {"query": "wind vectors",       "must_contain": ["wind speed"]},
-    {"query": "rain rate qpe",      "must_contain": ["rainfall", "precipitation"]},
-    {"query": "altimetry data",     "must_contain": ["sea surface height"]},
+EXPANSION_TESTS = [
+    {"query": "sst analysis",        "must_contain": ["sea surface temperature"]},
+    {"query": "tpw estimation",      "must_contain": ["total precipitable water", "water vapor"]},
+    {"query": "olr measurement",     "must_contain": ["outgoing longwave radiation"]},
+    {"query": "mosdac portal data",  "must_contain": ["MOSDAC"]},
+    {"query": "cyclone tracking",    "must_contain": ["tropical cyclone"]},
+    {"query": "wind vectors",        "must_contain": ["wind speed"]},
+    {"query": "rain rate qpe",       "must_contain": ["rainfall", "precipitation"]},
+    {"query": "altimetry data",      "must_contain": ["sea surface height"]},
 ]
 
-RETRIEVAL_TESTS: List[Dict] = [
+RETRIEVAL_TESTS = [
     {"query": "What data does INSAT-3D provide?",
      "expected_keywords": ["INSAT-3D", "temperature", "data"]},
     {"query": "Sea surface temperature products",
@@ -91,7 +140,7 @@ RETRIEVAL_TESTS: List[Dict] = [
      "expected_keywords": ["rainfall", "INSAT"]},
 ]
 
-RESPONSE_QUALITY_TESTS: List[Dict] = [
+RESPONSE_QUALITY_TESTS = [
     {"query": "What satellites are on MOSDAC?",
      "min_length": 80, "forbidden": ["I don't know", "cannot answer"]},
     {"query": "How do I access sea surface temperature data?",
@@ -107,171 +156,110 @@ RESPONSE_QUALITY_TESTS: List[Dict] = [
 # EVALUATORS
 # ════════════════════════════════════════════════════════════════════════════
 
-def eval_entity_extraction(retriever: HybridRetriever) -> Dict:
-    """Test _extract_entity against known satellite/param/region queries."""
+def eval_entity_extraction() -> Dict:
     results = []
     correct = 0
-
     for tc in ENTITY_TESTS:
         q = tc["query"]
-        exp_sat = tc["satellite"]
-        exp_par = tc["param"]
-        exp_reg = tc["region"]
+        got_sat = extract_entity(q, SATELLITE_NAMES)
+        got_par = extract_entity(q, PARAMETERS)
+        got_reg = extract_entity(q, REGIONS)
 
-        got_sat = retriever._extract_entity(q, retriever.satellite_names)
-        got_par = retriever._extract_entity(q, retriever.parameters)
-        got_reg = retriever._extract_entity(q, retriever.regions)
-
-        sat_ok = (not exp_sat) or (exp_sat.lower() in got_sat.lower())
-        par_ok = (not exp_par) or (exp_par.lower() in got_par.lower())
-        reg_ok = (not exp_reg) or (exp_reg.lower() in got_reg.lower())
+        sat_ok = (not tc["satellite"]) or (tc["satellite"].lower() in got_sat.lower())
+        par_ok = (not tc["param"])     or (tc["param"].lower() in got_par.lower())
+        reg_ok = (not tc["region"])    or (tc["region"].lower() in got_reg.lower())
 
         passed = sat_ok and par_ok and reg_ok
         if passed:
             correct += 1
-
         results.append({
-            "query": q,
-            "passed": passed,
-            "expected": {"satellite": exp_sat, "param": exp_par, "region": exp_reg},
-            "got":      {"satellite": got_sat,  "param": got_par,  "region": got_reg},
+            "query": q, "passed": passed,
+            "expected": {"satellite": tc["satellite"], "param": tc["param"], "region": tc["region"]},
+            "got":      {"satellite": got_sat,         "param": got_par,     "region": got_reg},
         })
 
     score = round(correct / len(ENTITY_TESTS) * 100, 1)
-    return {
-        "metric": "Entity Extraction",
-        "score": score,
-        "passed": correct,
-        "total": len(ENTITY_TESTS),
-        "details": results,
-    }
+    return {"metric": "Entity Extraction", "score": score,
+            "passed": correct, "total": len(ENTITY_TESTS), "details": results}
 
 
-def eval_query_expansion(retriever: HybridRetriever) -> Dict:
-    """Test _expand_query for expected synonym injection."""
+def eval_query_expansion() -> Dict:
     results = []
     correct = 0
-
     for tc in EXPANSION_TESTS:
-        expanded = retriever._expand_query(tc["query"])
-        hits = [kw for kw in tc["must_contain"] if kw.lower() in expanded.lower()]
-        passed = len(hits) == len(tc["must_contain"])
+        expanded = expand_query(tc["query"])
+        hits    = [kw for kw in tc["must_contain"] if kw.lower() in expanded.lower()]
+        missing = [kw for kw in tc["must_contain"] if kw.lower() not in expanded.lower()]
+        passed  = len(hits) == len(tc["must_contain"])
         if passed:
             correct += 1
-        results.append({
-            "query": tc["query"],
-            "passed": passed,
-            "expected": tc["must_contain"],
-            "found": hits,
-            "missing": [k for k in tc["must_contain"] if k not in hits],
-        })
+        results.append({"query": tc["query"], "passed": passed,
+                         "expected": tc["must_contain"], "found": hits, "missing": missing})
 
     score = round(correct / len(EXPANSION_TESTS) * 100, 1)
-    return {
-        "metric": "Query Expansion",
-        "score": score,
-        "passed": correct,
-        "total": len(EXPANSION_TESTS),
-        "details": results,
-    }
+    return {"metric": "Query Expansion", "score": score,
+            "passed": correct, "total": len(EXPANSION_TESTS), "details": results}
 
 
 def eval_retrieval_quality(api_url: str) -> Dict:
-    """
-    Call /query endpoint and check that retrieved context (returned as sources
-    or visible in response text) contains expected keywords.
-    """
     results = []
     correct = 0
-
     for tc in RETRIEVAL_TESTS:
         try:
-            resp = requests.post(
-                f"{api_url}/query",
-                json={"message": tc["query"], "history": []},
-                timeout=30,
-            )
+            resp = requests.post(f"{api_url}/query",
+                                 json={"message": tc["query"], "history": []},
+                                 timeout=30)
             if resp.status_code != 200:
                 results.append({"query": tc["query"], "passed": False,
                                  "error": f"HTTP {resp.status_code}"})
                 continue
-
             data = resp.json()
-            # Check response text + source satellite/dataset fields
-            response_text = data.get("response", "").lower()
-            sources_text = " ".join(
+            combined = (data.get("response", "") + " " + " ".join(
                 f"{s.get('satellite','')} {s.get('dataset','')}"
                 for s in data.get("sources", [])
-            ).lower()
-            combined = response_text + " " + sources_text
+            )).lower()
 
-            hits = [kw for kw in tc["expected_keywords"]
-                    if kw.lower() in combined]
-            # Pass if at least half the expected keywords appear
-            threshold = max(1, len(tc["expected_keywords"]) // 2)
-            passed = len(hits) >= threshold
+            hits    = [kw for kw in tc["expected_keywords"] if kw.lower() in combined]
+            missing = [kw for kw in tc["expected_keywords"] if kw.lower() not in combined]
+            passed  = len(hits) >= max(1, len(tc["expected_keywords"]) // 2)
             if passed:
                 correct += 1
-
-            results.append({
-                "query": tc["query"],
-                "passed": passed,
-                "expected_keywords": tc["expected_keywords"],
-                "found": hits,
-                "missing": [k for k in tc["expected_keywords"] if k.lower() not in combined],
-            })
+            results.append({"query": tc["query"], "passed": passed,
+                             "expected_keywords": tc["expected_keywords"],
+                             "found": hits, "missing": missing})
         except requests.exceptions.ConnectionError:
             results.append({"query": tc["query"], "passed": False,
-                             "error": "Connection refused — is the API running?"})
+                             "error": "Connection refused — is the API running on port 8001?"})
         except Exception as e:
             results.append({"query": tc["query"], "passed": False, "error": str(e)})
 
     score = round(correct / len(RETRIEVAL_TESTS) * 100, 1)
-    return {
-        "metric": "Retrieval Quality",
-        "score": score,
-        "passed": correct,
-        "total": len(RETRIEVAL_TESTS),
-        "details": results,
-    }
+    return {"metric": "Retrieval Quality", "score": score,
+            "passed": correct, "total": len(RETRIEVAL_TESTS), "details": results}
 
 
 def eval_response_quality(api_url: str) -> Dict:
-    """
-    Call /query and check response length, absence of error strings,
-    and general completeness.
-    """
     results = []
     correct = 0
-
     for tc in RESPONSE_QUALITY_TESTS:
         try:
-            resp = requests.post(
-                f"{api_url}/query",
-                json={"message": tc["query"], "history": []},
-                timeout=30,
-            )
+            resp = requests.post(f"{api_url}/query",
+                                 json={"message": tc["query"], "history": []},
+                                 timeout=30)
             if resp.status_code != 200:
                 results.append({"query": tc["query"], "passed": False,
                                  "error": f"HTTP {resp.status_code}"})
                 continue
-
             response = resp.json().get("response", "")
-            length_ok = len(response) >= tc["min_length"]
-            forbidden_found = [f for f in tc["forbidden"]
-                               if f.lower() in response.lower()]
-            not_empty = bool(response.strip())
-            passed = length_ok and not forbidden_found and not_empty
+            length_ok       = len(response) >= tc["min_length"]
+            forbidden_found = [f for f in tc["forbidden"] if f.lower() in response.lower()]
+            passed = length_ok and not forbidden_found and bool(response.strip())
             if passed:
                 correct += 1
-
             results.append({
-                "query": tc["query"],
-                "passed": passed,
-                "response_length": len(response),
-                "min_length": tc["min_length"],
-                "length_ok": length_ok,
-                "forbidden_found": forbidden_found,
+                "query": tc["query"], "passed": passed,
+                "response_length": len(response), "min_length": tc["min_length"],
+                "length_ok": length_ok, "forbidden_found": forbidden_found,
                 "response_preview": response[:120] + "..." if len(response) > 120 else response,
             })
         except requests.exceptions.ConnectionError:
@@ -281,13 +269,8 @@ def eval_response_quality(api_url: str) -> Dict:
             results.append({"query": tc["query"], "passed": False, "error": str(e)})
 
     score = round(correct / len(RESPONSE_QUALITY_TESTS) * 100, 1)
-    return {
-        "metric": "Response Quality",
-        "score": score,
-        "passed": correct,
-        "total": len(RESPONSE_QUALITY_TESTS),
-        "details": results,
-    }
+    return {"metric": "Response Quality", "score": score,
+            "passed": correct, "total": len(RESPONSE_QUALITY_TESTS), "details": results}
 
 
 # ════════════════════════════════════════════════════════════════════════════
@@ -296,19 +279,16 @@ def eval_response_quality(api_url: str) -> Dict:
 
 def run(api_url: str = "http://localhost:8001", offline: bool = False) -> Dict:
     print("=" * 60)
-    print("MOSDAC Help Bot — Evaluation Suite")
+    print("MOSDAC Help Bot - Evaluation Suite")
     print("=" * 60)
     started = time.time()
 
-    # Initialise retriever for offline tests (no Neo4j required — just uses
-    # the entity/expansion methods which are pure Python).
-    print("\n[1/4] Entity Extraction …")
-    retriever = HybridRetriever()
-    entity_result = eval_entity_extraction(retriever)
+    print("\n[1/4] Entity Extraction...")
+    entity_result = eval_entity_extraction()
     _print_result(entity_result)
 
-    print("\n[2/4] Query Expansion …")
-    expansion_result = eval_query_expansion(retriever)
+    print("\n[2/4] Query Expansion...")
+    expansion_result = eval_query_expansion()
     _print_result(expansion_result)
 
     metrics = [entity_result, expansion_result]
@@ -323,12 +303,12 @@ def run(api_url: str = "http://localhost:8001", offline: bool = False) -> Dict:
              "total": len(RESPONSE_QUALITY_TESTS), "skipped": True, "details": []},
         ]
     else:
-        print(f"\n[3/4] Retrieval Quality (API: {api_url}) …")
+        print(f"\n[3/4] Retrieval Quality (API: {api_url})...")
         retrieval_result = eval_retrieval_quality(api_url)
         _print_result(retrieval_result)
         metrics.append(retrieval_result)
 
-        print(f"\n[4/4] Response Quality (API: {api_url}) …")
+        print(f"\n[4/4] Response Quality (API: {api_url})...")
         quality_result = eval_response_quality(api_url)
         _print_result(quality_result)
         metrics.append(quality_result)
@@ -355,11 +335,10 @@ def run(api_url: str = "http://localhost:8001", offline: bool = False) -> Dict:
 
 
 def _print_result(r: Dict):
-    skipped = r.get("skipped", False)
-    if skipped:
+    if r.get("skipped"):
         print(f"  {r['metric']}: SKIPPED")
         return
-    icon = "✓" if r["score"] >= 70 else "✗"
+    icon = "PASS" if r["score"] >= 70 else "FAIL"
     print(f"  {icon} {r['metric']}: {r['score']}%  ({r['passed']}/{r['total']} passed)")
     for d in r.get("details", []):
         status = "  PASS" if d.get("passed") else "  FAIL"

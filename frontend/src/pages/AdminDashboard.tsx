@@ -219,25 +219,36 @@ const EvalTab: React.FC = () => {
 
   const runEval = async () => {
     setRunning(true);
+    setError(null);
+    const prev = data?.timestamp;
+    const startedAt = Date.now();
+
     try {
-      await fetch('/api/admin/eval/run', { method: 'POST' });
-      // Poll every 5s until timestamp changes
-      const prev = data?.timestamp;
+      const triggerRes = await fetch('/api/admin/eval/run', { method: 'POST' });
+      if (!triggerRes.ok) throw new Error(`Failed to start eval: HTTP ${triggerRes.status}`);
+
       const poll = setInterval(async () => {
-        const res = await fetch('/api/admin/eval');
-        if (res.ok) {
+        // Timeout after 3 minutes
+        if (Date.now() - startedAt > 180_000) {
+          clearInterval(poll);
+          setRunning(false);
+          setError('Evaluation timed out after 3 minutes. Check the server logs or run manually: python tests/eval_suite.py');
+          return;
+        }
+        try {
+          const res = await fetch('/api/admin/eval');
+          if (!res.ok) return;
           const d: EvalData = await res.json();
           if (d.available && d.timestamp !== prev) {
             setData(d);
             setRunning(false);
             clearInterval(poll);
           }
-        }
-      }, 5000);
-      // Safety: stop polling after 5 min
-      setTimeout(() => { clearInterval(poll); setRunning(false); }, 300_000);
+        } catch { /* ignore transient fetch errors during polling */ }
+      }, 4000);
     } catch (e) {
       setRunning(false);
+      setError(e instanceof Error ? e.message : 'Failed to start evaluation');
     }
   };
 
