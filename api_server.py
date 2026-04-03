@@ -225,6 +225,43 @@ async def graph_stats():
         raise HTTPException(status_code=500, detail="Could not retrieve graph statistics.")
 
 
+@app.get("/admin/eval")
+async def admin_eval_results():
+    """Return the latest eval_results.json produced by tests/eval_suite.py."""
+    results_file = Path(__file__).parent / "eval_results.json"
+    if not results_file.exists():
+        return {"available": False, "message": "No eval results yet. Run POST /admin/eval/run first."}
+    try:
+        data = json.loads(results_file.read_text(encoding="utf-8"))
+        data["available"] = True
+        return data
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to read eval results: {e}")
+
+
+@app.post("/admin/eval/run")
+async def admin_run_eval(background_tasks):
+    """Trigger a background eval run. Results appear in /admin/eval when done."""
+    import subprocess, sys
+    eval_script = Path(__file__).parent / "tests" / "eval_suite.py"
+    if not eval_script.exists():
+        raise HTTPException(status_code=404, detail="eval_suite.py not found")
+
+    def _run():
+        try:
+            subprocess.run(
+                [sys.executable, str(eval_script), "--api-url", "http://localhost:8001"],
+                cwd=str(Path(__file__).parent),
+                timeout=300,
+                capture_output=True,
+            )
+        except Exception as e:
+            logger.error(f"Eval run failed: {e}")
+
+    background_tasks.add_task(_run)
+    return {"status": "started", "message": "Evaluation running in background. Poll GET /admin/eval for results."}
+
+
 @app.get("/admin/feedback")
 async def admin_feedback():
     """Return feedback analytics for the admin dashboard."""
