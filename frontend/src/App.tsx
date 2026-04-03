@@ -47,31 +47,41 @@ const AppLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
           onToggleTheme={toggleTheme}
         />
         <div className="flex flex-1 overflow-hidden relative">
-          {/* Desktop sidebar — toggled by hamburger */}
-          {sidebarOpen && (
-            <div className="hidden lg:block">
-              <Sidebar
-                isOpen={true}
-                onTemplateSelect={handleTemplateSelect}
-                onNewQuery={handleNewQuery}
-                savedQueries={[]}
-              />
-            </div>
-          )}
-          {/* Mobile sidebar overlay */}
-          {sidebarOpen && (
-            <>
-              <div className="fixed inset-0 bg-black/50 z-40 lg:hidden" onClick={() => setSidebarOpen(false)} />
-              <div className="fixed left-0 top-16 bottom-0 z-50 lg:hidden">
-                <Sidebar
-                  isOpen={true}
-                  onTemplateSelect={handleTemplateSelect}
-                  onNewQuery={handleNewQuery}
-                  savedQueries={[]}
-                />
-              </div>
-            </>
-          )}
+          {/* Desktop sidebar — width collapses smoothly */}
+          <div
+            className={`hidden lg:block overflow-hidden transition-all duration-300 ease-in-out flex-shrink-0 ${
+              sidebarOpen ? 'w-80' : 'w-0'
+            }`}
+          >
+            <Sidebar
+              isOpen={true}
+              onTemplateSelect={handleTemplateSelect}
+              onNewQuery={handleNewQuery}
+              savedQueries={[]}
+            />
+          </div>
+
+          {/* Mobile backdrop */}
+          <div
+            className={`fixed inset-0 bg-black/50 z-40 lg:hidden transition-opacity duration-300 ${
+              sidebarOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'
+            }`}
+            onClick={() => setSidebarOpen(false)}
+          />
+          {/* Mobile sidebar — slides in from left */}
+          <div
+            className={`fixed left-0 top-16 bottom-0 z-50 lg:hidden transition-transform duration-300 ease-in-out ${
+              sidebarOpen ? 'translate-x-0' : '-translate-x-full'
+            }`}
+          >
+            <Sidebar
+              isOpen={true}
+              onTemplateSelect={handleTemplateSelect}
+              onNewQuery={handleNewQuery}
+              savedQueries={[]}
+            />
+          </div>
+
           {children}
         </div>
       </div>
