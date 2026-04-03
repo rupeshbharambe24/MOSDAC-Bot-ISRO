@@ -4,15 +4,15 @@ import { useNavigate } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-import { 
-  Satellite, 
-  MessageSquare, 
-  Database, 
-  Globe, 
+import {
+  Satellite,
+  MessageSquare,
+  Database,
+  Globe,
   ArrowRight,
-  Zap,
-  Shield,
-  Clock
+  Network,
+  FileDown,
+  MapPin
 } from 'lucide-react';
 
 const Index = () => {
@@ -26,38 +26,38 @@ const Index = () => {
   const features = [
     {
       icon: MessageSquare,
-      title: 'Intelligent Querying',
-      description: 'Natural language interface for satellite data exploration',
+      title: 'Natural Language Querying',
+      description: 'Ask questions in plain English — no technical jargon needed. The RAG pipeline retrieves relevant satellite data context automatically.',
       color: 'text-primary'
     },
     {
       icon: Database,
-      title: 'Comprehensive Catalog',
-      description: 'Access to ISRO\'s complete satellite constellation',
+      title: 'Satellite Knowledge Base',
+      description: 'Covers 12 ISRO satellites: INSAT-3D, INSAT-3DR, SCATSAT-1, Oceansat-2, Megha-Tropiques, SARAL, Kalpana-1 and more.',
       color: 'text-secondary'
     },
     {
-      icon: Globe,
-      title: 'Global Coverage',
-      description: 'Real-time Earth observation data from multiple missions',
-      color: 'text-green-500'
-    },
-    {
-      icon: Zap,
-      title: 'Real-time Analysis',
-      description: 'Instant processing and visualization of satellite data',
+      icon: Network,
+      title: 'Knowledge Graph + RAG',
+      description: 'Powered by a Neo4j knowledge graph and FAISS vector search for accurate, context-aware responses.',
       color: 'text-blue-500'
     },
     {
-      icon: Shield,
-      title: 'Secure Access',
-      description: 'Government-grade security for sensitive data',
+      icon: MapPin,
+      title: 'Region-aware Responses',
+      description: 'Automatically detects geographic regions — Bay of Bengal, Arabian Sea, Himalayas, India — and shows an interactive coverage map.',
+      color: 'text-green-500'
+    },
+    {
+      icon: MessageSquare,
+      title: 'Multi-turn Conversations',
+      description: 'Ask follow-up questions in context. The bot remembers your conversation history within the session.',
       color: 'text-purple-500'
     },
     {
-      icon: Clock,
-      title: '24/7 Monitoring',
-      description: 'Continuous surveillance and data collection',
+      icon: FileDown,
+      title: 'Export Chat as PDF',
+      description: 'Download your entire conversation with source citations as a formatted PDF for reporting and documentation.',
       color: 'text-orange-500'
     }
   ];
@@ -75,13 +75,13 @@ const Index = () => {
             <div className="absolute w-24 h-24 bg-primary/20 rounded-full animate-ping" />
             {/* Orbiting satellites */}
             <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
-              <Satellite className="h-5 w-5 text-primary orbit-sm" style={{ animationDelay: '0s' }} />
+              <Satellite className="h-7 w-7 text-primary orbit-sm" style={{ animationDelay: '0s' }} />
             </div>
             <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
-              <Satellite className="h-4 w-4 text-secondary/80 orbit-md" style={{ animationDelay: '-6s' }} />
+              <Satellite className="h-6 w-6 text-secondary/80 orbit-md" style={{ animationDelay: '-6s' }} />
             </div>
             <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
-              <Satellite className="h-3 w-3 text-primary/60 orbit-lg" style={{ animationDelay: '-14s' }} />
+              <Satellite className="h-5 w-5 text-primary/60 orbit-lg" style={{ animationDelay: '-14s' }} />
             </div>
           </div>
           
@@ -92,8 +92,7 @@ const Index = () => {
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto">
-            Intelligent satellite data query system powered by ISRO's Earth observation constellation. 
-            Ask questions, get insights, explore our planet.
+            An AI-powered assistant for querying ISRO's MOSDAC satellite data. Ask questions in plain English and get accurate, context-aware answers.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -139,20 +138,20 @@ const Index = () => {
           <CardContent className="p-8">
             <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
               <div>
-                <div className="text-3xl font-bold text-primary mb-2">24+</div>
-                <div className="text-sm text-muted-foreground">Active Satellites</div>
+                <div className="text-3xl font-bold text-primary mb-2">12</div>
+                <div className="text-sm text-muted-foreground">ISRO Satellites Covered</div>
               </div>
               <div>
-                <div className="text-3xl font-bold text-secondary mb-2">94.2%</div>
-                <div className="text-sm text-muted-foreground">Earth Coverage</div>
+                <div className="text-3xl font-bold text-secondary mb-2">RAG</div>
+                <div className="text-sm text-muted-foreground">Knowledge Graph + Vector Search</div>
               </div>
               <div>
-                <div className="text-3xl font-bold text-green-500 mb-2">2.4M+</div>
-                <div className="text-sm text-muted-foreground">Data Points Daily</div>
+                <div className="text-3xl font-bold text-green-500 mb-2">4</div>
+                <div className="text-sm text-muted-foreground">Data Domains (Ocean, Atmos, Land, Weather)</div>
               </div>
               <div>
-                <div className="text-3xl font-bold text-blue-500 mb-2">24/7</div>
-                <div className="text-sm text-muted-foreground">Monitoring</div>
+                <div className="text-3xl font-bold text-blue-500 mb-2">PDF</div>
+                <div className="text-sm text-muted-foreground">Exportable Chat Reports</div>
               </div>
             </div>
           </CardContent>
@@ -161,24 +160,25 @@ const Index = () => {
         {/* CTA Section */}
         <Card className="bg-gradient-to-r from-primary to-secondary text-white border-0">
           <CardContent className="p-8 text-center">
-            <h2 className="text-3xl font-bold mb-4">Ready to Explore Earth from Space?</h2>
+            <h2 className="text-3xl font-bold mb-4">Ready to Query Satellite Data?</h2>
             <p className="text-xl opacity-90 mb-6">
-              Join researchers, scientists, and analysts using ISRO's satellite data
+              Ask SatSage anything about ISRO's MOSDAC satellite datasets and Earth observation missions
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button 
-                size="lg" 
+              <Button
+                size="lg"
                 className="bg-white text-primary hover:bg-white/90"
                 onClick={handleStartQuery}
               >
                 Start Your First Query
               </Button>
-              <Button 
-                size="lg" 
-                variant="outline" 
+              <Button
+                size="lg"
+                variant="outline"
                 className="border-white text-white hover:bg-white/10"
+                onClick={() => navigate('/catalog')}
               >
-                View Documentation
+                Explore Satellite Catalog
               </Button>
             </div>
           </CardContent>

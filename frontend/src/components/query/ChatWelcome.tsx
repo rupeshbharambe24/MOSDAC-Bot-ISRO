@@ -25,10 +25,10 @@ const ChatWelcome: React.FC<ChatWelcomeProps> = ({ onTemplateSelect }) => {
         </div>
         <div className="absolute w-20 h-20 bg-primary/20 rounded-full animate-ping" />
         <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
-          <Satellite className="h-4 w-4 text-primary orbit-sm" style={{ animationDelay: '-3s' }} />
+          <Satellite className="h-6 w-6 text-primary orbit-sm" style={{ animationDelay: '-3s' }} />
         </div>
         <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
-          <Satellite className="h-3 w-3 text-secondary/70 orbit-md" style={{ animationDelay: '-9s' }} />
+          <Satellite className="h-5 w-5 text-secondary/70 orbit-md" style={{ animationDelay: '-9s' }} />
         </div>
       </div>
       
