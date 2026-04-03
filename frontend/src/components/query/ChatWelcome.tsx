@@ -53,9 +53,9 @@ const ChatWelcome: React.FC<ChatWelcomeProps> = ({ onTemplateSelect }) => {
       </div>
       
       <div className="text-xs text-muted-foreground mt-8 space-y-1">
-        <p>💡 You can upload CSV/JSON files for data analysis</p>
-        <p>🛰️ Access real-time data from ISRO's satellite constellation</p>
-        <p>📊 Get interactive visualizations and detailed insights</p>
+        <p>🛰️ Covers 12 ISRO satellites — INSAT-3D, SCATSAT-1, Oceansat, Megha-Tropiques and more</p>
+        <p>🗺️ Responses auto-detect regions and show an interactive coverage map</p>
+        <p>💬 Multi-turn conversation — ask follow-up questions in context</p>
       </div>
     </div>
   );
