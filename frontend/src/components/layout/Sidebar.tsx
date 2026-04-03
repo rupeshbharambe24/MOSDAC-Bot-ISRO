@@ -1,27 +1,29 @@
 
 import React, { useState } from 'react';
-import { 
-  MessageSquare, 
-  Database, 
-  BookmarkPlus, 
-  Satellite, 
-  Map, 
-  BarChart3, 
-  FileText, 
-  Cloud, 
-  Waves, 
+import {
+  MessageSquare,
+  Database,
+  BookmarkPlus,
+  Satellite,
+  Map,
+  BarChart3,
+  FileText,
+  Cloud,
+  Waves,
   Eye,
   History,
   Star,
   ChevronDown,
   ChevronRight,
-  RotateCcw
+  RotateCcw,
+  ShieldCheck,
 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { Card } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { QueryTemplate } from '@/types/satellite';
+import { useNavigate } from 'react-router-dom';
 
 interface SidebarProps {
   isOpen: boolean;
@@ -73,6 +75,7 @@ const satelliteIcons = [
 ];
 
 const Sidebar: React.FC<SidebarProps> = ({ isOpen, onTemplateSelect, onNewQuery, savedQueries }) => {
+  const navigate = useNavigate();
   const [expandedSections, setExpandedSections] = useState({
     templates: true,
     satellites: false,
@@ -265,6 +268,19 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, onTemplateSelect, onNewQuery,
           </div>
         </div>
       </ScrollArea>
+
+      {/* Admin link */}
+      <div className="p-3 border-t">
+        <Button
+          variant="ghost"
+          size="sm"
+          className="w-full justify-start text-xs text-muted-foreground hover:text-foreground"
+          onClick={() => navigate('/admin')}
+        >
+          <ShieldCheck className="h-3.5 w-3.5 mr-2" />
+          Admin Dashboard
+        </Button>
+      </div>
     </aside>
   );
 };

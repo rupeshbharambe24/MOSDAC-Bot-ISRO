@@ -225,5 +225,64 @@ async def graph_stats():
         raise HTTPException(status_code=500, detail="Could not retrieve graph statistics.")
 
 
+@app.get("/admin/feedback")
+async def admin_feedback():
+    """Return feedback analytics for the admin dashboard."""
+    import datetime
+    feedback_file = Path(__file__).parent / "feedback.jsonl"
+    entries = []
+    if feedback_file.exists():
+        with open(feedback_file, "r", encoding="utf-8") as f:
+            for line in f:
+                line = line.strip()
+                if line:
+                    try:
+                        entries.append(json.loads(line))
+                    except json.JSONDecodeError:
+                        pass
+
+    total = len(entries)
+    up = sum(1 for e in entries if e.get("type") == "up")
+    down = sum(1 for e in entries if e.get("type") == "down")
+
+    # Daily counts for last 7 days
+    today = datetime.date.today()
+    daily: dict[str, dict] = {}
+    for i in range(6, -1, -1):
+        d = (today - datetime.timedelta(days=i)).isoformat()
+        daily[d] = {"date": d, "up": 0, "down": 0}
+    for e in entries:
+        ts = e.get("timestamp", "")
+        day = ts[:10] if ts else ""
+        if day in daily:
+            if e.get("type") == "up":
+                daily[day]["up"] += 1
+            elif e.get("type") == "down":
+                daily[day]["down"] += 1
+
+    # Most disliked queries (unique queries with at least one thumbs-down)
+    disliked: dict[str, int] = {}
+    for e in entries:
+        if e.get("type") == "down":
+            q = e.get("query", "").strip()
+            if q:
+                disliked[q] = disliked.get(q, 0) + 1
+    top_disliked = sorted(disliked.items(), key=lambda x: x[1], reverse=True)[:5]
+
+    # Recent 20 entries (newest first)
+    recent = list(reversed(entries[-20:]))
+
+    return {
+        "total": total,
+        "up": up,
+        "down": down,
+        "up_pct": round(up / total * 100, 1) if total else 0,
+        "down_pct": round(down / total * 100, 1) if total else 0,
+        "daily": list(daily.values()),
+        "top_disliked": [{"query": q, "count": c} for q, c in top_disliked],
+        "recent": recent,
+    }
+
+
 if __name__ == "__main__":
     uvicorn.run(app, host="0.0.0.0", port=8001)

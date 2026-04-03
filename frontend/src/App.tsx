@@ -12,6 +12,7 @@ import QueryInterface from '@/pages/QueryInterface';
 import SatelliteCatalog from '@/pages/SatelliteCatalog';
 import Index from '@/pages/Index';
 import NotFound from '@/pages/NotFound';
+import AdminDashboard from '@/pages/AdminDashboard';
 import { QueryTemplate } from '@/types/satellite';
 
 const queryClient = new QueryClient();
@@ -92,6 +93,9 @@ const App = () => {
               } />
               <Route path="/catalog" element={
                 <AppLayout><main className="flex-1 overflow-y-auto p-6"><SatelliteCatalog /></main></AppLayout>
+              } />
+              <Route path="/admin" element={
+                <AppLayout><main className="flex-1 overflow-y-auto p-6"><AdminDashboard /></main></AppLayout>
               } />
               <Route path="*" element={<NotFound />} />
             </Routes>
